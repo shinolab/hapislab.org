@@ -75,24 +75,29 @@ imageAlt: 二次元通信タイル # 画像の代替テキスト (必須)
 
 ### GitHub CLI (`gh`) を使った手順 (推奨)
 
-事前に [GitHub CLI](https://cli.github.com/) をインストールしておいてください.
+事前に [GitHub CLI](https://cli.github.com/) をインストールしておくこと.
 
-1. **ブランチを作成**: ブランチ名前はわかりやすいものを推奨
+1. **最新の情報を取得**: 自分のPC上の `main` ブランチを最新する
+   ```sh
+   git switch main
+   git pull origin main
+   ```
+2. **ブランチを作成**: 作業用のブランチを新しく作成. ブランチ名はわかりやすいものにすること.
    ```sh
    git switch -c my-update-name
    ```
-2. **ファイルを編集し, 保存**
-3. **変更をコミット**:
+3. **ファイルを編集し, 保存**
+4. **変更をコミット**:
    ```sh
    git add .
    git commit -m "わかりやすいコメント"
    ```
-4. **プルリクエストを作成**:
+5. **プルリクエストを作成**:
    ```sh
    gh pr create --web
    ```
-   ※ "Where should we push the 'dev' branch?"と聞かれたら, "shinolab/hapislab-org-homepage"を選択.
-   ※ `--web` をつけるとブラウザが開く. 内容を確認してボタンを押せば完了.
+   - "Where should we push the '...' branch?"と聞かれたら, "shinolab/hapislab-org-homepage"を選択.
+   - `--web` をつけるとブラウザが開く. 内容を確認してボタンを押せば完了.
 
 ### 承認と公開
 
