@@ -75,6 +75,8 @@ imageAlt: 二次元通信タイル # 画像の代替テキスト (必須)
 
 ### GitHub CLI (`gh`) を使った手順 (推奨)
 
+事前に [GitHub CLI](https://cli.github.com/) をインストールしておいてください.
+
 1. **ブランチを作成**: ブランチ名前はわかりやすいものを推奨
    ```sh
    git switch -c my-update-name
@@ -89,6 +91,7 @@ imageAlt: 二次元通信タイル # 画像の代替テキスト (必須)
    ```sh
    gh pr create --web
    ```
+   ※ "Where should we push the 'dev' branch?"と聞かれたら, "shinolab/hapislab-org-homepage"を選択.
    ※ `--web` をつけるとブラウザが開く. 内容を確認してボタンを押せば完了.
 
 ### 承認と公開
