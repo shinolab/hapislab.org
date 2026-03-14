@@ -1,0 +1,95 @@
+---
+import type { AstroComponentFactory } from "astro/runtime/server/index.js";
+import PageFrame from "./PageFrame.astro";
+import MemberDirectory from "./MemberDirectory.astro";
+import PublicationTimeline from "./PublicationTimeline.astro";
+import TopicGrid from "./TopicGrid.astro";
+import { getResearchTopics } from "../lib/research-topics";
+import { members, publications } from "../lib/site-data";
+
+interface FrontmatterLike {
+	title?: string;
+	description?: string;
+	lead?: string;
+}
+
+interface Props {
+	locale?: "ja" | "en";
+	currentPath: string;
+	frontmatter?: FrontmatterLike;
+	ContentComponent?: AstroComponentFactory;
+	htmlContent?: string;
+	title?: string;
+	description?: string;
+	lead?: string;
+	introHtml?: string;
+	fallbackNotice?: string;
+	kind?: "basic" | "members" | "publications" | "topics" | "awards";
+}
+
+const {
+	locale = "ja",
+	currentPath,
+	frontmatter,
+	ContentComponent,
+	htmlContent = "",
+	title,
+	description,
+	lead,
+	introHtml,
+	fallbackNotice,
+	kind = "basic",
+} = Astro.props;
+
+const pageTitle = title ?? frontmatter?.title ?? "";
+const pageDescription = description ?? frontmatter?.description ?? "";
+const pageLead = lead ?? frontmatter?.lead;
+const topics = getResearchTopics();
+const shouldRenderIntro =
+	kind !== "topics" && (ContentComponent || htmlContent || introHtml);
+---
+
+<PageFrame
+	title={pageTitle}
+	description={pageDescription}
+	lead={kind === "topics" ? undefined : pageLead}
+	currentPath={currentPath}
+	locale={locale}
+	eyebrow={kind === "topics" ? "" : undefined}
+>
+	<div class="content-stack">
+		{
+			fallbackNotice && (
+				<aside class="surface notice-card" role="note">
+					<p>{fallbackNotice}</p>
+				</aside>
+			)
+		}
+		{
+			shouldRenderIntro && (
+				<article class="surface prose">
+					{ContentComponent && <ContentComponent />}
+					{!ContentComponent && htmlContent && (
+						<Fragment set:html={htmlContent} />
+					)}
+					{introHtml && <Fragment set:html={introHtml} />}
+				</article>
+			)
+		}
+
+		{
+			kind === "members" && (
+				<MemberDirectory members={members} locale={locale} />
+			)
+		}
+		{
+			kind === "publications" && (
+				<PublicationTimeline
+					publications={publications}
+					locale={locale}
+				/>
+			)
+		}
+		{kind === "topics" && <TopicGrid topics={topics} locale={locale} />}
+	</div>
+</PageFrame>

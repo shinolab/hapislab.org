@@ -1,0 +1,25 @@
+---
+title: 'UltLever: 空中超音波で駆動するパッシブな触覚提示デバイス'
+summary: 超音波を集束させることで、指先に力と振動を提示できる空中超音波駆動のパッシブ触覚提示デバイスです。
+date: '2023-11-28'
+updated: '2024-02-27'
+image: /assets/research-topics/ultlever/hero.jpg
+imageAlt: 'UltLever: 空中超音波で駆動するパッシブな触覚提示デバイス'
+sourceUrl: >-
+  https://hapislab.org/research-topics-ja/%e7%a9%ba%e4%b8%ad%e8%b6%85%e9%9f%b3%e6%b3%a2%e3%81%a7%e9%a7%86%e5%8b%95%e3%81%99%e3%82%8b%e3%83%91%e3%83%83%e3%82%b7%e3%83%96%e3%81%aa%e8%a7%a6%e8%a6%9a%e6%8f%90%e7%a4%ba%e3%83%87%e3%83%90%e3%82%a4
+---
+Left) Concept of ultrasound-driven passive haptic device. Right) Fabricated passive haptic device presenting 0.7 N force and 2- 30 Hz vibration to the fingerpad.
+
+[https://www.youtube.com/embed/CYVpGIibzNs?feature=oembed](https://www.youtube.com/embed/CYVpGIibzNs?feature=oembed)
+
+超音波を集束させることで、音響放射力と呼ばれる力のスポットを空中に生成できます。我々は、この放射力をテコ機構で増幅し、より強い力をユーザーに提示するパッシブな触覚提示デバイスを開発しました。このデバイスはバッテリーや電子部品を全く含まないため、高い出力を持ちながらも軽量に作ることが出来ます。超音波の放射力は数十mN(数g)と弱いですが、その力は音速で提示されるため力学的パワーは高く取れます。このため、力と速度の比率を操作する機構であるテコを用いることで、強力な力と振動の両方を取り出すことができます。
+
+ユーザーはまず、指先にパッシブ触覚デバイス、つまりテコを内蔵したプラスチック製のテコ機構を装着します。この装着されたテコに放射力を加え駆動することで、最終的に0.7 N(70 g)まで増幅された力が生まれ、ぐっと手指を押された感覚を与えることが出来ます。また、この放射力を変調することで、2~30 Hzの振動が提示できることも理論的・実験的に確認できました。
+
+**Publication:**
+
+Tao Morisaki, Takaaki Kamigaki, Masahiro Fujiwara, Yasutoshi Makino, and Hiroyuki Shinoda, “UltLever: Ultrasound-Driven Passive Haptic Actuator Based on Amplifying Radiation Force Using a Simple Lever Mechanism, ” IEEE Transactions on Haptics, Jan. 2024. [(Open Access) doi: 10.1109/TOH.2024.3363764](https://ieeexplore.ieee.org/document/10428111).
+
+Tao Morisaki, Masahiro Fujiwara, Yasutoshi Makino, and Hiroyuki Shinoda, “Ultrasound-Driven Passive Haptic Actuator based on Amplifying Radiation Force using Simple Lever Mechanism,” SIGGRAPH ASIA 2022, Emerging Technologies.
+
+[メタバース総研](https://metaversesouken.com/metaverse/university/#i-6)様にて紹介いただきました。

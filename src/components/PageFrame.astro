@@ -1,0 +1,47 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+interface Props {
+	title: string;
+	description?: string;
+	lead?: string;
+	currentPath: string;
+	eyebrow?: string;
+	locale?: "ja" | "en";
+	languageSwitchHref?: string;
+}
+
+const {
+	title,
+	description = "Shinoda & Makino Lab.",
+	currentPath,
+	locale = "ja",
+	languageSwitchHref,
+} = Astro.props;
+
+const pageKey =
+	currentPath
+		.replace(/^\/en\/?/, "")
+		.replace(/^\/+|\/+$/g, "")
+		.replaceAll("/", "-") || "home";
+---
+
+<Layout
+	title={`${title} | ${locale === "en" ? "Shinoda & Makino Lab" : "篠田・牧野研究室"}`}
+	description={description}
+	currentPath={currentPath}
+	locale={locale}
+	languageSwitchHref={languageSwitchHref}
+>
+	<div class:list={["page-shell", `page-shell--${pageKey}`]}>
+		<section class="page-hero">
+			<div class="container page-hero__inner">
+				<h1>{title}</h1>
+			</div>
+		</section>
+
+		<main class="container page-main">
+			<slot />
+		</main>
+	</div>
+</Layout>

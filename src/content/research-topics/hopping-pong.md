@@ -1,0 +1,22 @@
+---
+title: 'Hopping-Pong: 超音波による動的物体の軌道制御'
+summary: 超音波による非接触力を使って、移動中のピンポン玉の軌道を動的に制御する手法です。
+date: '2019-11-01'
+updated: '2021-10-29'
+image: /assets/research-topics/hopping-pong/hero.jpg
+imageAlt: 'Hopping-Pong: 超音波による動的物体の軌道制御'
+sourceUrl: 'https://hapislab.org/research-topics-ja/hopping-pong'
+---
+[https://www.youtube.com/embed/v0F5Mp1pvMY?feature=oembed](https://www.youtube.com/embed/v0F5Mp1pvMY?feature=oembed)
+
+[超音波による非接触力](http://hapislab.org/airborne-ultrasound-tactile-display/)を用いて動いているピンポン玉の軌道を変化させる、Hopping-Pongを提案しました。これまで静止している物体の移動制御は多く行われてきましたが、初めから速度をもって移動している物体を取り扱った研究はありませんでした。本研究では、動的物体制御が技術的に可能であること、及びスポーツシステムへの応用例を示しました。
+
+Hopping-Pongでは、ピンポン玉位置の高速センシングと軌道予測、及び超音波による非接触力を組み合わせることで動的物体の起動制御を実現しています。Hopping-Pongを用いることで、卓球プレイヤーは自由に変化球を打ち、相手プレイヤーのミスを誘発できます。これは例えば、初心者のモチベーション維持や初心者と上級者の力量差を埋めるなど、新しいゲームデザインを可能にします。常にバックハンド側に球を誘導する、といった支援機能としての運用も考えられます。また、動的物体制御の基礎技術として、食品工場における異物の除去や、投擲された物体の軌道補正などにも応用が考えられます。また、動的物体制御の基礎技術として、食品工場における異物の除去や、投擲された物体の軌道補正などにも応用が考えられます。
+
+図1: a) Hopping-Pongシステム外観。9台の超音波フェーズドアレイ、高速ステレオカメラにより構成される。b) 力提示無しでピンポン玉を投げた場合(直進)。c) Hopping-Pongによりピンポン玉の軌道が変化する様子。
+
+図2: 実験のセットアップと変化した軌道の測定結果。赤のラインがHopping-Pong有り、青のラインが無しの軌道。卓球台終端において、344 mmという卓球ラケットよりも十分に大きい変位が得られることを確認した。
+
+**関連発表**
+
+Tao Morisaki, Ryoma Mori, Ryosuke Mori, Yasutoshi Makino, Yuta Itoh, Yuji Yamakawa, Hiroyuki Shinoda, “Hopping-Pong: Changing Trajectory of Moving Object Using Computational Ultrasound Force,” Proc. 2019 ACM International Conference on Interactive Surfaces and Spaces (ISS’19), pp. 123-133, Daejeon, South Korea, November 10-13, 2019. [(Open Access)](https://dl.acm.org/citation.cfm?doid=3343055.3359701) [http://dx.doi.org/10.1145/3343055.3359701](https://dl.acm.org/citation.cfm?doid=3343055.3359701)

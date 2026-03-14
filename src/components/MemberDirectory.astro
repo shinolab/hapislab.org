@@ -1,0 +1,98 @@
+---
+import type { Member } from "../lib/site-data";
+
+interface Props {
+	members: Member[];
+	locale?: "ja" | "en";
+}
+
+const { members, locale = "ja" } = Astro.props;
+
+const groupLabels: Record<"ja" | "en", Record<string, string>> = {
+	ja: {
+		教員: "教員",
+		研究員: "研究員",
+		学生: "学生",
+	},
+	en: {
+		教員: "Faculty",
+		研究員: "Researchers",
+		学生: "Students",
+	},
+};
+
+const groupedMembers = Array.from(
+	members.reduce((groups, member) => {
+		const collection = groups.get(member.group) ?? [];
+		collection.push(member);
+		groups.set(member.group, collection);
+		return groups;
+	}, new Map<string, Member[]>()),
+);
+
+const labels =
+	locale === "en"
+		? {
+				heading: "Members",
+				subheading: "Structured member directory",
+				description:
+					"The original members page used a table-based layout, so this page also presents profiles in table form.",
+				name: "Name",
+				role: "Role",
+				focus: "Research topic",
+				link: "Link",
+				detail: "Profile",
+				related: "Page",
+			}
+		: {
+				heading: "Members",
+				subheading: "メンバー一覧",
+				description:
+					"旧サイトの雰囲気に合わせ、一覧を表形式で整理しています。",
+				name: "氏名",
+				role: "役職",
+				focus: "研究テーマ",
+				link: "リンク",
+				detail: "詳細",
+				related: "関連",
+			};
+---
+
+<section class="content-section">
+	<div class="content-stack">
+		{
+			groupedMembers.map(([group, items]) => (
+				<section class="legacy-block">
+					<h3 class="legacy-block__title">
+						{groupLabels[locale][group] ?? group}
+					</h3>
+					<div class="surface surface--table table-wrapper">
+						<table class="legacy-data-table legacy-data-table--members">
+							<thead>
+								<tr>
+									<th>{labels.name}</th>
+									<th>{labels.role}</th>
+								</tr>
+							</thead>
+							<tbody>
+								{items.map((member) => {
+									return (
+										<tr>
+											<td>
+												{locale === "en"
+													? member.nameEn ||
+														member.name
+													: member.name}
+											</td>
+											<td>{member.role}</td>
+										</tr>
+									);
+								})}
+							</tbody>
+						</table>
+					</div>
+				</section>
+			))
+		}
+	</div>
+</section>

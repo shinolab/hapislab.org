@@ -1,0 +1,72 @@
+---
+import type { AstroComponentFactory } from "astro/runtime/server/index.js";
+import StaticPageRenderer from "../components/StaticPageRenderer.astro";
+import {
+	japaneseStaticPageEntries,
+	type StaticPageEntry,
+} from "../data/page-registry";
+import { loadLocalizedContent, type FrontmatterLike } from "../lib/content";
+
+type MarkdownModule = {
+	default: AstroComponentFactory;
+	frontmatter?: FrontmatterLike;
+};
+
+type RouteProps = { type: "static"; entry: StaticPageEntry };
+
+const pageModules = import.meta.glob("../content/pages/*.md") as Record<
+	string,
+	() => Promise<MarkdownModule>
+>;
+const pageHtmlModules = import.meta.glob("../content/pages/*.html", {
+	query: "?raw",
+	import: "default",
+}) as Record<string, () => Promise<string>>;
+const memberMarkdownModules = import.meta.glob(
+	"../content/member-details/*.md",
+) as Record<string, () => Promise<MarkdownModule>>;
+const memberHtmlModules = import.meta.glob("../content/member-details/*.html", {
+	query: "?raw",
+	import: "default",
+}) as Record<string, () => Promise<string>>;
+
+export function getStaticPaths() {
+	return [
+		...japaneseStaticPageEntries.map((entry) => ({
+			params: { slug: entry.slug },
+			props: { type: "static", entry },
+		})),
+	];
+}
+
+const { type, entry } = Astro.props as RouteProps;
+
+let ContentComponent;
+let frontmatter;
+let htmlContent = "";
+let sourceType: "markdown" | "html" = "markdown";
+
+if (type === "static" && entry.contentId) {
+	const content = await loadLocalizedContent({
+		locale: "ja",
+		basePath: `../content/pages/${entry.contentId}`,
+		markdownModules: pageModules,
+		htmlModules: pageHtmlModules,
+	});
+	ContentComponent = content.ContentComponent;
+	frontmatter = content.frontmatter;
+	htmlContent = content.htmlContent;
+}
+---
+
+<StaticPageRenderer
+	currentPath={entry.currentPath}
+	frontmatter={frontmatter}
+	ContentComponent={ContentComponent}
+	htmlContent={htmlContent}
+	title={entry.title}
+	description={entry.description}
+	lead={entry.lead}
+	introHtml={entry.introHtml}
+	kind={entry.kind}
+/>

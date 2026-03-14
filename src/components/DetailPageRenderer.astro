@@ -1,0 +1,80 @@
+---
+import type { AstroComponentFactory } from "astro/runtime/server/index.js";
+import PageFrame from "./PageFrame.astro";
+
+interface MetaItem {
+	label: string;
+	value: string;
+}
+
+interface Props {
+	title: string;
+	description?: string;
+	lead?: string;
+	currentPath: string;
+	locale?: "ja" | "en";
+	eyebrow?: string;
+	metaItems: MetaItem[];
+	ContentComponent?: AstroComponentFactory;
+	htmlContent?: string;
+	fallbackNotice?: string;
+	languageSwitchHref?: string;
+}
+
+const {
+	title,
+	description,
+	lead,
+	currentPath,
+	locale = "ja",
+	eyebrow,
+	metaItems,
+	ContentComponent,
+	htmlContent = "",
+	fallbackNotice,
+	languageSwitchHref,
+} = Astro.props;
+---
+
+<PageFrame
+	title={title}
+	description={description}
+	lead={lead}
+	currentPath={currentPath}
+	locale={locale}
+	eyebrow={eyebrow}
+	languageSwitchHref={languageSwitchHref}
+>
+	<div class="content-stack">
+		<section class="surface detail-meta">
+			<dl class="detail-meta__grid">
+				{
+					metaItems.map((item) => (
+						<div class="detail-meta__item">
+							<dt>{item.label}</dt>
+							<dd>{item.value}</dd>
+						</div>
+					))
+				}
+			</dl>
+		</section>
+
+		{
+			fallbackNotice && (
+				<aside class="surface notice-card" role="note">
+					<p>{fallbackNotice}</p>
+				</aside>
+			)
+		}
+
+		<article class="surface prose">
+			{
+				ContentComponent ? (
+					<ContentComponent />
+				) : (
+					<Fragment set:html={htmlContent} />
+				)
+			}
+		</article>
+	</div>
+</PageFrame>

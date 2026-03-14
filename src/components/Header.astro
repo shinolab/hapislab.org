@@ -1,0 +1,119 @@
+---
+import { primaryNav, siteMeta } from "../data/site";
+import { englishPrimaryNav, englishSiteMeta } from "../data/site-en";
+import { withBase, withBasePath } from "../lib/urls";
+
+interface Props {
+	currentPath?: string;
+	locale?: "ja" | "en";
+	languageSwitchHref?: string;
+}
+
+const { currentPath = "/", locale = "ja", languageSwitchHref } = Astro.props;
+
+const navItems = locale === "en" ? englishPrimaryNav : primaryNav;
+const meta = locale === "en" ? englishSiteMeta : siteMeta;
+const homePath = navItems[0]?.href ?? "/";
+const homeHref = withBase(homePath) ?? homePath;
+const topbarMeta =
+	locale === "en"
+		? "Graduate School of Frontier Sciences / Graduate School of Information Science and Technology / School of Engineering"
+		: "東京大学大学院 新領域創成科学研究科 / 情報理工学系研究科 / 工学部計数工学科";
+const topbarSub =
+	locale === "en"
+		? "The University of Tokyo"
+		: "Graduate School of Frontier Sciences, The University of Tokyo";
+
+const normalizePath = (path: string) => {
+	if (path !== "/" && path.endsWith("/")) {
+		return path.slice(0, -1);
+	}
+
+	return path;
+};
+
+const getDefaultLanguageSwitchHref = () => {
+	const normalizedCurrentPath = normalizePath(currentPath);
+
+	if (locale === "en") {
+		if (normalizedCurrentPath === "/en") {
+			return "/";
+		}
+
+		if (normalizedCurrentPath.startsWith("/en/")) {
+			return normalizedCurrentPath.slice(3);
+		}
+
+		return "/";
+	}
+
+	if (normalizedCurrentPath === "/") {
+		return "/en/";
+	}
+
+	return `/en${normalizedCurrentPath}`;
+};
+
+const languageSwitch = {
+	href:
+		withBasePath(languageSwitchHref ?? getDefaultLanguageSwitchHref()) ??
+		languageSwitchHref ??
+		getDefaultLanguageSwitchHref(),
+	label: locale === "en" ? "日本語" : "English",
+};
+
+const isActive = (href: string) => {
+	const normalizedCurrentPath = normalizePath(currentPath);
+	const normalizedHref = normalizePath(href);
+	const normalizedHomeHref = normalizePath(homePath);
+
+	if (normalizedHref === normalizedHomeHref) {
+		return normalizedCurrentPath === normalizedHomeHref;
+	}
+
+	return (
+		normalizedCurrentPath === normalizedHref ||
+		normalizedCurrentPath.startsWith(`${normalizedHref}/`)
+	);
+};
+---
+
+<div class="site-topbar">
+	<div class="container site-topbar__inner">
+		<div>
+			<p class="site-topbar__meta">{topbarMeta}</p>
+			<p class="site-topbar__sub">{topbarSub}</p>
+		</div>
+	</div>
+</div>
+
+<header class="site-header">
+	<div class="container site-header__inner">
+		<a class="site-brand" href={homeHref}>
+			<span class="site-brand__name">{meta.englishName}</span>
+		</a>
+
+		<nav class="site-nav" aria-label="主要メニュー">
+			{
+				navItems.map((item) => (
+					<a
+						class:list={[
+							"site-nav__link",
+							{ "is-active": isActive(item.href) },
+						]}
+						href={withBasePath(item.href)}
+					>
+						{item.label}
+					</a>
+				))
+			}
+			<a
+				class="site-nav__link site-nav__link--language"
+				href={languageSwitch.href}
+			>
+				<span aria-hidden="true">🇺🇸</span>
+				{languageSwitch.label}
+			</a>
+		</nav>
+	</div>
+</header>
