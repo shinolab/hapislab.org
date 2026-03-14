@@ -5,7 +5,6 @@ date: '2017-11-01'
 updated: '2019-05-28'
 image: /assets/research-topics/computational-foresight/hero.png
 imageAlt: 機械学習を用いた0.5秒後の運動のリアルタイム推定
-sourceUrl: 'https://hapislab.org/research-topics-ja/computational-foresight'
 ---
 [https://www.youtube.com/embed/TXbhXgTMtNU?feature=oembed](https://www.youtube.com/embed/TXbhXgTMtNU?feature=oembed)
 

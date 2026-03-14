@@ -5,7 +5,6 @@ date: '2016-10-30'
 updated: '2019-02-01'
 image: /assets/research-topics/haptic-interfaces/hero.jpg
 imageAlt: 触覚インタフェース
-sourceUrl: 'https://hapislab.org/research-topics-ja/haptic-interfaces'
 ---
 人間の身体の表面に余すところなく備わっている触覚に注目し，触覚を活用する新しい情報システムの研究を行っています。触覚受容器の物理的な知覚特性をはじめ、人間の知性・知能の根底を支える心や感情と触覚がどのように関係しているかを解明し、触覚への刺激によって人間の生活・行動を支援するシステムを具体化していきます。
 

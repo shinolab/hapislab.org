@@ -5,8 +5,6 @@ date: '2024-06-07'
 updated: '2025-05-07'
 image: /assets/research-topics/mesh-object-manipulation/hero.png
 imageAlt: 空中超音波によるメッシュ上での物体操作
-sourceUrl: >-
-  https://hapislab.org/research-topics-ja/%e5%ba%95%e9%9d%a2%e3%81%ab%e3%81%8f%e3%81%bc%e3%81%bf%e3%82%92%e6%8c%81%e3%81%a4%e5%89%9b%e4%bd%93%e3%81%ae%e7%a9%ba%e4%b8%ad%e8%b6%85%e9%9f%b3%e6%b3%a2%e3%82%92%e7%94%a8%e3%81%84%e3%81%9f%e4%ba%8c
 ---
 空中超音波を透過するメッシュスクリーンの上で，物体を操作する手法を開発しました．メッシュは超音波を透過するため，手や機械式のマニピュレータを使わず，非接触に物体を動かせます．
 

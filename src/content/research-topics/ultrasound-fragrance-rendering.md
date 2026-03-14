@@ -5,7 +5,6 @@ date: '2017-11-01'
 updated: '2019-07-29'
 image: /assets/research-topics/ultrasound-fragrance-rendering/hero.jpg
 imageAlt: 超音波ベッセルビームによる空中匂い輸送
-sourceUrl: 'https://hapislab.org/research-topics-ja/ultrasound-fragrance-rendering'
 ---
 [](http://hapislab.org/op12-large_fit)
 

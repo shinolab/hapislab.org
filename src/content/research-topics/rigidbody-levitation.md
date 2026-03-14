@@ -9,7 +9,6 @@ date: '2020-10-14'
 updated: '2020-10-15'
 image: /assets/research-topics/rigidbody-levitation/hero.jpg
 imageAlt: 超音波による空中剛体浮揚
-sourceUrl: 'https://hapislab.org/research-topics-ja/rigidbody-levitation'
 ---
 [https://www.youtube.com/embed/zrlQEZ3K4a0?feature=oembed](https://www.youtube.com/embed/zrlQEZ3K4a0?feature=oembed)
 

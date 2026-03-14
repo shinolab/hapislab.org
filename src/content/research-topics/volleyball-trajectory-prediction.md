@@ -5,7 +5,6 @@ date: '2019-03-01'
 updated: '2019-10-01'
 image: /assets/research-topics/volleyball-trajectory-prediction/hero.png
 imageAlt: トス動作の機械学習に基づくバレーボールの球軌跡予測
-sourceUrl: 'https://hapislab.org/research-topics-ja/predicting-volleyball-trajectory'
 ---
 バレーボールのセッターの身体動作を基に，ニューラルネットワークを用いて，セッターが上げたトスの，0.3秒先のボールの2次元的な位置を予測するシステムを開発しました．Kinectを用いてセッターの動作時の三次元骨格座標を測定し，この情報を時系列順に並べたデータセットを入力として用いています．結果として，0.3秒先のボールの画像平面内での座標が出力されます．
 

@@ -10,7 +10,6 @@ export interface TopicSummary {
 	imageAlt?: string;
 	date?: string;
 	updated?: string;
-	sourceUrl?: string;
 	detailPath?: string;
 	titleEn?: string;
 	summaryEn?: string;

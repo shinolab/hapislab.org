@@ -5,7 +5,6 @@ date: '2017-06-01'
 updated: '2019-03-07'
 image: /assets/research-topics/wearable-network/hero.png
 imageAlt: 衣服の上に構成するウェアラブル・ネットワーク
-sourceUrl: 'https://hapislab.org/research-topics-ja/wearable-network_by_2dc'
 ---
 ウェアラブルシステムの実装方式として，シンプルな布状媒体に対しデバイスを手軽に付け外しできる形態を研究しています．
 

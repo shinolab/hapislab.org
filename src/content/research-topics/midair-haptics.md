@@ -9,7 +9,6 @@ date: '2019-10-01'
 updated: '2019-11-05'
 image: /assets/research-topics/midair-haptics/hero.jpg
 imageAlt: 空中ハプティクス（空中超音波触覚提示）
-sourceUrl: 'https://hapislab.org/research-topics-ja/midair-haptics'
 ---
 空中超音波によって皮膚表面の力と温度を制御する空中超音波触覚ディスプレイ（AUTD）の研究を進めています。このような非接触での触覚刺激を用いた触覚インタラクションは「空中ハプティクス」と呼ばれています。詳細は**[こちら](http://hapislab.org/?page_id=447)**
 

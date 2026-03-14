@@ -5,8 +5,6 @@ date: '2023-11-28'
 updated: '2024-02-27'
 image: /assets/research-topics/ultlever/hero.jpg
 imageAlt: 'UltLever: 空中超音波で駆動するパッシブな触覚提示デバイス'
-sourceUrl: >-
-  https://hapislab.org/research-topics-ja/%e7%a9%ba%e4%b8%ad%e8%b6%85%e9%9f%b3%e6%b3%a2%e3%81%a7%e9%a7%86%e5%8b%95%e3%81%99%e3%82%8b%e3%83%91%e3%83%83%e3%82%b7%e3%83%96%e3%81%aa%e8%a7%a6%e8%a6%9a%e6%8f%90%e7%a4%ba%e3%83%87%e3%83%90%e3%82%a4
 ---
 Left) Concept of ultrasound-driven passive haptic device. Right) Fabricated passive haptic device presenting 0.7 N force and 2- 30 Hz vibration to the fingerpad.
 

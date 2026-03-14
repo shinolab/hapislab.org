@@ -5,7 +5,6 @@ date: '2019-11-01'
 updated: '2021-10-29'
 image: /assets/research-topics/hopping-pong/hero.jpg
 imageAlt: 'Hopping-Pong: 超音波による動的物体の軌道制御'
-sourceUrl: 'https://hapislab.org/research-topics-ja/hopping-pong'
 ---
 [https://www.youtube.com/embed/v0F5Mp1pvMY?feature=oembed](https://www.youtube.com/embed/v0F5Mp1pvMY?feature=oembed)
 
