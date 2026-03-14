@@ -5,7 +5,6 @@ date: '2015-10-01'
 updated: '2018-12-28'
 image: /assets/research-topics/2d-communication-tile/hero.png
 imageAlt: 二次元通信タイル
-sourceUrl: 'https://hapislab.org/research-topics-ja/2d-communication-tile'
 ---
 二次元通信タイルは、タイル状の二次元通信シートを接続していくことで、部屋全体に二次元通信環境を構築できるシステムです。床に触れている机の上でも通信できます\*。
 

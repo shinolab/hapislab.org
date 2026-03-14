@@ -5,7 +5,6 @@ date: '2017-11-01'
 updated: '2019-05-11'
 image: /assets/research-topics/vibration-from-video/hero.png
 imageAlt: 映像に適切な振動の推定と付与
-sourceUrl: 'https://hapislab.org/research-topics-ja/vibration-from-video'
 ---
 映像内の人物または1人称視点カメラに伝わる振動を推定し、視聴者に提示する視聴体験向上システムを提案しました。
 

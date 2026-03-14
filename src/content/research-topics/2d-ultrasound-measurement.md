@@ -9,7 +9,6 @@ date: '2022-10-20'
 updated: '2025-08-15'
 image: /assets/research-topics/2d-ultrasound-measurement/hero.png
 imageAlt: 熱画像による空中超音波の２次元計測
-sourceUrl: 'https://hapislab.org/research-topics-ja/2d-ultrasound-measurement'
 ---
 [https://www.youtube.com/embed/vski7YC5alM?feature=oembed](https://www.youtube.com/embed/vski7YC5alM?feature=oembed)
 

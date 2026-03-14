@@ -7,7 +7,6 @@ date: '2015-08-08'
 updated: '2023-03-31'
 image: /assets/research-topics/haptoclone/hero.jpg
 imageAlt: 視触覚クローン（Haptoclone）
-sourceUrl: 'https://hapislab.org/research-topics-ja/haptoclone'
 ---
 _＊Haptoclone （視触覚クローン） は SIGGRAPH 2015 Emerging Technologies (2015/8/9-13) および SUI 2015 (2015/8/8) でデモ展示されたシステムです_
 

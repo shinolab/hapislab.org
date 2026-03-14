@@ -5,7 +5,6 @@ date: '2019-11-01'
 updated: '2020-11-19'
 image: /assets/research-topics/refriction/hero.jpg
 imageAlt: ReFriction
-sourceUrl: 'https://hapislab.org/research-topics-ja/refriction'
 ---
 ReFrictionとは，空中超音波触覚ディスプレイ（AUTD）を用いて遠隔で発泡スチロールの摩擦を変える装置です．
 

@@ -5,8 +5,6 @@ date: '2022-01-13'
 updated: '2023-03-31'
 image: /assets/research-topics/3d-position-control/hero.jpg
 imageAlt: 空中超音波フェーズドアレイのセンサ・フィードバック駆動による軽量物体の3次元位置制御
-sourceUrl: >-
-  https://hapislab.org/research-topics-ja/%e7%a9%ba%e4%b8%ad%e8%b6%85%e9%9f%b3%e6%b3%a2%e3%83%95%e3%82%a7%e3%83%bc%e3%82%ba%e3%83%89%e3%82%a2%e3%83%ac%e3%82%a4%e3%81%ae%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bb%e3%83%95%e3%82%a3%e3%83%bc%e3%83%89
 ---
 [https://www.youtube.com/embed/FprSrxBYdnk?feature=oembed](https://www.youtube.com/embed/FprSrxBYdnk?feature=oembed)
 

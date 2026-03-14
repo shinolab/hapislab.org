@@ -10,7 +10,6 @@ interface ResearchTopicFrontmatter {
 	imageAlt?: string;
 	date?: string;
 	updated?: string;
-	sourceUrl?: string;
 	detailPath?: string;
 	detailPathEn?: string;
 }
@@ -21,7 +20,6 @@ interface MarkdownModule {
 
 export interface ResearchTopicListItem extends TopicSummary {
 	slug: string;
-	sourceUrl?: string;
 }
 
 const topicModules = import.meta.glob('../content/research-topics/*.md', {
@@ -89,7 +87,6 @@ export function getResearchTopics(): ResearchTopicListItem[] {
 				updated: primary.updated,
 				detailPath: `/research-topics/${topicId}`,
 				detailPathEn: `/en/research-topics/${topicId}`,
-				sourceUrl: primary.sourceUrl ?? (isExternalUrl(primary.detailPath) ? primary.detailPath : undefined),
 			};
 		})
 		.filter((topic): topic is ResearchTopicListItem => topic !== null)

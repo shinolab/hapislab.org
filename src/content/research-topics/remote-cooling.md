@@ -5,8 +5,6 @@ date: '2021-07-05'
 updated: '2022-02-18'
 image: /assets/research-topics/remote-cooling/hero.jpg
 imageAlt: 空中超音波の制御による遠隔冷覚提示
-sourceUrl: >-
-  https://hapislab.org/research-topics-ja/%e7%a9%ba%e4%b8%ad%e8%b6%85%e9%9f%b3%e6%b3%a2%e3%81%ae%e5%88%b6%e5%be%a1%e3%81%ab%e3%82%88%e3%82%8b%e9%81%a0%e9%9a%94%e5%86%b7%e8%a6%9a%e6%8f%90%e7%a4%ba
 ---
 空中超音波フェーズドアレイを利用して、遠隔から非接触で冷覚を提示する手法について提案しました。本研究の特徴は超音波フェーズドアレイの特性とミストの気化を組み合わせることで、空中に冷たい感触を提示することが可能です。
 
