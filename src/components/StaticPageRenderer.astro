@@ -4,6 +4,7 @@ import PageFrame from "./PageFrame.astro";
 import MemberDirectory from "./MemberDirectory.astro";
 import PublicationTimeline from "./PublicationTimeline.astro";
 import TopicGrid from "./TopicGrid.astro";
+import AwardList from "./AwardList.astro";
 import { getResearchTopics } from "../lib/research-topics";
 import { publications } from "../lib/site-data";
 
@@ -88,6 +89,11 @@ const shouldRenderIntro =
 					publications={publications}
 					locale={locale}
 				/>
+			)
+		}
+		{
+			kind === "awards" && (
+				<AwardList locale={locale} />
 			)
 		}
 		{kind === "topics" && <TopicGrid topics={topics} locale={locale} />}
