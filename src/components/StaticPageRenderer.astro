@@ -78,24 +78,33 @@ const shouldRenderIntro =
 			)
 		}
 
-		{
-			kind === "members" && (
-				<MemberDirectory locale={locale} />
-			)
-		}
-		{
-			kind === "publications" && (
-				<PublicationTimeline
-					publications={publications}
-					locale={locale}
-				/>
-			)
-		}
-		{
-			kind === "awards" && (
-				<AwardList locale={locale} />
-			)
-		}
-		{kind === "topics" && <TopicGrid topics={topics} locale={locale} />}
+		<div class="kind-content">
+			{
+				kind === "members" && (
+					<MemberDirectory locale={locale} />
+				)
+			}
+			{
+				kind === "publications" && (
+					<PublicationTimeline
+						publications={publications}
+						locale={locale}
+					/>
+				)
+			}
+			{
+				kind === "awards" && (
+					<AwardList locale={locale} />
+				)
+			}
+			{kind === "topics" && <TopicGrid topics={topics} locale={locale} />}
+		</div>
 	</div>
 </PageFrame>
+
+<style>
+	.kind-content {
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+</style>

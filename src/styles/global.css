@@ -585,10 +585,12 @@ img {
 .topic-article-hero__inner {
 	display: grid;
 	grid-template-columns: 5.5rem minmax(0, 1fr);
-	width: min(100%, 900px);
+	max-width: 900px;
 	margin: 0 auto;
 	gap: 1rem;
 	align-items: center;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 
 .topic-article-hero__date {
