@@ -2,6 +2,7 @@
 import { primaryNav, siteMeta } from "../data/site";
 import { englishPrimaryNav, englishSiteMeta } from "../data/site-en";
 import { withBase, withBasePath } from "../lib/urls";
+import logoImg from "../assets/shinolab_logo.svg";
 
 interface Props {
 	currentPath?: string;
@@ -34,24 +35,12 @@ const normalizePath = (path: string) => {
 
 const getDefaultLanguageSwitchHref = () => {
 	const normalizedCurrentPath = normalizePath(currentPath);
-
-	if (locale === "en") {
-		if (normalizedCurrentPath === "/en") {
-			return "/";
-		}
-
-		if (normalizedCurrentPath.startsWith("/en/")) {
-			return normalizedCurrentPath.slice(3);
-		}
-
-		return "/";
+	if (locale === "ja") {
+		return (
+			"/en" + (normalizedCurrentPath === "/" ? "" : normalizedCurrentPath)
+		);
 	}
-
-	if (normalizedCurrentPath === "/") {
-		return "/en/";
-	}
-
-	return `/en${normalizedCurrentPath}`;
+	return normalizedCurrentPath.replace(/^\/en/, "") || "/";
 };
 
 const languageSwitch = {
@@ -90,8 +79,22 @@ const isActive = (href: string) => {
 <header class="site-header">
 	<div class="container site-header__inner">
 		<a class="site-brand" href={homeHref}>
+			<img
+				src={logoImg.src}
+				alt="Shinoda & Makino Lab Logo"
+				class="custom-mobile-logo-img"
+			/>
 			<span class="site-brand__name">{meta.englishName}</span>
 		</a>
+
+		<button
+			type="button"
+			class="custom-mobile-menu-btn"
+			id="menu-trigger"
+			aria-label="Menu"
+		>
+			<span></span>
+		</button>
 
 		<nav class="site-nav" aria-label="主要メニュー">
 			{
@@ -99,9 +102,9 @@ const isActive = (href: string) => {
 					<a
 						class:list={[
 							"site-nav__link",
-							{ "is-active": isActive(item.href) },
+							{ "site-nav__link--active": isActive(item.href) },
 						]}
-						href={withBasePath(item.href)}
+						href={withBase(item.href)}
 					>
 						{item.label}
 					</a>
@@ -111,9 +114,26 @@ const isActive = (href: string) => {
 				class="site-nav__link site-nav__link--language"
 				href={languageSwitch.href}
 			>
-				<span aria-hidden="true">🇺🇸</span>
+				<span aria-hidden="true">{locale === "en" ? "🇯🇵" : "🇺🇸"}</span>
 				{languageSwitch.label}
 			</a>
 		</nav>
 	</div>
 </header>
+
+<script is:inline>
+	(function () {
+		function setupMenu() {
+			const trigger = document.getElementById("menu-trigger");
+			const header = document.querySelector(".site-header");
+			if (trigger && header) {
+				trigger.onclick = null;
+				trigger.onclick = () => {
+					header.classList.toggle("site-header--menu-open");
+				};
+			}
+		}
+		setupMenu();
+		document.addEventListener("astro:page-load", setupMenu);
+	})();
+</script>
