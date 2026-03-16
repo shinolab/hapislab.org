@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import type { TopicSummary } from '../data/site';
 import { withBasePath } from '../lib/urls';
 
@@ -24,19 +25,23 @@ const topicEntries = topics.map((topic) => ({
 							class="topic-card__link"
 							href={withBasePath(locale === 'en' ? topic.detailPathEn || topic.detailPath : topic.detailPath)}
 						>
-							<img
+							<Image
 								src={imageSrc}
 								alt={topic.imageAlt ?? (locale === 'en' ? topic.titleEn || topic.title : topic.title)}
 								class="topic-card__image"
+								width={400}
+								height={300}
 							/>
 							<h3>{locale === 'en' ? topic.titleEn || topic.title : topic.title}</h3>
 						</a>
 					) : (
 						<Fragment>
-							<img
+							<Image
 								src={imageSrc}
 								alt={topic.imageAlt ?? (locale === 'en' ? topic.titleEn || topic.title : topic.title)}
 								class="topic-card__image"
+								width={400}
+								height={300}
 							/>
 							<h3>{locale === 'en' ? topic.titleEn || topic.title : topic.title}</h3>
 						</Fragment>

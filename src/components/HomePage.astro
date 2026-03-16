@@ -1,8 +1,9 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import { siteMeta } from "../data/site";
 import { englishSiteMeta } from "../data/site-en";
-import { resolveAssetPath } from "../lib/public-assets";
+import { resolveAssetObject } from "../lib/public-assets";
 import { withBase, withBasePath } from "../lib/urls";
 import {
 	getHomeResearchTopics,
@@ -83,7 +84,7 @@ const topicCarouselEntries = visibleTopicCarouselItems.map((item) => ({
 }));
 const projectEntries = visibleProjectItems.map((project) => ({
 	project,
-	imageSrc: resolveAssetPath(project.image),
+	imageSrc: resolveAssetObject(project.image),
 }));
 
 const copy = isEnglish
@@ -139,7 +140,7 @@ const copy = isEnglish
 					data-carousel-viewport
 				>
 					<div class="home-topic-carousel__track" data-carousel-track>
-						{topicCarouselEntries.map(({ item, imageSrc }) => (
+						{topicCarouselEntries.map(({ item, imageSrc }, index) => (
 							<article class="home-topic-carousel__item">
 								<a
 									class="home-topic-carousel__link"
@@ -151,7 +152,7 @@ const copy = isEnglish
 									)}
 									draggable="false"
 								>
-									<img
+									<Image
 										src={imageSrc}
 										alt={
 											item.imageAlt ??
@@ -161,6 +162,9 @@ const copy = isEnglish
 										}
 										class="home-topic-carousel__image"
 										draggable="false"
+										width={200}
+										height={150}
+										loading={index < 3 ? "eager" : "lazy"}
 									/>
 									<h3 class="home-topic-carousel__title">
 										{isEnglish
@@ -185,7 +189,7 @@ const copy = isEnglish
 									)}
 									draggable="false"
 								>
-									<img
+									<Image
 										src={imageSrc}
 										alt={
 											item.imageAlt ??
@@ -195,6 +199,9 @@ const copy = isEnglish
 										}
 										class="home-topic-carousel__image"
 										draggable="false"
+										width={200}
+										height={150}
+										loading="lazy"
 									/>
 									<h3 class="home-topic-carousel__title">
 										{isEnglish
@@ -262,12 +269,13 @@ const copy = isEnglish
 										href={withBase(project.href)}
 									>
 										{imageSrc && (
-											<img
+											<Image
 												src={imageSrc}
 												alt={project.imageAlt ?? project.title}
 												class="home-project-card__image"
-											/>
-										)}
+												width={400}
+												height={225}
+											/>										)}
 										{!imageSrc && (
 											<div
 												class="home-project-card__image home-project-card__image--placeholder"
@@ -343,7 +351,7 @@ const copy = isEnglish
 										]}
 									>
 										{topic.image && (
-											<img
+											<Image
 												src={topic.image}
 												alt={
 													topic.imageAlt ??
@@ -352,6 +360,8 @@ const copy = isEnglish
 														: topic.title)
 												}
 												class="news-card__image"
+												width={400}
+												height={300}
 											/>
 										)}
 									</div>
