@@ -30,7 +30,7 @@ html[lang="ja"] {
 body {
 	margin: 0;
 	font-family:
-		"Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+		"Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", /*Meiryo,*/ sans-serif;
 	background: var(--bg);
 	color: var(--text);
 	font-size: 1rem;
@@ -124,7 +124,7 @@ img {
 
 .site-brand {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	text-decoration: none;
 	color: inherit;
 }
@@ -141,24 +141,46 @@ img {
 	gap: 1.25rem;
 }
 
+
 .site-nav__link {
-	padding: 0 0 0.15rem;
-	border-bottom: 2px solid transparent;
-	text-decoration: none;
+	text-decoration: none; /* 標準の下線を消す */
 	color: var(--text);
-	font-size: 0.8125rem;
+	font-size: 0.9rem;
+	font-weight: 500;
+	position: relative;    /* 下線の位置の基準にする */
+	display: inline-block;
+	padding: 0.2rem 0;     /* 少し隙間を作る */
+	transition: color 0.3s ease;
 }
 
-.site-nav__link.is-active,
+/* 下線の「種」を作る（最初は長さ0） */
+.site-nav__link::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 0;              /* 最初は長さゼロ */
+	height: 2px;           /* 下線の太さ */
+	background-color: var(--accent); /* 下線の色（アクセントカラー） */
+	transition: width 0.3s ease;     /* 長さが変わるのをじわっとさせる */
+}
+
+/* マウスを乗せたときに下線を 100% に伸ばす */
 .site-nav__link:hover {
-	background: transparent;
-	color: var(--text);
-	border-color: var(--accent);
+	color: var(--accent);
 }
 
-.site-nav__link--language {
-	border-bottom-color: transparent;
+.site-nav__link:hover::after {
+	width: 100%;           /* 長さを 100% に */
 }
+
+
+
+
+
+
+
+
 
 .back-to-top {
 	position: fixed;
@@ -755,58 +777,13 @@ img {
 	margin-top: 1.5rem;
 }
 
-.home-topic-carousel {
-	padding-top: 1rem;
-	margin-bottom: 0rem;
-}
-
-.home-topic-carousel__viewport {
-	overflow-x: auto;
-	scroll-snap-type: x mandatory;
-	scrollbar-width: none;
-	-ms-overflow-style: none;
-	cursor: grab;
-	user-select: none;
-	-webkit-user-drag: none;
-}
-
-.home-topic-carousel__viewport.is-dragging {
-	scroll-snap-type: none;
-	cursor: grabbing;
-}
-
-.home-topic-carousel__viewport.is-dragging a,
-.home-topic-carousel__viewport.is-dragging img {
-	pointer-events: none;
-}
-
-.home-topic-carousel__viewport::-webkit-scrollbar {
-	display: none;
-}
-
-.home-topic-carousel__track {
-	display: grid;
-	grid-auto-flow: column;
-	grid-auto-columns: calc((100% - (4 * 1.25rem)) / 5);
-	gap: 1.25rem;
-}
-
-.home-topic-carousel__item {
-	min-width: 0;
-	scroll-snap-align: start;
-}
-
-.home-topic-carousel__link {
-	display: block;
-	color: inherit;
-	text-decoration: none;
-}
-
 .home-topic-carousel__image {
-	width: 100%;
+	width: 100% !important;
+	height: 150px !important;
 	aspect-ratio: 4 / 3;
-	object-fit: cover;
-	display: block;
+	object-fit: cover !important;
+	object-position: center !important; 
+	display: block !important;
 	border: 0;
 	background-color: #edf3f4;
 }
@@ -908,11 +885,6 @@ img {
 	gap: 1rem;
 }
 
-.home-projects-list {
-	display: grid;
-	grid-template-columns: repeat(2, minmax(0, 1fr));
-	gap: 1rem;
-}
 
 .home-news-card {
 	padding: 1.1rem 1.4rem;
@@ -945,12 +917,6 @@ img {
 	text-decoration: underline;
 }
 
-.home-project-card {
-	padding: 0;
-	overflow: hidden;
-	border: 2px solid var(--accent);
-	background: #fff;
-}
 
 .home-project-card__link {
 	display: grid;
@@ -965,30 +931,6 @@ img {
 	object-fit: cover;
 	display: block;
 	border-bottom: 1px solid var(--border);
-}
-
-.home-project-card__image--placeholder {
-	background:
-		linear-gradient(135deg, rgba(255, 255, 255, 0.08), transparent 42%),
-		linear-gradient(145deg, #d8e7ea 0%, #afc7cd 100%);
-}
-
-.home-project-card__body {
-	padding: 0.85rem 1rem;
-}
-
-.home-project-card__body h3 {
-	margin: 0 0 0.4rem;
-	font-size: 0.95rem;
-	line-height: 1.3;
-	color: var(--primary);
-}
-
-.home-project-card__body p {
-	margin: 0.25rem 0 0;
-	font-size: 0.82rem;
-	line-height: 1.6;
-	color: var(--text-subtle);
 }
 
 .home-project-card:hover {
@@ -1053,18 +995,13 @@ img {
 	
 	.legacy-topic-grid,
 	.home-news__grid,
-	.home-projects-list,
 	.detail-meta__grid,
 	.topic-article-related__grid {
 		grid-template-columns: 1fr;
 	}
 
-	.home-topic-carousel__track {
-		grid-auto-columns: calc((100% - 1.25rem) / 2);
-	}
 
 	.section-heading,
-	.site-header__inner,
 	.site-topbar__inner {
 		flex-direction: column;
 		align-items: start;
@@ -1105,12 +1042,299 @@ img {
 
 @media (max-width: 640px) {
 
-	.home-topic-carousel__track {
-		grid-auto-columns: 100%;
-	}
 
 	.topic-article-share__link {
 		flex: 1 1 calc(50% - 0.75rem);
 		min-width: 0;
 	}
+}
+
+
+/* 全てのリンクをデフォルトでじわっとさせる設定 */
+a {
+	transition: all 0.3s ease;
+}
+
+
+/* ============================================================
+   研究テーマスライダー：完全統合版（2行問題を解決）
+   ============================================================ */
+
+/* 1. 外枠：はみ出しを隠し、横並びを準備 */
+.home-topic-carousel__viewport {
+	overflow: hidden !important;
+	width: 100% !important;
+	display: block !important;
+}
+
+/* 2. 動くベルト：flex-wrap: nowrap で強制的に1行にする */
+.home-topic-carousel__track {
+	display: flex !important;           /* 横並びに強制 */
+	flex-wrap: nowrap !important;        /* 絶対に2行にしない（折り返し禁止） */
+	width: max-content !important;        /* 中身の長さに合わせて横に無限に伸ばす */
+	
+	/* 以前のGrid設定を完全にリセットし、干渉を防ぐ */
+	grid-template-columns: none !important; 
+	grid-auto-columns: auto !important;
+	
+	gap: 1.25rem;                        /* カード同士の間隔 */
+	animation: scroll-left 80s linear infinite !important; /* なめらかに動かす */
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* 3. 各アイテム：幅を固定し、勝手に縮んだり2行にならないようにする */
+.home-topic-carousel__item {
+	flex: 0 0 200px !important;         
+	width: 200px !important;
+	min-width: 200px !important;        /* 画面が狭くても縮ませない */
+	margin: 0 !important;
+	display: block !important;
+}
+
+/* 4. アニメーション定義（左へ50%分流す） */
+@keyframes scroll-left {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(-50%); }
+}
+
+/* マウスを乗せると一時停止 */
+.home-topic-carousel__viewport:hover .home-topic-carousel__track {
+	animation-play-state: paused !important;
+}
+
+/* スマホ対応：1行を維持しつつサイズ調整 */
+@media (max-width: 900px) {
+	.home-topic-carousel__item {
+		flex: 0 0 250px !important;
+		width: 250px !important;
+		min-width: 250px !important;
+	}
+}
+
+/* 1. マウスを乗せたときに「ふわっ」と少し浮き上がらせる */
+.home-topic-carousel__item {
+	transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.home-topic-carousel__item:hover {
+	transform: translateY(-5px) !important; /* 上に5px浮く */
+}
+
+/* 2. 画像を選択（クリック）した瞬間に「ポチッ」と凹ませる */
+.home-topic-carousel__link:active .home-topic-carousel__item {
+	transform: translateY(-2px) scale(0.98) !important; /* 少し沈んで小さくなる */
+	filter: brightness(0.9); /* 少しだけ暗くして「押した感」を出す */
+}
+
+/* 3. 画像にうっすら影をつけて、浮き上がりを強調する */
+.home-topic-carousel__image {
+	transition: filter 0.3s ease !important;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ============================================================
+   関連プロジェクト：サイズ調整版
+   ============================================================ */
+
+/* 1. 全体の並び：1マスの幅を 240px 程度に小さくする */
+.home-projects-list {
+	display: grid !important;
+	/* minmaxの最初の数字を小さくすると、1マスが小さくなります */
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+	gap: 1.5rem !important;
+	margin: 2rem 0 !important;
+}
+
+/* 2. カードの外枠 */
+.home-project-card {
+	background: var(--surface-muted) !important;
+	transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+/* 3. 画像部分：高さを抑えてコンパクトに */
+.home-project-card__visual {
+	height: 140px !important; /* ここを小さくすると縦が縮まります */
+	overflow: hidden !important;
+}
+
+.home-project-card__visual img {
+	width: 100% !important;
+	height: 100% !important;
+	object-fit: cover !important; /* 歪み防止 */
+	transition: transform 0.3s ease !important;
+}
+
+/* 4. テキスト部分：箱に合わせて文字を小さく */
+.home-project-card__body {
+	padding: 1rem !important;
+}
+
+.home-project-card__body h3 {
+	font-size: 1rem !important; /* タイトルを少し小さく */
+	margin-bottom: 0.5rem !important;
+	line-height: 1.4 !important;
+}
+
+.home-project-card__body p {
+	font-size: 0.85rem !important; /* 説明文を小さく */
+	color: var(--text-subtle) !important;
+}
+
+/* 5. ホバー時の反応（じわっと浮く） */
+.home-project-card:hover {
+	transform: translateY(-5px) !important;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.home-topic-carousel__link {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+/* ==========================================
+   スマホ・タブレット用 (900px以下)
+   ========================================== */
+@media (max-width: 900px) {
+    /* 1. ヘッダー全体：ロゴがさらに大きくなるため高さを確保 */
+    .site-header__inner {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        min-height: 100px !important; /* ロゴに合わせて高くしました */
+        padding: 10px 15px !important;
+        position: relative !important;
+    }
+
+    /* 2. ロゴエリア */
+    .site-brand {
+        display: flex !important;
+        align-items: center !important;
+        gap: 15px !important;
+        text-decoration: none !important;
+        flex: 1 !important;
+    }
+
+    /* ロゴ画像：前回の1.5倍（約3.3rem）に設定 */
+    .custom-mobile-logo-img {
+        height: 3.3rem !important; 
+        width: auto !important;
+        display: block !important;
+        flex-shrink: 0 !important;
+    }
+
+    /* 研究室名テキスト */
+    .site-brand__name {
+        font-size: 1.1rem !important;
+        font-weight: bold !important;
+        color: #00475a !important;
+        white-space: nowrap !important;
+    }
+
+    /* 3. 三本線ボタン：消えた横棒を復活 */
+    .custom-mobile-menu-btn {
+        display: flex !important;
+        width: 46px !important;
+        height: 46px !important;
+        background: #00475a !important;
+        border-radius: 4px !important;
+        border: none !important;
+        position: relative !important; /* 基準点 */
+        justify-content: center !important;
+        align-items: center !important;
+        cursor: pointer !important;
+        z-index: 1001 !important;
+        flex-shrink: 0 !important;
+        margin-left: 10px !important;
+    }
+
+    /* 横棒の復活（中心の線） */
+    .custom-mobile-menu-btn span {
+        display: block !important;
+        position: relative !important;
+        width: 24px !important; /* 少し長くしました */
+        height: 2px !important;  /* 線の太さ */
+        background: #ffffff !important;
+        transition: all 0.3s !important;
+    }
+
+    /* 上下の線 */
+    .custom-mobile-menu-btn span::before,
+    .custom-mobile-menu-btn span::after {
+        content: "" !important;
+        position: absolute !important;
+        left: 0 !important;
+        width: 24px !important;
+        height: 2px !important;
+        background: #ffffff !important;
+        transition: all 0.3s !important;
+    }
+    
+    .custom-mobile-menu-btn span::before { top: -8px !important; } /* 上の線の位置 */
+    .custom-mobile-menu-btn span::after { top: 8px !important; }  /* 下の線の位置 */
+
+    /* 4. メニュー（プルダウン） */
+    .site-nav { display: none !important; }
+
+    .site-header--menu-open .site-nav {
+        display: flex !important;
+        flex-direction: column !important;
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+        width: 100% !important;
+        background: #ffffff !important;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+        z-index: 1000 !important;
+        padding: 10px 0 !important;
+    }
+
+    .site-nav__link {
+        display: block !important;
+        padding: 15px 20px !important;
+        border-bottom: 1px solid #f0f0f0 !important;
+        color: #333 !important;
+        text-decoration: none !important;
+    }
+
+    /* 開いている時の「×」変形 */
+    .site-header--menu-open .custom-mobile-menu-btn span { background: transparent !important; }
+    .site-header--menu-open .custom-mobile-menu-btn span::before { transform: rotate(45deg) !important; top: 0 !important; }
+    .site-header--menu-open .custom-mobile-menu-btn span::after { transform: rotate(-45deg) !important; top: 0 !important; }
+}
+
+/* ==========================================
+   PC用 (901px以上)
+   ========================================== */
+@media (min-width: 901px) {
+    .site-brand {
+        display: flex !important;
+        align-items: center !important;
+        gap: 15px !important;
+    }
+
+    .custom-mobile-logo-img {
+        height: 3.3rem !important; /* PCでも大きく表示 */
+        width: auto !important;
+        display: inline-block !important;
+        vertical-align: middle !important;
+        margin-top: -5px !important;
+    }
+}
+/* 元々のテーマ固有のロゴ要素を強制的に完全に消す */
+header .site-logo,
+header .custom-logo,
+header .site-header__logo,
+header [class*="logo"]:not(.custom-mobile-logo-img) {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    pointer-events: none !important;
 }

@@ -142,41 +142,54 @@ const copy = isEnglish
 					class="home-topic-carousel__viewport"
 					data-carousel-viewport
 				>
+
 					<div class="home-topic-carousel__track" data-carousel-track>
-						{topicCarouselEntries.map(({ item, imageSrc }) => (
-							<article class="home-topic-carousel__item">
-								<a
-									class="home-topic-carousel__link"
-									href={
-										withBasePath(
-											isEnglish
-												? item.detailPathEn ||
-													item.detailPath
-												: item.detailPath,
-										)
-									}
-									draggable="false"
-								>
-									<img
-										src={imageSrc}
-										alt={
-											item.imageAlt ??
-											(isEnglish
-												? item.titleEn || item.title
-												: item.title)
-										}
-										class="home-topic-carousel__image"
+						{/* 1回目：既存のリスト */}
+						{
+							topicCarouselEntries.map(({ item, imageSrc }) => (
+								<article class="home-topic-carousel__item">
+									<a
+										class="home-topic-carousel__link"
+										href={withBasePath(isEnglish ? item.detailPathEn || item.detailPath : item.detailPath)}
 										draggable="false"
-									/>
+									>
+										<img
+											src={imageSrc}
+											alt={item.imageAlt ?? (isEnglish ? item.titleEn || item.title : item.title)}
+											class="home-topic-carousel__image"
+											draggable="false"
+										/>
 									<h3 class="home-topic-carousel__title">
-										{isEnglish
-											? item.titleEn || item.title
-											: item.title}
+										{isEnglish ? item.titleEn || item.title : item.title}
 									</h3>
-								</a>
-							</article>
-						))}
+									</a>
+								</article>
+							))
+						}
+						{/* 2回目：無限ループ用に追加 */}
+						{
+							topicCarouselEntries.map(({ item, imageSrc }) => (
+								<article class="home-topic-carousel__item" aria-hidden="true">
+									<a
+										class="home-topic-carousel__link"
+										href={withBasePath(isEnglish ? item.detailPathEn || item.detailPath : item.detailPath)}
+										draggable="false"
+									>
+										<img
+											src={imageSrc}
+											alt={item.imageAlt ?? (isEnglish ? item.titleEn || item.title : item.title)}
+											class="home-topic-carousel__image"
+											draggable="false"
+										/>
+									<h3 class="home-topic-carousel__title">
+										{isEnglish ? item.titleEn || item.title : item.title}
+									</h3>
+									</a>
+								</article>
+							))
+						}
 					</div>
+
 				</div>
 
 				<div class="home-topic-carousel__controls">
@@ -193,7 +206,6 @@ const copy = isEnglish
 
 		<div class="home-intro">
 			<div class="home-intro__branding">
-				<img src={logo} alt={copy.logoAlt} class="home-intro__photo" />
 				<div class="home-overview__body">
 					<h4>{copy.affiliation}</h4>
 					<h3>{copy.title}</h3>
@@ -215,33 +227,6 @@ const copy = isEnglish
 			</ul>
 		</div>
 	</section>
-
-	{
-		visibleNewsItems.length > 0 && (
-			<section class="container content-section home-section">
-				<div class="section-heading section-heading--legacy">
-					<h2>{copy.newsHeading}</h2>
-				</div>
-
-				<div class="home-news-list">
-					{visibleNewsItems.map(({ Content, frontmatter }) => (
-						<article class="surface home-news-card">
-							<div class="home-news-card__date">
-								{frontmatter.date && (
-									<time datetime={frontmatter.date}>
-										{frontmatter.date.replace(/-/g, "/")}
-									</time>
-								)}
-							</div>
-							<div class="home-news-card__content">
-								<Content />
-							</div>
-						</article>
-					))}
-				</div>
-			</section>
-		)
-	}
 
 	{
 		visibleProjectItems.length > 0 && (
@@ -283,6 +268,34 @@ const copy = isEnglish
 			</section>
 		)
 	}
+
+	{
+		visibleNewsItems.length > 0 && (
+			<section class="container content-section home-section">
+				<div class="section-heading section-heading--legacy">
+					<h2>{copy.newsHeading}</h2>
+				</div>
+
+				<div class="home-news-list">
+					{visibleNewsItems.map(({ Content, frontmatter }) => (
+						<article class="surface home-news-card">
+							<div class="home-news-card__date">
+								{frontmatter.date && (
+									<time datetime={frontmatter.date}>
+										{frontmatter.date.replace(/-/g, "/")}
+									</time>
+								)}
+							</div>
+							<div class="home-news-card__content">
+								<Content />
+							</div>
+						</article>
+					))}
+				</div>
+			</section>
+		)
+	}
+
 
 	<section class="container content-section home-section home-latest">
 		<div class="section-heading section-heading--legacy">
@@ -339,198 +352,4 @@ const copy = isEnglish
 		</div>
 	</section>
 
-	<script is:inline>
-		const getTopicCarouselVisibleCount = () => {
-			if (window.matchMedia("(max-width: 640px)").matches) {
-				return 1;
-			}
-
-			if (window.matchMedia("(max-width: 900px)").matches) {
-				return 2;
-			}
-
-			return 5;
-		};
-
-		const initTopicCarousel = (root) => {
-			const viewport = root.querySelector("[data-carousel-viewport]");
-			const track = root.querySelector("[data-carousel-track]");
-			const dots = root.querySelector("[data-carousel-dots]");
-			if (!viewport || !track || !dots) return;
-
-			const originalSlides = Array.from(track.children);
-			const originalCount = originalSlides.length;
-			if (originalCount === 0) return;
-
-			// Triple buffer for truly seamless infinite scroll
-			// [Set 1: Clones] [Set 2: Original] [Set 3: Clones]
-			originalSlides.forEach((s) =>
-				track.insertBefore(s.cloneNode(true), track.firstChild),
-			);
-			originalSlides.forEach((s) => track.appendChild(s.cloneNode(true)));
-
-			const allSlides = Array.from(track.children);
-			const totalCount = allSlides.length;
-
-			let currentIndex = originalCount; // Start at Set 2
-			let autoplayTimer = 0;
-			let isPointerDown = false;
-			let isDragging = false;
-			let startX, scrollLeft, suppressClick;
-
-			const stopAutoplay = () => {
-				if (autoplayTimer) {
-					clearInterval(autoplayTimer);
-					autoplayTimer = 0;
-				}
-			};
-
-			const syncDots = () => {
-				const activeDotIndex =
-					(currentIndex - originalCount + originalCount) %
-					originalCount;
-				Array.from(dots.children).forEach((dot, i) => {
-					dot.classList.toggle("is-active", i === activeDotIndex);
-				});
-			};
-
-			const syncPosition = (behavior = "auto") => {
-				const target = allSlides[currentIndex];
-				if (target) {
-					viewport.scrollTo({
-						left: target.offsetLeft,
-						behavior,
-					});
-				}
-				syncDots();
-			};
-
-			const handleInfiniteJump = () => {
-				if (currentIndex >= originalCount * 2) {
-					currentIndex -= originalCount;
-					syncPosition("auto");
-				} else if (currentIndex < originalCount) {
-					currentIndex += originalCount;
-					syncPosition("auto");
-				}
-			};
-
-			const snapToClosest = () => {
-				const currentScroll = viewport.scrollLeft;
-				let closestIdx = 0;
-				let minDiff = Infinity;
-
-				allSlides.forEach((slide, i) => {
-					const diff = Math.abs(slide.offsetLeft - currentScroll);
-					if (diff < minDiff) {
-						minDiff = diff;
-						closestIdx = i;
-					}
-				});
-
-				currentIndex = closestIdx;
-				syncPosition("smooth");
-
-				// Wait for smooth snap to finish then check jump
-				setTimeout(handleInfiniteJump, 600);
-			};
-
-			const finishInteraction = () => {
-				if (!isPointerDown) return;
-				isPointerDown = false;
-				viewport.classList.remove("is-dragging");
-				if (isDragging) {
-					isDragging = false;
-					suppressClick = true;
-					snapToClosest();
-				}
-				startAutoplay();
-			};
-
-			viewport.addEventListener("mousedown", (e) => {
-				if (e.button !== 0) return;
-				isPointerDown = true;
-				isDragging = false;
-				suppressClick = false;
-				startX = e.pageX - viewport.offsetLeft;
-				scrollLeft = viewport.scrollLeft;
-			});
-
-			window.addEventListener("mousemove", (e) => {
-				if (!isPointerDown) return;
-				const x = e.pageX - viewport.offsetLeft;
-				const walk = (x - startX) * 1.5;
-				if (!isDragging && Math.abs(walk) > 5) {
-					isDragging = true;
-					viewport.classList.add("is-dragging");
-					stopAutoplay();
-				}
-				if (!isDragging) return;
-				e.preventDefault();
-				viewport.scrollLeft = scrollLeft - walk;
-			});
-
-			window.addEventListener("mouseup", finishInteraction);
-
-			viewport.addEventListener("mouseleave", () => {
-				if (isPointerDown && isDragging) {
-					finishInteraction();
-				}
-			});
-
-			viewport.addEventListener(
-				"click",
-				(e) => {
-					if (suppressClick) {
-						e.preventDefault();
-						e.stopPropagation();
-						suppressClick = false;
-					}
-				},
-				true,
-			);
-
-			const rebuildDots = () => {
-				dots.replaceChildren();
-				for (let i = 0; i < originalCount; i += 1) {
-					const dot = document.createElement("button");
-					dot.className = "home-topic-carousel__dot";
-					dot.addEventListener("click", () => {
-						currentIndex = originalCount + i;
-						syncPosition("smooth");
-						setTimeout(handleInfiniteJump, 600);
-						startAutoplay();
-					});
-					dots.appendChild(dot);
-				}
-			};
-
-			const startAutoplay = () => {
-				stopAutoplay();
-				if (
-					window.matchMedia("(prefers-reduced-motion: reduce)")
-						.matches
-				)
-					return;
-				autoplayTimer = setInterval(() => {
-					currentIndex++;
-					syncPosition("smooth");
-					setTimeout(handleInfiniteJump, 600);
-				}, 5000);
-			};
-
-			window.addEventListener("resize", () => {
-				rebuildDots();
-				syncPosition("auto");
-			});
-
-			rebuildDots();
-			syncPosition("auto");
-			startAutoplay();
-		};
-
-		document
-			.querySelectorAll("[data-topic-carousel]")
-			.forEach((root) => initTopicCarousel(root));
-	</script>
 </Layout>
