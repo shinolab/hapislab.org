@@ -13,7 +13,7 @@ export const japaneseStaticPageEntries: StaticPageEntry[] = [
 	{ slug: 'research-topics', currentPath: '/research-topics', kind: 'topics', contentId: 'research-topics' },
 	{ slug: 'members', currentPath: '/members', kind: 'members', title: 'メンバー', description: '研究室メンバーの一覧' },
 	{ slug: 'publications', currentPath: '/publications', kind: 'publications', contentId: 'publications' },
-	{ slug: 'awards', currentPath: '/awards', kind: 'basic', contentId: 'awards' },
+	{ slug: 'awards', currentPath: '/awards', kind: 'awards', contentId: 'awards' },
 	{ slug: 'access', currentPath: '/access', kind: 'basic', contentId: 'access' },
 	{ slug: 'links', currentPath: '/links', kind: 'basic', contentId: 'links' },
 ];
