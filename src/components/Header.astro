@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { primaryNav, siteMeta } from "../data/site";
 import { englishPrimaryNav, englishSiteMeta } from "../data/site-en";
 import { withBase, withBasePath } from "../lib/urls";
@@ -79,10 +80,13 @@ const isActive = (href: string) => {
 <header class="site-header">
 	<div class="container site-header__inner">
 		<a class="site-brand" href={homeHref}>
-			<img
-				src={logoImg.src}
+			<Image
+				src={logoImg}
 				alt="Shinoda & Makino Lab Logo"
 				class="custom-mobile-logo-img"
+				width={48}
+				height={48}
+				loading="eager"
 			/>
 			<span class="site-brand__name">{meta.englishName}</span>
 		</a>

@@ -1,5 +1,5 @@
 import type { TopicSummary } from '../data/site';
-import { requireAssetPath } from './public-assets';
+import { resolveAssetObject } from './public-assets';
 
 interface ResearchTopicFrontmatter {
 	title?: string;
@@ -18,8 +18,9 @@ interface MarkdownModule {
 	frontmatter?: ResearchTopicFrontmatter;
 }
 
-export interface ResearchTopicListItem extends TopicSummary {
+export interface ResearchTopicListItem extends Omit<TopicSummary, 'image'> {
 	slug: string;
+	image: any;
 }
 
 const topicModules = import.meta.glob('../content/research-topics/*.md', {
@@ -36,10 +37,6 @@ function isEnglishModule(path: string): boolean {
 
 function getDateValue(frontmatter?: ResearchTopicFrontmatter): string {
 	return frontmatter?.date ?? '';
-}
-
-function isExternalUrl(path?: string): boolean {
-	return typeof path === 'string' && /^https?:\/\//.test(path);
 }
 
 export function getResearchTopics(): ResearchTopicListItem[] {
@@ -70,7 +67,7 @@ export function getResearchTopics(): ResearchTopicListItem[] {
 
 	return [...groupedTopics.entries()]
 		.map(([topicId, entry]): ResearchTopicListItem | null => {
-			const primary = entry.ja ?? entry.en;
+			const primary = (entry.ja ?? entry.en) as ResearchTopicFrontmatter;
 			if (!primary?.title || !primary.summary || !primary.image) {
 				return null;
 			}
@@ -81,7 +78,7 @@ export function getResearchTopics(): ResearchTopicListItem[] {
 				titleEn: entry.en?.title ?? primary.titleEn,
 				summary: primary.summary,
 				summaryEn: entry.en?.summary ?? primary.summaryEn,
-				image: requireAssetPath(primary.image, `research topic "${topicId}" image`),
+				image: resolveAssetObject(primary.image),
 				imageAlt: primary.imageAlt,
 				date: primary.date,
 				updated: primary.updated,

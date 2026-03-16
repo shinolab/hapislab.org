@@ -60,6 +60,23 @@ function normalizeBundledAssetKey(path?: string): string | undefined {
 	return undefined;
 }
 
+export function resolveAssetObject(path?: string): any {
+	if (!path) {
+		return undefined;
+	}
+
+	if (isExternalUrl(path)) {
+		return path;
+	}
+
+	const bundledAssetKey = normalizeBundledAssetKey(path);
+	if (bundledAssetKey) {
+		return bundledAssetModules[bundledAssetKey];
+	}
+
+	return path;
+}
+
 export function resolveAssetPath(path?: string): string | undefined {
 	if (!path) {
 		return undefined;

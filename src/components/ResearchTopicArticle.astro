@@ -1,5 +1,6 @@
 ---
 import type { AstroComponentFactory } from "astro/runtime/server/index.js";
+import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import type { ResearchTopicListItem } from "../lib/research-topics";
 import { withBasePath } from "../lib/urls";
@@ -136,10 +137,12 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 				}
 
 				<figure class="topic-article-hero-image">
-					<img
+					<Image
 						src={topic.image}
 						alt={topic.imageAlt ?? title}
-						loading="lazy"
+						loading="eager"
+						width={900}
+						height={500}
 					/>
 				</figure>
 
@@ -155,11 +158,20 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 
 				<p class="topic-article-content-meta">
 					<span>{publishedLabel}</span>
-					<span>{topic.date ?? (locale === "en" ? "Not set" : "未設定")}</span>
+					<span
+						>{
+							topic.date ??
+								(locale === "en" ? "Not set" : "未設定")
+						}</span
+					>
 					<span class="topic-article-content-meta__separator">/</span>
 					<span>{updatedLabel}</span>
 					<span>
-						{topic.updated ?? topic.date ?? (locale === "en" ? "Not set" : "未設定")}
+						{
+							topic.updated ??
+								topic.date ??
+								(locale === "en" ? "Not set" : "未設定")
+						}
 					</span>
 				</p>
 
@@ -208,13 +220,11 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 							{previousTopic ? (
 								<a
 									class="topic-article-pagination__item"
-									href={
-										withBasePath(
-											(locale === "en"
-												? previousTopic.detailPathEn
-												: previousTopic.detailPath) ?? "#",
-										)
-									}
+									href={withBasePath(
+										(locale === "en"
+											? previousTopic.detailPathEn
+											: previousTopic.detailPath) ?? "#",
+									)}
 								>
 									<span class="topic-article-pagination__label">
 										{previousLabel}
@@ -233,13 +243,11 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 							{nextTopic ? (
 								<a
 									class="topic-article-pagination__item topic-article-pagination__item--next"
-									href={
-										withBasePath(
-											(locale === "en"
-												? nextTopic.detailPathEn
-												: nextTopic.detailPath) ?? "#",
-										)
-									}
+									href={withBasePath(
+										(locale === "en"
+											? nextTopic.detailPathEn
+											: nextTopic.detailPath) ?? "#",
+									)}
 								>
 									<span class="topic-article-pagination__label">
 										{nextLabel}
@@ -273,16 +281,14 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 									<article class="topic-card topic-card--legacy">
 										<a
 											class="topic-card__link"
-											href={
-												withBasePath(
-													(locale === "en"
-														? relatedTopic.detailPathEn
-														: relatedTopic.detailPath) ??
-														"#",
-												)
-											}
+											href={withBasePath(
+												(locale === "en"
+													? relatedTopic.detailPathEn
+													: relatedTopic.detailPath) ??
+													"#",
+											)}
 										>
-											<img
+											<Image
 												class="topic-card__image"
 												src={imageSrc}
 												alt={
@@ -293,6 +299,8 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 														: relatedTopic.title)
 												}
 												loading="lazy"
+												width={400}
+												height={300}
 											/>
 
 											<p class="topic-card__date">
