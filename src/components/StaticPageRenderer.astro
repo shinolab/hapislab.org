@@ -5,7 +5,7 @@ import MemberDirectory from "./MemberDirectory.astro";
 import PublicationTimeline from "./PublicationTimeline.astro";
 import TopicGrid from "./TopicGrid.astro";
 import { getResearchTopics } from "../lib/research-topics";
-import { members, publications } from "../lib/site-data";
+import { publications } from "../lib/site-data";
 
 interface FrontmatterLike {
 	title?: string;
@@ -79,7 +79,7 @@ const shouldRenderIntro =
 
 		{
 			kind === "members" && (
-				<MemberDirectory members={members} locale={locale} />
+				<MemberDirectory locale={locale} />
 			)
 		}
 		{
