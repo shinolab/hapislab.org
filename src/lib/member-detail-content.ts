@@ -15,7 +15,7 @@ export type MemberDetailMarkdownModule = {
 };
 
 export const memberDetailMarkdownModules = import.meta.glob(
-	'../content/member-details/*.md',
+	'../content/members/*.{md,mdx}',
 ) as Record<string, () => Promise<MemberDetailMarkdownModule>>;
 
 export const memberDetailHtmlModules = import.meta.glob(

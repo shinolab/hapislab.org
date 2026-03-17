@@ -16,7 +16,7 @@ export type SpecialPageMarkdownModule = {
 };
 
 export const specialPageMarkdownModules = import.meta.glob(
-	'../content/special-pages/*.md',
+	'../content/special-pages/*.{md,mdx}',
 ) as Record<string, () => Promise<SpecialPageMarkdownModule>>;
 
 export const specialPageHtmlModules = import.meta.glob(

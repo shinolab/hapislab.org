@@ -9,8 +9,8 @@ export interface LocalizedContentSlugEntry {
 	hasEnglishContent: boolean;
 }
 
-const DEFAULT_SUFFIXES = ['.md', '.html'] as const;
-const ENGLISH_SUFFIXES = ['.en.md', '.en.html'] as const;
+const DEFAULT_SUFFIXES = ['.mdx', '.md', '.html'] as const;
+const ENGLISH_SUFFIXES = ['.en.mdx', '.en.md', '.en.html'] as const;
 
 function getFileName(path: string): string {
 	return path.split('/').pop() ?? path;

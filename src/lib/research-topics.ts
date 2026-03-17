@@ -23,16 +23,16 @@ export interface ResearchTopicListItem extends Omit<TopicSummary, 'image'> {
 	image: any;
 }
 
-const topicModules = import.meta.glob('../content/research-topics/*.md', {
+const topicModules = import.meta.glob('../content/research-topics/*.{md,mdx}', {
 	eager: true,
 });
 
 function getTopicId(path: string): string {
-	return path.replace(/^.*\/([^/]+?)(?:\.en)?\.md$/, '$1');
+	return path.replace(/^.*\/([^/]+?)(?:\.en)?\.mdx?$/, '$1');
 }
 
 function isEnglishModule(path: string): boolean {
-	return path.endsWith('.en.md');
+	return /\.en\.mdx?$/.test(path);
 }
 
 function getDateValue(frontmatter?: ResearchTopicFrontmatter): string {
