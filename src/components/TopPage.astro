@@ -30,12 +30,12 @@ const meta = isEnglish ? englishSiteMeta : siteMeta;
 const currentPath = isEnglish ? "/en/" : "/";
 const latestTopics = getResearchTopics().slice(0, 3);
 
-const newsModules = import.meta.glob("../content/top/news/*.md", {
+const newsModules = import.meta.glob("../content/top/news/*.{md,mdx}", {
 	eager: true,
 });
 
 function isEnglishNewsModule(path: string): boolean {
-	return path.endsWith(".en.md");
+	return /\.en\.mdx?$/.test(path);
 }
 
 const newsItemsRaw = Object.entries(newsModules)
@@ -43,7 +43,7 @@ const newsItemsRaw = Object.entries(newsModules)
 		isEnglish ? isEnglishNewsModule(path) : !isEnglishNewsModule(path),
 	)
 	.map(([, mod]: [string, any]) => ({
-		Content: mod.Content,
+		Content: mod.Content ?? mod.default,
 		frontmatter: mod.frontmatter,
 	}));
 

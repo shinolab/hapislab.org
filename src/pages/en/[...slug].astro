@@ -14,7 +14,7 @@ type MarkdownModule = {
 
 type RouteProps = { type: "static"; entry: StaticPageEntry };
 
-const pageModules = import.meta.glob("../../content/pages/*.md") as Record<
+const pageModules = import.meta.glob("../../content/pages/*.{md,mdx}") as Record<
 	string,
 	() => Promise<MarkdownModule>
 >;

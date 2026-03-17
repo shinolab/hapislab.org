@@ -13,6 +13,20 @@ interface MarkdownModule {
 
 type MarkdownModuleLoader = () => Promise<MarkdownModule>;
 type HtmlModuleLoader = () => Promise<string>;
+type LocalizedContentCandidate =
+	| {
+			path: string;
+			sourceType: 'markdown';
+			resolvedLocale: 'ja' | 'en';
+	  }
+	| {
+			path: string;
+			sourceType: 'html';
+			resolvedLocale: 'ja' | 'en';
+	  };
+
+const DEFAULT_MARKDOWN_SUFFIXES = ['.mdx', '.md'] as const;
+const ENGLISH_MARKDOWN_SUFFIXES = ['.en.mdx', '.en.md'] as const;
 
 interface LoadLocalizedContentOptions {
 	locale: 'ja' | 'en';
@@ -36,16 +50,25 @@ export async function loadLocalizedContent({
 	markdownModules,
 	htmlModules = {},
 }: LoadLocalizedContentOptions): Promise<LocalizedContentResult> {
-	const candidates =
+	const markdownCandidates = (suffixes: readonly string[], resolvedLocale: 'ja' | 'en') =>
+		suffixes.map(
+			(suffix): LocalizedContentCandidate => ({
+				path: `${basePath}${suffix}`,
+				sourceType: 'markdown',
+				resolvedLocale,
+			}),
+		);
+
+	const candidates: LocalizedContentCandidate[] =
 		locale === 'en'
 			? [
-					{ path: `${basePath}.en.md`, sourceType: 'markdown' as const, resolvedLocale: 'en' as const },
+					...markdownCandidates(ENGLISH_MARKDOWN_SUFFIXES, 'en'),
 					{ path: `${basePath}.en.html`, sourceType: 'html' as const, resolvedLocale: 'en' as const },
-					{ path: `${basePath}.md`, sourceType: 'markdown' as const, resolvedLocale: 'ja' as const },
+					...markdownCandidates(DEFAULT_MARKDOWN_SUFFIXES, 'ja'),
 					{ path: `${basePath}.html`, sourceType: 'html' as const, resolvedLocale: 'ja' as const },
 				]
 			: [
-					{ path: `${basePath}.md`, sourceType: 'markdown' as const, resolvedLocale: 'ja' as const },
+					...markdownCandidates(DEFAULT_MARKDOWN_SUFFIXES, 'ja'),
 					{ path: `${basePath}.html`, sourceType: 'html' as const, resolvedLocale: 'ja' as const },
 				];
 

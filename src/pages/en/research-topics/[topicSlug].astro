@@ -15,7 +15,7 @@ type TopicMarkdownModule = {
 };
 
 const markdownModules = import.meta.glob(
-	"../../../content/research-topics/*.md",
+	"../../../content/research-topics/*.{md,mdx}",
 ) as Record<string, () => Promise<TopicMarkdownModule>>;
 const allTopics = getResearchTopics();
 
