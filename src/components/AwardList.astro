@@ -7,8 +7,22 @@ interface Props {
 
 const { locale = "ja" } = Astro.props;
 
+const sortAwardsByDate = (a: Award, b: Award) => {
+	if (b.year !== a.year) return b.year - a.year;
+	const monthDiff = (b.month ?? 0) - (a.month ?? 0);
+	if (monthDiff !== 0) return monthDiff;
+	return (b.day ?? 0) - (a.day ?? 0);
+};
+
+const formatMonthDay = (award: Award) =>
+	award.month != null && award.day != null
+		? `${award.month}/${award.day}`
+		: null;
+
 // Group awards by year
-const groupedAwards = awards.reduce(
+const groupedAwards = [...awards]
+	.sort(sortAwardsByDate)
+	.reduce(
 	(acc, award) => {
 		const year = award.year;
 		if (!acc[year]) {
@@ -53,6 +67,11 @@ const labels =
 							{groupedAwards[year].map((award) => (
 								<tr>
 									<td style="width: 25%;">
+										{formatMonthDay(award) && (
+											<div class="award-date">
+												{formatMonthDay(award)}
+											</div>
+										)}
 										<div class="award-name">
 											{award.href ? (
 												<a
@@ -115,6 +134,12 @@ const labels =
 	.award-org {
 		color: var(--color-text-muted, #666);
 		margin-top: 0.25rem;
+	}
+	.award-date {
+		margin-bottom: 0.35rem;
+		font-size: 0.85rem;
+		font-weight: 700;
+		color: var(--color-text-muted, #666);
 	}
 	.award-title {
 		margin-top: 0.5rem;
