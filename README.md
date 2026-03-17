@@ -300,7 +300,6 @@ description: 特殊ページの説明
 
 事前に [GitHub CLI](https://cli.github.com/) をインストールしておくこと.
 
-
 1. **リポジトリをclone**: まだクローンしていない場合のみ. すでにcloneしてある場合は, cloneしたディレクトリに移動する.
    ```sh
    git clone https://github.com/shinolab/hapislab-org-homepage.git
@@ -326,7 +325,17 @@ description: 特殊ページの説明
    gh pr create --web
    ```
    - "Where should we push the '...' branch?"と聞かれたら, "shinolab/hapislab-org-homepage"を選択.
-   - `--web` をつけるとブラウザが開く. 内容を確認してボタンを押せば完了.
+   - `--web` をつけるとブラウザが開く. プルリクエストのタイトルと説明 (任意) を入力し, "Create pull request" ボタンをクリックして完了
+
+**`gh`の初回実行時はGitHubアカウントとの連携が必要になる. 画面の指示に従って認証を行うこと.**
+
+#### GitHubのWeb UIを使った手順
+
+1. 本リポジトリの[GitHubページ](https://github.com/shinolab/hapislab-org-homepage)にアクセス
+2. 編集したいファイルを開き, 右上の鉛筆アイコンをクリックして編集モードに入る
+3. ファイルを編集し, ページ上部の "Commit changes" ボタンを押し, 変更内容を説明するコメントを入力
+4. "Create a new branch for this commit and start a pull request." を選択し, 適当なbranch名をつけて"Propose Changes"ボタンをクリック
+5. プルリクエストのタイトルと説明 (任意) を入力し, "Create pull request" ボタンをクリックして完了
 
 ### 承認と公開
 
