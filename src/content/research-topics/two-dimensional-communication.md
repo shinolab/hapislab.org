@@ -1,5 +1,6 @@
 ---
-title: "二次元通信"
+title: 二次元通信
+titleEn: Two-Dimensional Communication
 summary: "薄いシート内を伝播する電磁波によって情報と電力を伝送するシステムを研究しています。"
 date: "2013-04-30"
 updated: "2023-03-31"

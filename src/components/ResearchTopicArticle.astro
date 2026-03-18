@@ -229,10 +229,7 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 										{previousLabel}
 									</span>
 									<strong>
-										{locale === "en"
-											? (previousTopic.titleEn ??
-												previousTopic.title)
-											: previousTopic.title}
+										{previousTopic.title}
 									</strong>
 								</a>
 							) : (
@@ -252,10 +249,7 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 										{nextLabel}
 									</span>
 									<strong>
-										{locale === "en"
-											? (nextTopic.titleEn ??
-												nextTopic.title)
-											: nextTopic.title}
+										{nextTopic.title}
 									</strong>
 								</a>
 							) : (
@@ -292,10 +286,7 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 												src={imageSrc}
 												alt={
 													relatedTopic.imageAlt ??
-													(locale === "en"
-														? (relatedTopic.titleEn ??
-															relatedTopic.title)
-														: relatedTopic.title)
+													relatedTopic.title
 												}
 												loading="lazy"
 												width={400}
@@ -306,10 +297,7 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 												{relatedTopic.date}
 											</p>
 											<h3>
-												{locale === "en"
-													? (relatedTopic.titleEn ??
-														relatedTopic.title)
-													: relatedTopic.title}
+												{relatedTopic.title}
 											</h3>
 										</a>
 									</article>

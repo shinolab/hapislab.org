@@ -45,7 +45,7 @@ const {
 const pageTitle = title ?? frontmatter?.title ?? "";
 const pageDescription = description ?? frontmatter?.description ?? "";
 const pageLead = lead ?? frontmatter?.lead;
-const topics = getResearchTopics();
+const topics = getResearchTopics(locale);
 const shouldRenderIntro =
 	kind !== "topics" && (ContentComponent || htmlContent || introHtml);
 ---

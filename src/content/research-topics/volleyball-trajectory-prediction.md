@@ -1,5 +1,6 @@
 ---
 title: トス動作の機械学習に基づくバレーボールの球軌跡予測
+titleEn: Prediction of Volleyball Trajectory Using Skeletal Motions of Setter Player
 summary: バレーボールのセッターの身体動作を基に，ニューラルネットワークを用いて，セッターが上げたトスの，0.3秒先のボールの2次元的な位置を予測するシステムを開発しました．
 date: '2019-03-01'
 updated: '2023-03-31'

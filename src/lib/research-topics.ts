@@ -5,7 +5,6 @@ interface ResearchTopicFrontmatter {
 	title?: string;
 	titleEn?: string;
 	summary?: string;
-	summaryEn?: string;
 	thumbnail?: string;
 	thumbnailAlt?: string;
 	image?: string;
@@ -25,6 +24,8 @@ export interface ResearchTopicListItem extends Omit<TopicSummary, 'image'> {
 	image: any;
 }
 
+const ENGLISH_SUMMARY_FALLBACK = 'Sorry, this entry is only available in Japanese.';
+
 const topicModules = import.meta.glob('../content/research-topics/*.{md,mdx}', {
 	eager: true,
 });
@@ -41,7 +42,7 @@ function getDateValue(frontmatter?: ResearchTopicFrontmatter): string {
 	return frontmatter?.date ?? '';
 }
 
-export function getResearchTopics(): ResearchTopicListItem[] {
+export function getResearchTopics(locale: 'ja' | 'en' = 'ja'): ResearchTopicListItem[] {
 	const groupedTopics = new Map<
 		string,
 		{ ja?: ResearchTopicFrontmatter; en?: ResearchTopicFrontmatter }
@@ -69,20 +70,38 @@ export function getResearchTopics(): ResearchTopicListItem[] {
 
 	return [...groupedTopics.entries()]
 		.map(([topicId, entry]): ResearchTopicListItem | null => {
-			const primary = (entry.ja ?? entry.en) as ResearchTopicFrontmatter;
-			const thumbnailPath = primary?.thumbnail ?? primary?.image;
+			const japanese = entry.ja;
+			const english = entry.en;
+			const primary = (japanese ?? english) as ResearchTopicFrontmatter;
+			const localized = (locale === 'en' ? (english ?? japanese) : (japanese ?? english)) as ResearchTopicFrontmatter;
+			const thumbnailPath =
+				localized?.thumbnail ??
+				localized?.image ??
+				primary?.thumbnail ??
+				primary?.image;
 			if (!primary?.title || !primary.summary || !thumbnailPath) {
 				return null;
 			}
 
+			const title =
+				locale === 'en'
+					? english?.title ?? japanese?.titleEn ?? primary.title
+					: primary.title;
+			const summary =
+				locale === 'en'
+					? english?.summary ?? ENGLISH_SUMMARY_FALLBACK
+					: primary.summary;
+
 			return {
 				slug: topicId,
-				title: primary.title,
-				titleEn: entry.en?.title ?? primary.titleEn,
-				summary: primary.summary,
-				summaryEn: entry.en?.summary ?? primary.summaryEn,
+				title,
+				summary,
 				image: resolveAssetObject(thumbnailPath),
-				imageAlt: primary.thumbnailAlt ?? primary.imageAlt,
+				imageAlt:
+					localized?.thumbnailAlt ??
+					localized?.imageAlt ??
+					primary.thumbnailAlt ??
+					primary.imageAlt,
 				date: primary.date,
 				updated: primary.updated,
 				detailPath: `/research-topics/${topicId}`,
@@ -93,7 +112,7 @@ export function getResearchTopics(): ResearchTopicListItem[] {
 		.sort((left, right) => getDateValue(right).localeCompare(getDateValue(left)) || left.title.localeCompare(right.title));
 }
 
-export function getHomeResearchTopics(limit?: number): ResearchTopicListItem[] {
-	const allTopics = getResearchTopics();
+export function getHomeResearchTopics(locale: 'ja' | 'en' = 'ja', limit?: number): ResearchTopicListItem[] {
+	const allTopics = getResearchTopics(locale);
 	return typeof limit === 'number' ? allTopics.slice(0, limit) : allTopics;
 }

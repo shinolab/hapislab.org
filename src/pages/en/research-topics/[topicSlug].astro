@@ -17,10 +17,10 @@ type TopicMarkdownModule = {
 const markdownModules = import.meta.glob(
 	"../../../content/research-topics/*.{md,mdx}",
 ) as Record<string, () => Promise<TopicMarkdownModule>>;
-const allTopics = getResearchTopics();
+const allTopics = getResearchTopics("en");
 
 export function getStaticPaths() {
-	return getResearchTopics().map((topic) => ({
+	return getResearchTopics("en").map((topic) => ({
 		params: { topicSlug: topic.slug },
 		props: { topic },
 	}));
@@ -41,9 +41,8 @@ const nextTopic =
 const relatedTopics = allTopics
 	.filter((entry) => entry.slug !== topic.slug)
 	.slice(0, 8);
-const articleTitle = content.frontmatter?.title ?? topic.titleEn ?? topic.title;
-const articleDescription =
-	content.frontmatter?.description ?? topic.summaryEn ?? topic.summary;
+const articleTitle = content.frontmatter?.title ?? topic.title;
+const articleDescription = content.frontmatter?.description ?? topic.summary;
 const sharePath = withBasePath(
 	topic.detailPathEn ?? `/en/research-topics/${topic.slug}`,
 ) ?? `/en/research-topics/${topic.slug}`;

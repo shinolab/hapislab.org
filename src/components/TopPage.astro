@@ -28,7 +28,7 @@ const { locale = "ja" } = Astro.props;
 const isEnglish = locale === "en";
 const meta = isEnglish ? englishSiteMeta : siteMeta;
 const currentPath = isEnglish ? "/en/" : "/";
-const latestTopics = getResearchTopics().slice(0, 3);
+const latestTopics = getResearchTopics(locale).slice(0, 3);
 
 const newsModules = import.meta.glob("../content/top/news/*.{md,mdx}", {
 	eager: true,
@@ -75,7 +75,7 @@ const visibleProjectItems = projectItems.filter(
 		project.title.trim().length > 0 && project.href.trim().length > 0,
 );
 
-const topicCarouselItems = getHomeResearchTopics();
+const topicCarouselItems = getHomeResearchTopics(locale);
 const visibleTopicCarouselItems = topicCarouselItems.filter((item) => {
 	const href = isEnglish
 		? item.detailPathEn || item.detailPath
@@ -172,12 +172,7 @@ const copy = isEnglish
 									>
 										<Image
 											src={imageSrc}
-											alt={
-												item.imageAlt ??
-												(isEnglish
-													? item.titleEn || item.title
-													: item.title)
-											}
+											alt={item.imageAlt ?? item.title}
 											class="home-topic-carousel__image"
 											draggable="false"
 											width={200}
@@ -187,9 +182,7 @@ const copy = isEnglish
 											}
 										/>
 										<h3 class="home-topic-carousel__title">
-											{isEnglish
-												? item.titleEn || item.title
-												: item.title}
+											{item.title}
 										</h3>
 									</a>
 								</article>
@@ -212,12 +205,7 @@ const copy = isEnglish
 								>
 									<Image
 										src={imageSrc}
-										alt={
-											item.imageAlt ??
-											(isEnglish
-												? item.titleEn || item.title
-												: item.title)
-										}
+										alt={item.imageAlt ?? item.title}
 										class="home-topic-carousel__image"
 										draggable="false"
 										width={200}
@@ -225,9 +213,7 @@ const copy = isEnglish
 										loading="lazy"
 									/>
 									<h3 class="home-topic-carousel__title">
-										{isEnglish
-											? item.titleEn || item.title
-											: item.title}
+										{item.title}
 									</h3>
 								</a>
 							</article>
@@ -395,13 +381,7 @@ const copy = isEnglish
 										{topic.image && (
 											<Image
 												src={topic.image}
-												alt={
-													topic.imageAlt ??
-													(isEnglish
-														? topic.titleEn ||
-															topic.title
-														: topic.title)
-												}
+												alt={topic.imageAlt ?? topic.title}
 												class="news-card__image"
 												width={400}
 												height={300}
@@ -409,9 +389,7 @@ const copy = isEnglish
 										)}
 									</div>
 									<h3>
-										{isEnglish
-											? topic.titleEn || topic.title
-											: topic.title}
+										{topic.title}
 									</h3>
 									<p class="news-card__date">
 										◷ {copy.articleMeta(topic)}

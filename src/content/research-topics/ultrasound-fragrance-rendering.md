@@ -1,5 +1,6 @@
 ---
 title: 超音波ベッセルビームによる空中匂い輸送
+titleEn: Midair Ultrasound Fragrance Rendering
 summary: 空中に超音波による「音響ベッセルビーム」を形成し、これに伴って発生する空気の流れ（音響流）により、環境中の匂いの空中運搬を行う技術を開発しました。
 date: '2017-11-01'
 updated: '2023-03-31'

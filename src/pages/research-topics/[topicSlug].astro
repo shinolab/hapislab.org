@@ -17,10 +17,10 @@ type TopicMarkdownModule = {
 const markdownModules = import.meta.glob(
 	"../../content/research-topics/*.{md,mdx}",
 ) as Record<string, () => Promise<TopicMarkdownModule>>;
-const allTopics = getResearchTopics();
+const allTopics = getResearchTopics("ja");
 
 export function getStaticPaths() {
-	return getResearchTopics().map((topic) => ({
+	return getResearchTopics("ja").map((topic) => ({
 		params: { topicSlug: topic.slug },
 		props: { topic },
 	}));

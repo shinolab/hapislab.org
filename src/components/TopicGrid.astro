@@ -27,30 +27,28 @@ const topicEntries = topics.map((topic) => ({
 						>
 							<Image
 								src={imageSrc}
-								alt={topic.imageAlt ?? (locale === 'en' ? topic.titleEn || topic.title : topic.title)}
+								alt={topic.imageAlt ?? topic.title}
 								class="topic-card__image"
 								width={400}
 								height={300}
 							/>
-							<h3>{locale === 'en' ? topic.titleEn || topic.title : topic.title}</h3>
+							<h3>{topic.title}</h3>
 						</a>
 					) : (
 						<Fragment>
 							<Image
 								src={imageSrc}
-								alt={topic.imageAlt ?? (locale === 'en' ? topic.titleEn || topic.title : topic.title)}
+								alt={topic.imageAlt ?? topic.title}
 								class="topic-card__image"
 								width={400}
 								height={300}
 							/>
-							<h3>{locale === 'en' ? topic.titleEn || topic.title : topic.title}</h3>
+							<h3>{topic.title}</h3>
 						</Fragment>
 					)
 				}
 
-				<p class="topic-card__summary">
-					{locale === 'en' ? topic.summaryEn || topic.summary : topic.summary}
-				</p>
+				<p class="topic-card__summary">{topic.summary}</p>
 				{topic.date && (
 					<p class="topic-card__date">
 						<time datetime={topic.date}>◷ {topic.date}</time>

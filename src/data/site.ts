@@ -11,8 +11,6 @@ export interface TopicSummary {
 	date?: string;
 	updated?: string;
 	detailPath?: string;
-	titleEn?: string;
-	summaryEn?: string;
 	detailPathEn?: string;
 }
 
