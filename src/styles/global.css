@@ -627,6 +627,11 @@ a:hover {
 	width: 100%;
 }
 
+.topic-article-hero-image img {
+	height: auto;
+	object-fit: contain;
+}
+
 .topic-article-content {
 	max-width: 900px;
 	margin: 0 auto;
