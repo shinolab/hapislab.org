@@ -1,0 +1,106 @@
+---
+interface Props {
+	reverse?: boolean;
+	mediaWidth?: string;
+	gap?: string;
+	align?: "start" | "center" | "end" | "stretch";
+	textAlign?: "left" | "center" | "right";
+	class?: string;
+}
+
+const {
+	reverse = false,
+	mediaWidth = "minmax(240px, 360px)",
+	gap = "1.5rem",
+	align = "center",
+	class: className = "",
+	textAlign = "center",
+} = Astro.props;
+
+const alignItems =
+	align === "center"
+		? "center"
+		: align === "end"
+			? "end"
+			: align === "stretch"
+				? "stretch"
+				: "start";
+---
+
+<div
+	class:list={["side-by-side", reverse && "side-by-side--reverse", className]}
+	style={`--side-by-side-media-width:${mediaWidth}; --side-by-side-gap:${gap}; --side-by-side-align:${alignItems}; --side-by-side-text-align:${textAlign};`}
+>
+	<div class="side-by-side__media">
+		<slot name="media" />
+	</div>
+
+	<div class="side-by-side__content">
+		<slot />
+	</div>
+</div>
+
+<style>
+	.side-by-side {
+		display: grid;
+		grid-template-columns: var(--side-by-side-media-width) minmax(0, 1fr);
+		gap: var(--side-by-side-gap);
+		align-items: var(--side-by-side-align);
+		margin: 1.5rem 0;
+	}
+
+	.side-by-side--reverse {
+		grid-template-columns: minmax(0, 1fr) var(--side-by-side-media-width);
+	}
+
+	.side-by-side--reverse .side-by-side__media {
+		order: 2;
+	}
+
+	.side-by-side--reverse .side-by-side__content {
+		order: 1;
+	}
+
+	.side-by-side__media,
+	.side-by-side__content {
+		min-width: 0;
+	}
+
+	.side-by-side__content {
+		text-align: var(--side-by-side-text-align);
+	}
+
+	.side-by-side__content :global(ul),
+	.side-by-side__content :global(ol) {
+		text-align: left;
+	}
+
+	.side-by-side__media :global(img),
+	.side-by-side__media :global(picture),
+	.side-by-side__media :global(video),
+	.side-by-side__media :global(iframe) {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}
+
+	.side-by-side__content > :first-child {
+		margin-top: 0;
+	}
+
+	.side-by-side__content > :last-child {
+		margin-bottom: 0;
+	}
+
+	@media (max-width: 800px) {
+		.side-by-side,
+		.side-by-side--reverse {
+			grid-template-columns: 1fr;
+		}
+
+		.side-by-side--reverse .side-by-side__media,
+		.side-by-side--reverse .side-by-side__content {
+			order: initial;
+		}
+	}
+</style>
