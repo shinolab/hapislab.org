@@ -1,0 +1,236 @@
+---
+title: Midair Haptics by Airborne Ultrasound Tactile Display (AUTD)
+description: Midair Haptics by Airborne Ultrasound Tactile Display (AUTD)
+---
+import SideBySide from "../../components/SideBySide.astro";
+import { Image } from "astro:assets";
+import autd3x3 from "../../assets/special-pages/AUTD_960_600.jpg";
+import autd_iwamoto from "../../assets/special-pages/AUTD_iwamoto.jpg";
+import touchable_holo from "../../assets/special-pages/Touchable_holography.jpg";
+import fireworks_hand from "../../assets/special-pages/fireworks_hand.jpg";
+import haptomime from "../../assets/special-pages/Thumbnail-1024x729.jpg";
+import horn from "../../assets/special-pages/horn.jpg";
+import inoue_lev from "../../assets/special-pages/hologram_inoue-1024x488.png";
+import haptoclone from "../../assets/special-pages/haptoclone.jpg";
+import cooling from "../../assets/special-pages/cooling.jpg";
+import thermal from "../../assets/special-pages/thermal.png";
+import noise from "../../assets/special-pages/noise.png";
+import mat from "../../assets/special-pages/mat.jpg";
+import guidance from "../../assets/special-pages/guidance.jpg";
+
+<SideBySide>
+  <Image slot="media" src={autd3x3} alt="photo of autd3" />
+  <div>
+    The hardware and software of the device used in our laboratory are available at the following sites<br/>
+    - Hardware: Currently available only in Japan. See Japanese page
+    - [Software (Open source)](https://github.com/shinolab/autd3)
+    - [Q&A](https://github.com/shinolab/autd3/issues)
+    - [Paper about AUTD (IEEE Trans. on Haptics)](https://ieeexplore.ieee.org/document/9392322)
+    - [Safety use of ultrasound (in Japanese)](https://www.jstage.jst.go.jp/article/jasj/78/9/78_502/_article/-char/ja/)
+  </div>
+</SideBySide>
+
+**If you have any questions on the software, please refer to the above Q&A. Please do not directly contact our laboratory or the above manufacturers.**
+
+The Airborne Ultrasound Tactile Display (AUTD) produces tactile sensation remotely on a human skin surface. The AUTD does not require users to wear any devices on them.
+
+Ultrasound transducers arrayed on the AUTD surface generate a ultrasound focus at an arbitrary position in the air. At the focal point with high energy density, static pressure called “acoustic radiation pressure” is produced, and it can push the skin surface. The focal position can be electrically controlled based on the phase array technique. In addition to creating a focus, you can produce a more general complex pressure pattern by solving an inverse problem in real-time.
+
+The current limitations of the technology are that the maximum pressure is about 50 mN per square centimeter and that the spatial resolution is comparable to the sound wave length 8.5 mm for 40 kHz ultrasound.  But under these constraints, radiation pressure pattern are controlled freely by a computer, which create various tactile sensations on the skin.
+
+Haptics using such non-contact haptic feedback is called “midair haptics.” The initial studies of ultrasonic midair haptics were conducted by Hiroyuki Shinoda’s group from 2008 at the University of Tokyo. The research group demonstrated the basic technologies and haptic effects in the first half of the 2010s. Currently, the field is growing and many universities and companies in the world are moving forward with development.
+
+## World-first demonstrations by Univ. of Tokyo
+
+### Airborne Ultrasound Tactile Display (AUTD)
+
+<SideBySide reverse="true">
+  <Image slot="media" src={autd_iwamoto} alt="autd iwamoto" />
+  <div>
+    The world first study of midair haptics (haptic feedback using ultrasound).
+    <br/>
+    [SIGGRAPH 2008 E-tech video](http://www.youtube.com/watch?v=hSf2-jm0SsQ)
+  </div>
+</SideBySide>
+
+- [Takayuki Iwamoto, Mari Tatezono, and Hiroyuki Shinoda, “Non-contact Method for Producing Tactile Sensation Using Airborne Ultrasound,” Haptics: Perception, Devices and Scenarios: 6th International Conference, Eurohaptics 2008 Proceedings (Lecture Notes in Computer Science), pp.504-513, 2008.](https://drive.google.com/file/d/1AlQjG74_lt_pdf6wPuvF8Ewe3eB158AM/view?usp=sharing)
+- [Takayuki Hoshi, Masafumi Takahashi, Takayuki Iwamoto, and Hiroyuki Shinoda, “Noncontact Tactile Display Based on Radiation Pressure of Airborne Ultrasound,” IEEE Trans. on Haptics, Vol. 3, No. 3, pp.155-165, 2010.](https://drive.google.com/file/d/1OjtZRwKFrLtW81CyUEC052zX7qTuYZoa/view?usp=drive_link)
+
+
+### Touchable Holography
+
+<SideBySide>
+  <Image slot="media" src={touchable_holo} alt="touchable_holo" />
+  <div>
+    The first demo of midair haptic feedback synchronized with visual floating images.
+    <br/>
+    [SIGGRAPH 2009 E-tech video](http://www.youtube.com/watch?v=Y-P1zZAcPuw)
+  </div>
+</SideBySide>
+
+- [Takayuki Hoshi, Masafumi Takahashi, Kei Nakatsuma, and Hiroyuki Shinoda, “Touchable Holography,” Full Conference DVD-ROM, Disc1, ACM SIGGRAPH 2009: Emerging Technologies, New Orleans, 3-7 Aug. 2009.](https://drive.google.com/file/d/1HUxICzf01gzKAhd97YLivBCH8TS_6652/view?usp=drive_link)
+
+
+### Tactile Projector
+
+<SideBySide reverse="true">
+  <Image slot="media" src={fireworks_hand} alt="fireworks_hand" />
+  <div>
+    Projecting visual image on the skin with midair haptic stimulation. A large aperture AUTD synchronizing multiple AUTD-units enabled this system.  
+    <br/>
+    [youtube video](http://www.youtube.com/watch?v=Bb0hNMxxewg)
+  </div>
+</SideBySide>
+
+- [Keisuke Hasegawa, Hiroyuki Shinoda, “Aerial Display of Vibrotactile Sensation with High Spatial-Temporal Resolution using Large-Aperture Airborne Ultrasound Phased Array,” Proc. IEEE World Haptics Conference 2013, Oral, pp.31-36, Daejeon, Korea, April 14-18, 2013.](https://drive.google.com/file/d/1nQiCNBSM0VfciotvpWnJACoUjwt4x-m_/view?usp=drive_link) 
+  - **Finalist of Best paper award, IEEE World Haptics Cconference (WHC) 2013**
+  - **Best Student Paper Award, IEEE World Haptics Conference (WHC) 2013**
+- [Keisuke Hasegawa, Hiroyuki Shinoda, “Aerial Vibrotactile Display Based on Multiunit Ultrasound Phased Array,” IEEE Transactions on Haptics, vol. 11, no. 3, pp. 367-377, 1 July-Sept. 2018.](http://ieeexplore.ieee.org/document/8274995/)
+
+### Haptomime, Mid-Air Haptic Touch Panel
+
+<SideBySide>
+  <Image slot="media" src={haptomime} alt="haptomime" />
+  <div>
+    Floating touch-panel with midair haptic feedback.
+    <br/>
+    [youtube video](https://www.youtube.com/watch?v=uARGRlpCWg8)
+  </div>
+</SideBySide>
+
+- [Yasuaki Monnai, Keisuke Hasegawa, Masahiro Fujiwara, Seki Inoue, and Hiroyuki Shinoda, “HaptoMime: Mid-Air Haptic Interactions with a Floating Virtual Screen,” Proc. 27th ACM User Interface Software and Technology Symposium (UIST2014), pp.663-667, Hawaii, USA Oct. 5-8, 2014](https://drive.google.com/file/d/1Rji2rqTZD31IB6h896gkDi-K__yZ9QSu/view?usp=drive_link)
+    - **ACM UIST 2014 People’s Choice Best Demo Award**
+    - **Special prize by SIGGRAPH, Industry Special prize, Innovative Technologies 2014**
+
+### 3D Haptic Hologram
+
+<SideBySide reverse="true">
+  <Image slot="media" src={horn} alt="horn" />
+  <div>
+    #### Computational design of 3D acoustic energy-density field.
+    <br/>
+    [youtube video1](https://www.youtube.com/watch?v=7Ibdv0rtiDE)
+    [youtube video2](https://www.youtube.com/watch?v=s7JeCVB7Qvg)
+  </div>
+</SideBySide>
+
+- [Seki Inoue, Yasutoshi Makino, and Hiroyuki Shinoda, “Active Touch Perception Produced by Airborne Ultrasonic Haptic Hologram,” Proc. 2015 IEEE World Haptics Conference (WHC), (Oral) pp.362-367, Northwestern University, Evanston, Il, USA, June 22–26, 2015.](https://drive.google.com/file/d/1bvZg-uldmHakDNDBW4rOjlQ_G15p1tQF/view?usp=drive_link) 
+  - **IEEE WHC 2015 Best Demo Award Winner**
+
+<SideBySide>
+  <Image slot="media" src={inoue_lev} alt="inoue_lev" />
+  <div>
+    #### Boundary hologram 
+    Advanced scheme of acoustic hologram and application to levitation. Boundary hologram provides acoustic field that produces proper restoring force to any minute displacement and rotation of the object. The algorithm enabled the world first ultrasonic levitation of a macroscopic non-spherical object significantly larger than the wavelength. It is applicable to arbitrary-shape objects considering the diffraction and reflection by the object.
+  </div>
+</SideBySide>
+
+- [Seki Inoue, Shinichi Mogami, Tomohiro Ichiyama, Akihito Noda, Yasutoshi Makino, and Hiroyuki Shinoda, “Acoustical boundary hologram for macroscopic rigid-body levitation,” Journal of the Acoustical Society of America 1. 145, pp.328–337, 2019.](https://doi.org/10.1121/1.5087130)
+
+### Haptoclone (Haptic & Optical Clone)
+
+<SideBySide reverse="true">
+  <Image slot="media" src={haptoclone} alt="haptoclone" />
+  <div>
+    Symmetric mutual telexistence by 3D haptic & optical field reconstruction. A pair of people can touch the realistic 3D image of each other with haptic sensation. 
+    <br/>
+    [Special page](../research-topics/haptoclone)
+    [youtube video](https://www.youtube.com/watch?v=0nlnRpFoBLo)
+  </div>
+</SideBySide>
+
+- [Yasutoshi Makino, Yoshikazu Furuyama, Seki Inoue, and Hiroyuki Shinoda, “HaptoClone (Haptic-Optical Clone) for Mutual Tele-Environment by Real-time 3D Image Transfer with Midair Force Feedback,” Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, pp. 1980-1990, San Jose Convention Center, San Jose, CA, USA, May 7–12, 2016.](https://drive.google.com/file/d/1YzvpnkSgJ6GOutqeWQuOyKbgMrS19LiV/view)
+
+## Recent important results by Univ. of Tokyo
+
+### Producing Static Pressure Sensation
+
+The generated ultrasonic radiation pressure is not very high. If a time-invariant pressure (static pressure) is applied to the skin, the stimulus does not exceed the tactile threshold and cannot be felt by humans. Therefore, the conventional aerial tactile presentation uses time-varying vibrotactile stimuli. However, it is felt as “vibration,” which is different from the sensation of touching an object in a usual way.
+However, recent research by Morisaki et al. has revealed that a dynamic pressure distribution can create a sensation similar to static pressure. This finding has shown that a versatile tactile presentation is possible under a certain limitation on the spatial resolution and the maximum force.
+
+- [Tao Morisaki, Masahiro Fujiwara, Yasutoshi Makino, and Hiroyuki Shinoda, “Non-Vibratory Pressure Sensation Produced by Ultrasound Focus Moving Laterally and Repetitively with Fine Spatial Step Width,” IEEE Transactions on Haptics, Volume 15, Issue 3, pp. 441-450, 2021.](https://ieeexplore.ieee.org/document/9606531)
+  - **Best Student Demonstration Award, SIGGRAPH ASIA 2021 Emerging Technologies**
+  - **Best Demo Award 3rd place, Eurohaptics 2022 by a related work**
+
+### Cooling Sensation
+
+<SideBySide>
+  <Image slot="media" src={cooling} alt="cooling" />
+  <div>
+    Temperature is an important factor in tactile perception. However, non-contact presentation of temperature, especially cold sensation, has been considered difficult. However, Nakajima et al. recently confirmed that the skin temperature rapidly decreases due to the heat of vaporization when ultrasound waves are focused on the skin in a room-temperature mist of water. A temperature drop of 3 K was observed within 0.5 s immediately after ultrasound irradiation, comparable to cooling using standard Peltier devices. They also confirmed the movement of the cooling spot could be perceived.
+  </div>
+</SideBySide>
+
+- [Mitsuru Nakajima, Keisuke Hasegawa, Yasutoshi Makino, and Hiroyuki Shinoda, “Spatiotemporal Pinpoint Cooling Sensation Produced by Ultrasound-Driven Mist Vaporization on Skin,” IEEE Transactions on Haptics, Volume 14, Issue 4, pp. 874-884, 2021.](https://ieeexplore.ieee.org/document/9447209/authors#authors) 
+  - **Best Paper Award, IEEE Transactions on Haptics, 2022**
+
+### Visualization of Ultrasound
+
+<SideBySide reverse="true">
+  <Image slot="media" src={thermal} alt="thermal" />
+  <div>
+    A problem with midair haptics was the measurement of the sound field distribution. The virtually only practical way to measure the distribution was to scan a microphone with an automatic stage or robot arm. In 2021, Onishi et al. discovered a new practical method to measure the details of the sound field of intense ultrasonic waves. Using a thermo-camera, the sound pressure distribution on an arbitrary two-dimensional plane in a 3D space can be measured. The measurement is real-time and with high spatial resolution. For example, a thermal image of a mesh screen inserted in an ultrasonic wave can visualize the two-dimensional ultrasonic field distribution on the mesh in real-time. It is easy to obtain the 3D distribution by moving the screen. It is also possible to visualize the sound field distribution on a skin surface.
+  </div>
+</SideBySide>
+
+- [Ryoya Onishi, Takaaki Kamigaki, Shun Suzuki, Tao Morisaki, Masahiro Fujiwara, Yasutoshi Makino, and Hiroyuki Shinoda, “Two-Dimensional Measurement of Airborne Ultrasound Field Using Thermal Images,” Phys. Rev. Applied 18, 044047 (pp. 044047-1-6) Oct. 2022. doi.org/10.1103/PhysRevApplied.18.044047](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.18.044047)
+- arXiv (12 Mar 2022) https://arxiv.org/abs/2203.07862
+
+## Other main results by Univ. of Tokyo
+
+### Lateral Modulation: A Method to Intensify Haptic Sensation by Ultrasound
+
+Reciprocating motion of a focus along the skin surface (Lateral modulation, LM) can generate stronger sensation than Amplitude Modulation (AM) where the radiation pressure changes vibrationally at a spatially fixed point. The threshold of the radiation force of LM is 10 dB less than that of AM in the displayed maximum force, and LM can create haptic sensation on a hairy skin as well as a glabrous skin. 
+
+- [Ryoko Takahashi, Keisuke Hasegawa, and Hiroyuki Shinoda, “Lateral Modulation of Midair Ultrasound Focus for Intensified Vibrotactile Stimuli,” International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics), pp 276-288 ,Pisa, Italy, June 13-16, 2018.](https://drive.google.com/file/d/1ENdHs_uyE5BNPSIgZpjepV5238cfjPfS/view?usp=drive_link)
+- [Ryoko Takahashi, Keisuke Hasegawa, and Hiroyuki Shinoda, “Tactile Stimulation by Repetitive Lateral Movement of Midair Ultrasound Focus,” IEEE Transactions on Haptics, Vol. 12, No 4, pp.652-657, 2019 (Open Access).](https://ieeexplore.ieee.org/document/8873659)
+
+### Reducing Unnecessary Sound
+
+<SideBySide>
+  <Image slot="media" src={noise} alt="noise" />
+  <div>
+    Quick phase change (as seen in LM) causes unexpected amplitude change. The amplitude change produces unexpected tactile perception and sound noises. The following shows a practical effective method to reduce it. ([The sound generation and amplitude change by phase shift was first pointed out by Hoshi in 2016.](https://hoshistar81.jp/pdf/2016CHI_MidairWS.pdf))
+  </div>
+</SideBySide>
+
+- [Shun Suzuki, Masahiro Fujiwara, Yasutoshi Makino, and Hiroyuki Shinoda, “Reducing Amplitude Fluctuation by Gradual Phase Shift in Midair Ultrasound Haptics,” IEEE transactions on haptics (2020).](https://ieeexplore.ieee.org/document/8960301)
+
+### 3D Object Manipulation by Fingers
+
+<SideBySide reverse="true">
+  <Image slot="media" src={mat} alt="mat" />
+  <div>
+    We are clarifying what information is essential to make the user feel the substance of a virtual object. Connected AUTDs surrounding fingers can generate a 5 mm diameter force spot, and create fine pressure distribution on the fingers. The distribution is controlled in real-time reflecting the contact state between the fingers and the virtual object. We have examined experimentally if the fingers can handle an object blindly. 
+  </div>
+</SideBySide>
+
+- [Atsushi Matsubayashi, Yasutoshi Makino, and Hiroyuki Shinoda, “Rendering Ultrasound Pressure Distribution on Hand Surface in Real-Time,” International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics), pp. 407-415, Sep. 6-9, 2020, Leiden, Netherlands.](https://link.springer.com/chapter/10.1007/978-3-030-58147-3_45)
+    - **Finalist (Top3), Best Paper Award, Eurohaptics 2020**
+- [Atsushi Matsubayashi, Yasutoshi Makino, and Hiroyuki Shinoda, “Direct Finger Manipulation of 3D Object Image with Ultrasound Haptic Feedback,” Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, Glasgow, Scotland UK, May 04 – 09, 2019.](https://dl.acm.org/citation.cfm?id=3300317)
+- [Atsushi Matsubayashi, Hiroki Oikawa, Saya Mizutani, Yasutoshi Makino and Hiroyuki Shinoda, “Display of Haptic Shape Using Ultrasound Pressure Distribution Forming Cross-Sectional Shape,” Proc. 2019 IEEE World Haptics Conference, pp.419-424, Tokyo, Japan, July 9-12, 2019.](https://drive.google.com/file/d/1ooqgEeddn-88JLjmXRmqiTqTpZROIfCP/view?usp=drive_link)
+
+### Motion Guidance
+
+#### Haptic Pursuit
+
+In human vision, smooth pursuit eye movement is the basic ability to visually follow a moving object by keeping it at the sight center. In this study, we validated that a human hand has a similar ability to track a midair haptic stimulus, i.e., a human palm exposed to a point vibration by AUTD can follow the continuous movement of the stimulation point. The ability of motion tracking by hand can be applied to haptic guidance.
+
+- [Azuma Yoshimoto, Keisuke Hasegawa, Yasutoshi Makino, and Hiroyuki Shinoda, “Midair Haptic Pursuit,” IEEE Transactions on Haptics, Vol. 12, No.4, pp. 652-657, Oct.-Dec. 2019.](https://ieeexplore.ieee.org/document/8669816)
+
+#### Virtual Handrail
+
+<SideBySide>
+  <Image slot="media" src={guidance} alt="guidance" />
+  <div>
+    There is another strategy where the user find and follow the designated path actively. Consider a situation the path, from start to finish (the ‘goal’), is presented by scanning ultrasound focal points along the path. The scanned focal point produces vibrotactile stimuli on the hand, and users perceive the local path-direction easily. Then user can follow the path without strong concentration.
+  </div>
+</SideBySide>
+
+##### Guidance along a palm
+
+- [Shun Suzuki, Masahiro Fujiwara, Yasutoshi Makino, and Hiroyuki Shinoda, “Midair Hand Guidance by an Ultrasound Virtual Handrail,” Proc. 2019 IEEE World Haptics Conference, pp.271-276, Tokyo, Japan, July 9-12, 2019.](https://drive.google.com/file/d/11P_0jPkIcL0T8Bqxh6nE1ZUiIoVutknc/view)
+
+##### Guidance perpendicular to a palm
+
+- [Shun Suzuki, Keisuke Hasegawa, Yasutoshi Makino and Hiroyuki Shinoda, “Haptic Tracing of Midair Linear Trajectories Presented by Ultrasound Bessel Beams,” International Conference on Human Haptic Sensing and Touch Enabled Computer Applications(Eurohaptics), pp 209-220, Pisa, Italy, June 13-16, 2018.](https://drive.google.com/file/d/17slPzdXOkd-sMnt_HeRudlx2mMZK0_s7/view?usp=sharing)
