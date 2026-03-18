@@ -3,9 +3,11 @@ title: 超音波ベッセルビームによる空中匂い輸送
 summary: 空中に超音波による「音響ベッセルビーム」を形成し、これに伴って発生する空気の流れ（音響流）により、環境中の匂いの空中運搬を行う技術を開発しました。
 date: '2017-11-01'
 updated: '2023-03-31'
-image: /assets/research-topics/ultrasound-fragrance-rendering/hero.jpg
-imageAlt: 超音波ベッセルビームによる空中匂い輸送
+thumbnail: /assets/research-topics/ultrasound-fragrance-rendering/hero.jpg
+thumbnailAlt: 超音波ベッセルビームによる空中匂い輸送
 ---
+
+![超音波ベッセルビームによる空中匂い輸送](../../assets/research-topics/ultrasound-fragrance-rendering/hero.jpg)
 
 空中に超音波による「音響ベッセルビーム」を形成し、これに伴って発生する空気の流れ（音響流）により、環境中の匂いの空中運搬を行う技術を開発しました。
 超音波のビームにより生成される気流は装置の遠方であっても狭い断面積を維持することができ、これにより局在的なにおいの提示を可能にしています。

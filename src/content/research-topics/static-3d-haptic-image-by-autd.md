@@ -3,8 +3,8 @@ title: "空中超音波による定在立体触覚像"
 summary: 本研究では閉空間における超音波音場を制御することにより, センシングに依らない定在的な立体触覚像を得る手法を提案しています.
 date: "2014-08-01"
 updated: "2023-03-31"
-image: "/assets/research-topics/static-3d-haptic-image-by-autd/hero.jpg"
-imageAlt: "空中超音波による定在立体触覚像"
+thumbnail: "/assets/research-topics/static-3d-haptic-image-by-autd/thumbnail.jpg"
+thumbnailAlt: "空中超音波による定在立体触覚像"
 ---
 
 空中に浮かぶ立体的な触覚像が実現すれば, 人間の3次元空間認識能力を最大限に活かした, 直感的な三次元入力インターフェースが実現する可能性があります.

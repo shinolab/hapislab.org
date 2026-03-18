@@ -3,8 +3,8 @@ title: 機械学習を用いた0.5秒後の運動のリアルタイム推定
 summary: ニューラルネットワークを用いて、リアルタイムに0.5秒後の人間の動きを推定し提示するシステムを開発しました。
 date: '2017-11-01'
 updated: '2023-03-31'
-image: /assets/research-topics/computational-foresight/hero.png
-imageAlt: 機械学習を用いた0.5秒後の運動のリアルタイム推定
+thumbnail: /assets/research-topics/computational-foresight/thumbnail.png
+thumbnailAlt: 機械学習を用いた0.5秒後の運動のリアルタイム推定
 ---
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/TXbhXgTMtNU" title="Computational Foresight: Realtime Forecast of Human Body Motion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

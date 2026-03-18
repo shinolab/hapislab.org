@@ -184,8 +184,8 @@ title: 研究テーマのタイトル
 summary: 研究テーマの概要
 date: '2015-10-01'         # 公開日
 updated: '2018-12-28'      # (任意) 更新日
-image: /assets/research-topics/xxxx/hero.png # サムネイルとページのトップに表示される画像 (必須)
-imageAlt: xxxx # 画像の代替テキスト (必須)
+thumbnail: /assets/research-topics/xxxx/thumbnail.png # 一覧や関連記事に出るサムネイル画像 (必須)
+thumbnailAlt: xxxx # サムネイル画像の代替テキスト (必須)
 ---
 
 本文

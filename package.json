@@ -12,9 +12,12 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astro-community/astro-embed-twitter": "^0.5.11",
     "astro": "^6.0.4",
     "csv-parse": "^6.1.0",
-    "js-yaml": "^4.1.1"
+    "js-yaml": "^4.1.1",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0"
   },
   "devDependencies": {
     "@astrojs/mdx": "^5.0.1",

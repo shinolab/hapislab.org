@@ -616,22 +616,6 @@ a:hover {
 	min-height: calc(1.1rem + 1.5rem + 0.1rem);
 }
 
-.topic-article-hero-image {
-	width: 100%;
-	max-width: 900px;
-	margin: 0 auto;
-}
-
-.topic-article-hero-image :is(img, picture) {
-	display: block;
-	width: 100%;
-}
-
-.topic-article-hero-image img {
-	height: auto;
-	object-fit: contain;
-}
-
 .topic-article-content {
 	max-width: 900px;
 	margin: 0 auto;
@@ -646,6 +630,12 @@ a:hover {
 .topic-article-content iframe {
 	width: 100%;
 	max-width: 100%;
+}
+
+.topic-article-content>p:first-child>img:only-child {
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 .topic-article-content .topic-article-inline-figure {

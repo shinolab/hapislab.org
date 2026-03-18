@@ -6,6 +6,8 @@ interface ResearchTopicFrontmatter {
 	titleEn?: string;
 	summary?: string;
 	summaryEn?: string;
+	thumbnail?: string;
+	thumbnailAlt?: string;
 	image?: string;
 	imageAlt?: string;
 	date?: string;
@@ -68,7 +70,8 @@ export function getResearchTopics(): ResearchTopicListItem[] {
 	return [...groupedTopics.entries()]
 		.map(([topicId, entry]): ResearchTopicListItem | null => {
 			const primary = (entry.ja ?? entry.en) as ResearchTopicFrontmatter;
-			if (!primary?.title || !primary.summary || !primary.image) {
+			const thumbnailPath = primary?.thumbnail ?? primary?.image;
+			if (!primary?.title || !primary.summary || !thumbnailPath) {
 				return null;
 			}
 
@@ -78,8 +81,8 @@ export function getResearchTopics(): ResearchTopicListItem[] {
 				titleEn: entry.en?.title ?? primary.titleEn,
 				summary: primary.summary,
 				summaryEn: entry.en?.summary ?? primary.summaryEn,
-				image: resolveAssetObject(primary.image),
-				imageAlt: primary.imageAlt,
+				image: resolveAssetObject(thumbnailPath),
+				imageAlt: primary.thumbnailAlt ?? primary.imageAlt,
 				date: primary.date,
 				updated: primary.updated,
 				detailPath: `/research-topics/${topicId}`,

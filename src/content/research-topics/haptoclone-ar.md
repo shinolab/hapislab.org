@@ -3,8 +3,8 @@ title: HaptoCloneAR
 summary: 拡張現実視触覚クローン(HaptoCloneAR)は、2人のユーザーがお互いに向かい合う形で触覚付きのインタラクションを取ることのできるコミュニケーションシステムである視触覚クローンの後継システムです。
 date: '2017-08-01'
 updated: '2023-03-31'
-image: /assets/research-topics/haptoclone-ar/hero.png
-imageAlt: HaptoCloneAR
+thumbnail: /assets/research-topics/haptoclone-ar/thumbnail.png
+thumbnailAlt: HaptoCloneAR
 ---
 
 拡張現実視触覚クローン(HaptoCloneAR)は、2人のユーザーがお互いに向かい合う形で触覚付きのインタラクションを取ることのできるコミュニケーションシステムである視触覚クローンの後継システムです。

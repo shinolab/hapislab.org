@@ -3,9 +3,11 @@ title: "超音波による表面硬さの遠隔計測"
 summary: 物体表面の硬さ分布を、物体に触れることなく計測します。
 date: "2014-05-22"
 updated: "2023-03-31"
-image: "/assets/research-topics/noncontact-hardness-sensing/hero.jpg"
-imageAlt: "超音波による表面硬さの遠隔計測"
+thumbnail: "/assets/research-topics/noncontact-hardness-sensing/hero.jpg"
+thumbnailAlt: "超音波による表面硬さの遠隔計測"
 ---
+
+![超音波による表面硬さの遠隔計測](../../assets/research-topics/noncontact-hardness-sensing/hero.jpg)
 
 物体表面の硬さ分布を、物体に触れることなく計測します。計測システムは空中超音波フェーズドアレイとレーザー式変位計から構成されます。従来、柔軟体の表面弾性を測定するためには接触子による加圧や近接ノズルを用いた空気噴流による加圧を必要としていました。われわれは加圧に空中超音波の音響放射圧を用い、表面を加圧したときに生じる変形を光学的に測定して硬さを推定します。
 

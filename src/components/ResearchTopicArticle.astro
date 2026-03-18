@@ -100,6 +100,15 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 	locale={locale}
 	languageSwitchHref={languageSwitchHref}
 >
+	<head>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/katex@0.16.38/dist/katex.min.css"
+			integrity="sha384-/L6i+LN3dyoaK2jYG5ZLh5u13cjdsPDcFOSNJeFBFa/KgVXR5kOfTdiN3ft1uMAq"
+			crossorigin="anonymous"
+		/>
+	</head>
+
 	<div class="page-shell page-shell--research-topic-article">
 		<section class="topic-article-hero">
 			<div class="container topic-article-hero__inner">
@@ -135,16 +144,6 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 						</aside>
 					)
 				}
-
-				<figure class="topic-article-hero-image">
-					<Image
-						src={topic.image}
-						alt={topic.imageAlt ?? title}
-						loading="eager"
-						width={900}
-						sizes="(max-width: 980px) calc(100vw - 3rem), 900px"
-					/>
-				</figure>
 
 				<article class="prose topic-article-content">
 					{

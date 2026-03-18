@@ -3,9 +3,10 @@ title: "二次元通信"
 summary: "薄いシート内を伝播する電磁波によって情報と電力を伝送するシステムを研究しています。"
 date: "2013-04-30"
 updated: "2023-03-31"
-image: "/assets/research-topics/two-dimensional-communication/hero.jpg"
-imageAlt: "二次元通信"
+thumbnail: "/assets/research-topics/two-dimensional-communication/hero.jpg"
+thumbnailAlt: "二次元通信"
 ---
+![二次元通信](../../assets/research-topics/two-dimensional-communication/hero.jpg)
 
 薄いシート内を伝播する電磁波によって情報と電力を伝送するシステムを研究しています。生活環境での安全なワイヤレス電力伝送、無線と干渉しない高速信号伝送などの技術を確立し、ワイヤレス・バッテリーレスの新しい情報環境を提案していきます。また、微小なセンサや機能部品を大面積の柔軟体に分布・連携動作させる技術を確立し、ロボットの人工皮膚やウエアラブルコンピューティングなどに応用します。
 
