@@ -51,6 +51,20 @@
 画像データをMarkdown内で表示する場合は, `src/assets/` 以下に置いてMarkdownからの相対パスでリンクすること. 
 > 例: `src/content/members`以下のファイルから参照する場合は `![alt text](../../assets/path/to/image.png)`
 > cssを当てるなど, 複雑なことがしたい場合は[`.mdx`ファイルを使用する.](https://docs.astro.build/ja/guides/integrations-guide/mdx/)
+>
+> クリックでページ内モーダル表示したい場合は `src/components/MdxLightboxImage.astro` を使う.
+>
+> ```mdx
+> import photo from "../../assets/members/example/image.png";
+> import MdxLightboxImage from "../../components/MdxLightboxImage.astro";
+>
+> <MdxLightboxImage
+>   src={photo}
+>   alt="Example image"
+>   width={320}
+>   caption="クリックで拡大"
+> />
+> ```
 
 PDFファイルは研究室の共有Google Driveの`homepage-public`フォルダ以下においてリンクすること.
 
@@ -249,9 +263,9 @@ imageAlt: xxxx # 画像の代替テキスト (必須)
 
 #### member個別ページ
 
-`src/content/members/<slug>.md` を作ると, `/members/<slug>` の個別ページが自動生成される.
+`src/content/members/<slug>.md` または `src/content/members/<slug>.mdx` を作ると, `/members/<slug>` の個別ページが自動生成される.
 
-英語版を作る場合は `src/content/members/<slug>.en.md` を追加すると `/en/members/<slug>` が生成される. 英語版が無い場合は日本語本文が表示される.
+英語版を作る場合は `src/content/members/<slug>.en.md` または `src/content/members/<slug>.en.mdx` を追加すると `/en/members/<slug>` が生成される. 英語版が無い場合は日本語本文が表示される.
 
 例:
 
