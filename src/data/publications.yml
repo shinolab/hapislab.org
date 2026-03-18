@@ -9,6 +9,7 @@
     - Hiroyuki Shinoda
     - Ryo Kitada
   title: 'Affective Touch with Mid-Air Ultrasound: A psychological Comparison with Real Materials'
+  refId: oya-2025-affective
   doi: 10.1109/TOH.2025.3647066
   note: '*Equal contribution'
   journal: IEEE Transactions on Haptics
@@ -33,6 +34,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: 'TelekineticDealer: Contactless Card Manipulation Using Airborne Ultrasound—Evaluation of Card Actuation Performance'
+  refId: arakawa-2025-telekineticdealer
   doi: 10.1109/ACCESS.2025.3609774
   journal: IEEE Access
 
@@ -58,6 +60,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Measurement of Airborne Ultrasound Focus on Skin Surface Using Thermal Imaging
+  refId: onishi-2025-measurement
   doi: 10.1109/TOH.2025.3546270
   note: '*Equal contribution, Open Access'
   href: https://ieeexplore.ieee.org/abstract/document/10906472
@@ -72,6 +75,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Acoustic levitation of super-wavelength elastic films using ultrasound phased arrays
+  refId: arakawa-2025-acoustic
   doi: 10.1063/5.0247416
   note: Open Access
   journal: Applied Physics Letters
@@ -110,6 +114,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Two-Dimensional Remote Actuation of Centimeter-Scale Objects With a Concave Bottom Using Airborne Ultrasound
+  refId: arakawa-2024-two-dimensional
   doi: 10.1109/ACCESS.2024.3409736
   note: Open Access
   journal: IEEE Access
@@ -135,6 +140,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: 'UltLever: Ultrasound-Driven Passive Haptic Actuator Based on Amplifying Radiation Force Using a Simple Lever Mechanism'
+  refId: morisaki-2024-ultlever
   doi: 10.1109/TOH.2024.3363764
   note: Open Access
   journal: IEEE Transactions on Haptics
@@ -454,6 +460,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Three-Dimensional Manipulation of a Spherical Object Using Airborne Ultrasound Plane Waves
+  refId: furumoto-2018-three-dimensional
   doi: 10.1109/LRA.2018.2880330
   journal: IEEE Robotics and Automation Letters
 
@@ -475,6 +482,7 @@
     - 二宮 悠基
     - 篠田 裕之
   title: 高効率・高出力な静電駆動型空中超音波振動子の開発
+  refId: 神垣-2018-高効率・高出力な静電駆動型空中超音波振動子の開発
   doi: 10.9746/sicetr.54.340
   journal: 計測自動制御学会論文集
   lang: ja
@@ -545,6 +553,7 @@
     - Akihito Noda
     - Hiroyuki Shinoda
   title: A low power and high speed data transmission system based on 2D communication
+  refId: masuda-2016-a
   doi: 10.1587/comex.2016XBL0077
   journal: IEICE Communications Express (ComEX)
 
@@ -642,6 +651,7 @@
     - 藤原正浩
     - 篠田裕之
   title: 集束超音波を用いた表面硬さ分布の遠隔計測
+  refId: 藤原正浩-2013-集束超音波を用いた表面硬さ分布の遠隔計測
   jornal: 計測自動制御学会論文集
   doi: 10.9746/sicetr.49.455
   lang: ja
@@ -696,6 +706,7 @@
     - Akihito Noda
     - Hiroyuki Shinoda
   title: Selective Wireless Power Transmission through High-Q Flat Waveguide-Ring Resonator on 2D Waveguide Sheet
+  refId: noda-2011-selective
   href: https://drive.google.com/file/d/1LJVJSJr07udG6hA46B-hGDF6Q69L13gk/view?usp=sharing
   journal: IEEE Transactions on Microwave Theory and Techniques
 
@@ -746,6 +757,7 @@
     - Hiromasa Chigusa
     - Yasutoshi Makino
   title: Flexible Tactile Sensor Skin Using Wireless Sensor Elements Coupled with 2D Microwaves
+  refId: shinoda-2010-flexible
   href: https://drive.google.com/file/d/150mOYpsP1PvDApegczc8vRu7Rc3mMpqG/view?usp=sharing
   journal: Journal of Robotics and Mechatronics
 
@@ -1007,6 +1019,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Rendering 2D Distribution of Non-Contact Thermal Stimulus Using High-Intensity Ultrasound
+  refId: iwabuchi-2025-rendering
   doi: 10.1145/3706599.3721160
   booktitle: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA ’25)
 
@@ -1042,6 +1055,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Simultaneous Presentation of Thermal and Mechanical Stimulation Using High-Intensity Airborne Ultrasound
+  refId: iwabuchi-2024-simultaneous
   href: https://arxiv.org/abs/2411.05108
   booktitle: AsiaHaptics
 
@@ -1175,6 +1189,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Performance Evaluation of Airborne Ultrasound Focus Measurement Using Thermal Imaging on the Surface of a Finger
+  refId: iwabuchi-2023-performance
   note: DRAFT
   href: https://drive.google.com/file/d/1Fn2JTQ6kpUuQCaHaleFxw-gjlKKPsw01/view?usp=drive_link
   booktitle: IEEE World Haptics
@@ -1393,6 +1408,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: 'GazeBreath: Input Method Using Gaze Pointing and Breath Selection'
+  refId: onishi-2022-gazebreath
   doi: 10.1145/3519391.3519405
   booktitle: Augmented Humans
 
@@ -1461,6 +1477,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: 'Midair Balloon Interface: A Soft and Lightweight Midair Object for Proximate Interactions'
+  refId: furumoto-2021-midair
   doi: 10.1145/3472749.3474786
   booktitle: 34th ACM User Interface Software and Technology Symposium (UIST2021)
 
@@ -1609,6 +1626,7 @@
     - Tsuyoto Negishi
     - Hiroyuki Shinoda
   title: 2-D waveguide power transfer operating at 6.78 MHz with a meander surface sheet
+  refId: masuda-2020-2-d
   href: https://drive.google.com/file/d/1JuyvGFnmCN-UCfOzz6B2xYzUjeE2tYhT/view?usp=sharing
   booktitle: Asia Wireless Power Transfer Conference (AWPT2020)
 
@@ -1631,6 +1649,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Balloon Interface for Midair Haptic Interaction
+  refId: furumoto-2020-balloon
   doi: 10.1145/3415255.3422882
   booktitle: SIGGRAPH Asia  Emerging Technologies (SA ’20 Emerging Technologies)
 
@@ -1721,6 +1740,7 @@
     - Shun Suzuki
     - Hiroyuki Shinoda
   title: Noncontact Thermal and Vibrotactile Display Using Focused Airborne Ultrasound
+  refId: kamigaki-2020-noncontact
   doi: 10.1007/978-3-030-58147-3_30
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
 
@@ -1792,6 +1812,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Remote Cooling Sensation Presentation Controlling Mist in Midair
+  refId: nakajima-2020-remote
   href: https://drive.google.com/file/d/1sLFhKsheq31fS1URgVcTlGkk6M-hlUNb/view?usp=sharing
   booktitle: IEEE/SICE International Symposium on System Integration
 
@@ -1806,6 +1827,7 @@
     - Yuji Yamakawa
     - Hiroyuki Shinoda
   title: 'Hopping-Pong: Changing Trajectory of Moving Object Using Computational Ultrasound Force'
+  refId: morisaki-2019-hopping-pong
   note: Open Access
   booktitle: ACM International Conference on Interactive Surfaces and Spaces (ISS’19)
   doi: 10.1145/3343055.3359701
@@ -1837,6 +1859,7 @@
     - Takaaki Kamigaki
     - Hiroyuki Shinoda
   title: Driving Circuit Design for Electrostatic Ultrasonic Transmitter
+  refId: kamigaki-2019-driving
   booktitle: IEEE International Ultrasonics Symposium (IUS)
 
 - type: inproceedings
@@ -1858,6 +1881,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Displaying Pain Sensation in Midair by Thermal Grill Illusion
+  refId: nakajima-2019-displaying
   href: https://drive.google.com/file/d/1kpyiKwx6ZgsjJ0l_M1O-8j52AjAX16ER/view?usp=sharing
   booktitle: IEEE International Symposium on Haptic Audio-Visual Environments and Games (HAVE2019)
 
@@ -1879,6 +1903,7 @@
     - Yuki Ninomiya
     - Hiroyuki Shinoda
   title: Electrostatically Driven Airborne Ultrasound Transducer with Perforated Backplate for Nonlinear Acoustic Applications
+  refId: kamigaki-2026-electrostatically
   booktitle: 23rd International Congress on Acoustics (ICA2019)
 
 - type: inproceedings
@@ -1951,6 +1976,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Noncontact Pain Display by Temperature Control
+  refId: nakajima-2019-noncontact
   booktitle: 2019 IEEE World Haptics Conference (WHC)
   href: https://drive.google.com/file/d/1RDJh56ndxD53aEkiyc7hO_i_IOwGtN_f/view?usp=sharing
   note: Work-in-Progress
@@ -2014,6 +2040,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Prediction of Volleyball Trajectory Using Skeletal Motions of Setter Player
+  refId: suda-2019-prediction
   href: https://dl.acm.org/citation.cfm?id=3311844
   booktitle: 10th Augmented Human International Conference
 
@@ -2108,6 +2135,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Remotely Displaying Cooling Sensation Using Ultrasound Mist Beam
+  refId: nakajima-2018-remotely
   booktitle: Asia Haptics
   href: https://drive.google.com/file/d/1LdfVnr9JLlGT19Gi-kQQob06wwWo0tKx/view?usp=sharing
 
@@ -2121,6 +2149,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Midair Haptic Display to Human Upper Body
+  refId: suzuki-2018-midair
   href: https://drive.google.com/file/d/1137_7DWr8oW9HWUgCdRR6IEp4gUoYSRf/view?usp=sharing
   booktitle: SICE Annual Conference
 
@@ -2131,6 +2160,7 @@
     - Yuki Ninomiya
     - Hiroyuki Shinoda
   title: Electrostatically Driven Airborne Ultrasound Transmitter with Fine Mesh Electrode
+  refId: kamigaki-2018-electrostatically
   booktitle: International Flexible Electronics Technology Conference (IFETC)
 
 - type: inproceedings
@@ -2140,6 +2170,7 @@
     - Akihito Noda
     - Hiroyuki Shinoda
   title: Body Sensor Networks by an NFC-coupled Smartphone in the Pocket
+  refId: masuda-2018-body
   href: https://drive.google.com/file/d/1i9dQbD_N-_TUUUU2dp3kkCn5l8bBqxNp/view?usp=sharing
   booktitle: 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
 
@@ -2196,6 +2227,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Remotely Displaying Cooling Sensation via Ultrasound-Driven Air Flow
+  refId: nakajima-2018-remotely-displaying
   booktitle: IEEE Haptics Symposium
   href: https://ieeexplore.ieee.org/document/8357198
 
@@ -2229,6 +2261,7 @@
     - Akihito Noda
     - Hiroyuki Shinoda
   title: Whole Body Human Power-Based Energy Harvesting using a Conductive Embroidered Cloth and a Power Aggregation Circuit
+  refId: masuda-2018-whole
   href: https://drive.google.com/file/d/1kcbctM_tvjQnEXZQer4gUlPqhkE3xInb/view?usp=sharing
   booktitle: IEEE 15th International Conference on Wearable and Implantable Body Sensor Networks (BSN)
 
@@ -2248,6 +2281,7 @@
     - Akihito Noda
     - Hiroyuki Shinoda
   title: Power Aggregation from Multiple Energy Harvesting Devices Via a Conductive Embroidered Cloth
+  refId: masuda-2017-power
   href: https://drive.google.com/file/d/1kMBK0nf5K9Tnx0yBBmqdQIQQ-N5jkBe0/view?usp=sharing
   booktitle: IEEE/SICE International Symposium on System Integration
 
@@ -2279,6 +2313,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: 'VibVid: VIBration Estimation from VIDeo by using Neural Network'
+  refId: yoshida-2017-vibvid
   href: https://drive.google.com/file/d/1UATgBIhlCQ0WbyhowOf6rf3Dyh0Hvesw/view?usp=sharing
   booktitle: ICAT-EGVE International Conference on Artificial Reality and Telexistence and Eurographics Symposium on Virtual Environments
 
@@ -2289,6 +2324,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: 'Computational Foresight: Forecasting Human Body Motion in Real-time for Reducing Delays in Interactive System'
+  refId: horiuchi-2017-computational
   booktitle: ACM International Conference on Interactive Surfaces and Spaces (ISS ’17)
 
 - type: inproceedings
@@ -2318,6 +2354,7 @@
     - Akihito Noda
     - Hiroyuki Shinoda
   title: Thin and Flexible Airborne Ultrasound Phased Array for Tactile Display
+  refId: kamigaki-2017-thin
   booktitle: SICE Annual Conference
 
 - type: inproceedings
@@ -2329,6 +2366,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: 'HaptoCloneAR: mutual haptic-optic interactive system with 2D image superimpose'
+  refId: yoshida-2017-haptoclonear
   booktitle: SIGGRAPH 2017 Emerging Technologies
   href: https://drive.google.com/file/d/17Bab3VBSP9rVDd6zVuSS715J7QUFu3dh/view?usp=sharing
 
@@ -2667,6 +2705,7 @@
     - Akihito Noda
     - Hiroyuki Shinoda
   title: Contactless Coupler for 2D Communication Tile Connection
+  refId: masuda-2015-contactless
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1ITOBvQLI5M9swsTEtZ7Wo-nKjSHSjvYM/view?usp=sharing
 
@@ -2867,6 +2906,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: HORN The Hapt-Optic Reconstruction
+  refId: inoue-2014-horn
   booktitle: ACM SIGGRAPH Emerging Technologies
 
 - type: inproceedings
@@ -2904,6 +2944,7 @@
     - Seki Inoue
     - Hiroyuki Shinoda
   title: A Pinchable Aerial Virtual Sphere by Acoustic Ultrasound Stationary Wave
+  refId: inoue-2014-a
   booktitle: IEEE Haptics Symposium Proceedings
   href: https://drive.google.com/file/d/1pOuxKTO2K6-Gemw5zVxDaGO7Hx2ydouG/view?usp=sharing
 
@@ -3434,6 +3475,7 @@
     - Hiroyuki Shinoda
     - Hiroto Itai
   title: Two-Dimensional Communication
+  refId: nakatsuma-2008-two-dimensional
   booktitle: SIGGRAPH New Tech Demos
   href: https://drive.google.com/file/d/1VSMb_rrUcrst_7jAAKMiRDwHlRHO0Who/view?usp=sharing
 
@@ -3582,6 +3624,7 @@
     - Naoshi Yamahira
     - Hiroto Itai
   title: Surface Sensor Network Using Inductive Signal Transmission Layer
+  refId: shinoda-2007-surface
   booktitle: International Conference on Networked Sensing Systems (INSS)
   href: https://drive.google.com/file/d/1WXjk5jKbZBtRQxDunTtcA6GxRaJe9ZYx/view?usp=sharing
 
@@ -4157,6 +4200,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: TelekineticDealer Card Actuation Platform Using Airborne Ultrasound. 
+  refId: arakawa-2025-telekineticdealer-card
   booktitle: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA ’25)
   doi: 10.1145/3706599.3721111
 
@@ -4172,6 +4216,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: DualBreath Input Method Using Nasal and Mouth Breathing
+  refId: onishi-2021-dualbreath
   booktitle: Augmented Humans Conference (AHs’21)
 
 - type: demos
@@ -4181,6 +4226,7 @@
     - Shun Suzuki
     - Hiroyuki Shinoda
   title: Mid-air Thermal Display via High-intensity Ultrasound
+  refId: kamigaki-2020-mid-air
   booktitle: SIGGRAPH Asia Emerging Technologies (SA ’20)
   doi: 10.1145/3415255.3422895
 
@@ -4216,6 +4262,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Three-dimensional Interaction Technique Using an Acoustically Manipulated Balloon
+  refId: furumoto-2019-three-dimensional
   doi: 10.1145/3355049.3360536
   booktitle: SIGGRAPH Asia Emerging Technologies
 
@@ -4271,6 +4318,7 @@
     - Yuichi Masuda
     - Hiroyuki Shinoda
   title: Massive Multiple Access Wireless LAN Using Ultra-Wideband Waveguide Floor Tiles
+  refId: noda-2016-massive
   booktitle: Annual IEEE Consumer Communications and Networking Conference (CCNC)
   href: https://drive.google.com/file/d/1UXSUNeFL3aCBK5Z528cza5E9jXTeLLd0/view?usp=sharing
 
@@ -5334,6 +5382,7 @@
     - 牧野 泰才
     - 篠田 裕之
   title: 熱画像を用いた強力空中超音波の音場分布計測
+  refId: 小丹枝-2021-熱画像を用いた強力空中超音波の音場分布計測
   booktitle: センシングフォーラム計測部門大会
 
 - type: domestic
@@ -5702,6 +5751,7 @@
     - 牧野泰才
     - 篠田裕之
   title: 液面境界刺激による水中感覚の再現
+  refId: 日浦宏哉-2020-液面境界刺激による水中感覚の再現
   booktitle: バーチャルリアリティ学会大会
   href: http://conference.vrsj.org/ac2020/program/doc/2C3-4_PR0032.pdf
 
@@ -5727,6 +5777,7 @@
     - 牧野 泰才
     - 篠田 裕之
   title: 非接触な冷覚刺激による注意喚起システム
+  refId: 小丹枝-2020-非接触な冷覚刺激による注意喚起システム
   booktitle: バーチャルリアリティ学会大会
   href: http://conference.vrsj.org/ac2020/program/doc/1D2-4_PR0015.pdf
 
@@ -5737,6 +5788,7 @@
     - 牧野 泰才
     - 篠田 裕之
   title: 集束超音波による冷覚フィードバックを有するフォグディスプレイの基礎検討
+  refId: 中島-2020-集束超音波による冷覚フィードバックを有するフォグディスプレイの基礎検討
   booktitle: バーチャルリアリティ学会大会
   href: http://conference.vrsj.org/ac2020/program/doc/2D2-1_PR0017.pdf
 
@@ -6012,6 +6064,7 @@
     - 牧野 泰才
     - 篠田 裕之
   title: Prediction of Ping-Pong Ball Trajectory Based on Neural Network Using Player’s Body Motions
+  refId: 陳剣宇-2019-prediction
   booktitle: バーチャルリアリティ学会大会
   href: http://conference.vrsj.org/ac2019/program/common/doc/pdf/6D-09.pdf
 
@@ -6022,6 +6075,7 @@
     - 牧野泰才
     - 篠田裕之
   title: 空中ミストの制御による遠隔冷覚提示
+  refId: 中島-2019-空中ミストの制御による遠隔冷覚提示
   booktitle: バーチャルリアリティ学会大会
   href: http://conference.vrsj.org/ac2019/program/common/doc/pdf/5A-04.pdf
 
@@ -6303,6 +6357,7 @@
     - 牧野泰才
     - 篠田裕之
   title: 超音波走査による匂いディスプレイ
+  refId: 中島-2018-超音波走査による匂いディスプレイ
   booktitle: バーチャルリアリティ学会大会
 
 - type: domestic
