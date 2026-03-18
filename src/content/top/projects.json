@@ -1,11 +1,13 @@
 [
   {
     "title": "ハプティクスイニシアチブが始まりました",
+    "image": "/assets/projects/haptics-initiative/initiative_mini.png",
     "href": "https://sites.google.com/edu.k.u-tokyo.ac.jp/haptics-initiative"
   },
   {
-    "title": "大阪万博 未来の都市パビリオン「空中感覚装置」技術協力",
-    "href": "https://www.niterragroup.com/expo2025/"
+    "title": "内閣府 SIP プロジェクト「非接触ハプティクスの公共空間実装」",
+    "image": "/assets/projects/SIP_noncontact_haptics/SIP_logo.png",
+    "href": "https://sip3.nedo.go.jp/virtual/"
   },
   {
     "title": "空中ハプティクス・空中触覚提示",
