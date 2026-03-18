@@ -100,8 +100,18 @@ const copy = isEnglish
 			tabtitle: "Shinoda & Makino Lab",
 			affiliation: "",
 			title: "Haptics: Just Beginning",
-			description:
-				"We aim for breakthroughs in real-world informatics by introducing new physical effects and structures into information systems. The current targets include sensing technologies of humans, their environments, and the interactions among them, as well as actuation technologies through the five senses, especially the sense of touch. Our research activities encompass basic theories, hardware and software development, and social implementation, such as the commercialization of our research.",
+			description: `We aim to realize real-world information environments that transcend conventional boundaries 
+by introducing novel physical phenomena and structural designs into systems. Our research 
+focuses on hardware-level innovations, particularly in sensing humans, environments, 
+and their interactions, as well as developing technologies that support people 
+by engaging their senses. While striving for fundamental and universal achievements 
+based on original concepts, our research also encompasses the entire process of transforming 
+these ideas into practical technologies that solve real-world problems.
+
+In particular, we focus on haptics—the technology of touch. For a long time, 
+haptics was considered a niche field within science and engineering. However, 
+we are now witnessing a discontinuous shift in both its technological seeds 
+and societal needs.`,
 			overviewHeading: "Haptics & Applied Physics in Synthesis",
 			newsHeading: "News",
 			affiliationsHeading: "Laboratory affiliations",
@@ -115,8 +125,16 @@ const copy = isEnglish
 	: {
 			title: "これから始まるハプティクス",
 			tabtitle: "篠田・牧野研究室",
-			description:
-				"システムの中に新しい物理現象や物理的構造を導入することで，従来の壁を越える実世界情報環境を実現します．特に人間，環境，その相互作用のセンシングや，五感，特に触覚に働きかけて人間を支援する技術について，ハードウエアレベルからの提案を行っています．斬新な発想に基づく基礎的・普遍的成果を目指すとともに，それらが人々の問題を解決し，実用技術として幅広く活用されるまでのプロセスも研究のテーマに含まれます．",
+			description: `システムの中に新しい物理現象や物理的構造を導入することで,
+従来の壁を越える実世界情報環境を実現します．
+特に人間，環境，その相互作用のセンシングや，感覚に働きかけて人間を支援する技術について，
+ハードウエアレベルからの提案を行っています．
+斬新な発想に基づく基礎的・普遍的成果を目指すとともに，それらが人々の問題を解決し，
+実用技術として幅広く活用されるまでのプロセスも研究のテーマに含まれます．
+
+なかでも人間の触覚を有効活用するハプティクスに注目しています．ハプティクスは，
+長らく理工学や情報学のニッチ領域と見なされてきました．
+しかし現在はそのシーズとニーズの両面において不連続的な変化が起きつつあります．`,
 			overviewHeading: "Haptics & Applied Physics in Synthesis",
 			newsHeading: "News",
 			affiliationsHeading: "研究室の所属",
@@ -248,7 +266,22 @@ const copy = isEnglish
 					</div>
 
 					<div class="home-overview__description">
-						<p>{copy.description}</p>
+						<div
+							class="description-container"
+							style="text-align: justify; text-justify: inter-ideograph;"
+						>
+							{
+								copy.description
+									.split(/\n\s*\n/)
+									.map((paragraph) => (
+										<span style="display: block; margin-bottom: 0.5em; white-space: pre-wrap;">
+											{paragraph
+												.replace(/(?<!\n)\n(?!\n)/g, "")
+												.trim()}
+										</span>
+									))
+							}
+						</div>
 					</div>
 				</div>
 
@@ -381,16 +414,17 @@ const copy = isEnglish
 										{topic.image && (
 											<Image
 												src={topic.image}
-												alt={topic.imageAlt ?? topic.title}
+												alt={
+													topic.imageAlt ??
+													topic.title
+												}
 												class="news-card__image"
 												width={400}
 												height={300}
 											/>
 										)}
 									</div>
-									<h3>
-										{topic.title}
-									</h3>
+									<h3>{topic.title}</h3>
 									<p class="news-card__date">
 										◷ {copy.articleMeta(topic)}
 									</p>
