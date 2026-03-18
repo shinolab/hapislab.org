@@ -1,6 +1,6 @@
 ---
 title: "空中触覚タッチパネル"
-summary: 空中に浮かぶ映像に手を触れて、触感を感じながらタッチ操作するための技術を提案します。"
+summary: 空中に浮かぶ映像に手を触れて、触感を感じながらタッチ操作するための技術を提案します。
 date: "2014-10-01"
 updated: "2018-07-11"
 image: "/assets/research-topics/midair-touch-panel/hero.jpg"

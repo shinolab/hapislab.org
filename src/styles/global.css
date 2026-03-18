@@ -648,6 +648,28 @@ a:hover {
 	max-width: 100%;
 }
 
+.topic-article-content .topic-article-inline-figure {
+	margin: 0 0 2rem;
+}
+
+.topic-article-content .topic-article-inline-figure a {
+	display: block;
+}
+
+.topic-article-content .topic-article-inline-figure img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.topic-article-content .topic-article-inline-figure figcaption {
+	margin-top: 0.75rem;
+	color: var(--text-subtle);
+	font-size: 0.95rem;
+	line-height: 1.6;
+	text-align: center;
+}
+
 .topic-article-content-meta {
 	display: flex;
 	justify-content: flex-end;

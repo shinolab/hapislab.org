@@ -2,14 +2,12 @@
 title: 超音波による空中剛体浮揚
 titleEn: Rigid-body Levitation by Ultrasound
 summary: 空中超音波フェーズドアレイにより、波長の3倍以上大きい剛体の位置と回転を安定化しながら浮揚させる研究です。
-summaryEn: >-
-  A method for stably levitating rigid bodies larger than the acoustic
-  wavelength using airborne ultrasound phased arrays.
 date: '2020-10-14'
 updated: '2020-10-15'
 image: /assets/research-topics/rigidbody-levitation/hero.jpg
 imageAlt: 超音波による空中剛体浮揚
 ---
+
 [https://www.youtube.com/embed/zrlQEZ3K4a0?feature=oembed](https://www.youtube.com/embed/zrlQEZ3K4a0?feature=oembed)
 
 超音波フェーズドアレイを用いて、剛体の位置と回転の6自由度に対して自立安定するような力場を設計することにより、波長の３倍以上大きい剛体の浮揚を初めて実証しました。特に非球物体の浮揚は他に類を見ないものです。

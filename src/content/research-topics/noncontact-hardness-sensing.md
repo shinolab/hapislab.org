@@ -1,6 +1,6 @@
 ---
 title: "超音波による表面硬さの遠隔計測"
-summary: "物体表面の硬さ分布を、物体に触れることなく計測します。"
+summary: 物体表面の硬さ分布を、物体に触れることなく計測します。
 date: "2014-05-22"
 updated: "2023-03-31"
 image: "/assets/research-topics/noncontact-hardness-sensing/hero.jpg"

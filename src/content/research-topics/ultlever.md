@@ -6,6 +6,7 @@ updated: '2024-02-27'
 image: /assets/research-topics/ultlever/hero.jpg
 imageAlt: 'UltLever: 空中超音波で駆動するパッシブな触覚提示デバイス'
 ---
+
 Left) Concept of ultrasound-driven passive haptic device. Right) Fabricated passive haptic device presenting 0.7 N force and 2- 30 Hz vibration to the fingerpad.
 
 [https://www.youtube.com/embed/CYVpGIibzNs?feature=oembed](https://www.youtube.com/embed/CYVpGIibzNs?feature=oembed)
