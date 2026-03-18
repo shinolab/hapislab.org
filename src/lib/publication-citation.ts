@@ -6,9 +6,12 @@ export interface PublicationCitationDisplay {
 	titleText: string;
 	venueName: string;
 	venueDetails: string;
+	eventDateText: string;
+	locationText: string;
 	doiText: string;
 	languageNote: string;
 	isProceedings: boolean;
+	year: string;
 }
 
 export const formatPublicationAuthors = (
@@ -48,9 +51,12 @@ export const getPublicationCitationDisplay = (
 			: `"${publication.title},"`,
 		venueName: publication.journal || publication.booktitle || '',
 		venueDetails,
+		eventDateText: publication.eventDate || '',
+		locationText: publication.location || '',
 		doiText: publication.doi ? `doi: ${publication.doi}` : '',
 		languageNote:
 			locale === 'en' && publication.lang === 'ja' ? '(in Japanese)' : '',
-		isProceedings: publication.type == "inproceedings"
+		isProceedings: publication.type == "inproceedings",
+		year: `${publication.year}`
 	};
 };

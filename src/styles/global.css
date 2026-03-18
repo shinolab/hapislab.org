@@ -79,20 +79,6 @@ a:hover {
 	padding: 0.35rem 0;
 }
 
-.site-topbar__meta,
-.site-topbar__sub {
-	margin: 0;
-	line-height: 1.2;
-}
-
-.site-topbar__meta {
-	font-size: 0.68rem;
-}
-
-.site-topbar__sub {
-	font-size: 0.78rem;
-}
-
 .site-header {
 	position: sticky;
 	top: 0;
@@ -382,28 +368,6 @@ a:hover {
 	transition: transform 0.3s ease;
 }
 
-.detail-meta {
-	display: grid;
-	gap: 1rem;
-}
-
-.detail-meta__grid {
-	display: grid;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
-	gap: 1rem;
-}
-
-.detail-meta__item dt {
-	margin-bottom: 0.35rem;
-	color: var(--text-subtle);
-	font-size: 0.9rem;
-}
-
-.detail-meta__item dd {
-	margin: 0;
-	font-weight: 700;
-}
-
 .prose> :first-child {
 	margin-top: 0;
 }
@@ -677,56 +641,6 @@ a:hover {
 	opacity: 0.65;
 }
 
-.topic-article-share {
-	max-width: 900px;
-	margin: 0 auto;
-}
-
-.topic-article-share__actions {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 0.75rem;
-}
-
-.topic-article-share__link {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	min-width: 7.25rem;
-	padding: 0.72rem 1rem;
-	border: 1px solid transparent;
-	color: #fff;
-	text-decoration: none;
-	font-weight: 700;
-	cursor: pointer;
-}
-
-.topic-article-share__link--x {
-	background: #111;
-}
-
-.topic-article-share__link--facebook {
-	background: #1877f2;
-}
-
-.topic-article-share__link--hatena {
-	background: #00a4de;
-}
-
-.topic-article-share__link--pocket {
-	background: #ef4056;
-}
-
-.topic-article-share__link--line {
-	background: #06c755;
-}
-
-.topic-article-share__link--copy {
-	background: #fff;
-	border-color: var(--primary);
-	color: var(--primary);
-}
-
 .topic-article-pagination {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -975,7 +889,6 @@ a:hover {
 
 	.legacy-topic-grid,
 	.home-news__grid,
-	.detail-meta__grid,
 	.topic-article-related__grid {
 		grid-template-columns: 1fr;
 	}
@@ -1017,14 +930,6 @@ a:hover {
 
 	.topic-article-pagination__item--next {
 		text-align: left;
-	}
-}
-
-@media (max-width: 640px) {
-
-	.topic-article-share__link {
-		flex: 1 1 calc(50% - 0.75rem);
-		min-width: 0;
 	}
 }
 
@@ -1387,23 +1292,9 @@ header [class*="logo"]:not(.custom-mobile-logo-img) {
 }
 
 
-.site-topbar__meta {
-	font-size: 1.2rem !important;
-	line-height: 1.2 !important;
-	margin: 0 !important;
-}
-
-
 .site-topbar__text-bundle {
 	font-size: 1.2rem !important;
 	line-height: 1 !important;
-}
-
-
-@media (max-width: 600px) {
-	.topbar-logo {
-		height: 1.4rem !important;
-	}
 }
 
 

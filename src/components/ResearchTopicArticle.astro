@@ -18,7 +18,6 @@ interface Props {
 	previousTopic?: ResearchTopicListItem;
 	nextTopic?: ResearchTopicListItem;
 	relatedTopics: ResearchTopicListItem[];
-	shareUrl: string;
 }
 
 const {
@@ -34,7 +33,6 @@ const {
 	previousTopic,
 	nextTopic,
 	relatedTopics,
-	shareUrl,
 } = Astro.props;
 
 const articleDate = topic.date ?? topic.updated ?? "";
@@ -53,40 +51,7 @@ const updatedLabel = locale === "en" ? "Updated: " : "更新日: ";
 const relatedHeading = locale === "en" ? "Related topics" : "関連記事";
 const previousLabel = locale === "en" ? "Previous article" : "前の記事";
 const nextLabel = locale === "en" ? "Next article" : "次の記事";
-const copyLabel = locale === "en" ? "Copy URL" : "URLをコピー";
 const pageTitle = `${title} | ${locale === "en" ? "Shinoda & Makino Lab" : "篠田・牧野研究室"}`;
-const encodedTitle = encodeURIComponent(title);
-const encodedUrl = encodeURIComponent(shareUrl);
-const shareLinks = [
-	{
-		label: "X",
-		href: `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`,
-		className: "topic-article-share__link topic-article-share__link--x",
-	},
-	{
-		label: "Facebook",
-		href: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
-		className:
-			"topic-article-share__link topic-article-share__link--facebook",
-	},
-	{
-		label: "Hatena",
-		href: `https://b.hatena.ne.jp/entry/${shareUrl.replace(/^https?:\/\//, "")}`,
-		className:
-			"topic-article-share__link topic-article-share__link--hatena",
-	},
-	{
-		label: "Pocket",
-		href: `https://getpocket.com/edit?url=${encodedUrl}&title=${encodedTitle}`,
-		className:
-			"topic-article-share__link topic-article-share__link--pocket",
-	},
-	{
-		label: "LINE",
-		href: `https://social-plugins.line.me/lineit/share?url=${encodedUrl}`,
-		className: "topic-article-share__link topic-article-share__link--line",
-	},
-];
 const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 	topic: relatedTopic,
 	imageSrc: relatedTopic.image,
@@ -174,38 +139,6 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 					</span>
 				</p>
 
-				<section
-					class="topic-article-share"
-					aria-labelledby="topic-share-heading"
-				>
-					<div class="topic-article-share__actions">
-						{
-							shareLinks.map((item) => (
-								<a
-									class={item.className}
-									href={item.href}
-									target="_blank"
-									rel="noreferrer"
-								>
-									{item.label}
-								</a>
-							))
-						}
-
-						<button
-							type="button"
-							class="topic-article-share__link topic-article-share__link--copy"
-							data-copy-url={shareUrl}
-							data-copy-default={copyLabel}
-							data-copy-success={locale === "en"
-								? "Copied"
-								: "コピーしました"}
-						>
-							{copyLabel}
-						</button>
-					</div>
-				</section>
-
 				{
 					(previousTopic || nextTopic) && (
 						<nav
@@ -228,9 +161,7 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 									<span class="topic-article-pagination__label">
 										{previousLabel}
 									</span>
-									<strong>
-										{previousTopic.title}
-									</strong>
+									<strong>{previousTopic.title}</strong>
 								</a>
 							) : (
 								<div />
@@ -248,9 +179,7 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 									<span class="topic-article-pagination__label">
 										{nextLabel}
 									</span>
-									<strong>
-										{nextTopic.title}
-									</strong>
+									<strong>{nextTopic.title}</strong>
 								</a>
 							) : (
 								<div />
@@ -296,9 +225,7 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
 											<p class="topic-card__date">
 												{relatedTopic.date}
 											</p>
-											<h3>
-												{relatedTopic.title}
-											</h3>
+											<h3>{relatedTopic.title}</h3>
 										</a>
 									</article>
 								),

@@ -13,6 +13,8 @@ export interface Publication {
 	volume?: string;
 	number?: string;
 	pages?: string;
+	eventDate?: string;
+	location?: string;
 	doi?: string;
 	note?: string;
 	href?: string;
@@ -36,6 +38,8 @@ export const publications: Publication[] = (yaml.load(publicationsYaml) as Publi
 		volume: row.volume?.toString(),
 		number: row.number?.toString(),
 		pages: row.pages?.trim(),
+		eventDate: row.eventDate?.trim(),
+		location: row.location?.trim(),
 		doi: row.doi?.trim(),
 		note: row.note?.trim(),
 		href: row.href?.trim() || (row.doi ? `https://doi.org/${row.doi.trim()}` : ''),

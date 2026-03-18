@@ -1,5 +1,5 @@
 ---
-import { getPublicationCitationDisplay } from "../lib/publication-citation";
+import PublicationCitation from "./PublicationCitation.astro";
 import { getPublicationByRefId } from "../lib/site-data";
 
 interface Props {
@@ -15,80 +15,12 @@ const publication = getPublicationByRefId(refId);
 if (!publication) {
 	throw new Error(`Unknown publication refId: ${refId}`);
 }
-
-const citation = getPublicationCitationDisplay(publication, locale);
-const CitationTag = publication.href ? "a" : "span";
 ---
 
-<CitationTag
-	href={publication.href || undefined}
-	target={publication.href ? "_blank" : undefined}
-	rel={publication.href ? "noopener noreferrer" : undefined}
-	class:list={[
-		"publication-ref",
-		publication.href && "publication-ref--link",
-	]}
->
-	{
-		citation.authorsText && (
-			<span class="citation-authors">{citation.authorsText}</span>
-		)
-	}
-	<span class="citation-title">{citation.titleText}</span>
-	<span class="citation-venue">
-		{
-			citation.japaneseStyle ? (
-				<>
-					{citation.venueName && (
-						<span class="venue-name--plain">
-							{citation.venueName}
-						</span>
-					)}
-					{citation.venueDetails &&
-						`${citation.venueName ? ". " : ""}${citation.venueDetails}`}
-					{citation.doiText &&
-						`${citation.venueName || citation.venueDetails ? ". " : ""}${citation.doiText}`}
-				</>
-			) : (
-				<>
-					{citation.isProceedings && citation.venueName && (
-						<span>in </span>
-					)}
-					{citation.venueName && (
-						<em class="venue-name">{citation.venueName}</em>
-					)}
-					{citation.venueDetails &&
-						`${citation.venueName ? ", " : ""}${citation.venueDetails}`}
-					{citation.doiText && ` (${citation.doiText})`}
-				</>
-			)
-		}
-		{
-			publication.note && (
-				<span class="citation-note"> [{publication.note}]</span>
-			)
-		}
-		{
-			citation.languageNote && (
-				<span class="citation-note"> {citation.languageNote}</span>
-			)
-		}
-	</span>
-</CitationTag>
-
-<style>
-	.publication-ref {
-		overflow-wrap: anywhere;
-		word-break: normal;
-	}
-
-	.citation-authors,
-	.citation-title,
-	.citation-venue {
-		display: inline;
-	}
-
-	.venue-name--plain {
-		font-style: normal;
-	}
-</style>
+<PublicationCitation
+	publication={publication}
+	locale={locale}
+	className="publication-ref"
+	linkClassName="publication-ref--link"
+	fallbackTag="span"
+/>
