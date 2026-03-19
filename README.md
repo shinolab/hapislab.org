@@ -23,33 +23,25 @@
 
 ---
 
-## 📝 コンテンツの編集方法
-
-具体的な更新手順については, 以下のガイドを参照してください.
-
-👉 [**コンテンツ更新ガイド (docs/edit-guide.md)**](./docs/edit-guide.md)
-
-- 論文の追加 (`publications.yml`)
-- ニュースの更新
-- 研究テーマ・メンバー情報の編集
-- YAML/Markdown/MDX の書き方
-
----
-
 ## 🛠 プルリクエスト (PR) の送り方
 
 変更をサイトに反映させるには, プルリクエストを作成してください. **`main` ブランチへの直接 Push はできません.**
 
 ### 推奨: GitHub CLI (`gh`) を使う
 
+事前に [GitHub CLI](https://cli.github.com/) をインストールしておいてください.
+
 1. 最新の `main` を取得: `git switch main && git pull origin main`
 2. 作業用ブランチ作成: `git switch -c update-my-content`
-  - ブランチ名は内容に応じて適宜変更してください.
-3. 編集・コミット: `git add . && git commit -m "Update message"`
-  - コミットメッセージは変更内容がわかるように書いてください.
-4. PR作成: `gh pr create --web`
-  - ブラウザが開くので, タイトルと説明を入力して PR を作成してください.
-  - `--web`を付けない場合は CLI 上で完結できます.
+    - ブランチ名は内容に応じて適宜変更してください.
+3. 編集: 具体的な更新手順については, 以下のガイドを参照してください.
+    - 👉 [**コンテンツ更新ガイド (docs/edit-guide.md)**](./docs/edit-guide.md)
+4. コミット: `git add . && git commit -m "Update message"`
+    - コミットメッセージは変更内容がわかるように書いてください.
+    - `git add .` は変更したファイルをすべてステージングします. 不要なファイル/機密ファイルなどが含まれないように注意してください. gitに慣れていない場合はGUIクライアントの使用を推奨します.
+5. PR作成: `gh pr create --web`
+    - ブラウザが開くので, タイトルと説明を入力して PR を作成してください.
+    - `--web`を付けない場合は CLI 上で完結できます.
 
 ### GitHub Web UI を使う
 
