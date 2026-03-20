@@ -1335,7 +1335,7 @@ header [class*="logo"]:not(.custom-mobile-logo-img) {
     html:not([lang="ja"]) .site-brand__name {
         white-space: normal !important;   
         word-break: break-word;         
-        max-width: 75% !important;      
+        max-width: 95% !important;      
         line-height: 1.2 !important;     
         font-size: 1.2rem !important;     
     }
