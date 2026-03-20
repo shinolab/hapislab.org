@@ -1345,11 +1345,18 @@ header [class*="logo"]:not(.custom-mobile-logo-img) {
     }
 
     /* 英語など：フォントサイズを 1.1rem にし、必要なら折り返し */
+@media (max-width: 570px) {
     html:not([lang="ja"]) .site-brand__name {
         white-space: normal !important;   
         word-break: break-word;         
-        max-width: 75% !important;      
+        max-width: 95% !important;      
         line-height: 1.2 !important;     
-        font-size: 1.1rem !important;     
+        font-size: 1.2rem !important;     
+    }
+
+
+    html[lang="ja"] .site-brand__name {
+        white-space: nowrap !important;  
+        font-size: 1.2rem !important;     
     }
 }
