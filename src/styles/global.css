@@ -1074,7 +1074,7 @@ a {
 		align-items: center !important;
 		justify-content: space-between !important;
 		min-height: 100px !important;
-		padding: 10px 15px !important;
+		padding: 0px 0px !important;
 		position: relative !important;
 	}
 
@@ -1337,12 +1337,21 @@ header [class*="logo"]:not(.custom-mobile-logo-img) {
         word-break: break-word;         
         max-width: 95% !important;      
         line-height: 1.2 !important;     
-        font-size: 1.2rem !important;     
+        font-size: 1.4rem !important;     
     }
 
-
-    html[lang="ja"] .site-brand__name {
+	html[lang="ja"] .site-brand__name {
         white-space: nowrap !important;  
-        font-size: 1.2rem !important;     
+        font-size: 1.4rem !important;     
     }
+
+	.custom-mobile-logo-img {
+        /* 元の 3.3rem の 80% である 2.64rem に設定 */
+        height: 2.64rem !important; 
+        width: auto !important;
+        /* 位置が少し浮く場合は以下で微調整してください */
+        vertical-align: middle;
+    }
+
+
 }
