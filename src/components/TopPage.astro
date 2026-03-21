@@ -798,9 +798,12 @@ const descriptionParagraphs = copy.description
 		}
 
 		.home-intro,
-		.home-intro__branding,
-		.home-news__grid {
+		.home-intro__branding{
 			grid-template-columns: 1fr;
+		}
+		
+		.home-news__grid {
+       grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 		}
 
 		.home-news-card {
