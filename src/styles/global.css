@@ -1047,10 +1047,6 @@ a {
 	line-height: 1.4 !important;
 }
 
-.custom-mobile-menu-btn {
-	display: none !important;
-}
-
 .home-project-card__body p {
 	font-size: 0.85rem !important;
 	color: var(--text-subtle) !important;
@@ -1088,13 +1084,6 @@ a {
 		gap: 15px !important;
 		text-decoration: none !important;
 		flex: 1 !important;
-	}
-
-	.custom-mobile-logo-img {
-		height: 3.3rem !important;
-		width: auto !important;
-		display: block !important;
-		flex-shrink: 0 !important;
 	}
 
 	.site-brand__name {
@@ -1363,5 +1352,6 @@ header [class*="logo"]:not(.custom-mobile-logo-img) {
         /* 位置が少し浮く場合は以下で微調整してください */
         vertical-align: middle;
     }
+}
 
 }
