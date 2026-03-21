@@ -10,6 +10,14 @@ git pull origin main
 git switch -c <your-branch-name>
 ```
 
+- Gitの操作に慣れていない場合は, GUIクライアントの使用を推奨します.
+  - [VSCode](https://code.visualstudio.com/) + [GitGraph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+  - [GitKraken](https://www.gitkraken.com/)
+  - [SourceTree](https://www.sourcetreeapp.com/)
+  - 等々
+
+  ## 目次
+
 - [一般的な注意](#一般的な注意)
 - [発表論文の追加 (publications.yml)](#発表論文の追加-publicationsyml)
     - [PublicationRef コンポーネントでの参照](#publicationref-コンポーネントでの参照)
