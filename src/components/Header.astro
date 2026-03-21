@@ -319,17 +319,18 @@ const isActive = (href: string) => {
         }
 
         .site-header--menu-open .site-nav {
-            display: flex;
+            display: block;
             flex-direction: column;
             position: absolute;
             top: 100%;
-            left: 0;
-            width: 100%;
+            right: 0;
+            width: 300px;
+            max-width:80%;
             padding: 0.3rem 0 2.5rem;
             background: #fff;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
             z-index: 1000;
-            max-height: calc(100vh - 120px);
+            max-height: calc(100vh - 80px);
             overflow-y: auto;
             -webkit-overflow-scrolling: touch;
         }
@@ -339,7 +340,7 @@ const isActive = (href: string) => {
             padding: 0.5rem 1.25rem;
             border-bottom: 1px solid #f0f0f0;
             font-size: 1rem;
-            line-height: 1.2;
+            line-height: 2.0;
         }
 
         .site-nav__link--language {
