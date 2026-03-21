@@ -307,19 +307,40 @@ const relatedTopicsWithAssets = relatedTopics.map((relatedTopic) => ({
         background: #fff;
     }
 
-    .topic-article-content p {
+    .topic-article-content :global(p) {
         margin-bottom: 2rem;
     }
 
-    .topic-article-content iframe {
-        width: 100%;
+    .topic-article-content :global(img),
+    .topic-article-content :global(picture),
+    .topic-article-content :global(video),
+    .topic-article-content :global(iframe),
+    .topic-article-content :global(svg),
+    .topic-article-content :global(canvas) {
         max-width: 100%;
     }
 
-    .topic-article-content > p:first-child > :global(img):only-child {
+    .topic-article-content :global(img),
+    .topic-article-content :global(video),
+    .topic-article-content :global(svg),
+    .topic-article-content :global(canvas) {
+        height: auto;
+    }
+
+    .topic-article-content :global(iframe) {
+        width: 100%;
+        display: block;
+    }
+
+    .topic-article-content > :global(p:first-child) > :global(img:only-child) {
         display: block;
         width: 100%;
         height: auto;
+    }
+
+    .topic-article-content :global(figure) {
+        max-width: 100%;
+        margin: 0 0 2rem;
     }
 
     .topic-article-content :global(.topic-article-inline-figure) {
