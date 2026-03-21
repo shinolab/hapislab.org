@@ -63,15 +63,15 @@ wheels = [
 
 [[package]]
 name = "doi2bib3"
-version = "0.6.0"
+version = "0.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "bibtexparser" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b2/97/209f632e7d8b94f6c593d37e852884b595b4bed6e9bb399123615c06f3e0/doi2bib3-0.6.0.tar.gz", hash = "sha256:ab5075e6acb8d13ca23570e5986f979af742c83ff06bbc31199e6172e3738871", size = 25871, upload-time = "2026-02-24T14:41:57.974Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9d/9d/495e11f0d334575e1402a7d90e3be8a2756a8e26b0ac762d39ae37377798/doi2bib3-0.7.0.tar.gz", hash = "sha256:8b340ce91d773c1041511aaab816059d65807290f2b6443dbdefd04b21f0eb39", size = 27916, upload-time = "2026-03-19T14:10:52.922Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e3/89/a9083f6ce5b2b511ddbda80ce1b0261b4715088cd66ff89642dc290dd4ce/doi2bib3-0.6.0-py3-none-any.whl", hash = "sha256:335d5507d69719d21f1120e9bfc8651b614dbaddb8d1a6ecefc22879b06a73d8", size = 24539, upload-time = "2026-02-24T14:41:57.103Z" },
+    { url = "https://files.pythonhosted.org/packages/16/d5/bd168b877b6dffd8f5567bcfd70d1a8cd89a351b553301d2d334a2c0ea2a/doi2bib3-0.7.0-py3-none-any.whl", hash = "sha256:f2a585373925d5565c2c092e0198bc9cc2e4fd0d75e29e9b000707a839e02594", size = 25674, upload-time = "2026-03-19T14:10:52.003Z" },
 ]
 
 [[package]]
@@ -123,13 +123,15 @@ source = { virtual = "." }
 dependencies = [
     { name = "bibtexparser" },
     { name = "doi2bib3" },
+    { name = "requests" },
     { name = "ruamel-yaml" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "bibtexparser", specifier = ">=1.4.4" },
-    { name = "doi2bib3", specifier = ">=0.6.0" },
+    { name = "doi2bib3", specifier = ">=0.7.0" },
+    { name = "requests", specifier = ">=2.32.5" },
     { name = "ruamel-yaml", specifier = ">=0.19.1" },
 ]
 
