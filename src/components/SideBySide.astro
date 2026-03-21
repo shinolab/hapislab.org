@@ -10,7 +10,7 @@ interface Props {
 
 const {
 	reverse = false,
-	mediaWidth = "minmax(240px, 360px)",
+	mediaWidth = "clamp(200px, 32vw, 360px)",
 	gap = "1.5rem",
 	align = "center",
 	class: className = "",
@@ -66,6 +66,10 @@ const alignItems =
 		min-width: 0;
 	}
 
+	.side-by-side__media {
+		width: 100%;
+	}
+
 	.side-by-side__content {
 		text-align: var(--side-by-side-text-align);
 	}
@@ -92,7 +96,7 @@ const alignItems =
 		margin-bottom: 0;
 	}
 
-	@media (max-width: 800px) {
+	@media (max-width: 680px) {
 		.side-by-side,
 		.side-by-side--reverse {
 			grid-template-columns: 1fr;
