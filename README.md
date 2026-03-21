@@ -2,6 +2,8 @@
 
 このリポジトリは, [篠田・牧野研究室](https://hapislab.org/) の公式ウェブサイトのソースコードを管理しています.
 
+👉 [**コンテンツ更新ガイド (docs/edit-guide.md)**](./docs/edit-guide.md)
+
 ---
 
 ## 🚀 クイックスタート (ローカルでのプレビュー)
@@ -32,11 +34,11 @@
 事前に [GitHub CLI](https://cli.github.com/) をインストールしておいてください.
 
 1. 最新の `main` を取得: `git switch main && git pull origin main`
-2. 作業用ブランチ作成: `git switch -c update-my-content`
+2. 作業用ブランチ作成: `git switch -c <your-branch-name>`
     - ブランチ名は内容に応じて適宜変更してください.
 3. 編集: 具体的な更新手順については, 以下のガイドを参照してください.
     - 👉 [**コンテンツ更新ガイド (docs/edit-guide.md)**](./docs/edit-guide.md)
-4. コミット: `git add . && git commit -m "Update message"`
+4. コミット: `git add . && git commit -m "<your commit message>"`
     - コミットメッセージは変更内容がわかるように書いてください.
     - `git add .` は変更したファイルをすべてステージングします. 不要なファイル/機密ファイルなどが含まれないように注意してください. gitに慣れていない場合はGUIクライアントの使用を推奨します.
 5. PR作成: `gh pr create --web`

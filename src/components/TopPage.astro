@@ -1,8 +1,8 @@
 ---
+import type { AstroComponentFactory } from "astro/runtime/server/index.js";
 import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
-import { siteMeta } from "../data/site";
-import { englishSiteMeta } from "../data/site-en";
+import { getHomePageContent } from "../data/home";
 import { resolveAssetObject } from "../lib/public-assets";
 import { withBase, withBasePath } from "../lib/urls";
 import {
@@ -23,16 +23,30 @@ interface HomeProject {
 	imageAlt?: string;
 }
 
+interface NewsFrontmatter {
+	date?: string;
+	expireDate?: string;
+}
+
+interface NewsModule {
+	Content?: AstroComponentFactory;
+	default?: AstroComponentFactory;
+	frontmatter?: NewsFrontmatter;
+}
+
 const { locale = "ja" } = Astro.props;
 
 const isEnglish = locale === "en";
-const meta = isEnglish ? englishSiteMeta : siteMeta;
+const copy = getHomePageContent(locale);
 const currentPath = isEnglish ? "/en/" : "/";
 const latestTopics = getResearchTopics(locale).slice(0, 3);
 
-const newsModules = import.meta.glob("../content/top/news/*.{md,mdx}", {
-	eager: true,
-});
+const newsModules = import.meta.glob<NewsModule>(
+	"../content/top/news/*.{md,mdx}",
+	{
+		eager: true,
+	},
+);
 
 function isEnglishNewsModule(path: string): boolean {
 	return /\.en\.mdx?$/.test(path);
@@ -42,10 +56,18 @@ const newsItemsRaw = Object.entries(newsModules)
 	.filter(([path]) =>
 		isEnglish ? isEnglishNewsModule(path) : !isEnglishNewsModule(path),
 	)
-	.map(([, mod]: [string, any]) => ({
-		Content: mod.Content ?? mod.default,
-		frontmatter: mod.frontmatter,
-	}));
+	.map(([, moduleValue]) => ({
+		Content: moduleValue.Content ?? moduleValue.default,
+		frontmatter: moduleValue.frontmatter ?? {},
+	}))
+	.filter(
+		(
+			item,
+		): item is {
+			Content: AstroComponentFactory;
+			frontmatter: NewsFrontmatter;
+		} => Boolean(item.Content),
+	);
 
 const today = new Date().toISOString().split("T")[0];
 
@@ -59,103 +81,60 @@ const visibleNewsItems = newsItemsRaw
 	)
 	.slice(0, 5);
 
-const homeContentModules = import.meta.glob("../content/top/*.json", {
-	import: "default",
-});
+const homeContentModules = import.meta.glob<HomeProject[]>(
+	"../content/top/*.json",
+	{
+		import: "default",
+	},
+);
 
 const projectsPath = isEnglish
 	? "../content/top/projects.en.json"
 	: "../content/top/projects.json";
 const projectsLoader = homeContentModules[projectsPath];
-const projectItems = projectsLoader
-	? (((await projectsLoader()) as HomeProject[]) ?? [])
-	: [];
+const projectItems = projectsLoader ? ((await projectsLoader()) ?? []) : [];
 const visibleProjectItems = projectItems.filter(
 	(project) =>
 		project.title.trim().length > 0 && project.href.trim().length > 0,
 );
 
-const topicCarouselItems = getHomeResearchTopics(locale);
-const visibleTopicCarouselItems = topicCarouselItems.filter((item) => {
-	const href = isEnglish
-		? item.detailPathEn || item.detailPath
-		: item.detailPath;
-	return (
-		item.title.trim().length > 0 &&
-		typeof href === "string" &&
-		href.length > 0
-	);
-});
-const topicCarouselEntries = visibleTopicCarouselItems.map((item) => ({
-	item,
-	imageSrc: item.image,
-}));
+const getTopicHref = (topic: ResearchTopicListItem) =>
+	isEnglish ? topic.detailPathEn || topic.detailPath : topic.detailPath;
+
+const topicCarouselEntries = getHomeResearchTopics(locale)
+	.filter((item) => {
+		const href = getTopicHref(item);
+		return (
+			item.title.trim().length > 0 &&
+			typeof href === "string" &&
+			href.length > 0
+		);
+	})
+	.map((item) => ({
+		item,
+		imageSrc: item.image,
+		href: getTopicHref(item) ?? "#",
+	}));
+
 const projectEntries = visibleProjectItems.map((project) => ({
 	project,
-	imageSrc: resolveAssetObject(project.image),
+	imageSrc: project.image ? resolveAssetObject(project.image) : undefined,
 }));
 
-const copy = isEnglish
-	? {
-			tabtitle: "Shinoda & Makino Lab",
-			affiliation: "",
-			title: "Haptics: Just Beginning",
-			description: `We aim to realize real-world information environments that transcend conventional boundaries 
-by introducing novel physical phenomena and structural designs into systems. Our research 
-focuses on hardware-level innovations, particularly in sensing humans, environments, 
-and their interactions, as well as developing technologies that support people 
-by engaging their senses. While striving for fundamental and universal achievements 
-based on original concepts, our research also encompasses the entire process of transforming 
-these ideas into practical technologies that solve real-world problems.
-
-In particular, we focus on haptics—the technology of touch. For a long time, 
-haptics was considered a niche field within science and engineering. However, 
-we are now witnessing a discontinuous shift in both its technological seeds 
-and societal needs.`,
-			overviewHeading: "Haptics & Applied Physics in Synthesis",
-			newsHeading: "News",
-			affiliationsHeading: "Laboratory affiliations",
-			projectsHeading: "Related projects",
-			latestHeading: "Latest articles",
-			carouselLabel: "Featured research themes",
-			articleMeta: (topic: ResearchTopicListItem) => topic.date ?? "",
-			articleLinkLabel: "Read more",
-			logoAlt: "Shinoda & Makino Lab logo",
-		}
-	: {
-			title: "これから始まるハプティクス",
-			tabtitle: "篠田・牧野研究室",
-			description: `システムの中に新しい物理現象や物理的構造を導入することで,
-従来の壁を越える実世界情報環境を実現します．
-特に人間，環境，その相互作用のセンシングや，感覚に働きかけて人間を支援する技術について，
-ハードウエアレベルからの提案を行っています．
-斬新な発想に基づく基礎的・普遍的成果を目指すとともに，それらが人々の問題を解決し，
-実用技術として幅広く活用されるまでのプロセスも研究のテーマに含まれます．
-
-なかでも人間の触覚を有効活用するハプティクスに注目しています．ハプティクスは，
-長らく理工学や情報学のニッチ領域と見なされてきました．
-しかし現在はそのシーズとニーズの両面において不連続的な変化が起きつつあります．`,
-			overviewHeading: "Haptics & Applied Physics in Synthesis",
-			newsHeading: "News",
-			affiliationsHeading: "研究室の所属",
-			projectsHeading: "関連プロジェクト",
-			latestHeading: "最新記事一覧",
-			carouselLabel: "研究テーマ一覧",
-			articleMeta: (topic: ResearchTopicListItem) =>
-				topic.date?.replace(/-/g, "/") ?? "",
-			articleLinkLabel: "詳細を見る",
-			logoAlt: "篠田・牧野研究室のロゴ",
-		};
+const descriptionParagraphs = copy.description
+	.split(/\n\s*\n/)
+	.map((paragraph) => paragraph.replace(/\s*\n\s*/g, " ").trim())
+	.filter(Boolean);
 ---
 
 <Layout
-	title={copy.tabtitle}
+	title={copy.tabTitle}
 	description={copy.description}
 	currentPath={currentPath}
 	locale={locale}
 >
 	{
-		visibleTopicCarouselItems.length > 0 && (
+		topicCarouselEntries.length > 0 && (
 			<section
 				class="home-page-container home-topic-carousel home-topic-carousel-section"
 				data-topic-carousel
@@ -169,23 +148,18 @@ and societal needs.`,
 					<button
 						class="carousel-nav carousel-nav--prev"
 						id="carousel-prev"
-						aria-label="Previous"
+						aria-label={copy.carouselPreviousLabel}
 					>
 						<span class="carousel-nav__icon">‹</span>
 					</button>
 
 					<div class="home-topic-carousel__track" data-carousel-track>
 						{topicCarouselEntries.map(
-							({ item, imageSrc }, index) => (
+							({ item, imageSrc, href }, index) => (
 								<article class="home-topic-carousel__item">
 									<a
 										class="home-topic-carousel__link"
-										href={withBasePath(
-											isEnglish
-												? item.detailPathEn ||
-														item.detailPath
-												: item.detailPath,
-										)}
+										href={withBasePath(href)}
 										draggable="false"
 									>
 										<Image
@@ -206,42 +180,40 @@ and societal needs.`,
 								</article>
 							),
 						)}
-						{topicCarouselEntries.map(({ item, imageSrc }) => (
-							<article
-								class="home-topic-carousel__item"
-								aria-hidden="true"
-							>
-								<a
-									class="home-topic-carousel__link"
-									href={withBasePath(
-										isEnglish
-											? item.detailPathEn ||
-													item.detailPath
-											: item.detailPath,
-									)}
-									draggable="false"
+						{topicCarouselEntries.map(
+							({ item, imageSrc, href }) => (
+								<article
+									class="home-topic-carousel__item"
+									aria-hidden="true"
 								>
-									<Image
-										src={imageSrc}
-										alt={item.imageAlt ?? item.title}
-										class="home-topic-carousel__image"
+									<a
+										class="home-topic-carousel__link"
+										href={withBasePath(href)}
 										draggable="false"
-										width={200}
-										height={150}
-										loading="lazy"
-									/>
-									<h3 class="home-topic-carousel__title">
-										{item.title}
-									</h3>
-								</a>
-							</article>
-						))}
+										tabindex="-1"
+									>
+										<Image
+											src={imageSrc}
+											alt={item.imageAlt ?? item.title}
+											class="home-topic-carousel__image"
+											draggable="false"
+											width={200}
+											height={150}
+											loading="lazy"
+										/>
+										<h3 class="home-topic-carousel__title">
+											{item.title}
+										</h3>
+									</a>
+								</article>
+							),
+						)}
 					</div>
 
 					<button
 						class="carousel-nav carousel-nav--next"
 						id="carousel-next"
-						aria-label="Next"
+						aria-label={copy.carouselNextLabel}
 					>
 						<span class="carousel-nav__icon">›</span>
 					</button>
@@ -260,28 +232,17 @@ and societal needs.`,
 				<div class="home-intro">
 					<div class="home-intro__branding">
 						<div class="home-overview__body">
-							<h4>{copy.affiliation}</h4>
-							<h3>{copy.title}</h3>
+							{copy.heroSubtitle && <h4>{copy.heroSubtitle}</h4>}
+							<h3>{copy.heroTitle}</h3>
 						</div>
 					</div>
 
 					<div class="home-overview__description">
-						<div
-							class="description-container"
-							style="text-align: justify; text-justify: inter-ideograph;"
-						>
-							{
-								copy.description
-									.split(/\n\s*\n/)
-									.map((paragraph) => (
-										<span style="display: block; margin-bottom: 0.5em; white-space: pre-wrap;">
-											{paragraph
-												.replace(/(?<!\n)\n(?!\n)/g, "")
-												.trim()}
-										</span>
-									))
-							}
-						</div>
+						{
+							descriptionParagraphs.map((paragraph) => (
+								<p>{paragraph}</p>
+							))
+						}
 					</div>
 				</div>
 
@@ -294,7 +255,7 @@ and societal needs.`,
 
 					<ul class="legacy-bullet-list">
 						{
-							meta.affiliations.map((affiliation) => (
+							copy.affiliations.map((affiliation) => (
 								<li>{affiliation}</li>
 							))
 						}
@@ -304,7 +265,7 @@ and societal needs.`,
 		</section>
 
 		{
-			visibleProjectItems.length > 0 && (
+			projectEntries.length > 0 && (
 				<section class="content-section home-section">
 					<div class="section-heading section-heading--legacy page-hero">
 						<h1>{copy.projectsHeading}</h1>
@@ -318,7 +279,7 @@ and societal needs.`,
 										class="home-project-card__link"
 										href={withBase(project.href)}
 									>
-										{imageSrc && (
+										{imageSrc ? (
 											<Image
 												src={imageSrc}
 												alt={
@@ -329,8 +290,7 @@ and societal needs.`,
 												width={400}
 												height={225}
 											/>
-										)}
-										{!imageSrc && (
+										) : (
 											<div
 												class="home-project-card__image home-project-card__image--placeholder"
 												aria-hidden="true"
@@ -368,9 +328,8 @@ and societal needs.`,
 												<time
 													datetime={frontmatter.date}
 												>
-													{frontmatter.date.replace(
-														/-/g,
-														"/",
+													{copy.formatDate(
+														frontmatter.date,
 													)}
 												</time>
 											)}
@@ -399,11 +358,7 @@ and societal needs.`,
 							<article class="news-card">
 								<a
 									class="news-card__link"
-									href={withBasePath(
-										isEnglish
-											? topic.detailPathEn
-											: topic.detailPath,
-									)}
+									href={withBasePath(getTopicHref(topic))}
 								>
 									<div
 										class:list={[
@@ -426,7 +381,7 @@ and societal needs.`,
 									</div>
 									<h3>{topic.title}</h3>
 									<p class="news-card__date">
-										◷ {copy.articleMeta(topic)}
+										◷ {copy.formatDate(topic.date)}
 									</p>
 								</a>
 							</article>
@@ -439,14 +394,97 @@ and societal needs.`,
 </Layout>
 
 <style>
+	.home-page-container {
+		width: min(980px, calc(100% - 2rem));
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+	}
+
+	.home-page-container .section-heading--legacy {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.home-section__content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.home-topic-carousel-section {
+		margin-top: 1rem;
+		position: relative;
+	}
+
+	.home-topic-carousel__viewport {
+		overflow: hidden;
+		width: 100%;
+		display: block;
+	}
+
+	.home-topic-carousel__track {
+		display: flex;
+		flex-wrap: nowrap;
+		width: max-content;
+		gap: 1.25rem;
+		margin: 0;
+		padding: 0;
+	}
+
+	.home-topic-carousel__item {
+		flex: 0 0 200px;
+		width: 200px;
+		min-width: 200px;
+		display: block;
+		will-change: transform;
+		transition: transform 0.3s ease;
+	}
+
+	.home-topic-carousel__item:hover {
+		transform: translateY(-5px);
+	}
+
+	.home-topic-carousel__link {
+		display: block;
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.home-topic-carousel__image {
+		width: 100%;
+		height: 150px;
+		aspect-ratio: 4 / 3;
+		object-fit: cover;
+		object-position: center;
+		display: block;
+		border: 0;
+		background-color: #edf3f4;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+		transition: filter 0.3s ease;
+	}
+
+	.home-topic-carousel__title {
+		margin: 0.45rem 0 0;
+		font-size: 0.9rem;
+		line-height: 1.25;
+		font-weight: 500;
+		color: #333;
+	}
+
+	.home-topic-carousel__link:hover .home-topic-carousel__title {
+		color: var(--accent);
+	}
+
 	.carousel-nav {
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
 		width: 3rem;
 		height: 3rem;
-		background: rgba(255, 255, 255, 0.8);
+		padding-bottom: 0.3rem;
 		border: 1px solid var(--border);
+		background: rgba(255, 255, 255, 0.8);
 		color: var(--primary);
 		font-size: 2rem;
 		display: flex;
@@ -458,7 +496,6 @@ and societal needs.`,
 		transition:
 			opacity 0.3s ease,
 			background 0.3s ease;
-		padding-bottom: 0.3rem;
 		user-select: none;
 	}
 
@@ -478,39 +515,280 @@ and societal needs.`,
 		right: 0;
 	}
 
-	[data-carousel-track] {
-		animation: none !important;
+	[data-carousel-track].is-jumping {
+		transition: transform 0.4s ease-out;
 	}
 
-	[data-carousel-track].is-jumping {
-		transition: transform 0.4s ease-out !important;
+	.home-section > .section-heading--legacy,
+	.home-affiliations-block__heading.section-heading--legacy {
+		border-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.home-intro {
+		display: grid;
+		gap: 1.5rem;
+	}
+
+	.home-intro__branding {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		gap: 1rem;
+		align-items: center;
+	}
+
+	.home-overview__body h3 {
+		margin: 0;
+		font-size: clamp(1.8rem, 3vw, 2.8rem);
+		line-height: 1.2;
+	}
+
+	.home-overview__body h4 {
+		margin: 0;
+		font-size: clamp(1.2rem, 2vw, 1.86rem);
+		line-height: 1.2;
+	}
+
+	.home-overview__description {
+		display: grid;
+		gap: 0.5rem;
+		text-align: justify;
+		text-justify: inter-ideograph;
+	}
+
+	.home-overview__description p {
+		margin: 0;
+	}
+
+	.home-affiliations-block__heading {
+		margin-top: 1rem;
+		margin-bottom: 0;
+	}
+
+	.home-affiliations-block__heading h4 {
+		margin: 0;
+		font-size: 1.2rem;
+	}
+
+	.legacy-bullet-list {
+		margin: 0;
+		padding-left: 1.25rem;
+	}
+
+	.home-news-list {
+		display: grid;
+		gap: 1rem;
+	}
+
+	.home-news-card {
+		padding: 1.1rem 1.4rem;
+		background: var(--primary-soft);
+		border-left: 4px solid var(--accent);
+		display: flex;
+		gap: 1.5rem;
+		align-items: baseline;
+	}
+
+	.home-news-card__date {
+		font-weight: 700;
+		color: var(--accent);
+		flex-shrink: 0;
+		font-family: var(--font-mono, monospace);
+	}
+
+	.home-news-card__content {
+		flex-grow: 1;
+		font-weight: 600;
+		color: var(--primary);
+	}
+
+	.home-news-card__content p {
+		margin: 0;
+	}
+
+	.home-news-card__content a {
+		color: var(--accent);
+		text-decoration: underline;
+	}
+
+	.home-projects-list {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+		gap: 1.5rem;
+		margin: 2rem 0;
+	}
+
+	.home-project-card {
+		background: var(--surface-muted);
+		transition:
+			transform 0.3s ease,
+			box-shadow 0.3s ease;
+		display: flex;
+		flex-direction: column;
+		min-width: 0;
+	}
+
+	.home-project-card:hover {
+		transform: translateY(-5px);
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	}
+
+	.home-project-card__link {
+		display: grid;
+		grid-template-rows: auto 1fr;
+		color: inherit;
+		text-decoration: none;
+		height: 100%;
+		min-width: 0;
+	}
+
+	.home-project-card__image {
+		width: 100%;
+		height: 120px;
+		object-fit: cover;
+		display: block;
+		border-bottom: 1px solid var(--border);
+		background: var(--surface);
+	}
+
+	.home-project-card__body {
+		padding: 1rem;
+		min-width: 0;
+		overflow-wrap: anywhere;
+		word-break: break-word;
+	}
+
+	.home-project-card__body h3 {
+		margin: 0 0 0.5rem;
+		font-size: 1rem;
+		line-height: 1.4;
+	}
+
+	.home-project-card__body p {
+		margin: 0;
+		font-size: 0.85rem;
+		color: var(--text-subtle);
+	}
+
+	.home-latest {
+		margin-bottom: 4rem;
+	}
+
+	.home-news__grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+		gap: 1.5rem;
+		justify-content: center;
+	}
+
+	.news-card {
+		color: inherit;
+	}
+
+	.news-card__visual {
+		width: 100%;
+		aspect-ratio: 4 / 3;
+		margin-bottom: 0.8rem;
+		border: 1px solid var(--border);
+		background:
+			linear-gradient(135deg, rgba(255, 255, 255, 0.2), transparent 45%),
+			linear-gradient(160deg, #cfd9dc 0%, #a5b8be 100%);
+		overflow: hidden;
+		display: flex;
+	}
+
+	.news-card__link {
+		display: block;
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.news-card__link:hover h3 {
+		color: var(--accent);
+	}
+
+	.news-card__link:hover .news-card__image {
+		transform: scale(1.05);
+	}
+
+	.news-card__image {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition: transform 0.3s ease;
+	}
+
+	.news-card h3 {
+		margin: 0.5rem 0 0.45rem;
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: 1.5;
+	}
+
+	.news-card p {
+		margin: 0.35rem 0 0;
+		color: var(--text-subtle);
+	}
+
+	.news-card__date {
+		font-size: 0.9rem;
+		color: var(--text-subtle);
+	}
+
+	@media (max-width: 1024px) {
+		.home-page-container {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+
+		.home-topic-carousel__item {
+			flex-basis: 250px;
+			width: 250px;
+			min-width: 250px;
+		}
+
+		.home-intro,
+		.home-intro__branding,
+		.home-news__grid {
+			grid-template-columns: 1fr;
+		}
+
+		.home-news-card {
+			flex-direction: column;
+			gap: 0.5rem;
+		}
 	}
 </style>
 
 <script>
 	function setupCarousel() {
-		const track = document.querySelector(
+		const section = document.querySelector(
+			"[data-topic-carousel]",
+		) as HTMLElement | null;
+		if (!section || section.dataset.carouselReady === "true") return;
+
+		const track = section.querySelector(
 			"[data-carousel-track]",
-		) as HTMLElement;
-		const viewport = document.querySelector(
+		) as HTMLElement | null;
+		const viewport = section.querySelector(
 			"[data-carousel-viewport]",
-		) as HTMLElement;
+		) as HTMLElement | null;
 		const prevBtn = document.getElementById("carousel-prev");
 		const nextBtn = document.getElementById("carousel-next");
 
 		if (!track || !viewport || !prevBtn || !nextBtn) return;
+		section.dataset.carouselReady = "true";
 
 		let currentX = 0;
 		let lastTimestamp = 0;
-		let animationId: number | null = null;
-
 		let isManual = false;
 		let manualDirection = 0;
 		let isLongPress = false;
+		let pressTimer: number | null = null;
 
 		const AUTO_SPEED = 0.04;
 		const MANUAL_SPEED = 0.8;
-		const ITEM_WIDTH = 200 + 20;
+		const ITEM_WIDTH = 220;
 		const HALF_WIDTH = track.scrollWidth / 2;
 
 		const update = (timestamp: number) => {
@@ -529,41 +807,34 @@ and societal needs.`,
 			if (currentX > 0) currentX -= HALF_WIDTH;
 			if (currentX < -HALF_WIDTH) currentX += HALF_WIDTH;
 
-			track.style.setProperty(
-				"transform",
-				`translateX(${currentX}px)`,
-				"important",
-			);
-
-			animationId = requestAnimationFrame(update);
+			track.style.transform = `translateX(${currentX}px)`;
+			requestAnimationFrame(update);
 		};
 
 		const moveByItem = (direction: number) => {
 			isManual = true;
 			track.classList.add("is-jumping");
-
 			currentX += direction * ITEM_WIDTH;
 
-			setTimeout(() => {
+			window.setTimeout(() => {
 				track.classList.remove("is-jumping");
 				isManual = false;
 			}, 400);
 		};
 
-		let pressTimer: number | null = null;
-
 		const onStart = (direction: number) => {
 			isManual = true;
 			isLongPress = false;
 			manualDirection = direction;
-
 			pressTimer = window.setTimeout(() => {
 				isLongPress = true;
 			}, 250);
 		};
 
 		const onEnd = (direction: number) => {
-			if (pressTimer) clearTimeout(pressTimer);
+			if (pressTimer) {
+				window.clearTimeout(pressTimer);
+			}
 
 			if (!isLongPress) {
 				moveByItem(direction);
@@ -571,54 +842,56 @@ and societal needs.`,
 				isLongPress = false;
 				isManual = false;
 			}
+
 			pressTimer = null;
 		};
 
 		prevBtn.addEventListener("mousedown", () => onStart(1));
 		nextBtn.addEventListener("mousedown", () => onStart(-1));
 
-		const onGlobalMouseUp = (e: MouseEvent) => {
-			if (isManual) {
-				const isPrev =
-					e.target === prevBtn || prevBtn.contains(e.target as Node);
-				const isNext =
-					e.target === nextBtn || nextBtn.contains(e.target as Node);
+		window.addEventListener("mouseup", (event) => {
+			if (!isManual) return;
 
-				if (isPrev) onEnd(1);
-				else if (isNext) onEnd(-1);
-				else {
-					if (pressTimer) clearTimeout(pressTimer);
-					isLongPress = false;
-					isManual = false;
+			const target = event.target as Node | null;
+			const isPrev = Boolean(
+				target && (target === prevBtn || prevBtn.contains(target)),
+			);
+			const isNext = Boolean(
+				target && (target === nextBtn || nextBtn.contains(target)),
+			);
+
+			if (isPrev) {
+				onEnd(1);
+			} else if (isNext) {
+				onEnd(-1);
+			} else {
+				if (pressTimer) {
+					window.clearTimeout(pressTimer);
 				}
-			}
-		};
-
-		window.addEventListener("mouseup", onGlobalMouseUp);
-
-		viewport.addEventListener("mouseenter", () => {
-			if (!isManual) {
+				isLongPress = false;
+				isManual = false;
+				pressTimer = null;
 			}
 		});
 
-		prevBtn.addEventListener("touchstart", (e) => {
-			e.preventDefault();
+		prevBtn.addEventListener("touchstart", (event) => {
+			event.preventDefault();
 			onStart(1);
 		});
-		prevBtn.addEventListener("touchend", (e) => {
-			e.preventDefault();
+		prevBtn.addEventListener("touchend", (event) => {
+			event.preventDefault();
 			onEnd(1);
 		});
-		nextBtn.addEventListener("touchstart", (e) => {
-			e.preventDefault();
+		nextBtn.addEventListener("touchstart", (event) => {
+			event.preventDefault();
 			onStart(-1);
 		});
-		nextBtn.addEventListener("touchend", (e) => {
-			e.preventDefault();
+		nextBtn.addEventListener("touchend", (event) => {
+			event.preventDefault();
 			onEnd(-1);
 		});
 
-		animationId = requestAnimationFrame(update);
+		requestAnimationFrame(update);
 	}
 
 	setupCarousel();

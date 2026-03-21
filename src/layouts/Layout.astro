@@ -5,19 +5,19 @@ import { withBase } from "../lib/urls";
 import "../styles/global.css";
 
 interface Props {
-	title?: string;
-	description?: string;
-	currentPath?: string;
-	locale?: "ja" | "en";
-	languageSwitchHref?: string;
+    title?: string;
+    description?: string;
+    currentPath?: string;
+    locale?: "ja" | "en";
+    languageSwitchHref?: string;
 }
 
 const {
-	title = "篠田・牧野研究室",
-	description = "システムの中に新しい物理現象や物理的構造を導入することで、従来の壁を越える実世界情報環境の実現を目指しています。",
-	currentPath = "/",
-	locale = "ja",
-	languageSwitchHref,
+    title = "篠田・牧野研究室",
+    description = "システムの中に新しい物理現象や物理的構造を導入することで、従来の壁を越える実世界情報環境の実現を目指しています。",
+    currentPath = "/",
+    locale = "ja",
+    languageSwitchHref,
 } = Astro.props;
 
 const backToTopLabel = locale === "en" ? "Back to top" : "ページ上部へ戻る";
@@ -25,56 +25,125 @@ const backToTopLabel = locale === "en" ? "Back to top" : "ページ上部へ戻�
 
 <!doctype html>
 <html lang={locale}>
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" href={withBase("/favicon.ico")} sizes="any" />
-		<link rel="icon" type="image/svg+xml" href={withBase("/favicon.svg")} />
-		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content={description} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<div class="site-shell" id="page-top">
-			<Header
-				currentPath={currentPath}
-				locale={locale}
-				languageSwitchHref={languageSwitchHref}
-			/>
-			<slot />
-			<a
-				class="back-to-top"
-				href="#page-top"
-				aria-label={backToTopLabel}
-				aria-hidden="true"
-				title={backToTopLabel}
-				tabindex="-1"
-				data-back-to-top
-			>
-				<span class="back-to-top__icon" aria-hidden="true"></span>
-			</a>
-			<Footer locale={locale} />
-		</div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href={withBase("/favicon.ico")} sizes="any" />
+        <link rel="icon" type="image/svg+xml" href={withBase("/favicon.svg")} />
+        <meta name="generator" content={Astro.generator} />
+        <meta name="description" content={description} />
+        <title>{title}</title>
+    </head>
+    <body>
+        <div class="site-shell" id="page-top">
+            <Header
+                currentPath={currentPath}
+                locale={locale}
+                languageSwitchHref={languageSwitchHref}
+            />
+            <slot />
+            <a
+                class="back-to-top"
+                href="#page-top"
+                aria-label={backToTopLabel}
+                aria-hidden="true"
+                title={backToTopLabel}
+                tabindex="-1"
+                data-back-to-top
+            >
+                <span class="back-to-top__icon" aria-hidden="true"></span>
+            </a>
+            <Footer locale={locale} />
+        </div>
 
-		<script is:inline>
-			(() => {
-				const backToTop = document.querySelector("[data-back-to-top]");
-				if (!(backToTop instanceof HTMLElement)) {
-					return;
-				}
+        <script is:inline>
+            (() => {
+                function setupBackToTop() {
+                    const backToTop =
+                        document.querySelector("[data-back-to-top]");
+                    if (!(backToTop instanceof HTMLElement)) {
+                        return;
+                    }
 
-				const syncVisibility = () => {
-					const isVisible = window.scrollY > 320;
-					backToTop.classList.toggle("is-visible", isVisible);
-					backToTop.tabIndex = isVisible ? 0 : -1;
-					backToTop.setAttribute("aria-hidden", String(!isVisible));
-				};
+                    if (backToTop.dataset.bound === "true") {
+                        return;
+                    }
 
-				window.addEventListener("scroll", syncVisibility, {
-					passive: true,
-				});
-				syncVisibility();
-			})();
-		</script>
-	</body>
+                    backToTop.dataset.bound = "true";
+
+                    const syncVisibility = () => {
+                        const isVisible = window.scrollY > 320;
+                        backToTop.classList.toggle("is-visible", isVisible);
+                        backToTop.tabIndex = isVisible ? 0 : -1;
+                        backToTop.setAttribute(
+                            "aria-hidden",
+                            String(!isVisible),
+                        );
+                    };
+
+                    window.addEventListener("scroll", syncVisibility, {
+                        passive: true,
+                    });
+                    syncVisibility();
+                }
+
+                setupBackToTop();
+                document.addEventListener("astro:page-load", setupBackToTop);
+            })();
+        </script>
+    </body>
 </html>
+
+<style>
+    .back-to-top {
+        position: fixed;
+        right: calc(1.25rem + env(safe-area-inset-right));
+        bottom: calc(1.25rem + env(safe-area-inset-bottom));
+        display: grid;
+        place-items: center;
+        width: 3.65rem;
+        height: 3.65rem;
+        border-radius: 999px;
+        border: 1px solid rgba(0, 71, 90, 0.18);
+        background: rgba(255, 255, 255, 0.96);
+        color: var(--primary);
+        text-decoration: none;
+        font-size: 1.9rem;
+        font-weight: 700;
+        line-height: 1;
+        box-shadow: 0 0.75rem 1.75rem rgba(35, 35, 35, 0.12);
+        opacity: 0;
+        transform: translateY(0.5rem);
+        pointer-events: none;
+        transition:
+            opacity 180ms ease,
+            transform 180ms ease,
+            background-color 180ms ease;
+        z-index: 90;
+    }
+
+    .back-to-top__icon {
+        width: 0.95rem;
+        height: 0.95rem;
+        border-top: 3px solid currentColor;
+        border-left: 3px solid currentColor;
+        transform: rotate(45deg) translate(0.08rem, 0.08rem);
+    }
+
+    .back-to-top:hover {
+        background: var(--primary);
+        color: #fff;
+    }
+
+    .back-to-top:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+        color: #fff;
+    }
+
+    .back-to-top.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+</style>

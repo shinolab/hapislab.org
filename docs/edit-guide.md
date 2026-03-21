@@ -7,7 +7,7 @@
 ```
 git switch main
 git pull origin main
-git switch -c update-my-content
+git switch -c <your-branch-name>
 ```
 
 - [一般的な注意](#一般的な注意)

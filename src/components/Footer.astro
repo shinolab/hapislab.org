@@ -2,57 +2,105 @@
 import { Image } from "astro:assets";
 import utokyoLogo from "../assets/University_of_Tokyo_logo_(2024).svg";
 
+import { getPrimaryNav } from "../data/navigation";
 import { siteMeta } from "../data/site";
-import { englishSiteMeta } from "../data/site-en";
-import { primaryNav } from "../data/site";
-import { englishPrimaryNav } from "../data/site-en";
 import { withBasePath } from "../lib/urls";
 
 interface Props {
-	locale?: "ja" | "en";
+    locale?: "ja" | "en";
 }
 
 const { locale = "ja" } = Astro.props;
-const meta = locale === "en" ? englishSiteMeta : siteMeta;
-const footerNav = (locale === "en" ? englishPrimaryNav : primaryNav).filter(
-	(item) => item.href !== (locale === "en" ? "/en/" : "/"),
+const footerNav = getPrimaryNav(locale).filter(
+    (item) => item.href !== (locale === "en" ? "/en/" : "/"),
 );
 ---
 
 <footer class="site-footer">
-	<div class="container site-footer__inner">
-		<div class="container site-footer__inner">
-			<div class="site-footer__logo">
-				<a
-					href="https://www.u-tokyo.ac.jp/"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<Image
-						src={utokyoLogo}
-						alt="東京大学 / The University of Tokyo"
-					/>
-				</a>
-			</div>
-			<nav
-				class="site-footer__nav"
-				aria-label={locale === "en"
-					? "Footer navigation"
-					: "フッターナビゲーション"}
-			>
-				{
-					footerNav.map((item) => (
-						<a href={withBasePath(item.href)}>{item.label}</a>
-					))
-				}
-			</nav>
-			<p class="site-footer__meta">
-				© {
-					locale === "en"
-						? meta.englishName
-						: `${meta.japaneseName}/${meta.englishName}`
-				}
-			</p>
-		</div>
-	</div>
+    <div class="container site-footer__inner">
+        <div class="site-footer__logo">
+            <a
+                href="https://www.u-tokyo.ac.jp/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <Image
+                    src={utokyoLogo}
+                    alt="東京大学 / The University of Tokyo"
+                />
+            </a>
+        </div>
+        <nav
+            class="site-footer__nav"
+            aria-label={locale === "en"
+                ? "Footer navigation"
+                : "フッターナビゲーション"}
+        >
+            {
+                footerNav.map((item) => (
+                    <a href={withBasePath(item.href)}>{item.label}</a>
+                ))
+            }
+        </nav>
+        <p class="site-footer__meta">
+            © {
+                locale === "en"
+                    ? siteMeta.englishName
+                    : `${siteMeta.japaneseName}/${siteMeta.englishName}`
+            }
+        </p>
+    </div>
 </footer>
+
+<style>
+    .site-footer {
+        margin-top: auto;
+        padding: 3rem 0 2.5rem;
+    }
+
+    .site-footer__inner {
+        text-align: center;
+    }
+
+    .site-footer__logo {
+        margin-bottom: 3.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-footer__logo :global(img) {
+        height: 3rem;
+        width: auto;
+        display: block;
+    }
+
+    .site-footer__nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .site-footer__nav a {
+        color: var(--text);
+        text-decoration: none;
+    }
+
+    .site-footer__nav a:not(:last-child)::after {
+        content: "|";
+        margin-left: 0.8rem;
+        color: var(--text-subtle);
+    }
+
+    .site-footer__meta {
+        margin: 0.2rem 0;
+        color: var(--text-subtle);
+    }
+
+    @media (max-width: 1024px) {
+        .site-footer__logo :global(img) {
+            height: 2.2rem;
+        }
+    }
+</style>
