@@ -71,6 +71,31 @@ const isActive = (href: string) => {
                 {topbarMeta}
             </span>
         </div>
+        <div class="site-topbar__rss">
+            <a
+                href={withBasePath("/rss.xml")}
+                target="_blank"
+                title="RSS Feed"
+                aria-label="RSS Feed"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="rss-icon"
+                >
+                    <path d="M4 11a9 9 0 0 1 9 9"></path>
+                    <path d="M4 4a16 16 0 0 1 16 16"></path>
+                    <circle cx="5" cy="19" r="1"></circle>
+                </svg>
+            </a>
+        </div>
     </div>
 </div>
 
@@ -142,6 +167,22 @@ const isActive = (href: string) => {
     .site-topbar__text-bundle {
         font-size: 1.1rem;
         line-height: 1;
+    }
+
+    .site-topbar__rss a {
+        color: rgba(255, 255, 255, 0.85);
+        display: flex;
+        align-items: center;
+        transition: color 0.3s ease;
+    }
+
+    .site-topbar__rss a:hover {
+        color: #fff;
+    }
+
+    .rss-icon {
+        width: 1.25rem;
+        height: 1.25rem;
     }
 
     .site-header {

@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@astro-community/astro-embed-twitter": "^0.5.11",
+    "@astrojs/rss": "^4.0.17",
     "astro": "^6.0.8",
     "csv-parse": "^6.2.1",
     "js-yaml": "^4.1.1",
