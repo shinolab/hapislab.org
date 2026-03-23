@@ -41,6 +41,13 @@ const footerNav = getPrimaryNav(locale).filter(
                     <a href={withBasePath(item.href)}>{item.label}</a>
                 ))
             }
+            <a
+                href="https://sites.google.com/hapis.k.u-tokyo.ac.jp/internal/home"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                {locale === "en" ? "Internal" : "内部ページ"}
+            </a>
         </nav>
         <p class="site-footer__meta">
             © {
