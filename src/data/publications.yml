@@ -48,7 +48,7 @@
   journal: IEEE Access
   publisher: Institute of Electrical and Electronics Engineers (IEEE)
   volume: 13
-  pages: 161038-161052
+  pages: 161038–161052
 
 - type: article
   year: 2025
@@ -321,7 +321,7 @@
   publisher: Institute of Electrical and Electronics Engineers (IEEE)
   volume: 15
   number: 2
-  pages: 441-450
+  pages: 441–450
 
 - type: article
   year: 2022
@@ -398,7 +398,7 @@
   publisher: Institute of Electrical and Electronics Engineers (IEEE)
   volume: 14
   number: 4
-  pages: 874-884
+  pages: 874–884
 
 - type: article
   year: 2021
@@ -464,7 +464,7 @@
   publisher: Institute of Electrical and Electronics Engineers (IEEE)
   volume: 14
   number: 4
-  pages: 740-749
+  pages: 740–749
 
 - type: article
   year: 2020
@@ -496,7 +496,7 @@
   publisher: Institute of Electrical and Electronics Engineers (IEEE)
   volume: 13
   number: 2
-  pages: 334-342
+  pages: 334–342
 
 - type: article
   year: 2020
@@ -514,7 +514,7 @@
   publisher: Institute of Electrical and Electronics Engineers (IEEE)
   volume: 13
   number: 1
-  pages: 87-93
+  pages: 87–93
 
 - type: article
   year: 2019
@@ -532,7 +532,7 @@
   publisher: Institute of Electrical and Electronics Engineers (IEEE)
   volume: 12
   number: 4
-  pages: 652-657
+  pages: 652–657
 
 - type: article
   year: 2019
@@ -552,7 +552,7 @@
   publisher: Acoustical Society of America (ASA)
   volume: 145
   number: 1
-  pages: 328-337
+  pages: 328–337
 
 - type: article
   year: 2019
@@ -613,7 +613,7 @@
   lang: ja
   volume: 23
   number: 4
-  pages: 239-248
+  pages: 239–248
 
 - type: article
   year: 2018
@@ -645,7 +645,7 @@
   publisher: Institute of Electrical and Electronics Engineers (IEEE)
   volume: 11
   number: 3
-  pages: 367-377
+  pages: 367–377
 
 - type: article
   year: 2018
@@ -822,19 +822,19 @@
 - type: article
   year: 2014
   authors:
-    - 末石智大
-    - 長谷川圭介
-    - 奥村光平
-    - 奥寛雅
-    - 篠田裕之
-    - 石川正俊
+    - 末石 智大
+    - 長谷川 圭介
+    - 奥村 光平
+    - 奥 寛雅
+    - 篠田 裕之
+    - 石川 正俊
   title: 空中超音波触覚ディスプレイ・カメラ系による高速ダイナミック情報環境とその校正手法
   journal: 日本バーチャルリアリティ学会論文誌
   doi: 10.18974/tvrsj.19.2_173
   lang: ja
   volume: 19
   number: 2
-  pages: 173-183
+  pages: 173–183
 
 - type: article
   year: 2013
@@ -912,7 +912,7 @@
   lang: ja
   volume: '47'
   number: '12'
-  pages: 606-613
+  pages: 606–613
 
 - type: article
   year: 2011
@@ -925,7 +925,7 @@
   lang: ja
   volume: 16
   number: 3
-  pages: 391-398
+  pages: 391–398
 
 - type: article
   year: 2011
@@ -999,7 +999,7 @@
   publisher: Institute of Electrical and Electronics Engineers (IEEE)
   volume: 3
   number: 3
-  pages: 155-165
+  pages: 155–165
   doi: 10.1109/TOH.2010.4
 
 - type: article
@@ -1045,7 +1045,7 @@
   lang: ja
   volume: 'J92-C'
   number: 12
-  pages: 797-805
+  pages: 797–805
 
 - type: article
   year: 2008
@@ -1087,7 +1087,7 @@
   doi: 10.18974/tvrsj.11.1_77
   volume: 11
   number: 1
-  pages: 77-86
+  pages: 77–86
 
 - type: article
   year: 2006
@@ -1101,7 +1101,7 @@
   doi: 10.18974/tvrsj.11.1_123
   volume: 11
   number: 1
-  pages: 123-131
+  pages: 123–131
 
 - type: article
   year: 2004
@@ -1316,7 +1316,7 @@
   journal: Sensors and Materials, Sensors and Materials
   volume: 7
   number: 4
-  pages: 301-310
+  pages: 301–310
 
 - type: article
   year: 1993
@@ -1477,7 +1477,7 @@
     - Hiroyuki Shinoda
   title: Perceivable Minimum Shift of Ultrasound Tactile Stimulus Position on a Fingerpad
   booktitle: SICE Annual Conference
-  pages: 1051-1053
+  pages: 1051–1053
   location: Kochi, Japan
   eventDate: Aug. 28-30
 
@@ -1490,7 +1490,7 @@
     - Hiroyuki Shinoda
   title: Perceptual Differences in Compression of Tactile Vibrations and Their Restoration Using Autoencoders
   booktitle: SICE Annual Conference
-  pages: 1045-1050
+  pages: 1045–1050
   location: Kochi, Japan
   eventDate: Aug. 28-30
 
@@ -1503,7 +1503,7 @@
     - Hiroyuki Shinoda
   title: Change in Arm Movement Due to Weight Addition and Its Effect on Motion Prediction
   booktitle: SICE Annual Conference
-  pages: 1022-1028
+  pages: 1022–1028
   location: Kochi, Japan
   eventDate: Aug. 28-30
 
@@ -1516,7 +1516,7 @@
     - Hiroyuki Shinoda
   title: Estimation of Position, Orientation, and Phase Offset for Ultrasonic Phased Array
   booktitle: SICE Annual Conference
-  pages: 282-287
+  pages: 282–287
   location: Kochi, Japan
   eventDate: Aug. 28-30
 
@@ -1530,7 +1530,7 @@
   note: DRAFT
   href: https://drive.google.com/file/d/1wAPc_AOjK9-RfLGLpaZCLrH3jVOknJtX/view?usp=sharing
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
-  pages: 365-377
+  pages: 365–377
   location: Lille, France
   eventData: June 30-July 3
 
@@ -1570,7 +1570,7 @@
     - Hiroyuki Shinoda
   title: Design of Haptic Experience Recording for Guide-Dog Training
   booktitle: IEEE International Conference on Systems, Man, and Cybernetics (SMC)
-  pages: 4914-4919
+  pages: 4914–4919
   location: Honolulu, Oahu, HI, USA
 
 - type: inproceedings
@@ -1601,7 +1601,7 @@
   note: DRAFT
   href: https://drive.google.com/file/d/1Fn2JTQ6kpUuQCaHaleFxw-gjlKKPsw01/view?usp=drive_link
   booktitle: IEEE World Haptics
-  pages: 210-215
+  pages: 210–215
   location: Delft, Netherlands
   eventDate: July 10-13
 
@@ -1644,7 +1644,7 @@
   title: Ultrasound-Driven Passive Haptic Actuator Based on Amplifying Radiation Force Using Simple Lever Mechanism
   doi: 10.1145/3550471.3558401
   booktitle: SIGGRAPH Asia  Emerging Technologies
-  pages: 1-2
+  pages: 1–2
   href: https://doi.org/10.1145/3550471.3558401
   number: 11
 
@@ -1659,7 +1659,7 @@
   title: 'Touchable Cooled Graphics: Midair 3D Image with Noncontact Cooling Feedback using Ultrasound-Driven Mist Vaporization'
   doi: 10.1145/3550471.3558402
   booktitle: SIGGRAPH Asia  Emerging Technologies
-  pages: 1-2
+  pages: 1–2
   href: https://doi.org/10.1145/3550471.3558402
   number: 10
 
@@ -1682,7 +1682,7 @@
     - Hiroyuki Shinoda
   title: Ultrasound-Driven Fingertip-Mounted Passive Haptic Device Using a Simple Lever Mechanism
   booktitle: AsiaHaptics Tokyo Satellite
-  pages: 1-2
+  pages: 1–2
   location: Tokyo, Japan
   eventData: Nov. 12
 
@@ -1695,7 +1695,7 @@
     - Hiroyuki Shinoda
   title: Tactile interaction system via 3D images of a hand skeleton
   booktitle: AsiaHaptics Tokyo Satellite
-  pages: 1-2
+  pages: 1–2
   location: Tokyo, Japan
   eventData: Nov. 12
 
@@ -1709,7 +1709,7 @@
     - Hiroyuki Shinoda
   title: Noncontact Cooling Sensation by Ultrasound-Driven Mist Vaporization with 3D Visual Feedback
   booktitle: AsiaHaptics Tokyo Satellite
-  pages: 1-2
+  pages: 1–2
   location: Tokyo, Japan
   eventData: Nov. 12
 
@@ -1733,7 +1733,7 @@
     - Hiroyuki Shinoda
   title: Evaluation of Maximum Error in Jump Motion Prediction
   booktitle: SICE Annual Conference
-  pages: 772-777
+  pages: 772–777
   location: Kumamoto, Japan
   eventDate: Sep. 6-9
 
@@ -1748,7 +1748,7 @@
     - Hiroyuki Shinoda
   title: Analysis of Concentration of Guide Dogs from Training Behaviors
   booktitle: SICE Annual Conference
-  pages: 1363-1368
+  pages: 1363–1368
   location: Kumamoto, Japan
   eventDate: Sep. 6-9
 
@@ -1761,7 +1761,7 @@
     - Hiroyuki Shinoda
   title: Intention Estimation in Kicking from a Seated Position
   booktitle: SICE Annual Conference
-  pages: 766-771
+  pages: 766–771
   location: Kumamoto, Japan
   eventDate: Sep. 6-9
 
@@ -1774,7 +1774,7 @@
   title: Phase Optimization on Complex Circle Manifold for Generating High Intensity Ultrasound Foci Using Phased Array
   booktitle: SICE Annual Conference
   note: Position Paper
-  pages: 794-796
+  pages: 794–796
   location: Kumamoto, Japan
   eventDate: Sep. 8
 
@@ -1790,7 +1790,7 @@
   title: Spatial Resolution of Mesoscopic Shapes Presented by Airborne Ultrasound
   doi: 10.1007/978-3-031-06249-0_28
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
-  pages: 243-251
+  pages: 243–251
   location: Hamburg, Germany
   eventDate: May 22-25
 
@@ -1804,7 +1804,7 @@
   title: Estimation of Frictional Force Using the Thermal Images of Target Surface During Stroking
   doi: 10.1007/978-3-031-06249-0_27
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
-  pages: 234-242
+  pages: 234–242
   location: Hamburg, Germany
   eventDate: May 22-25
 
@@ -1820,7 +1820,7 @@
     - Hiroyuki Shinoda
   title: Sound Pressure Field Reconstruction for Ultrasound Phased Array by Linear Synthesis Scheme Optimization
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
-  pages: 147-154
+  pages: 147–154
   location: Hamburg, Germany
   eventDate: May 22-25
 
@@ -1868,7 +1868,7 @@
   refId: onishi-2022-gazebreath
   doi: 10.1145/3519391.3519405
   booktitle: Augmented Humans
-  pages: 1-9
+  pages: 1–9
 
 - type: inproceedings
   year: 2022
@@ -1903,7 +1903,7 @@
   title: Midair Haptic-Optic Display with Multi-Tactile Texture based on Presenting Vibration and Pressure Sensation by Ultrasound
   doi: 10.1145/3476122.3484849
   booktitle: SIGGRAPH ASIA, Emerging Technologies
-  pages: 1-2
+  pages: 1–2
   location: Japan
   eventDate: Dec. 14-17
 
@@ -1960,7 +1960,7 @@
   title: Curved Surface Presentation in Air Using Ultrasound Tactile Stimulation
   booktitle: SICE Annual Conference
   note: Position Paper
-  pages: 1399-1401
+  pages: 1399–1401
   eventDate: Sep. 10
   location: Online
 
@@ -1975,7 +1975,7 @@
   title: Tablet-Type 3D Display with Midair Tactile Feedback
   booktitle: SICE Annual Conference
   note: Position Paper
-  pages: 1408-1410
+  pages: 1408–1410
   eventDate: Sep. 10
   location: Online
 
@@ -1988,7 +1988,7 @@
     - Hiroyuki Shinoda
   title: Improving In-vivo Imaging Accuracy by Using Capsule Sound Source
   booktitle: SICE Annual Conference
-  pages: 1135-1140
+  pages: 1135–1140
   eventDate: Sep. 10
   location: Online
 
@@ -2002,7 +2002,7 @@
   title: Multi-dimensional Tactile Parameters Optimization Using Sequential Line Search
   booktitle: SICE Annual Conference
   note: Position Papar
-  pages: 131-136
+  pages: 131–136
   eventDate: Sep. 8
   location: Online
 
@@ -2016,7 +2016,7 @@
     - Hiroyuki Shinoda
   title: Far-field Aerial Image Presentation of One Point by a Laser Source using Beam Scanning by Two-axis Galvanometer Mirror
   booktitle: SICE Annual Conference
-  pages: 137-143
+  pages: 137–143
   eventDate: Sep. 8
   location: Online
 
@@ -2030,7 +2030,7 @@
     - Hiroyuki Shinoda
   title: Presentation of Tactile Pleasantness Using Airborne Ultrasound
   booktitle: IEEE World Haptics Conference (WHC)
-  pages: 602-606
+  pages: 602–606
   location: Montreal, Canada
   eventDate: July 6-9
 
@@ -2044,7 +2044,7 @@
   note: DRAFT
   href: https://drive.google.com/file/d/1sFnf1A2Q6GIxwVr90rMudrlpSIM4KRms/view?usp=sharing
   booktitle: IEEE World Haptics Conference (WHC)
-  pages: 355-360
+  pages: 355–360
   location: Montreal, Canada
   eventDate: Jul. 6-9
 
@@ -2059,7 +2059,7 @@
   note: DRAFT
   href: https://drive.google.com/file/d/1Kj6h8KDc086-F7Lk5lsOpxq4dGv9VkAN/view?usp=sharing
   booktitle: IEEE World Haptics Conference (WHC)
-  pages: 607-612
+  pages: 607–612
   location: Montreal, Canada
   eventDate: Jul. 6-9
 
@@ -2074,7 +2074,7 @@
   note: DRAFT
   href: https://drive.google.com/file/d/18LRkJh_oFL5ZZbCY5MfPa5UMkNIVUHh5/view?usp=sharing
   booktitle: IEEE World Haptics Conference (WHC)
-  pages: 85-90
+  pages: 85–90
   location: Montreal, Canada
   eventDate: Jul. 6-9
 
@@ -2089,7 +2089,7 @@
   note: DRAFT
   href: https://drive.google.com/file/d/1KIap61_J12XAYs3_8wv64kyXcYFzdBJR/view?usp=sharing
   booktitle: IEEE World Haptics Conference (WHC)
-  pages: 121-126
+  pages: 121–126
   location: Montreal, Canada
   eventDate: Jul. 6-9
 
@@ -2119,7 +2119,7 @@
   href: https://doi.org/10.1145/3411763.3451598
   location: Association for Computing Machinery, New York, NY, USA
   number: 226
-  pages: 1-5
+  pages: 1–5
 
 - type: inproceedings
   year: 2020
@@ -2194,7 +2194,7 @@
     - Hiroyuki Shinoda
   title: Three-dimensional Ultrasound Sensing for Aerial Tactile Display
   booktitle: IEEE 59th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE2020)
-  pages: 706-708
+  pages: 706–708
   eventDate: Sep.mber 23-26
   location: Chiang Mai, Thailand
 
@@ -2209,7 +2209,7 @@
   doi: 10.1007/978-3-030-58147-3_45
   note: Open Access
   booktitle='Haptics: Science, Technology, Applications'
-  pages: 407-415
+  pages: 407–415
   href: https://doi.org/10.1007/978-3-030-58147-3_45
   eventDate: Sep. 6-9
   location: Leiden, Netherlands
@@ -2227,7 +2227,7 @@
   doi: 10.1007/978-3-030-58147-3_54
   note: Open Access
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
-  pages: 497 – 505
+  pages: 497–505
   href: https://doi.org/10.1007/978-3-030-58147-3_54
   eventDate: Sep. 6-9
   location: Leiden, Netherlands
@@ -2243,7 +2243,7 @@
   doi: 10.1007/978-3-030-58147-3_34
   note: Open Access
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
-  pages: 307 – 315
+  pages: 307–315
   href: https://doi.org/10.1007/978-3-030-58147-3_34
   eventDate: Sep. 6-9
   location: Leiden, Netherlands
@@ -2259,7 +2259,7 @@
   doi: 10.1007/978-3-030-58147-3_14
   note: Open Access
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
-  pages: 122 – 130
+  pages: 122–130
   href: https://doi.org/10.1007/978-3-030-58147-3_14
   eventDate: Sep. 6-9
   location: Leiden, Netherlands
@@ -2291,7 +2291,7 @@
   doi: 10.1007/978-3-030-58147-3_47
   note: Open Access
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
-  pages: 425-433
+  pages: 425–433
   href: https://doi.org/10.1007/978-3-030-58147-3_47
   eventDate: Sep. 6-9
   location: Leiden, Netherlands
@@ -2363,7 +2363,7 @@
   refId: nakajima-2020-remote
   href: https://drive.google.com/file/d/1sLFhKsheq31fS1URgVcTlGkk6M-hlUNb/view?usp=sharing
   booktitle: IEEE/SICE International Symposium on System Integration
-  pages: 1238-1241
+  pages: 1238–1241
   location: Hawaii Convention Center, Honolulu, Hawaii, USA
   eventDate: Jan. 12-15
 
@@ -2382,7 +2382,7 @@
   note: Open Access
   booktitle: ACM International Conference on Interactive Surfaces and Spaces (ISS’19)
   doi: 10.1145/3343055.3359701
-  pages: 123-133
+  pages: 123–133
   href: http://dx.doi.org/10.1145/3343055.3359701
   eventDate: November 10-13
   location: Daejeon, South Korea
@@ -2472,7 +2472,7 @@
   title: Electrostatically Driven Airborne Ultrasound Transducer with Perforated Backplate for Nonlinear Acoustic Applications
   refId: kamigaki-2026-electrostatically
   booktitle: 23rd International Congress on Acoustics (ICA2019)
-  pages: 6363-6369
+  pages: 6363–6369
   eventDate: Sep. 9-13
   location: Aachen, Germany
 
@@ -2488,7 +2488,7 @@
   refId: matsubayashi-2019-display
   href: https://drive.google.com/file/d/1ooqgEeddn-88JLjmXRmqiTqTpZROIfCP/view?usp=sharing
   booktitle: 2019 IEEE World Haptics Conference (WHC)
-  pages: 419-424
+  pages: 419–424
   location: Tokyo, Japan
   eventDate: July 9-12
 
@@ -2546,7 +2546,7 @@
   title: Midair Click of Dual-Layer Haptic Button
   href: https://drive.google.com/open?id=11GbW4-ox7jA9AnFo1ls5acsxWWODn5he
   booktitle: 2019 IEEE World Haptics Conference (WHC)
-  pages: 349-352
+  pages: 349–352
   location: Tokyo, Japan
   eventDate: July 9-12
 
@@ -2589,7 +2589,7 @@
   refId: suzuki-2019-midair
   href: https://drive.google.com/file/d/11P_0jPkIcL0T8Bqxh6nE1ZUiIoVutknc/view?usp=sharing
   booktitle: 2019 IEEE World Haptics Conference (WHC)
-  pages: 271-276
+  pages: 271–276
   location: Tokyo, Japan
   eventDate: July 9-12
 
@@ -2646,7 +2646,7 @@
     - Hiroyuki Shinoda
   title: Large Autostereoscopic Display Using Subpixel Parallax Barrier
   booktitle: 25th International Display Workshop (IDW)
-  pages: 892-893
+  pages: 892–893
   location: Nagoya Congress Center, Japan
   eventDate: Dec 12-14
 
@@ -2661,7 +2661,7 @@
     - Hiroyuki Shinoda
   title: Light Field Video Camera and Display Using Similar Microlens Array
   booktitle: 25th International Display Workshop (IDW)
-  pages: 894-895
+  pages: 894–895
   location: Nagoya Congress Center, Japan
   eventDate: Dec 12-14
 
@@ -2762,7 +2762,7 @@
   refId: suzuki-2018-midair
   href: https://drive.google.com/file/d/1137_7DWr8oW9HWUgCdRR6IEp4gUoYSRf/view?usp=sharing
   booktitle: SICE Annual Conference
-  pages: 848-853
+  pages: 848–853
   eventDate: Sep. 11-14
   location: Nara, Japan
 
@@ -2775,7 +2775,7 @@
   title: Electrostatically Driven Airborne Ultrasound Transmitter with Fine Mesh Electrode
   refId: kamigaki-2018-electrostatically
   booktitle: International Flexible Electronics Technology Conference (IFETC)
-  pages: 1-3
+  pages: 1–3
   eventDate: Aug. 7-9
   location: Ottawa, Canada
 
@@ -2801,7 +2801,7 @@
   title: Weight Estimation of Lifted Object from Body Motions Using Neural Network
   href: https://link.springer.com/chapter/10.1007/978-3-319-93399-3_1
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
-  pages: 3-13
+  pages: 3–13
   eventDate: June 13-16
   location: Pisa, Italy
 
@@ -2814,7 +2814,7 @@
   title: Estimation of the pressing force from finger image by using neural network
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
   href: https://link.springer.com/chapter/10.1007/978-3-319-93399-3_5
-  pages: 46-57
+  pages: 46–57
   eventDate: June 13-16
   location: Pisa, Italy
 
@@ -2828,7 +2828,7 @@
   refId: takahashi-2018-lateral
   href: https://drive.google.com/file/d/1ENdHs_uyE5BNPSIgZpjepV5238cfjPfS/view?usp=sharing
   booktitle: 'Haptics: Science, Technology, and Applications'
-  pages: 276-288
+  pages: 276–288
   eventDate: June 13-16
   location: Pisa, Italy
 
@@ -2858,7 +2858,7 @@
   refId: nakajima-2018-remotely-displaying
   booktitle: IEEE Haptics Symposium
   href: https://ieeexplore.ieee.org/document/8357198
-  pages: 340-343
+  pages: 340–343
   location: San Francisco, California, USA
   eventDate: 25-28 March
 
@@ -2899,7 +2899,7 @@
   refId: masuda-2018-whole
   href: https://drive.google.com/file/d/1kcbctM_tvjQnEXZQer4gUlPqhkE3xInb/view?usp=sharing
   booktitle: IEEE 15th International Conference on Wearable and Implantable Body Sensor Networks (BSN)
-  pages: 214-217
+  pages: 214–217
   location: Las Vegas, USA
   eventDate: March 4-7
 
@@ -2924,7 +2924,7 @@
   refId: masuda-2017-power
   href: https://drive.google.com/file/d/1kMBK0nf5K9Tnx0yBBmqdQIQQ-N5jkBe0/view?usp=sharing
   booktitle: IEEE/SICE International Symposium on System Integration
-  pages: 553-558
+  pages: 553–558
   eventDate: Dec. 11-14
   location: Taipei, Taiwan
 
@@ -2985,7 +2985,7 @@
     - Hiroyuki Shinoda
   title: Physical Layer Design of Energy-Efficient Data Transmission in 2D Communication Environments
   booktitle: IEEE VTC
-  pages: 1-5
+  pages: 1–5
   eventDate: Sep. 24-27
   location: Toronto, Canada
 
@@ -2999,7 +2999,7 @@
   title: Myoelectric Pattern Measurement on a Forearm via Conductive Fabric
   href: https://drive.google.com/file/d/1hXleOUTOoAi1PSCm5FTGt22iWVkD4WMG/view?usp=sharing
   booktitle: SICE Annual Conference
-  pages: 966-969
+  pages: 966–969
   eventDate: Sep. 19-22
   location: Kanazawa, Japan
 
@@ -3012,7 +3012,7 @@
   title: Thin and Flexible Airborne Ultrasound Phased Array for Tactile Display
   refId: kamigaki-2017-thin
   booktitle: SICE Annual Conference
-  pages: 736-739
+  pages: 736–739
   eventDate: Sep. 19-22
   location: Kanazawa, Japan
 
@@ -3050,7 +3050,7 @@
     - Hiroyuki Shinoda
   title: Rubber hand illusion using invisible tactile stimulus
   booktitle: IEEE World Haptics Conference (WHC)
-  pages: 490-494
+  pages: 490–494
 
 - type: inproceedings
   year: 2017
@@ -3062,7 +3062,7 @@
   title: Displaying Variable Stiffness by Passive Nonlinear Spring Using Visuo-Haptic Interaction
   booktitle: IEEE World Haptics Conference (WHC)
   href: https://drive.google.com/file/d/1BWavNE97uF2uGvFX63vEk4WiOyAwyxf_/view?usp=sharing
-  pages: 587-592
+  pages: 587–592
   location: Fürstenfeldbruck, Munich, Germany
   eventDate: 6–9 June
 
@@ -3209,7 +3209,7 @@
     - Hiroyuki Shinoda
   title: On-Body Sensor Node Localization Using Reference RFID Tags Embedded in Wearable Waveguide
   booktitle: IEEE SENSORS Proceedings
-  pages: 1003-1005
+  pages: 1003–1005
   location: Caribe Royale All-Suite Hotel and Convention Center, Orlando, FL, USA
   eventDate: October 30-November 2
 
@@ -3222,7 +3222,7 @@
     - Hiroyuki Shinoda
   title: Simulation of Acoustic Streaming for Odorant Display Controlled by Airborne Ultrasound
   booktitle: SICE Annual Conference
-  pages: 1228-1233
+  pages: 1228–1233
   location: Tsukuba International Congress Center, Tsukuba, Japan
   eventDate: Sep.mber 20-23
 
@@ -3235,7 +3235,7 @@
     - Hiroyuki Shinoda
   title: Motion Guidance to Target Surface Using Airborne Ultrasound
   booktitle: SICE Annual Conference
-  pages: 1234-1237
+  pages: 1234–1237
   location: Tsukuba International Congress Center, Tsukuba, Japan
   eventDate: Sep.mber 20-23
 
@@ -3248,7 +3248,7 @@
   title: Mid-Air Ultrasonic Pressure Control on Skin by Adaptive Focusing
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
   href: http://link.springer.com/chapter/10.1007%2F978-3-319-42321-0_7
-  pages: 68-77
+  pages: 68–77
   location: London, UK
   eventDate: July 4-8
 
@@ -3261,7 +3261,7 @@
     - Hiroyuki Shinoda
   title: A Pocket-Size Alphabet Display with Letter Trajectories Presented to Fingers
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
-  pages: 472-482
+  pages: 472–482
   location: London, UK
   eventDate: July 4-8
 
@@ -3274,7 +3274,7 @@
   title: Acceptable Mismatch Between Scaled 3D Images and Tactile Stimulation
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
   href: http://link.springer.com/chapter/10.1007/978-3-319-42324-1_49
-  pages: 501-509
+  pages: 501–509
   location: London, UK
   eventDate: July 4-8
 
@@ -3289,7 +3289,7 @@
   title: High Spatial Resolution Midair Tactile Display Using 70 kHz Ultrasound
   booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
   href: https://drive.google.com/file/d/1WI_NtuMsufhCmTKU0RSBWsQV4iJDwAbj/view?usp=sharing
-  pages: 57-67
+  pages: 57–67
   location: London, UK
   eventDate: July 4-8
 
@@ -3319,7 +3319,7 @@
   title: Focus Steering in Open-Ended Waveguide Sheet for Efficient and Secure Two-Dimensional Waveguide Power Transfer
   booktitle: IEEE Wireless Power Transfer Conference
   href: https://drive.google.com/file/d/162olzUjnGjf5K1dUDm6hu7sq83rfO_1i/view?usp=sharing
-  pages: 1-4
+  pages: 1–4
   eventDate: May 5-6
   location: Aveiro, Portugal
 
@@ -3331,7 +3331,7 @@
   title: Active Tile for Room-Size UWB 2-D Communication
   booktitle: IEEE/SICE International Symposium on System Integration
   href: https://drive.google.com/file/d/1-nh-KJS-4s6KozoB6OI9YAR2_Tn0_o6r/view?usp=sharing
-  pages: 668-671
+  pages: 668–671
   location: Meijo University, Shiogamaguchi, Tempaku-ku, Nagoya, Japan
   eventDate: December 13
 
@@ -3344,7 +3344,7 @@
   title: Time Domain Characteristics of Multiple UWB 2D Communication Tiles
   booktitle: IEEE/SICE International Symposium on System Integration
   href: https://drive.google.com/file/d/1XHoPxe8VungC5WzLxpkMcrVfO9npuJgK/view?usp=sharing
-  pages: 817-822
+  pages: 817–822
   location: Nagoya, Japan
   eventDate: Dec. 11-13
 
@@ -3357,7 +3357,7 @@
   title: UWB Wireless LAN by 2D-Communication Tile system Based on Direction-Dependent Frequency Shift
   booktitle: IEEE/SICE International Symposium on System Integration
   href: https://drive.google.com/file/d/18vcrVF9mVQJjc0RUre9zLyc6DWDc-YbO/view?usp=sharing
-  pages: 801-806
+  pages: 801–806
   location: Nagoya, Japan
   eventDate: Dec. 11-13
 
@@ -3370,7 +3370,7 @@
   title: Evaluation of Isolation Property of UWB 2DC Tile for Coexistence with Radio Signals
   booktitle: IECON – 41st Annual Conference on IEEE Industrial Electronics Society
   href: https://drive.google.com/file/d/13sGiaAnA9Kd4M592sdfKZisdxG7-XkE5/view?usp=sharing
-  pages: 2868-2873
+  pages: 2868–2873
   location: Yokohama, Japan
   eventDate: November 9-12
 
@@ -3393,7 +3393,7 @@
   title: Wireless LAN on 2-D Communication Tiles Using Ultra-Wideband as an Alternative Spectrum Resource
   booktitle: IEEE International Conference on Ubiquitous Wireless Broadband
   href: https://drive.google.com/file/d/1nFmX52f7jQReXckn1cqk4mi6R1ZLgxXi/view?usp=sharing
-  pages: 1-6
+  pages: 1–6
   eventDate: October 5
   location: Montreal, Canada
 
@@ -3431,7 +3431,7 @@
   title: Signal Connection among Two-Dimensional Communication Tiles by Direction-Dependent Frequency Shift
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/13wegIYWfOwuJyOwGvGpHMsF0AACXpioD/view?usp=sharing
-  pages: 513-518
+  pages: 513–518
   location: Hangzhou, China
   eventDate: July 28-30
 
@@ -3445,7 +3445,7 @@
   refId: masuda-2015-contactless
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1ITOBvQLI5M9swsTEtZ7Wo-nKjSHSjvYM/view?usp=sharing
-  pages: 522-527
+  pages: 522–527
   location: Hangzhou, China
   eventDate: July 28-30
 
@@ -3459,7 +3459,7 @@
   refId: inoue-2015-active
   href: https://drive.google.com/file/d/1bvZg-uldmHakDNDBW4rOjlQ_G15p1tQF/view?usp=sharing
   booktitle: 2015 IEEE World Haptics Conference (WHC)
-  pages: 362-367
+  pages: 362–367
   location: Northwestern University, Evanston, Il, USA
   eventDate: June 22–26
 
@@ -3499,7 +3499,7 @@
   title: Designing Stationary Airborne Ultrasonic 3D Tactile Object
   doi: 10.1109/SII.2014.7028030
   booktitle: IEEE/SICE International Symposium on System Integration
-  pages: 159-162
+  pages: 159–162
   location: Tokyo, Japan
   eventDate: Dec. 13-15
 
@@ -3513,7 +3513,7 @@
   doi: 10.1109/SII.2014.7028067
   booktitle: IEEE/SICE International Symposium on System Integration
   href: https://drive.google.com/file/d/1DnFkj4iji-4QndNfYaH_nASRndkvkvZe/view?usp=sharing
-  pages: 376-380
+  pages: 376–380
   location: Tokyo, Japan
   eventDate: Dec. 13-15
 
@@ -3585,7 +3585,7 @@
   doi: 10.1109/ICUWB.2014.6959006
   booktitle: IEEE International conference on ultra-wideband
   href: https://drive.google.com/file/d/1yF5cbWBk_FqeRNunzADtuWmeV3Q2IBVE/view?usp=sharing
-  pages: 1-5
+  pages: 1–5
   location: Paris, France
   eventDate: Sep.mber 1-3
 
@@ -3597,7 +3597,7 @@
     - Hiroyuki Shinoda
   title: Circular Planar Coupler for UWB 2-D Communication
   booktitle: IEEE International conference on ultra-wideband
-  pages: 1-6
+  pages: 1–6
   location: Paris, France
   eventDate: Sep.mber 1-3
 
@@ -3624,7 +3624,7 @@
   doi: 10.1109/SICE.2014.6935269
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/15OTINx4wTRxwUJEQZgixxsSFrk1cNsEx/view?usp=sharing
-  pages: 1360-1365
+  pages: 1360–1365
   eventDate: Sep.mber 9-12
   location: Sapporo, Japan
 
@@ -3636,7 +3636,7 @@
   title: Preliminary Study on Noncontact Internal Structure Sensing by Resonant Mode Excitation Using Airborne Ultrasound Radiation Pressure
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1QWI-KuhZ9bkmbMhjpz-X8-o1mizS1PoC/view?usp=sharing
-  pages: 1614-1617
+  pages: 1614–1617
   eventDate: Sep.mber 9-12
   location: Sapporo, Japan
 
@@ -3649,7 +3649,7 @@
   title: Measurement of the Strain Behavior Inside the Skin under Edge Stimulation Condition
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1hBBdfrWKGcYP0MulFZJJCxvzWJv9Gbs0/view?usp=sharing
-  pages: 1631-1634
+  pages: 1631–1634
   eventDate: Sep.mber 9-12
   location: Sapporo, Japan
 
@@ -3661,7 +3661,7 @@
   title: Edge-Mount 1-Watt RF Amplifier for 2-D Waveguide Power Transmission
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1ZU6Lyy3vMqsVsE15QGk3kg-7BQUpSuBR/view?usp=sharing
-  pages: 1941-1945
+  pages: 1941–1945
   eventDate: Sep.mber 9-12
   location: Sapporo, Japan
 
@@ -3674,7 +3674,7 @@
   title: Effect of the Surface Insulator on UWB 2D-Communication Sheet
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1mL3fiovbVe3jUO7pQFSIw4PGI1FoWhTO/view?usp=sharing
-  pages: 1966-1969
+  pages: 1966–1969
   eventDate: Sep.mber 9-12
   location: Sapporo, Japan
 
@@ -3725,7 +3725,7 @@
   title: UWB Sensor Network on 2-D Waveguide Sheet
   booktitle: IEEE Sensors Applications Symposium Proceedings
   href: https://drive.google.com/file/d/1zh9P_IoMT_DWxHcxatDZqrEMkowQ1spq/view?usp=sharing
-  pages: 339-342
+  pages: 339–342
   eventDate: February 18-20
   location: Queenstown, New Zealand
 
@@ -3749,7 +3749,7 @@
   title: Sharp Tactile Line Presentation Array using Edge Stimulation Method
   booktitle: IEEE Haptics Symposium
   href: https://drive.google.com/file/d/1neMjJMOjaxmlZoXPjP-Okj5H2H0EvCF8/view?usp=sharing
-  pages: 271-275
+  pages: 271–275
   location: February, Houston, Tx, USA
   eventDate: 23-26 February
 
@@ -3761,7 +3761,7 @@
   title: Contactless Touch Interface Supporting Blind Touch Interaction by Aerial Tactile Stimulation
   booktitle: IEEE Haptics Symposium
   href: https://drive.google.com/file/d/1oEhXq256aRxTF38aeb0qAM7_YTO9aXyj/view?usp=sharing
-  pages: 347-350
+  pages: 347–350
   location: Houston, Tx, USA
   eventDate: 23-26 February
 
@@ -3773,7 +3773,7 @@
   title: Coaxial Noncontact Surface Compliance Distribution Measurement for Muscle Contraction Sensing
   booktitle: IEEE Haptics Symposium
   href: https://drive.google.com/file/d/1qB_3skCd2vw5VnFFp698DUmyAhZMkpkR/view?usp=sharing
-  pages: 385-389
+  pages: 385–389
   location: Houston, Tx, USA
   eventDate: 23-26 February
 
@@ -3785,7 +3785,7 @@
   title: A Method for Distribution Control of Aerial Ultrasound Radiation Pressure for Remote Vibrotactile Display
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1LBmLfqtTG_Fu_CMlMpdfpkpBptklMb5e/view?usp=sharing
-  pages: 223-228
+  pages: 223–228
   eventDate: Sep.mber 14-17
   location: Nagoya, Japan
 
@@ -3797,7 +3797,7 @@
   title: Continuous Scanning Measurement of Surface Compliance Distribution from Remote Position Using Rotated Mirror
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1NkzCAuHwpGUgWxhR8vf41VQ4AiSR2kh6/view?usp=sharing
-  pages: 818-821
+  pages: 818–821
   eventDate: Sep.mber 14-17
   location: Nagoya, Japan
 
@@ -3809,7 +3809,7 @@
   title: Sharp Tactile Line Display Using Superposition of Vibtotactile Stimuli
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/17qtZa9MiMXMESOMj9vzohbj6iSCTyDDw/view?usp=sharing
-  pages: 2035-2040
+  pages: 2035–2040
   eventDate: Sep.mber 14-17
   location: Nagoya, Japan
 
@@ -3822,7 +3822,7 @@
   refId: hasegawa-2013-aerial
   href: https://drive.google.com/file/d/1nQiCNBSM0VfciotvpWnJACoUjwt4x-m_/view?usp=sharing
   booktitle: 2013 World Haptics Conference (WHC)
-  pages: 31-36
+  pages: 31–36
   location: Daejeon, Korea
   eventDate: April 14-18
 
@@ -3834,7 +3834,7 @@
   title: Noncontact Human Force Capturing based on Surface Hardness Measurement
   booktitle: 2013 World Haptics Conference (WHC)
   href: https://drive.google.com/file/d/1WzTHxoOsVSxuRqqr-Gu2DS82YXZOcTKX/view?usp=sharing
-  pages: 85-90
+  pages: 85–90
   location: Daejeon, Korea
   eventDate: April 14-18
 
@@ -3847,7 +3847,7 @@
   title: Sharp Tactile Sensation using Superposition of Vibrotactile Stimuli in Different Phases
   booktitle: 2013 World Haptics Conference (WHC)
   href: https://drive.google.com/file/d/1gKt5wgWg1a3PeEpt4UyiNmezvLt56UFk/view?usp=sharing
-  pages: 235-240
+  pages: 235–240
   location: Daejeon, Korea
   eventDate: April 14-18
 
@@ -3859,7 +3859,7 @@
   title: Visio-Acoustic Screen for Contactless Touch Interface with Tactile Sensation
   booktitle: 2013 World Haptics Conference (WHC)
   href: https://drive.google.com/file/d/1LddKpfaM5HXtLeEcRPTFBXsNjz07LN86/view?usp=sharing
-  pages: 419-423
+  pages: 419–423
   location: Daejeon, Korea
   eventDate: April 14-18
 
@@ -3898,7 +3898,7 @@
   title: Measuring Visio-Tactile threshold for Visio-Tactile Projector
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/19U9zcA0uHbR1WfXWrXXnkW5tF2ty1OdB/view?usp=sharing
-  pages: 1996-2000
+  pages: 1996–2000
   eventDate: August
 
 - type: inproceedings
@@ -3909,7 +3909,7 @@
   title: Dynamic Range Enhancement of Airborne Ultrasound Tactile Display
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1cvv-o48yU7Gsc3VyP4qTUGRnONdkAtmH/view?usp=sharing
-  pages: 280-283
+  pages: 280–283
   eventDate: August
 
 - type: inproceedings
@@ -3920,7 +3920,7 @@
   title: Remote Measurement Method of Surface Compliance Distribution for a Curved Surface Object
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1BMFaCPXYPAtNC7-COqw6V5ic0heSdru4/view?usp=sharing
-  pages: 1-5
+  pages: 1–5
   eventDate: August
 
 - type: inproceedings
@@ -3931,7 +3931,7 @@
   title: Coupler Combination for Blind Spot Elimination in Two-Dimensional Waveguide Power Transmission
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1twm-cWZLdw3VYlcCsvv9v3PACj97yaqG/view?usp=sharing
-  pages: 1448-1450
+  pages: 1448–1450
   eventDate: August
 
 - type: inproceedings
@@ -3943,7 +3943,7 @@
   title: Possibility of Wireless Sensor Chip without External Antenna Using 30GHz Phased Array Reader
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1fjjIaIAYg7Woqdbm2uTTXNRS-ZYenhta/view?usp=sharing
-  pages: 1939-1943
+  pages: 1939–1943
   eventDate: August
 
 - type: inproceedings
@@ -3954,7 +3954,7 @@
   title: Compact Class-F RF-DC Converter with Antisymmetric Dual-Diode Configuration
   booktitle: IEEE MTT-S International Microwave Symposium Digest
   href: https://drive.google.com/file/d/1p9DaOZJ2M2t-5PulhgkxMQVVnMNAUMfa/view?usp=sharing
-  pages: 1-3
+  pages: 1–3
   eventDate: June 17-22
   location: Montreal, Canada
 
@@ -3970,7 +3970,7 @@
     - Hiroyuki Shinoda
   title: Terahertz Beam Steering Using Structured MEMS Surfaces for Networked Wireless Sensing
   booktitle: International Conference on Networked Sensing Systems
-  pages: 1-4
+  pages: 1–4
   eventDate: June 11-14
   location: Antwerp, Belgium
 
@@ -3981,7 +3981,7 @@
     - Hiroyuki Shinoda
   title: A Wireless and Batteryless Sensor Node Powered via 2-D Waveguide Sheet
   booktitle: International Conference on Networked Sensing Systems
-  pages: 1-7
+  pages: 1–7
   eventDate: June 11-14
   location: Antwerp, Belgium
 
@@ -3992,7 +3992,7 @@
     - Hiroyuki Shinoda
   title: Passive UHF RFID Tag Localization on 2D Waveguide Sheet Using Single Reader and Phased Array Coupler
   booktitle: International Conference on Networked Sensing Systems
-  pages: 1-4
+  pages: 1–4
   eventDate: June 11-14
   location: Antwerp, Belgium
 
@@ -4004,7 +4004,7 @@
     - Hiroyuki Shinoda
   title: 30W wireless power transmission to networked robots through 2D waveguide
   booktitle: International Conference on Networked Sensing Systems
-  pages: 1-4
+  pages: 1–4
   eventDate: June 11-14
   location: Antwerp, Belgium
 
@@ -4016,7 +4016,7 @@
   title: Waveguide-Ring Resonator Coupler with Class-F Rectifier for 2-D Waveguide Power Transmission
   booktitle: IEEE MTT-S International Microwave Workshop Series on Innovative Wireless Power Transmission
   href: https://drive.google.com/file/d/18pdh_MO9j0rBJBXAkVIlaxORmirqqWwQ/view?usp=sharing
-  pages: 259-262
+  pages: 259–262
   eventDate: May 11
   location: Kyoto, Japan
 
@@ -4028,7 +4028,7 @@
     - Susumu Tachi
   title: Design and Implementation of Transmission System of Initial Haptic Impression
   booktitle: SICE Annual Conference
-  pages: 616-621
+  pages: 616–621
   eventDate: Sep.mber 13-18
 
 - type: inproceedings
@@ -4039,7 +4039,7 @@
     - Hiroyuki Shinoda
   title: Passive RFID Tag Positioning Using 1D Stripline-shaped Antenna
   booktitle: SICE Annual Conference
-  pages: 827-830
+  pages: 827–830
   eventDate: Sep.mber 13-18
 
 - type: inproceedings
@@ -4049,7 +4049,7 @@
     - Hiroyuki Shinoda
   title: Selective Proximity Power Transmission Using Low Leakage Ribbon Waveguide and High-Q Resonant Coupler
   booktitle: SICE Annual Conference
-  pages: 836-841
+  pages: 836–841
   eventDate: Sep.mber 13-18
 
 - type: inproceedings
@@ -4060,7 +4060,7 @@
     - Hiroyuki Shinoda
   title: Remote Measurement of Surface Compliance Distribution for Haptic Broadcasting
   booktitle: SICE Annual Conference
-  pages: 1960-1965
+  pages: 1960–1965
   eventDate: Sep.mber 13-18
 
 - type: inproceedings
@@ -4073,7 +4073,7 @@
     - Hiroyuki Shinoda
   title: Remote Compliance Measurement Method Using Ultrasound Phased Array
   booktitle: SICE Annual Conference
-  pages: 2397-2401
+  pages: 2397–2401
   eventDate: Sep.mber 13-18
 
 - type: inproceedings
@@ -4086,7 +4086,7 @@
   title: Remote Measurement of Surface Compliance Distribution Using Ultrasound Radiation Pressure
   booktitle: IEEE World Haptics Conference
   href: https://drive.google.com/file/d/1TkWPdJGy6VMcdjErtwsMDw0NLo27zmQ6/view?usp=sharing
-  pages: 43-47
+  pages: 43–47
   eventDate: 21-24 June
   location: Istanbul, Turkey
 
@@ -4098,7 +4098,7 @@
     - Hiroyuki Shinoda
   title: Perceptual Characteristic of Multi-Spectral Vibrations Beyond the Human Perceivable Frequency Range
   booktitle: IEEE World Haptics Conference
-  pages: 439-443
+  pages: 439–443
   eventDate: 21-24 June
   location: Istanbul, Turkey
 
@@ -4110,7 +4110,7 @@
     - Hiroyuki Shinoda
   title: Evaluation of Size and Shape Perception in Multi-Finger Haptic System, Poster
   booktitle: IEEE World Haptics Conference
-  pages: 523-528
+  pages: 523–528
   eventDate: 21-24 June
   location: Istanbul, Turkey
 
@@ -4198,7 +4198,7 @@
     - Hiroyuki Shinoda
   title: One-Dimensional Proximity Power Transmission Using Ribbon-Like Waveguide and Bar-Type High-Q Resonant Receiver Coupler
   booktitle: IEEE MTT-S International Microwave Workshop Series on Innovative Wireless Power Transmission
-  pages: 203-206
+  pages: 203–206
   location: Kyoto, Japan
   eventDate: 12-13 May
 
@@ -4209,7 +4209,7 @@
     - Hiroyuki Shinoda
   title: Selective Wireless Power Transmission through 2D Waveguide Sheet using Strong Electromagnetic Confinement by Choke-Enclosed Resonant Coupler
   booktitle: IEEE Radio and Wireless Symposium
-  pages: 178-181
+  pages: 178–181
   location: Phoenix, USA
   eventDate: 15–19 January
 
@@ -4221,7 +4221,7 @@
     - Hiroyuki Shinoda
   title: A Demonstration of Position and Orientation Sensor for Two-Dimensional Communication Networks
   booktitle: Ubicomp (ACM International Conference on Ubiquitous Computing)
-  pages: 371-372
+  pages: 371–372
   eventDate: Sep.
   location: Copenhagen, Denmark
 
@@ -4232,7 +4232,7 @@
     - Hiroyuki Shinoda
   title: Position and Orientation Sensor for Two-Dimensional Communication Network
   booktitle: SICE Annual Conference
-  pages: 3150-3154
+  pages: 3150–3154
   location: Taipei, Taiwan
   eventDate: Aug.
 
@@ -4243,7 +4243,7 @@
     - Hiroyuki Shinoda
   title: Large Aperture Airborne Ultrasound Tactile Display Using Distributed Array Units
   booktitle: SICE Annual Conference
-  pages: 359-362
+  pages: 359–362
   location: Taipei, Taiwan
   eventDate: Aug.
 
@@ -4254,7 +4254,7 @@
     - Hiroyuki Shinoda
   title: Microwave Phased Array Sheet for Wireless Sensor Network
   booktitle: International Conference on Networked Sensing Systems
-  pages: 123-129
+  pages: 123–129
   location: Kassel, Germany
   eventDate: June 15-18
 
@@ -4265,7 +4265,7 @@
     - Hiroyuki Shinoda
   title: The Lower-Bound of Electromagnetic Leakage of 2D Wireless Power Transmission
   booktitle: International Conference on Networked Sensing Systems
-  pages: 138-144
+  pages: 138–144
   location: Kassel, Germany
   eventDate: June 15-18
 
@@ -4276,7 +4276,7 @@
     - Hiroyuki Shinoda
   title: High Accuracy Position and Orientation Detection in Two-Dimensional Communication Network
   booktitle: CHI (ACM Conference on Human Factors in Computing Systems)
-  pages: 2297-2306
+  pages: 2297–2306
   location: Atlanta, USA
   eventDate: April 10–15
 
@@ -4289,7 +4289,7 @@
   title: Adding Tactile Reaction to Hologram
   booktitle: IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)
   href: https://drive.google.com/file/d/1MWt-Of3uwxpEejJMVxc8GdoyRLaSSETo/view?usp=sharing
-  pages: 7-11
+  pages: 7–11
 
 - type: inproceedings
   year: 2009
@@ -4298,7 +4298,7 @@
     - Hiroyuki Shinoda
   title: Safe Wireless Power Transmission Using Low Leakage 2D-Communication Sheet
   booktitle: ICROS-SICE International Joint Conference
-  pages: 1105-1109
+  pages: 1105–1109
   location: Fukuoka, Japan
   eventDate: August 18-21
 
@@ -4309,7 +4309,7 @@
     - Hiroyuki Shinoda
   title: Dielectric Grating Antenna for 2D Waveguides Interconnection
   booktitle: ICROS-SICE International Joint Conference
-  pages: 1110-1114
+  pages: 1110–1114
   location: Fukuoka, Japan
   eventDate: August 18-21
 
@@ -4338,7 +4338,7 @@
     - Hiroyuki Shinoda
   title: Power Transmission Coupler for Low Leakage 2D-Communication Sheet
   booktitle: INSS
-  pages: 24-30
+  pages: 24–30
   eventDate: June 17-19
   location: Pittsburgh
 
@@ -4349,7 +4349,7 @@
     - Hiroyuki Shinoda
   title: Converting 2D Microwave into 3D Beam Using Dielectric Grating Antenna
   booktitle: INSS
-  pages: 183-187
+  pages: 183–187
   eventDate: June 17-19
   location: Pittsburgh
 
@@ -4372,7 +4372,7 @@
     - Hiroyuki Shinoda
   title: 'Interactive Window Based on 2D Communication Technology: Integrating Ubiquitous Devices on Transparent Medium'
   booktitle: Pervasive
-  pages: 193-196
+  pages: 193–196
   eventDate: May 11-14
 
 - type: inproceedings
@@ -4384,7 +4384,7 @@
   title: Non-Contact Tactile Sensation Synthesized by Ultrasound Transducers
   booktitle: World Haptics
   href: https://drive.google.com/file/d/1lkQmQYM5PD2C0phv8pWwbzC_2ebieHSP/view?usp=sharing
-  pages: 256-260
+  pages: 256–260
   eventDate: March 18-20
   location: Salt Lake City, UT
 
@@ -4434,7 +4434,7 @@
   title: Cubic Stress Tensor Sensor for Robot Skins
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1teahHj2v2HbZnnrO0CMLtWlg4FUaN6DQ/view?usp=sharing
-  pages: 910-914
+  pages: 910–914
 
 - type: inproceedings
   year: 2008
@@ -4444,7 +4444,7 @@
   title: 3D Shape Measuring Sheet Utilizing Gravitational and Geomagnetic Fields
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1cGXedUX771bkNoKLHZJaSEInZdz0pPfe/view?usp=sharing
-  pages: 915-920
+  pages: 915–920
 
 - type: inproceedings
   year: 2008
@@ -4455,7 +4455,7 @@
   title: Flexible EMG Sensor Array for Haptic Interface
   booktitle: SICE Annual Conference
   href: https://drive.google.com/file/d/1hcl7FLok5Ex4nvj-zpc5j-Eq4kUOygUE/view?usp=sharing
-  pages: 1468-1473
+  pages: 1468–1473
 
 - type: inproceedings
   year: 2008
@@ -4465,7 +4465,7 @@
     - Hiroyuki Shinoda
   title: Node Localization in the "Two-Dimensional Communication" Networks Based on Electric Field Pattern Measurement
   booktitle: SICE Annual Conference
-  pages: 3380-3385
+  pages: 3380–3385
 
 - type: inproceedings
   year: 2008
@@ -4474,7 +4474,7 @@
     - Hiroyuki Shinoda
   title: Three-dimensional Shape Capture Sheet Using Distributed Six-Axis Sensors
   booktitle: INSS
-  pages: 156-161
+  pages: 156–161
 
 - type: inproceedings
   year: 2008
@@ -4484,7 +4484,7 @@
     - Hiroyuki Shinoda
   title: EMG Sensor Integration Based on Two-Dimensional Communication
   booktitle: International Conference on Networked Sensing Systems (INSS)
-  pages: 140-147
+  pages: 140–147
 
 - type: inproceedings
   year: 2008
@@ -4494,7 +4494,7 @@
     - Hiroyuki Shinoda
   title: Position Sensing based on Electric Field Measurement on Two-Dimensional Signal Transmission Sheet
   booktitle: International Conference on Networked Sensing Systems (INSS)
-  pages: 189-194
+  pages: 189–194
 
 - type: inproceedings
   year: 2008
@@ -4517,7 +4517,7 @@
     - Hiroyuki Shinoda
   title: Gravity-Based 3D Shape Measuring Sheet
   booktitle: SICE Annual Conference
-  pages: 2126-2131
+  pages: 2126–2131
 
 - type: inproceedings
   year: 2007
@@ -4526,7 +4526,7 @@
     - Hiroyuki Shinoda
   title: Tactile Sensing Cube Measuring Stress Tensor
   booktitle: SICE Annual Conference
-  pages: 2137-2140
+  pages: 2137–2140
 
 - type: inproceedings
   year: 2007
@@ -4536,7 +4536,7 @@
     - Hiroyuki Shinoda
   title: Measuring Finger Peripheral Signal Based on Electrical Synchronization
   booktitle: SICE Annual Conference
-  pages: 2141-2144
+  pages: 2141–2144
 
 - type: inproceedings
   year: 2007
@@ -4545,7 +4545,7 @@
     - Hiroyuki Shinoda
   title: Finger Ring Device for Tactile Sensing and Human Machine Interface
   booktitle: SICE Annual Conference
-  pages: 2132-2136
+  pages: 2132–2136
 
 - type: inproceedings
   year: 2007
@@ -4554,7 +4554,7 @@
     - Hiroyuki Shinoda
   title: Myoelectric Pattern Measurement Based on Two-Dimensional Communication Technology
   booktitle: SICE Annual Conference
-  pages: 2145-2149
+  pages: 2145–2149
 
 - type: inproceedings
   year: 2007
@@ -4564,7 +4564,7 @@
     - Hiroyuki Shinoda
   title: Three-Dimensional Shape Capture Sheet Using Distributed Triaxial Accelerometers
   booktitle: International Conference on Networked Sensing Systems (INSS)
-  pages: 207-212
+  pages: 207–212
   location: Braunschweig, Germany
   eventDate: June 6-8
 
@@ -4579,7 +4579,7 @@
   refId: shinoda-2007-surface
   booktitle: International Conference on Networked Sensing Systems (INSS)
   href: https://drive.google.com/file/d/1WXjk5jKbZBtRQxDunTtcA6GxRaJe9ZYx/view?usp=sharing
-  pages: 201-206
+  pages: 201–206
   location: Braunschweig, Germany
   eventDate: June 6-8
 
@@ -4590,7 +4590,7 @@
     - Hiroyuki Shinoda
   title: Finger Ring Tactile Interface Based on Propagating Elastic Waves on Human Fingers
   booktitle: World Haptics
-  pages: 145-150
+  pages: 145–150
   location: Tsukuba, Japan
   eventDate: Mar.
 
@@ -4602,7 +4602,7 @@
     - Hiroyuki Shinoda
   title: Large Area Sensor Skin Based on Two-Dimensional Signal Transmission Technology
   booktitle: World Haptics
-  pages: 151-156
+  pages: 151–156
   location: Tsukuba, Japan
   eventDate: Mar.
 
@@ -4613,7 +4613,7 @@
     - Hiroyuki Shinoda
   title: Free-Form Tactile Sensor Using 3-Dimensional Shape Capture Sheet
   booktitle: World Haptics
-  pages: 403-408
+  pages: 403–408
   location: Tsukuba, Japan
   eventDate: Mar.
 
@@ -4624,7 +4624,7 @@
     - Hiroyuki Shinoda
   title: Comfortable Wristband Interface Measuring Myoelectric Pattern
   booktitle: World Haptics
-  pages: 433-438
+  pages: 433–438
   location: Tsukuba, Japan
   eventDate: Mar.
 
@@ -4646,7 +4646,7 @@
     - Hiroyuki Shinoda
   title: Resonant Proximity Connector for Two-Dimensional Sensor Implantation
   booktitle: SICE-ICASE International Joint Conference
-  pages: 2247-2251
+  pages: 2247–2251
   location: Busan, Korea
   eventDate: Oct.
 
@@ -4658,7 +4658,7 @@
     - Hiroyuki Shinoda
   title: Measuring Myoelectric Potential Patterns Based on Two-Dimensional Signal Transmission Technology
   booktitle: SICE-ICASE International Joint Conference
-  pages: 2005-2009
+  pages: 2005–2009
   location: Busan, Korea
   eventDate: Oct.
 
@@ -4671,7 +4671,7 @@
     - Hiroyuki Shinoda
   title: Proximity Connection in Two-Dimensional Signal Transmission
   booktitle: SICE-ICASE International Joint Conference
-  pages: 2735-2740
+  pages: 2735–2740
   location: Busan, Korea
   eventDate: Oct.
 
@@ -4682,7 +4682,7 @@
     - Hiroyuki Shinoda
   title: Two Dimensional Stress Reproduction Using Ultrasound Tactile Display
   booktitle: SICE-ICASE International Joint Conference
-  pages: 4818-4821
+  pages: 4818–4821
   location: Busan, Korea
   eventDate: Oct.
 
@@ -4692,7 +4692,7 @@
     - Hiroyuki Shinoda
   title: Sensor Networking based on Two-Dimensional Signal Transmission Technology
   booktitle: SICE-ICASE International Joint Conference
-  pages: 4867-4869
+  pages: 4867–4869
   location: Busan, Korea
   eventDate: Oct.
 
@@ -4704,7 +4704,7 @@
     - Hiroyuki Shinoda
   title: Two-Dimensional Sensor Integration Using Resonant Proximity Connector -Basic Technology and Application to Elastic Interface Device-
   booktitle: International Conference on Networked Sensing Systems (INSS)
-  pages: 196-202
+  pages: 196–202
 
 - type: inproceedings
   year: 2006
@@ -4715,7 +4715,7 @@
     - Hiroyuki Shinoda
   title: A Whole Body Artificial Skin Based on Cell-Bridge Networking System
   booktitle: International Conference on Networked Sensing Systems (INSS)
-  pages: 55-60
+  pages: 55–60
 
 - type: inproceedings
   year: 2006
@@ -4724,7 +4724,7 @@
     - Hiroyuki Shinoda
   title: Robot Skin Based on Touch-Area-Sensitive Tactile Element
   booktitle: IEEE International Conference on Robotics and Automation (ICRA)
-  pages: 3463-3468
+  pages: 3463–3468
 
 - type: inproceedings
   year: 2006
@@ -4733,7 +4733,7 @@
     - Hiroyuki Shinoda
   title: A Sensitive Skin Based on Touch-Area-Evaluating Tactile Elements
   booktitle: Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems (IEEE Haptics Symposium)
-  pages: 89-94
+  pages: 89–94
 
 - type: inproceedings
   year: 2006
@@ -4742,7 +4742,7 @@
     - Hiroyuki Shinoda
   title: Two-dimensional Scanning Tactile Display using Ultrasound Radiation Pressure
   booktitle: Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems (IEEE Haptics Symposium)
-  pages: 57-61
+  pages: 57–61
 
 - type: inproceedings
   year: 2005
@@ -4759,7 +4759,7 @@
     - Hiroyuki Shinoda
   title: Suction Pressure Tactile Display Using Dual Temporal Stimulation Modes
   booktitle: SICE Annual Conference
-  pages: 1285-1288
+  pages: 1285–1288
 
 - type: inproceedings
   year: 2005
@@ -4769,7 +4769,7 @@
     - Hiroyuki Shinoda
   title: Two Dimensional Radiation Pressure Tactile Display
   booktitle: SICE Annual Conference
-  pages: 1298-1301
+  pages: 1298–1301
 
 - type: inproceedings
   year: 2005
@@ -4778,7 +4778,7 @@
     - Hiroyuki Shinoda
   title: Tactile Sensing Using Nonlinear Elasticity
   booktitle: SICE Annual Conference
-  pages: 2978-2981
+  pages: 2978–2981
 
 - type: inproceedings
   year: 2005
@@ -4788,7 +4788,7 @@
     - Hiroyuki Shinoda
   title: Two-Dimensional Signal Transmission for Networked Sensing
   booktitle: SICE Annual Conference
-  pages: 3816-3819
+  pages: 3816–3819
 
 - type: inproceedings
   year: 2005
@@ -4798,7 +4798,7 @@
     - Hiroyuki Shinoda
   title: 'Cell Bridge: A Signal Transmission Element for Networked Sensing'
   booktitle: SICE Annual Conference
-  pages: 3826-3831
+  pages: 3826–3831
 
 - type: inproceedings
   year: 2005
@@ -4808,7 +4808,7 @@
     - Hiroyuki Shinoda
   title: 'Cell Bridge: A Signal Transmission Element for Constructing High Density Sensor Networks'
   booktitle: INSS (International Workshop on Networked Sensing Systems)
-  pages: 180-185
+  pages: 180–185
   location: San Diego
   eventDate: June
 
@@ -4820,7 +4820,7 @@
     - Hiroyuki Shinoda
   title: Two Dimensional Communication Technology for Networked Sensing System
   booktitle: INSS (International Workshop on Networked Sensing Systems)
-  pages: 168-173
+  pages: 168–173
   location: San Diego
   eventDate: June
 
@@ -4831,7 +4831,7 @@
     - Hiroyuki Shinoda
   title: Ultrasound Tactile Display for Stress Field Reproduction -Examination of Non-Vibratory Tactile Apparent Movement-
   booktitle: World Haptics
-  pages: 220-228
+  pages: 220–228
   eventDate: Mar.
   location: Italy
 
@@ -4842,7 +4842,7 @@
     - Hiroyuki Shinoda
   title: Selective Stimulation to Superficial Mechanoreceptors by Temporal Control of Suction Pressure
   booktitle: World Haptics
-  pages: 229-234
+  pages: 229–234
   eventDate: Mar.
   location: Italy
 
@@ -4853,7 +4853,7 @@
     - Hiroyuki Shinoda
   title: A Tactile Display using Ultrasound Linear Phased Array
   booktitle: International Conference on Artificial reality and Telexistence (ICAT)
-  pages: 383-388
+  pages: 383–388
   eventDate: Nov.
 
 - type: inproceedings
@@ -4863,7 +4863,7 @@
     - Takayuki Iwamoto
   title: A Cutaneous Perception Model and Its Examination by Ultrasound Tactile Display
   booktitle: International Workshop on Man-Machine Symbiotic Systems
-  pages: 261-270
+  pages: 261–270
 
 - type: inproceedings
   year: 2004
@@ -4878,7 +4878,7 @@
     - Akimasa Okada
   title: Two-Dimensional Communication Technology Inspired by Robot Skin
   booktitle: IEEE TExCRA (Technical Exhibition Based Conference on Robotics and Automation)
-  pages: 99-100
+  pages: 99–100
 
 - type: inproceedings
   year: 2004
@@ -4888,7 +4888,7 @@
     - Hiroyuki Shinoda
   title: High Resolution Tactile Display Using Acoustic Radiation Pressure
   booktitle: SICE
-  pages: 1239-1244
+  pages: 1239–1244
 
 - type: inproceedings
   year: 2004
@@ -4897,7 +4897,7 @@
     - Hiroyuki Shinoda
   title: Selective Stimulation to Skin Receptors by Suction Pressure Control
   booktitle: SICE
-  pages: 2103-2108
+  pages: 2103–2108
 
 - type: inproceedings
   year: 2004
@@ -4907,7 +4907,7 @@
     - Hiroyuki Shinoda
   title: A Whole Palm Tactile Display Using Suction Pressure
   booktitle: IEEE International Conference on Robotics & Automation
-  pages: 1524-1529
+  pages: 1524–1529
 
 - type: inproceedings
   year: 2004
@@ -4917,7 +4917,7 @@
     - Hiroyuki Shinoda
   title: Multi Primitive Tactile Display Based on Suction Pressure Control
   booktitle: IEEE Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems, (Haptic Symposium)
-  pages: 90-96
+  pages: 90–96
 
 - type: inproceedings
   year: 2003
@@ -4928,7 +4928,7 @@
     - Xinyu Wang
   title: Two-Dimensional Signal Transmission Technology for Robotics
   booktitle: IEEE International Conference on Robotics & Automation
-  pages: 3207-3212
+  pages: 3207–3212
 
 - type: inproceedings
   year: 2002
@@ -4937,7 +4937,7 @@
     - Hiroyuki Shinoda
   title: Digital Tactile Sensing Elements Communicating through Conductive Skin Layers
   booktitle: IEEE International Conference on Robotics & Automation
-  pages: 3813-3817
+  pages: 3813–3817
 
 - type: inproceedings
   year: 2002
@@ -4949,7 +4949,7 @@
     - Hiroyuki Shinoda
   title: A Sensor Skin using Wire-Free Tactile Sensing Elements Based on Optical Connection
   booktitle: SICE
-  pages: 319-322
+  pages: 319–322
 
 - type: inproceedings
   year: 2002
@@ -4959,7 +4959,7 @@
     - Hiroyuki Shinoda
   title: A Study on Tactile Resolution of Human Skin
   booktitle: SICE
-  pages: 3137-3139
+  pages: 3137–3139
 
 - type: inproceedings
   year: 2001
@@ -4969,7 +4969,7 @@
     - H. Shinoda
   title: Focused Ultrasound for Tactile Feeling Display
   booktitle: International Conference on Artificial Reality and Telexistence
-  pages: 121-126
+  pages: 121–126
 
 - type: inproceedings
   year: 2001
@@ -4981,7 +4981,7 @@
     - H. Shinoda
   title: Necessary Spatial Resolution for Realistic Tactile Feeling Display
   booktitle: IEEE International Conference on Robotics and Automation
-  pages: 1851-1856
+  pages: 1851–1856
 
 - type: inproceedings
   year: 2001
@@ -4990,7 +4990,7 @@
     - Hiroyuki Shinoda
   title: A Tactile Sensor Instantaneously Evaluating Friction Coefficients
   booktitle: TRANSDUCERS
-  pages: 1430-1433
+  pages: 1430–1433
 
 - type: inproceedings
   year: 2000
@@ -4999,7 +4999,7 @@
     - H. Oasa
   title: Passive Wireless Sensing Element for Sensitive Skin
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
-  pages: 1516-1521
+  pages: 1516–1521
 
 - type: inproceedings
   year: 2000
@@ -5010,7 +5010,7 @@
     - H. Shinoda
   title: Novel Ultrasonic Technology by Nanocrystalline Porous Silicon
   booktitle: International Electrochemistry Society Symposium
-  pages: 326-332
+  pages: 326–332
   location: Phoenix
 
 - type: inproceedings
@@ -5021,7 +5021,7 @@
     - K. Nakamura
   title: Instantaneous Evaluation of Friction Based on ARTC Tactile Sensor
   booktitle: IEEE International Conference on Robotics and Automation
-  pages: 2173-2178
+  pages: 2173–2178
 
 - type: inproceedings
   year: 1999
@@ -5034,7 +5034,7 @@
     - H. Shinoda
   title: 'Ultrasound Emission from Porous Silicon: Efficient Thermo-acoustic Function as a Depleted Nanocrystalline System'
   booktitle: Materials Research Society symposium
-  pages: 105-110
+  pages: 105–110
 
 - type: inproceedings
   year: 1999
@@ -5044,7 +5044,7 @@
     - H. Shinoda
   title: Telemetric Robot Skin
   booktitle: IEEE International Conference on Robotics and Automation
-  pages: 957-961
+  pages: 957–961
 
 - type: inproceedings
   year: 1999
@@ -5054,7 +5054,7 @@
     - H. Shinoda
   title: Coaxial Bibeam Position Sensor and Its Application to a Pronunciation Leaning System
   booktitle: TRANSDUCERS
-  pages: 844-847
+  pages: 844–847
 
 - type: inproceedings
   year: 1999
@@ -5064,7 +5064,7 @@
     - H. Shinoda
   title: Telemetric Artificial Skin for Soft Robot
   booktitle: TRANSDUCERS
-  pages: 1042-1045
+  pages: 1042–1045
 
 - type: inproceedings
   year: 1999
@@ -5074,7 +5074,7 @@
     - H. Shinoda
   title: A Method of Selective Stimulation to Epidermal Skin Receptors for Realistic Touch Feedback
   booktitle: IEEE Virtual Reality
-  pages: 274-281
+  pages: 274–281
 
 - type: inproceedings
   year: 1998
@@ -5084,7 +5084,7 @@
     - T. Tomori
   title: Tactile Feeling Display Based on Selective Stimulation to Skin Mechanoreceptors
   booktitle: IEEE International Conference on Robotics and Automation
-  pages: 680-686
+  pages: 680–686
 
 - type: inproceedings
   year: 1998
@@ -5094,7 +5094,7 @@
     - H. Shinoda
   title: A Tactile Feeling Display Based on Selective Stimulation to Skin Receptors
   booktitle: IEEE Virtual Reality Annual International Symposium
-  pages: 36-42
+  pages: 36–42
 
 - type: inproceedings
   year: 1997
@@ -5104,7 +5104,7 @@
     - S. Ando
   title: Tactile Sensing Based on Acoustic Resonance Tensor Cell
   booktitle: TRANSDUCERS
-  pages: 129-132
+  pages: 129–132
 
 - type: inproceedings
   year: 1997
@@ -5114,7 +5114,7 @@
     - S. Ando
   title: Acoustic Resonant Tensor Cell for Tactile Sensing
   booktitle: IEEE International Conference on Robotics & Automation
-  pages: 3087-3092
+  pages: 3087–3092
 
 - type: inproceedings
   year: 1996
@@ -5125,7 +5125,7 @@
     - S. Ando
   title: Tactile Sensing Using Acoustic Resonant Tensor Cell
   booktitle: Sensor Symposium
-  pages: 105-108
+  pages: 105–108
 
 - type: inproceedings
   year: 1996
@@ -5134,7 +5134,7 @@
     - S. Ando
   title: A Tactile Sensor with 5-D Deformation Sensing Element
   booktitle: IEEE International Conference on Robotics and Automation
-  pages: 7-12
+  pages: 7–12
 
 - type: inproceedings
   year: 1995
@@ -5143,7 +5143,7 @@
     - H. Shinoda
   title: An Acoustic Tactile Sensing Element with Five Dimensional Sensitivity
   booktitle: TRANSDUCERS
-  pages: 644-647
+  pages: 644–647
 
 - type: inproceedings
   year: 1995
@@ -5154,7 +5154,7 @@
   title: Tactile Sensing Using Tensor Cell
   booktitle: IEEE International Conference on Robotics and Automation
   href: https://drive.google.com/file/d/1E_uyJ5JnxK3RUY4REY4-6WYB6RbCaoKQ/view?usp=drive_link
-  pages: 825-830
+  pages: 825–830
 
 - type: inproceedings
   year: 1994
@@ -5163,7 +5163,7 @@
     - S. Ando
   title: Ultrasonic Emission Tactile Sensor for Contact Localization and Characterization
   booktitle: IEEE International Conference on Robotics and Automation
-  pages: 2536-2543
+  pages: 2536–2543
   location: San Diego
 
 - type: inproceedings
@@ -5174,7 +5174,7 @@
     - S. Ando
   title: A Tactile Sensor Using Three-Dimensional Structure
   booktitle: IEEE International Conference on Robotics and Automation
-  pages: 435-441
+  pages: 435–441
   location: Atlanta
 
 - type: inproceedings
@@ -5186,7 +5186,7 @@
     - S. Ando
   title: A Fingertip Tactile Sensor with Three Dimensional Structure
   booktitle: TRANSDUCERS
-  pages: 614-617
+  pages: 614–617
   location: Yokohama
 
 - type: inproceedings
@@ -5197,7 +5197,7 @@
     - S. Ando
   title: A Vertical Sampling Image Motion Sensor
   booktitle: TRANSDUCERS
-  pages: 1062-1065
+  pages: 1062–1065
   location: Yokohama
 
 - type: inproceedings
@@ -5209,7 +5209,7 @@
     - S. Ando
   title: A Study on Ultrasonic Emission Tactile Sensor
   booktitle: SICE Annual Conference
-  pages: 1313-1316
+  pages: 1313–1316
   location: Kanazawa
 
 - type: inproceedings
@@ -5220,7 +5220,7 @@
   title: A Tactile Sensing Algorithm Based on Elastic Transfer Function of Surface Deformation
   booktitle: IEEE ICASSP
   href: https://drive.google.com/file/d/1GlMZoTDuUPp5JuNHwbOjm6m-yx9sTsbg/view?usp=drive_link
-  pages: 589-592
+  pages: 589–592
   location: San Francisco
 
 - type: inproceedings
@@ -5231,7 +5231,7 @@
     - S. Ando
   title: Image Processing through Layered Differential Fields
   booktitle: SICE Annual Conference
-  pages: 1043-1046
+  pages: 1043–1046
   location: Kumamoto
 
 - type: inproceedings
@@ -5242,7 +5242,7 @@
     - M. Shitara
   title: Vertical Sampling for Image Motion Measurement
   booktitle: Optical Society of America Annual Meeting, Technical Digest
-  pages: 132-132
+  pages: 132–132
 
 - type: inproceedings
   year: 1990
@@ -5277,11 +5277,17 @@
     - Masahiro Fujiwara
     - Yasutoshi Makino
     - Hiroyuki Shinoda
-  title: DualBreath Input Method Using Nasal and Mouth Breathing
+  title: 'DualBreath: Input Method Using Nasal and Mouth Breathing'
   refId: onishi-2021-dualbreath
-  booktitle: Augmented Humans Conference (AHs’21)
-  location: Rovaniemi, Finland
+  doi: 10.1145/3458709.3459008
+  href: https://doi.org/10.1145/3458709.3459008
+  booktitle: Augmented Humans Conference 2021
+  series: AHs '21
+  publisher: ACM
+  pages: 283–285
   eventDate: February 22–24
+  address: New York, NY, USA
+  location: Rovaniemi Finland
 
 - type: demos
   year: 2020
@@ -5291,10 +5297,15 @@
     - Hiroyuki Shinoda
   title: Mid-air Thermal Display via High-intensity Ultrasound
   refId: kamigaki-2020-mid-air
-  booktitle: SIGGRAPH Asia Emerging Technologies (SA ’20)
   doi: 10.1145/3415255.3422895
-  location: Virtual Event, Republic of Korea
+  href: https://doi.org/10.1145/3415255.3422895
+  booktitle: SIGGRAPH Asia 2020 Emerging Technologies
+  series: SA '20
+  publisher: ACM
+  pages: 1–2
   eventDate: Dec. 4-13
+  address: New York, NY, USA
+  location: Virtual Event Republic of Korea
 
 - type: demos
   year: 2020
@@ -5401,7 +5412,7 @@
   href: https://drive.google.com/file/d/1UXSUNeFL3aCBK5Z528cza5E9jXTeLLd0/view?usp=sharing
   location: Las Vegas, USA
   eventDate: January 9-12
-  pages: 279-280
+  pages: 279–280
 
 - type: demos
   year: 2016
@@ -5533,8 +5544,8 @@
   year: 2025
   authors:
     - CHEN ZELIN
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: ロボット型障害物を用いた群衆分流の暗黙的制御
   booktitle: 第26回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec.10-12
@@ -5544,10 +5555,10 @@
 - type: domestic
   year: 2025
   authors:
-    - 岩佐俊希
-    - 荒川岳斗
-    - 牧野泰才
-    - 篠田裕之
+    - 岩佐 俊希
+    - 荒川 岳斗
+    - 牧野 泰才
+    - 篠田 裕之
   title: 超音波フェーズドアレイを用いたカード浮遊における水平駆動力の検証
   booktitle: 第26回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec.10-12
@@ -5557,10 +5568,10 @@
 - type: domestic
   year: 2025
   authors:
-    - 堤大河
-    - 松林篤
-    - 牧野泰才
-    - 篠田裕之
+    - 堤 大河
+    - 松林 篤
+    - 牧野 泰才
+    - 篠田 裕之
   title: GPUパイプラインを用いたフィルタリングによる手メッシュ描画の安定化
   booktitle: 第26回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec.10-12
@@ -5570,9 +5581,9 @@
 - type: domestic
   year: 2025
   authors:
-    - 太田海斗
-    - 篠田裕之
-    - 牧野泰才
+    - 太田 海斗
+    - 篠田 裕之
+    - 牧野 泰才
   title: 最適位相の計測によるフェーズドアレイ焦点音圧の最大化
   booktitle: 第26回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec.10-12
@@ -5582,10 +5593,10 @@
 - type: domestic
   year: 2025
   authors:
-    - 藤井陽太
-    - 牧野泰才
-    - 松林篤
-    - 篠田裕之
+    - 藤井 陽太
+    - 牧野 泰才
+    - 松林 篤
+    - 篠田 裕之
   title: 空中超音波触覚の音圧最適化における山登り法の性能評価
   booktitle: 第26回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec.10-12
@@ -5595,10 +5606,10 @@
 - type: domestic
   year: 2025
   authors:
-    - 荒川岳斗
-    - 岩佐俊希
-    - 牧野泰才
-    - 篠田裕之
+    - 荒川 岳斗
+    - 岩佐 俊希
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波による把持物体を介した段差状触感の提示
   booktitle: 第26回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec.10-12
@@ -5639,9 +5650,9 @@
   year: 2025
   authors:
     - 吉田 寛人
-    - 荒川岳斗
+    - 荒川 岳斗
     - 鈴木 颯
-    - 牧野泰才
+    - 牧野 泰才
     - 篠田 裕之
   title: 超音波フェーズドアレイによる球体浮揚における回転軸制御
   booktitle: 第 30 回日本バーチャルリアリティ学会大会
@@ -5666,10 +5677,10 @@
 - type: domestic
   year: 2025
   authors:
-    - 横田恵
-    - 鈴木颯
-    - 牧野泰才
-    - 篠田裕之
+    - 横田 恵
+    - 鈴木 颯
+    - 牧野 泰才
+    - 篠田 裕之
   title: 複数周波数の重畳提示による空中超音波触覚刺激知覚強度向上
   booktitle: ロボティクス・メカトロニクス講演会2025
   eventDate: June 4-7
@@ -5694,9 +5705,9 @@
 - type: domestic
   year: 2025
   authors:
-    - 竹内怜
-    - 牧野泰才
-    - 篠田裕之
+    - 竹内 怜
+    - 牧野 泰才
+    - 篠田 裕之
   title: 音響放射圧による顎下部への非接触刺激と唾液分泌促進の研究
   booktitle: ロボティクス・メカトロニクス講演会2025
   eventDate: June 4-7
@@ -5706,11 +5717,11 @@
 - type: domestic
   year: 2025
   authors:
-    - 内田泰成
-    - 王安晟
-    - 田中真司
-    - 牧野泰才
-    - 篠田裕之
+    - 内田 泰成
+    - 王 安晟
+    - 田中 真司
+    - 牧野 泰才
+    - 篠田 裕之
   title: 三次元骨格解析に基づく盲導犬基礎訓練の評価と活用
   booktitle: ロボティクス・メカトロニクス講演会2025
   eventDate: June 4-7
@@ -5720,10 +5731,10 @@
 - type: domestic
   year: 2025
   authors:
-    - 髙木友陽
-    - 荒川岳斗
-    - 牧野泰才
-    - 篠田裕之
+    - 髙木 友陽
+    - 荒川 岳斗
+    - 牧野 泰才
+    - 篠田 裕之
   title: 超音波フェーズドアレイによる角スペクトル法に基づくボトルビームの生成
   booktitle: ロボティクス・メカトロニクス講演会2025
   eventDate: June 4-7
@@ -5733,9 +5744,9 @@
 - type: domestic
   year: 2025
   authors:
-    - 荒川岳斗
-    - 牧野泰才
-    - 篠田裕之
+    - 荒川 岳斗
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波によるカードの非接触駆動
   booktitle: ロボティクス・メカトロニクス講演会2025
   eventDate: June 4-7
@@ -5788,10 +5799,10 @@
 - type: domestic
   year: 2024
   authors:
-    - 内田泰成
-    - 王安晟
-    - 藤井慶輔
-    - 田中真司
+    - 内田 泰成
+    - 王 安晟
+    - 藤井 慶輔
+    - 田中 真司
     - 牧野 泰才
     - 篠田 裕之
   title: 盲導犬訓練動画を利用した訓練士と盲導犬の3次元骨格推定
@@ -5802,12 +5813,12 @@
 - type: domestic
   year: 2024
   authors:
-    - 池本開
-    - 大谷浩太郎
-    - 有賀健太朗
-    - 松林篤
-    - 牧野泰才
-    - 篠田裕之
+    - 池本 開
+    - 大谷 浩太郎
+    - 有賀 健太朗
+    - 松林 篤
+    - 牧野 泰才
+    - 篠田 裕之
   title: 円筒型反射体を用いた空中超音波触覚提示の検証
   booktitle: 第29回日本バーチャルリアリティ学会大会
   eventDate: Sep.11-13
@@ -5817,11 +5828,11 @@
 - type: domestic
   year: 2024
   authors:
-    - 日高祐哉
-    - 高田賢太
-    - 杉本証
-    - 牧野泰才
-    - 篠田裕之
+    - 日高 祐哉
+    - 高田 賢太
+    - 杉本 証
+    - 牧野 泰才
+    - 篠田 裕之
   title: 上方から観察可能な3点の二次元特徴量を利用した歩行予測
   booktitle: 第29回日本バーチャルリアリティ学会大会
   eventDate: Sep.11-13
@@ -5831,11 +5842,11 @@
 - type: domestic
   year: 2024
   authors:
-    - 藤井陽太
-    - 藤丸晃浩
-    - 牧野泰才
-    - 松林篤
-    - 篠田裕之
+    - 藤井 陽太
+    - 藤丸 晃浩
+    - 牧野 泰才
+    - 松林 篤
+    - 篠田 裕之
   title: 時分割超音波刺激による動的な点列の方向知覚
   booktitle: 第29回日本バーチャルリアリティ学会大会
   eventDate: Sep.11-13
@@ -5870,11 +5881,11 @@
 - type: domestic
   year: 2024
   authors:
-    - 関口葵葉
-    - 森崎汰雄
-    - 神垣貴晶
-    - 牧野泰才
-    - 篠田裕之
+    - 関口 葵葉
+    - 森崎 汰雄
+    - 神垣 貴晶
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波を用いた円盤-指腹の接触位置制御による曲面とエッジの触覚再現
   booktitle: 第29回日本バーチャルリアリティ学会大会
   eventDate: Sep.11-13
@@ -5884,11 +5895,11 @@
 - type: domestic
   year: 2024
   authors:
-    - 加藤滉一
-    - 森崎汰雄
-    - 鈴木颯
-    - 牧野泰才
-    - 篠田裕之
+    - 加藤 滉一
+    - 森崎 汰雄
+    - 鈴木 颯
+    - 牧野 泰才
+    - 篠田 裕之
   title: 'Perceivable MinimumShift: 指腹上で知覚可能な超音波触覚刺激の最小移動幅'
   booktitle: 第 29 回日本バーチャルリアリティ学会大会
   eventDate: Sep.11-13
@@ -5904,7 +5915,7 @@
   title: 空中超音波による非接触型吸熱アクチュエータの基礎的検討
   booktitle: 日本音響学会第152回(2024年秋季)研究発表会
   eventDate: Sep.4-6
-  pages: 2-8-8
+  pages: 2–8-8
   location: 大阪
 
 - type: domestic
@@ -5957,9 +5968,9 @@
 - type: domestic
   year: 2024
   authors:
-    - 荒川岳斗
-    - 牧野泰才
-    - 篠田裕之
+    - 荒川 岳斗
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波を用いたメッシュ上の剛体位置制御におけるビジョンフィードバックの導入
   booktitle: 第42回日本ロボット学会学術講演会
   location: 大阪
@@ -5969,10 +5980,10 @@
 - type: domestic
   year: 2024
   authors:
-    - キムユヒョン
-    - 増田祐一
-    - 牧野泰才
-    - 篠田裕之
+    - キム ユヒョン
+    - 増田 祐一
+    - 牧野 泰才
+    - 篠田 裕之
   title: 磁界結合式二次元給電シートによる無線電力伝送
   booktitle: ロボティクス・メカトロニクス講演会
   pages: 2P2-J02
@@ -5982,9 +5993,9 @@
 - type: domestic
   year: 2024
   authors:
-    - 平井龍之介
-    - 牧野泰才
-    - 篠田裕之
+    - 平井 龍之介
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波フェーズドアレイによるビジョンフィードバックを用いたリアルタイム音響浮揚システム
   booktitle: ロボティクス・メカトロニクス講演会
   pages: 2P2-J01
@@ -5995,7 +6006,7 @@
   year: 2023
   authors:
     - 小丹枝 涼哉
-    - 岩渕颯太
+    - 岩渕 颯太
     - 鈴木 颯
     - 神垣 貴晶
     - 牧野 泰才
@@ -6009,9 +6020,9 @@
 - type: domestic
   year: 2023
   authors:
-    - 荒川岳斗
-    - 牧野泰才
-    - 篠田裕之
+    - 荒川 岳斗
+    - 牧野 泰才
+    - 篠田 裕之
   title: 超音波フェーズドアレイを用いた薄膜の浮揚
   booktitle: 第24回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec.14-16
@@ -6034,10 +6045,10 @@
 - type: domestic
   year: 2023
   authors:
-    - 有賀健太朗
-    - 松林篤
-    - 牧野泰才
-    - 篠田裕之
+    - 有賀 健太朗
+    - 松林 篤
+    - 牧野 泰才
+    - 篠田 裕之
   title: 多角形近似球面反射体を用いた空中超音波触覚提示
   booktitle: 第28回日本バーチャルリアリティ学会大会
   location: 東京
@@ -6047,10 +6058,10 @@
 - type: domestic
   year: 2023
   authors:
-    - 荒川岳斗
-    - 神垣貴晶
-    - 牧野泰才
-    - 篠田裕之
+    - 荒川 岳斗
+    - 神垣 貴晶
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波によるメッシュ平面上の物体位置操作
   booktitle: 第28回日本バーチャルリアリティ学会大会
   location: 東京
@@ -6060,9 +6071,9 @@
 - type: domestic
   year: 2023
   authors:
-    - 青木琢朗
-    - 牧野泰才
-    - 篠田裕之
+    - 青木 琢朗
+    - 牧野 泰才
+    - 篠田 裕之
   title: 皮膚上を移動する触覚刺激に伴って変化する視覚情報が触覚認知に及ぼす効果
 
   booktitle: 第28回日本バーチャルリアリティ学会大会
@@ -6073,11 +6084,11 @@
 - type: domestic
   year: 2023
   authors:
-    - 曽明然
-    - 森崎汰雄
-    - 鈴木颯
-    - 牧野泰才
-    - 篠田裕之
+    - 曽明 然
+    - 森崎 汰雄
+    - 鈴木 颯
+    - 牧野 泰才
+    - 篠田 裕之
   title: 触覚を用いた曲面判別における強度に対する接触位置の優位性
   booktitle: 第28回日本バーチャルリアリティ学会大会
   location: 東京
@@ -6087,12 +6098,12 @@
 - type: domestic
   year: 2023
   authors:
-    - 関口葵葉
-    - 荒川岳斗
-    - 森崎汰雄
-    - 神垣貴晶
-    - 牧野泰才
-    - 篠田裕之
+    - 関口 葵葉
+    - 荒川 岳斗
+    - 森崎 汰雄
+    - 神垣 貴晶
+    - 牧野 泰才
+    - 篠田 裕之
   title: 圧力増幅構造を用いた空中超音波による振動触覚提示
   booktitle: 第28回日本バーチャルリアリティ学会大会
   location: 東京
@@ -6108,7 +6119,7 @@
     - 上島 直登
     - 許 超舜
     - 牧野 泰才
-    - 篠田裕之
+    - 篠田 裕之
   title: 対向歩行者の動作予測結果の3次元提示による歩行動作への影響
   booktitle: 第28回日本バーチャルリアリティ学会大会
   location: 東京
@@ -6124,7 +6135,7 @@
     - 上島 直登
     - 許 超舜
     - 牧野 泰才
-    - 篠田裕之
+    - 篠田 裕之
   title: 深層学習を用いた動作予測結果のアバター表示のための汎用的なデータ形式利用の検討
   booktitle: 第28回日本バーチャルリアリティ学会大会
   location: 東京
@@ -6136,8 +6147,8 @@
   authors:
     - 朴 鍾薫
     - Qirong Zhu
-    - 田中真司
-    - 松浪芳郎
+    - 田中 真司
+    - 松浪 芳郎
     - 牧野 泰才
     - 篠田 裕之
   title: 盲導犬訓練におけるハンドルに与えられた力の可視化
@@ -6148,7 +6159,7 @@
 - type: domestic
   year: 2023
   authors:
-    - 岩渕颯太
+    - 岩渕 颯太
     - 小丹枝 涼哉
     - 鈴木 颯
     - 神垣 貴晶
@@ -6157,7 +6168,7 @@
   title: 温度変化に基づく指表面の空中超音波焦点の測定
   booktitle: 第40回センシングフォーラム計測部門大会
   eventDate: Aug. 31-Sep. 1
-  pages: 222-227
+  pages: 222–227
   location: 高知工科大学 永国寺キャンパス
 
 - type: domestic
@@ -6175,10 +6186,10 @@
 - type: domestic
   year: 2023
   authors:
-    - 重松韻矢
-    - 松林篤
-    - 牧野泰才
-    - 篠田裕之
+    - 重松 韻矢
+    - 松林 篤
+    - 牧野 泰才
+    - 篠田 裕之
   title: 非接触触覚提示を利用した３次元ポインティング手法の研究
   booktitle: ロボティクス・メカトロニクス講演会2023講演論文集
   eventDate: Jun.
@@ -6188,9 +6199,9 @@
 - type: domestic
   year: 2023
   authors:
-    - 渡部慎太郎
-    - 牧野泰才
-    - 篠田裕之
+    - 渡部 慎太郎
+    - 牧野 泰才
+    - 篠田 裕之
   title: 人間の歩行動作予測に貢献する重要な身体部位
   booktitle: ロボティクス・メカトロニクス講演会2023講演論文集
   eventDate: Jun.
@@ -6200,9 +6211,9 @@
 - type: domestic
   year: 2023
   authors:
-    - 板井俊樹
-    - 牧野泰才
-    - 篠田裕之
+    - 板井 俊樹
+    - 牧野 泰才
+    - 篠田 裕之
   title: 動作予測情報を利用したアバター動作変調による身体感覚操作
   booktitle: ロボティクス・メカトロニクス講演会2023講演論文集
   eventDate: Jun.
@@ -6212,11 +6223,11 @@
 - type: domestic
   year: 2023
   authors:
-    - 小野悠太
-    - 鈴木颯
-    - 牧野泰才
-    - 西海望
-    - 篠田裕之
+    - 小野 悠太
+    - 鈴木 颯
+    - 牧野 泰才
+    - 西海 望
+    - 篠田 裕之
   title: 超音波空中浮遊における高速カメラを利用した動的物体の制御
   booktitle: ロボティクス・メカトロニクス講演会2023講演論文集
   eventDate: Jun.
@@ -6226,10 +6237,10 @@
 - type: domestic
   year: 2023
   authors:
-    - 古謝勝將
-    - 増田祐一
-    - 牧野泰才
-    - 篠田裕之
+    - 古謝 勝將
+    - 増田 祐一
+    - 牧野 泰才
+    - 篠田 裕之
   title: バイオロギングのための磁気共鳴無線給電システム
   booktitle: ロボティクス・メカトロニクス講演会2023講演論文集
   eventDate: Jun.
@@ -6238,8 +6249,8 @@
 - type: domestic
   year: 2023
   authors:
-    - 三河祐梨
-    - 篠田裕之
+    - 三河 祐梨
+    - 篠田 裕之
   title: 分散配置の視差ディスプレイによる広域空中像に向けた欠損視差映像による立体視の品質の調査
   booktitle: 映像情報メディア学会 立体メディア技術研究会 (3DMT)
   number: 23
@@ -6249,10 +6260,10 @@
 - type: domestic
   year: 2023
   authors:
-    - 三河祐梨
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 三河 祐梨
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 高速・低遅延なOcular parallaxレンダリングによる立体知覚への効果の調査
   booktitle: 映像情報メディア学会 立体メディア技術研究会 (3DMT)
   number: 20
@@ -6271,7 +6282,7 @@
   booktitle: 第23回計測自動制御学会システムインテグレーション部門講演会論文集
   location: 幕張メッセ 国際会議場, 千葉
   eventDate: Dec. 14-16
-  pages: 3021-3026
+  pages: 3021–3026
 
 - type: domestic
   year: 2022
@@ -6284,12 +6295,12 @@
   booktitle: 第23回計測自動制御学会システムインテグレーション部門講演会論文集
   location: 幕張メッセ 国際会議場, 千葉
   eventDate: Dec. 14-16
-  pages: 2467-2470
+  pages: 2467–2470
 
 - type: domestic
   year: 2022
   authors:
-    - 佐竹空良
+    - 佐竹 空良
     - 長野 祥大
     - 藤原 正浩
     - 牧野 泰才
@@ -6298,21 +6309,21 @@
   booktitle: 第23回計測自動制御学会システムインテグレーション部門講演会論文集
   location: 幕張メッセ 国際会議場, 千葉
   eventDate: Dec. 14-16
-  pages: 2047-2052
+  pages: 2047–2052
 
 - type: domestic
   year: 2022
   authors:
-    - 常世田光彦
-    - 佐竹空良
-    - 阿部拓実
-    - 牧野泰才
-    - 篠田裕之
+    - 常世田 光彦
+    - 佐竹 空良
+    - 阿部 拓実
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波を利用した舌触覚特性の調査
   booktitle: 第23回計測自動制御学会システムインテグレーション部門講演会論文集
   location: 幕張メッセ 国際会議場, 千葉
   eventDate: Dec. 14-16
-  pages: 2484-2486
+  pages: 2484–2486
 
 - type: domestic
   year: 2011
@@ -6325,35 +6336,35 @@
   booktitle: 第23回計測自動制御学会システムインテグレーション部門講演会論文集
   location: 幕張メッセ 国際会議場, 千葉
   eventDate: Dec. 14-16
-  pages: 2011-2013
+  pages: 2011–2013
 
 - type: domestic
   year: 2022
   authors:
-    - 遠藤祐利
-    - 山本宜季
-    - 下村光彦
-    - 牧野泰才
-    - 篠田裕之
+    - 遠藤 祐利
+    - 山本 宜季
+    - 下村 光彦
+    - 牧野 泰才
+    - 篠田 裕之
   title: 熱画像による物体間接触時の摩擦力推定
   booktitle: 第39回センシングフォーラム計測部門大会
   eventDate: Sep. 21-22
-  pages: 79-83
+  pages: 79–83
   location: 東京大学
 
 - type: domestic
   year: 2022
   authors:
-    - 照井駿
-    - 板井俊樹
-    - 許超舜
-    - 古川時
-    - 王安晟
-    - 牧野泰才
-    - 篠田裕之
+    - 照井 駿
+    - 板井 俊樹
+    - 許 超舜
+    - 古川 時
+    - 王 安晟
+    - 牧野 泰才
+    - 篠田 裕之
   title: 転倒タイミング情報の有無による転倒動作予測への影響
   booktitle: 第39回センシングフォーラム計測部門大会
-  pages: 250-254
+  pages: 250–254
   eventDate: Sep. 21-22
   location: 東京大学
 
@@ -6370,21 +6381,21 @@
   title: 空中超音波を用いた非接触な質量計測
   booktitle: 第39回センシングフォーラム計測部門大会
   eventDate: Sep. 21-22
-  pages: 222-226
+  pages: 222–226
   location: 東京大学
 
 - type: domestic
   year: 2022
   authors:
-    - 阿部拓実
-    - 三河祐梨
-    - 藤原正浩
-    - 牧野泰才
+    - 阿部 拓実
+    - 三河 祐梨
+    - 藤原 正浩
+    - 牧野 泰才
     - 篠田 裕之
   title: 超音波触覚提示のための複数カメラによる指先3次元位置高精度センシングの検証
   booktitle: 第39回センシングフォーラム計測部門大会
   eventDate: Sep. 21-22
-  pages: 117-122
+  pages: 117–122
   location: 東京大学
 
 - type: domestic
@@ -6405,11 +6416,11 @@
 - type: domestic
   year: 2022
   authors:
-    - 加藤滉一
-    - 森崎汰雄
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 加藤 滉一
+    - 森崎 汰雄
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波を用いたエッジ感の非接触提示
   booktitle: 第27回日本バーチャルリアリティ学会大会
   eventDate: Sep. 12-14
@@ -6419,13 +6430,13 @@
 - type: domestic
   year: 2022
   authors:
-    - 青木琢朗
-    - 五十嵐琢斗
-    - 奥迫快児
-    - 水谷沙耶
-    - 岸尚希
-    - 牧野泰才
-    - 篠田裕之
+    - 青木 琢朗
+    - 五十嵐 琢斗
+    - 奥迫 快児
+    - 水谷 沙耶
+    - 岸 尚希
+    - 牧野 泰才
+    - 篠田 裕之
   title: 動く生き物における触覚的アニマシー
   booktitle: 第27回日本バーチャルリアリティ学会大会
   eventDate: Sep. 12-14
@@ -6447,7 +6458,7 @@
 - type: domestic
   year: 2022
   authors:
-    - 森崎汰雄
+    - 森崎 汰雄
     - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
@@ -6461,9 +6472,9 @@
   year: 2022
   authors:
     - ZHANG YUE
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: Predicting finger position during midair visual-haptic interaction
   booktitle: 第27回日本バーチャルリアリティ学会大会
   location: 札幌市立大学 芸術の森キャンパス, 北海道
@@ -6473,11 +6484,11 @@
 - type: domestic
   year: 2022
   authors:
-    - 本山花帆
-    - 森崎汰雄
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 本山 花帆
+    - 森崎 汰雄
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波によるミスト気化を用いた接触冷感の非接触提示
   booktitle: 第27回日本バーチャルリアリティ学会大会
   location: 札幌市立大学 芸術の森キャンパス, 北海道
@@ -6487,9 +6498,9 @@
 - type: domestic
   year: 2022
   authors:
-    - 板井俊樹
-    - 牧野泰才
-    - 篠田裕之
+    - 板井 俊樹
+    - 牧野 泰才
+    - 篠田 裕之
   title: 身体動作予測のための多様な動作データ取得手法
   booktitle: 第27回日本バーチャルリアリティ学会大会
   location: 札幌市立大学 芸術の森キャンパス, 北海道
@@ -6499,12 +6510,12 @@
 - type: domestic
   year: 2022
   authors:
-    - 佐竹空良
-    - 阿部拓実
-    - 下村光彦
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 佐竹 空良
+    - 阿部 拓実
+    - 下村 光彦
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波による舌表面への刺激が味覚に及ぼす影響の調査
   booktitle: 第27回日本バーチャルリアリティ学会大会
   location: 札幌市立大学 芸術の森キャンパス, 北海道
@@ -6542,10 +6553,10 @@
 - type: domestic
   year: 2022
   authors:
-    - 三河祐梨
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 三河 祐梨
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 視点移動対応の分散型両眼視差ディスプレイによる遠方空中像提示の検討
   booktitle: 映像情報メディア学会 立体映像技術研究会(3DIT)
   eventDate: 2022年3月7日
@@ -6561,12 +6572,12 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 773-776
+  pages: 773–776
 
 - type: domestic
   year: 2021
   authors:
-    - 森崎汰雄
+    - 森崎 汰雄
     - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
@@ -6574,23 +6585,23 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 1926-1931
+  pages: 1926–1931
 
 - type: domestic
   year: 2021
   authors:
-    - 松村蒼一郎
-    - 森崎汰雄
-    - 小丹枝涼哉
-    - 増田祐一
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 松村 蒼一郎
+    - 森崎 汰雄
+    - 小丹枝 涼哉
+    - 増田 祐一
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波で駆動する形状記憶合金アクチュエータの開発
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 2459-2463
+  pages: 2459–2463
 
 - type: domestic
   year: 2021
@@ -6605,7 +6616,7 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 2054-2058
+  pages: 2054–2058
 
 - type: domestic
   year: 2021
@@ -6619,7 +6630,7 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 1852-1855
+  pages: 1852–1855
 
 - type: domestic
   year: 2021
@@ -6633,7 +6644,7 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 1862-1866
+  pages: 1862–1866
 
 - type: domestic
   year: 2021
@@ -6646,7 +6657,7 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 949-1954
+  pages: 949–1954
 
 - type: domestic
   year: 2021
@@ -6659,7 +6670,7 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 1879-1884
+  pages: 1879–1884
 
 - type: domestic
   year: 2021
@@ -6674,22 +6685,22 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 1921-1925
+  pages: 1921–1925
 
 - type: domestic
   year: 2021
   authors:
-    - 日浦宏哉
-    - 鈴木颯
-    - 森崎汰雄
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 日浦 宏哉
+    - 鈴木 颯
+    - 森崎 汰雄
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波円錐提示による手の非接触3次元誘導
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 1943-1948
+  pages: 1943–1948
 
 - type: domestic
   year: 2021
@@ -6703,7 +6714,7 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 696-698
+  pages: 696–698
 
 - type: domestic
   year: 2021
@@ -6716,7 +6727,7 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 1994-1997
+  pages: 1994–1997
 
 - type: domestic
   year: 2021
@@ -6729,7 +6740,7 @@
   booktitle: 第22回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 15-17
   location: オンライン
-  pages: 1978-1982
+  pages: 1978–1982
 
 - type: domestic
   year: 2021
@@ -6745,7 +6756,7 @@
   booktitle: 第38回センシングフォーラム計測部門大会
   eventDate: Sep. 30-Oct. 1
   location: オンライン
-  pages: 141-145
+  pages: 141–145
   refId: 小丹枝-2021-熱画像を用いた強力空中超音波の音場分布計測
 
 - type: domestic
@@ -6849,11 +6860,11 @@
 - type: domestic
   year: 2021
   authors:
-    - 三河祐梨
-    - 鈴木大河
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 三河 祐梨
+    - 鈴木 大河
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 分散配置の動的パララックスバリアによる遠方空中像ディスプレイの基礎検討
   booktitle: 第26回日本バーチャルリアリティ学会大会
   eventDate: Sep. 12-14
@@ -6876,11 +6887,11 @@
 - type: domestic
   year: 2021
   authors:
-    - 日浦宏哉
-    - 鈴木颯
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 日浦 宏哉
+    - 鈴木 颯
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波円錐提示による手の非接触誘導
   booktitle: ロボティクス・メカトロニクス 講演会
   location: オンライン
@@ -6890,7 +6901,7 @@
 - type: domestic
   year: 2020
   authors:
-    - 古川時
+    - 古川 時
     - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
@@ -6898,25 +6909,25 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 1943-1947
+  pages: 1943–1947
 
 - type: domestic
   year: 2020
   authors:
-    - 稲垣州都
+    - 稲垣 州都
     - 牧野 泰才
     - 篠田 裕之
   title: 行動予測による自然な動作の生成
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 1938-1942
+  pages: 1938–1942
 
 - type: domestic
   year: 2020
   authors:
-    - 渡部慎太郎
-    - 稲垣州都
+    - 渡部 慎太郎
+    - 稲垣 州都
     - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
@@ -6924,7 +6935,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 1958-1962
+  pages: 1958–1962
 
 - type: domestic
   year: 2020
@@ -6936,7 +6947,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 2138-2140
+  pages: 2138–2140
 
 - type: domestic
   year: 2020
@@ -6952,7 +6963,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 638-640
+  pages: 638–640
 
 - type: domestic
   year: 2020
@@ -6967,7 +6978,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 2152-2156
+  pages: 2152–2156
 
 - type: domestic
   year: 2020
@@ -6980,7 +6991,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 670-675
+  pages: 670–675
 
 - type: domestic
   year: 2020
@@ -6993,7 +7004,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 1948-1950
+  pages: 1948–1950
 
 - type: domestic
   year: 2020
@@ -7010,7 +7021,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 2455-2460
+  pages: 2455–2460
 
 - type: domestic
   year: 2020
@@ -7023,7 +7034,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 662-668
+  pages: 662–668
 
 - type: domestic
   year: 2020
@@ -7036,7 +7047,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 658-663
+  pages: 658–663
 
 - type: domestic
   year: 2020
@@ -7050,7 +7061,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 1387-1390
+  pages: 1387–1390
 
 - type: domestic
   year: 2020
@@ -7063,7 +7074,7 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 647-650
+  pages: 647–650
 
 - type: domestic
   year: 2020
@@ -7074,12 +7085,12 @@
   booktitle: 第21回計測自動制御学会システムインテグレーション部門講演会論文集
   eventDate: Dec. 16-18
   location: 福岡 (オンライン)
-  pages: 630-631
+  pages: 630–631
 
 - type: domestic
   year: 2020
   authors:
-    - 森崎汰雄
+    - 森崎 汰雄
     - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
@@ -7137,7 +7148,7 @@
 - type: domestic
   year: 2020
   authors:
-    - 森崎汰雄
+    - 森崎 汰雄
     - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
@@ -7151,14 +7162,14 @@
 - type: domestic
   year: 2020
   authors:
-    - 森崎汰雄
-    - 森涼馬
-    - 森暸輔
-    - 芹澤洸希
-    - 牧野泰才
-    - 伊藤勇太
-    - 山川雄司
-    - 篠田裕之
+    - 森崎 汰雄
+    - 森 涼馬
+    - 森 暸輔
+    - 芹澤 洸希
+    - 牧野 泰才
+    - 伊藤 勇太
+    - 山川 雄司
+    - 篠田 裕之
   title: 遠隔力提示による動的な人間環境への力学的支援ー集束超音波を用いた卓球玉の軌道変化によるスポーツ拡張ー
   booktitle: 第25回バーチャルリアリティ学会大会
   location: オンライン
@@ -7198,13 +7209,13 @@
 - type: domestic
   year: 2020
   authors:
-    - 曽明然
-    - 砥出悠太郎
-    - 森崎汰雄
-    - 芹澤洸希
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 曽明 然
+    - 砥出 悠太郎
+    - 森崎 汰雄
+    - 芹澤 洸希
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波と接触式振動刺激による複合触覚提示
   booktitle: 第25回バーチャルリアリティ学会大会
   location: オンライン
@@ -7214,12 +7225,12 @@
 - type: domestic
   year: 2020
   authors:
-    - 日浦宏哉
-    - 鈴木颯
-    - 中島允
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 日浦 宏哉
+    - 鈴木 颯
+    - 中島 允
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 液面境界刺激による水中感覚の再現
   booktitle: 第25回バーチャルリアリティ学会大会
   location: オンライン
@@ -7260,10 +7271,10 @@
 - type: domestic
   year: 2020
   authors:
-    - 古本拓朗
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 古本 拓朗
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 片手把持操作可能な浮遊型バルーンインターフェース
   booktitle: 第25回バーチャルリアリティ学会大会
   location: オンライン
@@ -7274,11 +7285,11 @@
 - type: domestic
   year: 2020
   authors:
-    - 竹井達哉
-    - 鈴木颯
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 竹井 達哉
+    - 鈴木 颯
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: モンテカルロシミュレーションに基づく古典的心理物理学的測定法の推定効率比較
   booktitle: 第25回バーチャルリアリティ学会大会
   location: オンライン
@@ -7289,27 +7300,27 @@
 - type: domestic
   year: 2020
   authors:
-    - 王安晟
+    - 王 安晟
     - 牧野 泰才
     - 篠田 裕之
   title: 機械学習による人間歩行予測を用いた追従ロボット
   booktitle: 第37回センシングフォーラム 計測部門大会
   location: オンライン
   eventDate: Sep. 3-4
-  pages: 38-41
+  pages: 38–41
 
 - type: domestic
   year: 2020
   authors:
-    - 水谷沙耶
-    - 藤原正浩
+    - 水谷 沙耶
+    - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
   title: カプセル音源を用いる超音波体内イメージング
   booktitle: 第37回センシングフォーラム 計測部門大会
   location: オンライン
   eventDate: Sep. 3-4
-  pages: 98-103
+  pages: 98–103
 
 - type: domestic
   year: 2020
@@ -7322,7 +7333,7 @@
   booktitle: 第37回センシングフォーラム 計測部門大会
   location: オンライン
   eventDate: Sep. 3-4
-  pages: 104-108
+  pages: 104–108
 
 - type: domestic
   year: 2020
@@ -7339,13 +7350,13 @@
 - type: domestic
   year: 2020
   authors:
-    - 森崎汰雄
-    - 森涼馬
-    - 森暸輔
-    - 牧野泰才
-    - 伊藤勇太
-    - 山川雄司
-    - 篠田裕之
+    - 森崎 汰雄
+    - 森 涼馬
+    - 森 暸輔
+    - 牧野 泰才
+    - 伊藤 勇太
+    - 山川 雄司
+    - 篠田 裕之
   title: 超音波の非接触力を用いた卓球における変化球の実現
   booktitle: インタラクション2020
   location: 学術総合センター内一橋講堂, 東京 (オンライン)
@@ -7362,14 +7373,14 @@
   title: シート状導波路を用いた長距離無線電力伝送
   booktitle: 第52回電子情報通信学会 短距離無線研究会
   location: 東京工業大学 大岡山キャンパス, 東京
-  pages: 63-68
+  pages: 63–68
   eventDate: Mar. 3-5
 
 - type: domestic
   year: 2020
   authors:
-    - 森崎汰雄
-    - 藤原正浩
+    - 森崎 汰雄
+    - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
   title: 超音波のLateral ModulationとAmplitude Modulation 刺激によるファントムセンセーションの生起とその特性比較
@@ -7390,7 +7401,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 2342-2344
+  pages: 2342–2344
 
 - type: domestic
   year: 2019
@@ -7404,12 +7415,12 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 1034-1037
+  pages: 1034–1037
 
 - type: domestic
   year: 2019
   authors:
-    - 松林篤
+    - 松林 篤
     - 牧野 泰才
     - 篠田 裕之
   title: 手指表面の圧力分布制御による超音波触覚レンダリング
@@ -7431,7 +7442,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 1701-1706
+  pages: 1701–1706
 
 - type: domestic
   year: 2019
@@ -7445,7 +7456,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 1511-1516
+  pages: 1511–1516
 
 - type: domestic
   year: 2019
@@ -7459,7 +7470,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 124-129
+  pages: 124–129
 
 - type: domestic
   year: 2019
@@ -7471,7 +7482,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 494-498
+  pages: 494–498
 
 - type: domestic
   year: 2019
@@ -7483,7 +7494,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 997-998
+  pages: 997–998
 
 - type: domestic
   year: 2019
@@ -7496,7 +7507,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 1016-1019
+  pages: 1016–1019
 
 - type: domestic
   year: 2019
@@ -7509,7 +7520,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 115-119
+  pages: 115–119
 
 - type: domestic
   year: 2019
@@ -7524,7 +7535,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 1692-1695
+  pages: 1692–1695
 
 - type: domestic
   year: 2019
@@ -7537,7 +7548,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 107-112
+  pages: 107–112
 
 - type: domestic
   year: 2019
@@ -7548,7 +7559,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 1491-1494
+  pages: 1491–1494
 
 - type: domestic
   year: 2019
@@ -7561,7 +7572,7 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 70-72
+  pages: 70–72
 
 - type: domestic
   year: 2019
@@ -7575,16 +7586,16 @@
   booktitle: 第20回計測自動制御学会システムインテグレーション部門講演会論文集
   location: サンポート高松, 香川
   eventDate: Dec. 12-14
-  pages: 994-996
+  pages: 994–996
 
 - type: domestic
   year: 2019
   authors:
-    - 竹井達哉
-    - 鈴木颯
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 竹井 達哉
+    - 鈴木 颯
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 手指の位置予測を用いた空中触覚提示遅延の解消
   booktitle: 第24回バーチャルリアリティ学会大会
   eventDate: Sep. 11-13
@@ -7594,10 +7605,10 @@
 - type: domestic
   year: 2019
   authors:
-    - 陳剣宇
-    - 森崎汰雄
-    - 王 安晟 
-    - 藤原正浩
+    - 陳 剣宇
+    - 森崎 汰雄
+    - 王 安晟
+    - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
   title: Prediction of Ping-Pong Ball Trajectory Based on Neural Network Using Player’s Body Motions
@@ -7611,8 +7622,8 @@
   year: 2019
   authors:
     - 中島 允
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中ミストの制御による遠隔冷覚提示
   booktitle: 第24回バーチャルリアリティ学会大会
   eventDate: Sep. 11-13
@@ -7638,7 +7649,7 @@
   year: 2019
   authors:
     - 津本 海
-    - 松本大知
+    - 松本 大知
     - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
@@ -7664,8 +7675,8 @@
 - type: domestic
   year: 2019
   authors:
-    - 森崎汰雄
-    - 藤原正浩
+    - 森崎 汰雄
+    - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
   title: 非接触触覚提示による離散点刺激と連続刺激の類似度比較
@@ -7677,10 +7688,10 @@
 - type: domestic
   year: 2019
   authors:
-    - 倉井敬史
-    - 塩井悠太郎
-    - 牧野泰才
-    - 篠田裕之
+    - 倉井 敬史
+    - 塩井 悠太郎
+    - 牧野 泰才
+    - 篠田 裕之
   title: 全身骨格情報を入力とした歩行動作予測における身体部位遮蔽の影響
   booktitle: 第36回センシングフォーラム
   location: 慶應義塾大学・矢上キャンパス, 神奈川
@@ -7689,9 +7700,9 @@
 - type: domestic
   year: 2019
   authors:
-    - 崎山恵美理
-    - 松本大知
-    - 藤原正浩
+    - 崎山 恵美理
+    - 松本 大知
+    - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
   title: マイクアレイと空中超音波を用いた実物体の触感再現
@@ -7721,7 +7732,7 @@
   booktitle: 第63回システム制御情報学会研究発表講演会
   eventDate: May. 22-24
   location: 中央電気倶楽部, 大阪
-  pages: 111-115
+  pages: 111–115
 
 - type: domestic
   year: 2018
@@ -7735,7 +7746,7 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 3085-3086
+  pages: 3085–3086
 
 - type: domestic
   year: 2018
@@ -7748,7 +7759,7 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 2409-2410
+  pages: 2409–2410
 
 - type: domestic
   year: 2018
@@ -7764,7 +7775,7 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 1365-1369
+  pages: 1365–1369
 
 - type: domestic
   year: 2018
@@ -7776,7 +7787,7 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 518-522
+  pages: 518–522
 
 - type: domestic
   year: 2018
@@ -7789,7 +7800,7 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 432-436
+  pages: 432–436
 
 - type: domestic
   year: 2018
@@ -7802,7 +7813,7 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 920-924
+  pages: 920–924
 
 - type: domestic
   year: 2018
@@ -7814,7 +7825,7 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 414-417
+  pages: 414–417
 
 - type: domestic
   year: 2018
@@ -7826,7 +7837,7 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 527-529
+  pages: 527–529
 
 - type: domestic
   year: 2018
@@ -7843,7 +7854,7 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 1301-1305
+  pages: 1301–1305
 
 - type: domestic
   year: 2018
@@ -7858,7 +7869,7 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 1295-1297
+  pages: 1295–1297
 
 - type: domestic
   year: 2018
@@ -7871,14 +7882,14 @@
   booktitle: 第19回計測自動制御学会システムインテグレーション部門講演会
   eventDate: Dec. 13-15
   location: 大阪工業大学 梅田キャンパス, 大阪
-  pages: 530-533
+  pages: 530–533
 
 - type: domestic
   year: 2018
   authors:
-    - 砥出悠太郎
-    - 古本拓朗
-    - 藤原正浩
+    - 砥出 悠太郎
+    - 古本 拓朗
+    - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
   title: 軽量浮遊物体による遭遇型接触感提示
@@ -7922,8 +7933,8 @@
 - type: domestic
   year: 2018
   authors:
-    - 森崎汰雄
-    - 藤原正浩
+    - 森崎 汰雄
+    - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
   title: 空中触覚フィードバックを用いた遠隔ロボットの移動制御
@@ -7936,7 +7947,7 @@
   year: 2018
   authors:
     - 鈴木 颯
-    - 藤原正浩
+    - 藤原 正浩
     - 牧野 泰才
     - 篠田 裕之
   title: 空中触覚の作業空間の拡大
@@ -7961,9 +7972,9 @@
   year: 2018
   authors:
     - 中島 允
-    - 長谷川圭介
-    - 牧野泰才
-    - 篠田裕之
+    - 長谷川 圭介
+    - 牧野 泰才
+    - 篠田 裕之
   title: 超音波走査による匂いディスプレイ
   booktitle: 第23回バーチャルリアリティ学会大会
   location: 東北大学 青葉山新キャンパス, 仙台
@@ -8051,9 +8062,9 @@
 - type: domestic
   year: 2018
   authors:
-    - 増田祐一
-    - 野田聡人
-    - 篠田裕之
+    - 増田 祐一
+    - 野田 聡人
+    - 篠田 裕之
   title: ウェアラブル二次元通信シートとNFC対応ホスト端末を用いたBatteryless Body Sensor Networks
   booktitle: 電子情報通信学会技術研究報告SRW 短距離無線通信研究会
 
@@ -8136,7 +8147,7 @@
 - type: domestic
   year: 2017
   authors:
-    - 一山智弘
+    - 一山 智弘
     - 牧野 泰才
     - 篠田 裕之
   title: 触覚フィードバックによる不安定システムの制御
@@ -8156,9 +8167,9 @@
   year: 2017
   authors:
     - 中島 允
-    - 長谷川圭介
-    - 牧野泰才
-    - 篠田裕之
+    - 長谷川 圭介
+    - 牧野 泰才
+    - 篠田 裕之
   title: 音響流ベッセルビームを用いた遠隔冷覚提示
   booktitle: バーチャルリアリティ学会大会
 
@@ -8193,18 +8204,18 @@
 - type: domestic
   year: 2017
   authors:
-    - 増田祐一
-    - 野田聡人
-    - 篠田裕之
+    - 増田 祐一
+    - 野田 聡人
+    - 篠田 裕之
   title: ウェアラブル二次元通信を用いた電力集約
   booktitle: センシングフォーラム
 
 - type: domestic
   year: 2017
   authors:
-    - 一山智弘
-    - 牧野泰才
-    - 篠田裕之
+    - 一山 智弘
+    - 牧野 泰才
+    - 篠田 裕之
   title: 触覚フィードバックによる倒立振子の手動安定化
   booktitle: センシングフォーラム
 
@@ -8212,9 +8223,9 @@
   year: 2017
   authors:
     - 吉田 健太郎
-    - 井上碩
-    - 牧野泰才
-    - 篠田裕之
+    - 井上 碩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 機械学習を用いた一人称視点映像からの振動触覚推定
   booktitle: センシングフォーラム
 
@@ -8316,7 +8327,7 @@
 - type: domestic
   year: 2016
   authors:
-    - 木村優太
+    - 木村 優太
     - 牧野 泰才
     - 篠田 裕之
   title: 空中触覚フィードバックを有するインタラクションが可能なボクセル立体映像システム
@@ -8362,16 +8373,16 @@
   year: 2016
   authors:
     - Qiu Liwei
-    - 長谷川圭介
-    - 牧野泰才
-    - 篠田裕之
+    - 長谷川 圭介
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中匂い分布制御に向けた音響流の数値シミュレーション
   booktitle: 日本バーチャルリアリティ学会大会
 
 - type: domestic
   year: 2016
   authors:
-    - 杜洪林
+    - 杜 洪林
     - 牧野 泰才
     - 篠田 裕之
   title: 眼球サッケード運動計測による映像のレンダリング効率化
@@ -8381,9 +8392,9 @@
   year: 2016
   authors:
     - 山崎 喬輔
-    - 長谷川圭介
-    - 牧野泰才
-    - 篠田裕之
+    - 長谷川 圭介
+    - 牧野 泰才
+    - 篠田 裕之
   title: 実物体への力学的作用を伴う視触覚VR環境
   booktitle: 日本バーチャルリアリティ学会大会
 
@@ -8468,7 +8479,7 @@
 - type: domestic
   year: 2016
   authors:
-    - 田中宏治
+    - 田中 宏治
     - 長谷川 圭介
     - 牧野 泰才
     - 篠田 裕之
@@ -8516,10 +8527,10 @@
 - type: domestic
   year: 2016
   authors:
-    - 伊藤充
-    - 井上碩
-    - 牧野泰才
-    - 篠田裕之
+    - 伊藤 充
+    - 井上 碩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 空中超音波触覚ディスプレイにおける触感の空間解像度向上
   booktitle: ロボティクス・メカトロニクス講演会講演論文集
 
@@ -8537,35 +8548,35 @@
 - type: domestic
   year: 2016
   authors:
-    - 江連悠貴
-    - 井上碩
-    - 牧野泰才
-    - 篠田裕之
+    - 江連 悠貴
+    - 井上 碩
+    - 牧野 泰才
+    - 篠田 裕之
   title: 視覚系の空間周波数特性に基づく中心窩レンダリング
   booktitle: ロボティクス・メカトロニクス講演会講演論文集
 
 - type: domestic
   year: 2016
   authors:
-    - 高野晃洋
-    - 長谷川圭介
-    - 野田聡人
-    - 牧野泰才
-    - 篠田裕之
+    - 高野 晃洋
+    - 長谷川 圭介
+    - 野田 聡人
+    - 牧野 泰才
+    - 篠田 裕之
   title: 画像・姿勢センサを用いたデータグローブの指先位置推定
 
 - type: domestic
   year: 2016
   authors:
-    - 牧野泰才
-    - 四方紘太郎
-    - 篠田裕之
+    - 牧野 泰才
+    - 四方 紘太郎
+    - 篠田 裕之
   title: 視覚情報に基づく行動判断における触覚刺激付与の効果
 
 - type: domestic
   year: 2016
   authors:
-    - 増田祐一
+    - 増田 祐一
     - 野田 聡人
     - 篠田 裕之
   title: 二次元通信環境における低消費電力・高速無線通信
@@ -8768,9 +8779,9 @@
 - type: domestic
   year: 2015
   authors:
-    - 増田祐一
-    - 野田聡人
-    - 篠田裕之
+    - 増田 祐一
+    - 野田 聡人
+    - 篠田 裕之
   title: 二次元通信タイル間接続の為の近接カプラの試作
   booktitle: ロボティクス・メカトロニクス講演会(ROBOMECH)
 
@@ -8937,25 +8948,25 @@
 - type: domestic
   year: 2014
   authors:
-    - 吉野数馬
-    - 篠田裕之
+    - 吉野 数馬
+    - 篠田 裕之
   title: 触覚フィードバックのある2.5次元タッチスクリーン
   booktitle: ロボティクス・メカトロニクス講演会講演論文集
 
 - type: domestic
   year: 2014
   authors:
-    - 工藤佑太
-    - 野田聡人
-    - 篠田裕之
+    - 工藤 佑太
+    - 野田 聡人
+    - 篠田 裕之
   title: 二次元導波路上UWB通信用広帯域カプラの設計（第2報)
   booktitle: 電子情報通信学会総合大会 基礎・境界講演論文集
 
 - type: domestic
   year: 2014
   authors:
-    - 野田聡人
-    - 篠田裕之
+    - 野田 聡人
+    - 篠田 裕之
   title: フェーズドアレイを用いた二次元導波路電力伝送の選択性向上とヌル点削減
   booktitle: 電子情報通信学会総合大会 通信講演論文集1
 
@@ -9085,8 +9096,8 @@
 - type: domestic
   year: 2013
   authors:
-    - 吉野数馬
-    - 篠田裕之
+    - 吉野 数馬
+    - 篠田 裕之
   title: 触覚フィードバックのある非接触タッチスクリーン
   booktitle: 日本機械学会 ロボティックス・メカトロニクス講演会 (Robomec)
 
@@ -9167,17 +9178,17 @@
 - type: domestic
   year: 2012
   authors:
-    - 奥山拓哉
-    - 門内靖明
-    - 篠田裕之
+    - 奥山 拓哉
+    - 門内 靖明
+    - 篠田 裕之
   title: 20GHzフェーズドアレイを用いた外部アンテナを持たない微小チップへの電力伝送
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2012
   authors:
-    - 藤原正浩
-    - 篠田裕之
+    - 藤原 正浩
+    - 篠田 裕之
   title: 1次元変位センサによる遠隔表面硬さ分布計測の高速化
   booktitle: センシングフォーラム資料
 
@@ -9289,38 +9300,38 @@
 - type: domestic
   year: 2011
   authors:
-    - 藤原正浩
+    - 藤原 正浩
     - 中妻 啓
-    - 篠田裕之
+    - 篠田 裕之
   title: 触覚放送のための表面硬さ分布の遠隔計測と物体モデルの提示に関する研究
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2011
   authors:
-    - 門内靖明
+    - 門内 靖明
     - Jaekel Andreas
     - Viereck Volker
     - Hillmer Hartmut
-    - 篠田裕之
+    - 篠田 裕之
   title: テラヘルツ帯フェーズドアレイを実現するMEMS 構造の提案
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2011
   authors:
-    - 野田聡人
-    - 柴田一暁
-    - 篠田裕之
+    - 野田 聡人
+    - 柴田 一暁
+    - 篠田 裕之
   title: 単一RFIDリーダとフェーズドアレイカプラを用いた二次元導波シート上のRFIDタグの位置推定
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2011
   authors:
-    - 藤原正浩
+    - 藤原 正浩
     - 中妻 啓
-    - 篠田裕之
+    - 篠田 裕之
   title: 多人数への同時触力覚情報伝送のための表面硬さ分布の遠隔計測と提示
   booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
 
@@ -9328,36 +9339,36 @@
   year: 2011
   authors:
     - 中妻 啓
-    - 篠田裕之
+    - 篠田 裕之
   title: 布上の位置情報センシングによるウェアラブルインタフェース
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 11 講演論文集
 
 - type: domestic
   year: 2011
   authors:
-    - 横山恵子
+    - 横山 恵子
     - 中妻 啓
-    - 藤原正浩
-    - 高橋将文
-    - 篠田裕之
+    - 藤原 正浩
+    - 高橋 将文
+    - 篠田 裕之
   title: 多人数への物体の触力覚情報伝送のための硬さモデル生成 (第1 報) ―超音波振動子アレイを用いた表面硬さ分布計測システム―
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 11 講演論文集
 
 - type: domestic
   year: 2011
   authors:
-    - 藤原正浩
-    - 横山恵子
-    - 中妻啓
-    - 篠田裕之
+    - 藤原 正浩
+    - 横山 恵子
+    - 中妻 啓
+    - 篠田 裕之
   title: 多人数への物体の触力覚情報伝送のための硬さモデル生成 (第2 報) ―触力覚三次元モデルの生成と提示―
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 11 講演論文集
 
 - type: domestic
   year: 2011
   authors:
-    - 佐藤克成
-    - 篠田裕之
+    - 佐藤 克成
+    - 篠田 裕之
     - 舘 暲
   title: 遠隔物体の形状と温度の知覚が可能な力触覚情報伝達システム
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 11 講演論文集
@@ -9365,8 +9376,8 @@
 - type: domestic
   year: 2011
   authors:
-    - 野田聡人
-    - 篠田裕之
+    - 野田 聡人
+    - 篠田 裕之
   title: 二次元導波シート上の複数デバイスへの選択的・高効率ワイヤレス給電を可能とする低放射損カプラ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 11 講演論文集
 
@@ -9374,42 +9385,42 @@
   year: 2010
   authors:
     - 中妻 啓
-    - 丹野優一
-    - 篠田裕之
+    - 丹野 優一
+    - 篠田 裕之
   title: 二次元通信における位置計測法 (第4報) －柔軟通信シート上の位置計測とウェアラブルインターフェースへの応用
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2010
   authors:
-    - 野田聡人
-    - 篠田裕之
+    - 野田 聡人
+    - 篠田 裕之
   title: 二次元導波路を用いた選択的給電のための低放射損失型カプラ
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2010
   authors:
-    - 高橋将文
-    - 篠田裕之
+    - 高橋 将文
+    - 篠田 裕之
   title: 分散型大口径超音波触覚ディスプレイの開発と評価
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2010
   authors:
-    - 藤原正浩
+    - 藤原 正浩
     - 中妻 啓
-    - 高橋将文
-    - 篠田裕之
+    - 高橋 将文
+    - 篠田 裕之
   title: 超音波音響放射圧を用いた非接触表面硬さ分布計測法
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2010
   authors:
-    - 佐藤克成
-    - 篠田裕之
+    - 佐藤 克成
+    - 篠田 裕之
     - 舘 暲
   title: 示温塗料とカメラを用いた指型温度センサの評価
   booktitle: SICE SI部門講演会
@@ -9417,8 +9428,8 @@
 - type: domestic
   year: 2010
   authors:
-    - 門内靖明
-    - 篠田裕之
+    - 門内 靖明
+    - 篠田 裕之
   title: 分布RFスイッチを用いた導波路散乱型フェーズドアレイシステム
   booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
 
@@ -9426,16 +9437,16 @@
   year: 2010
   authors:
     - 中妻 啓
-    - 藤原正浩
-    - 篠田裕之
+    - 藤原 正浩
+    - 篠田 裕之
   title: 触力覚情報伝送のための遠隔硬さ計測
   booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
 
 - type: domestic
   year: 2010
   authors:
-    - 野田聡人
-    - 篠田裕之
+    - 野田 聡人
+    - 篠田 裕之
   title: 表面センサネットワークのための低漏出ワイヤレス電力伝送
   booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
 
@@ -9461,40 +9472,40 @@
   year: 2010
   authors:
     - 中妻 啓
-    - 篠田裕之
+    - 篠田 裕之
   title: 触力覚情報提示のための硬さ分布イメージャの基礎的検討
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2010
   authors:
-    - 野田聡人
-    - 篠田裕之
+    - 野田 聡人
+    - 篠田 裕之
   title: 二次元通信による低漏出ワイヤレス電力伝送
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2010
   authors:
-    - 丹野優一
+    - 丹野 優一
     - 中妻 啓
-    - 篠田裕之
+    - 篠田 裕之
   title: 二次元通信シート上の自己位置推定とその応用
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2010
   authors:
-    - 門内靖明
-    - 篠田裕之
+    - 門内 靖明
+    - 篠田 裕之
   title: 導波路散乱型フェーズドアレイシステムによるマイクロ波計測
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2010
   authors:
-    - 高橋将文
-    - 篠田裕之
+    - 高橋 将文
+    - 篠田 裕之
   title: 分散型アレイによる大開口超音波触覚ディスプレイの実現（Airborne Ultrasound Tactile Display with Large Synthesized Aperture Using Distributed Array Units）
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
@@ -9509,8 +9520,8 @@
 - type: domestic
   year: 2010
   authors:
-    - 小川修平
-    - 篠田裕之
+    - 小川 修平
+    - 篠田 裕之
   title: 一点支持回転体並進移動ロボット
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
@@ -9569,7 +9580,7 @@
 - type: domestic
   year: 2009
   authors:
-    - 篠田裕之
+    - 篠田 裕之
     - 舘 暲
   title: 生きがいを支援する都市 SICE City
   booktitle: 第３回横幹連合コンファレンス
@@ -9577,18 +9588,18 @@
 - type: domestic
   year: 2009
   authors:
-    - 門内靖明
-    - 篠田裕之
+    - 門内 靖明
+    - 篠田 裕之
   title: ２次元伝送路を用いたフェーズドアレイシステム
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2009
   authors:
-    - 野田聡人
-    - 久保伸太郎
-    - 大野紘明
-    - 篠田裕之
+    - 野田 聡人
+    - 久保 伸太郎
+    - 大野 紘明
+    - 篠田 裕之
   title: 表面センサネットワークにおける高効率カプラ（第二報） 共鳴周波数制御による選択的給電方法
   booktitle: センシングフォーラム資料
 
@@ -9596,8 +9607,8 @@
   year: 2009
   authors:
     - 中妻 啓
-    - 落合和樹
-    - 篠田裕之
+    - 落合 和樹
+    - 篠田 裕之
   title: 静電容量センサアレイによる二次元通信におけるセンサノード位置計測
   booktitle: センシングフォーラム資料
 
@@ -9605,8 +9616,8 @@
   year: 2009
   authors:
     - 星 貴之
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   title: 空中超音波振動子アレイによる触覚提示
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
@@ -9614,32 +9625,32 @@
   year: 2009
   authors:
     - 中妻 啓
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 静電容量分布計測に基づく二次元通信シート上のデバイス位置計測
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2009
   authors:
-    - 野田聡人
-    - 篠田裕之
+    - 野田 聡人
+    - 篠田 裕之
   title: 二次元通信による安全な電力の伝送法
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2009
   authors:
-    - 門内靖明
-    - 篠田裕之
+    - 門内 靖明
+    - 篠田 裕之
   title: グレーティングアンテナによる二次元通信空間と三次元空間の結合
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2009
   authors:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 受容器の非線形受容特性を利用した触感提示法
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
@@ -9647,32 +9658,32 @@
   year: 2008
   authors:
     - 中妻 啓
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 二次元通信における位置計測法 (第2報)
   booktitle: SICE SI部門 講演会論文集
 
 - type: domestic
   year: 2008
   authors:
-    - 野田聡人
-    - 篠田裕之
+    - 野田 聡人
+    - 篠田 裕之
   title: 二次元通信における高効率電力伝送用カプラ
   booktitle: SICE SI部門 講演会論文集
 
 - type: domestic
   year: 2008
   authors:
-    - 門内靖明
-    - 篠田裕之
+    - 門内 靖明
+    - 篠田 裕之
   title: 誘電体周期構造による二次元通信シートと外部空間の指向性電磁結合
   booktitle: SICE SI部門 講演会論文集
 
 - type: domestic
   year: 2008
   authors:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 筋電分布計測によるハプティックインタフェース －第３報－
   booktitle: SICE SI部門 講演会論文集
 
@@ -9680,19 +9691,18 @@
   year: 2008
   authors:
     - 星 貴之
-    - 高橋将文
-    - 岩本貴之
-    - 篠田
-    - 裕之
+    - 高橋 将文
+    - 岩本 貴之
+    - 篠田 裕之
   title: 324 チャンネル超音波振動子アレイによる触覚提示
   booktitle: SICE SI部門 講演会論文集
 
 - type: domestic
   year: 2008
   authors:
-    - 清田翔平
-    - 中野允裕
-    - 篠田裕之
+    - 清田 翔平
+    - 中野 允裕
+    - 篠田 裕之
   title: 無線触覚素子による応力計測法
   booktitle: SICE SI部門 講演会論文集
 
@@ -9726,9 +9736,9 @@
 - type: domestic
   year: 2008
   authors:
-    - 星貴之
-    - 岩本貴之
-    - 篠田裕之
+    - 星 貴之
+    - 岩本 貴之
+    - 篠田 裕之
   title: 空中超音波フェーズドアレイによる触覚ディスプレイ
   booktitle: 日本バーチャルリアリティ学会大会論文集
 
@@ -9736,44 +9746,44 @@
   year: 2008
   authors:
     - 中妻 啓
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 二次元通信における位置マーカ取得のための電界パターン計測
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2008
   authors:
-    - 野田聡人
-    - 篠田裕之
+    - 野田 聡人
+    - 篠田 裕之
   title: 表面センサネットワークにおける高効率カプラ
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2008
   authors:
-    - 牧野泰才
-    - 小川修平
-    - 篠田裕之
+    - 牧野 泰才
+    - 小川 修平
+    - 篠田 裕之
   title: 二次元信号伝送技術に基づく筋電位の多点計測 ―磁界結合型カプラの検討―
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2008
   authors:
-    - 板井裕人
-    - 箱崎光弘
-    - 張兵
-    - 篠田裕之
+    - 板井 裕人
+    - 箱崎 光弘
+    - 張 兵
+    - 篠田 裕之
   title: シート状媒体を用いたワイヤレス電力伝送の一手法
   booktitle: 電子情報通信学会2008年通信ソサイエティ大会通信講演論文集2
 
 - type: domestic
   year: 2008
   authors:
-    - 立薗真理
-    - 岩本貴之
-    - 篠田裕之
+    - 立薗 真理
+    - 岩本 貴之
+    - 篠田 裕之
   title: 空中超音波振動子アニュラアレイによる触覚提示
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
@@ -9798,48 +9808,48 @@
   year: 2008
   authors:
     - 中妻 啓
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 電場計測に基づく二次元通信シート上のデバイス位置推定
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2007
   authors:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 筋電分布計測によるハプティックインタフェース －第2報－
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2007
   authors:
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   title: 空中超音波による触覚提示
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2007
   authors:
-    - 清田翔平
-    - 篠田裕之
+    - 清田 翔平
+    - 篠田 裕之
   title: 対称構造を利用した表面応力センサ
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2007
   authors:
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   title: 静脈像を利用した皮膚変形推定
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2007
   authors:
-    - 星貴之
-    - 篠田裕之
+    - 星 貴之
+    - 篠田 裕之
   title: リアルタイムに形状計測可能な布状デバイス
   booktitle: SICE SI部門講演会
 
@@ -9855,7 +9865,7 @@
 - type: domestic
   year: 2007
   authors:
-    - 篠田裕之
+    - 篠田 裕之
   title: 二次元通信による生活支援空間
   booktitle: 第２回横幹連合コンファレンス
 
@@ -9896,50 +9906,50 @@
 - type: domestic
   year: 2007
   authors:
-    - 中妻啓
-    - 牧野泰才
-    - 篠田裕之
+    - 中妻 啓
+    - 牧野 泰才
+    - 篠田 裕之
   title: 二次元通信シート上の位置計測
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2007
   authors:
-    - 星貴之
-    - 篠田裕之
+    - 星 貴之
+    - 篠田 裕之
   title: 重力・地磁気計測メッシュによる三次元形状復元
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2007
   authors:
-    - 清田翔平
-    - 篠田裕之
+    - 清田 翔平
+    - 篠田 裕之
   title: 弾性体中で応力を計測するセンサ素子
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2007
   authors:
-    - 長谷川拓也
-    - 岩本貴之
-    - 篠田裕之
+    - 長谷川 拓也
+    - 岩本 貴之
+    - 篠田 裕之
   title: 電気刺激を用いる指先触覚信号の非侵襲計測法
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2007
   authors:
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   title: 静脈画像を利用する指先変形の観察
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2007
   authors:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 二次元通信による筋電計測マン・マシンインタフェース
   booktitle: センシングフォーラム資料
 
@@ -9954,17 +9964,17 @@
 - type: domestic
   year: 2007
   authors:
-    - 星貴之
-    - 尾崎沙世
-    - 篠田裕之
+    - 星 貴之
+    - 尾崎 沙世
+    - 篠田 裕之
   title: 三次元形状計測シート
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2007
   authors:
-    - 長谷川拓也
-    - 岩本貴之
+    - 長谷川 拓也
+    - 岩本 貴之
     - 篠田 裕之
   title: 触覚神経信号の同期計測法
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
@@ -9972,8 +9982,8 @@
 - type: domestic
   year: 2007
   authors:
-    - 清田翔平
-    - 篠田裕之
+    - 清田 翔平
+    - 篠田 裕之
   title: 対称構造を利用した応力テンソルセンサ素子
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
@@ -9982,56 +9992,56 @@
   authors:
     - 板井 裕人
     - 張 兵
-    - 篠田裕之
+    - 篠田 裕之
   title: 表面マイクロ波を用いた信号と電力の同時伝送法
   booktitle: 信学技報
 
 - type: domestic
   year: 2006
   authors:
-    - 星貴之
-    - 篠田裕之
+    - 星 貴之
+    - 篠田 裕之
   title: 三次元形状キャプチャシートによる柔軟触覚センサ
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2006
   authors:
-    - 千種大雅
-    - 牧野泰才
-    - 篠田裕之
+    - 千種 大雅
+    - 牧野 泰才
+    - 篠田 裕之
   title: 共鳴近接結合による大面積触覚センシング
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2006
   authors:
-    - 星貴之
-    - 篠田裕之
+    - 星 貴之
+    - 篠田 裕之
   title: 非線形触覚素子による大面積人工皮膚
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2006
   authors:
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   title: 指先の振動伝播を利用した接触位置定位センサ
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2006
   authors:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 筋電分布計測によるハプティックインタフェース
   booktitle: SICE SI部門講演会
 
 - type: domestic
   year: 2006
   authors:
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   title: 超音波触覚ディスプレイを用いた２次元触覚刺激パターンの生成
   booktitle: SICE SI部門講演会
 
@@ -10064,120 +10074,120 @@
 - type: domestic
   year: 2006
   authors:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 二次元筋電分布を計測するリストバンド型マン・マシンインタフェース
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2006
   authors:
-    - 岩本貴之
-    - 長谷川拓也
-    - 篠田裕之
+    - 岩本 貴之
+    - 長谷川 拓也
+    - 篠田 裕之
   title: 指中節部における触覚神経信号の計測
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2006
   authors:
-    - 岩本貴之
-    - 星貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 星 貴之
+    - 篠田 裕之
   title: 生体指の振動計測に基づく触覚センシング
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2006
   authors:
-    - 千種大雅
-    - 牧野泰才
-    - 篠田裕之
+    - 千種 大雅
+    - 牧野 泰才
+    - 篠田 裕之
   title: 近接結合型触覚素子
   booktitle: センシングフォーラム資料
 
 - type: domestic
   year: 2006
   authors:
-    - 牧野泰才
-    - 岡田明正
-    - 篠田裕之
+    - 牧野 泰才
+    - 岡田 明正
+    - 篠田 裕之
   title: 二次元筋電パターンを計測する柔軟体インタフェース
   booktitle: 電気学会センサ・マイクロマシン準部門総合研究会
 
 - type: domestic
   year: 2006
   authors:
-    - 千種大雅
-    - 牧野泰才
-    - 篠田裕之
+    - 千種 大雅
+    - 牧野 泰才
+    - 篠田 裕之
   title: 二次元信号伝送のための共鳴近接コネクタ
   booktitle: 電気学会センサ・マイクロマシン準部門総合研究会
 
 - type: domestic
   year: 2006
   authors:
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   title: 2次元走査型超音波触覚ディスプレイによる触感の提示
   booktitle: 日本バーチャルリアリティ学会
 
 - type: domestic
   year: 2006
   authors:
-    - 星貴之
-    - 輿かがり
-    - 篠田裕之
+    - 星 貴之
+    - 輿 かがり
+    - 篠田 裕之
   title: セルブリッジネットワークによる人工皮膚
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2006
   authors:
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   title: マルチアレイ方式による二次元走査型超音波触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2006
   authors:
-    - 岡田明正
-    - 牧野泰才
-    - 篠田裕之
+    - 岡田 明正
+    - 牧野 泰才
+    - 篠田 裕之
   title: セルブリッジ音響システム
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2006
   authors:
-    - 中山央己
-    - 篠田裕之
+    - 中山 央己
+    - 篠田 裕之
   title: 静電型柔軟触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2005
   authors:
-    - 牧野泰才
-    - 牧瀬壮四郎
-    - 篠田裕之
+    - 牧野 泰才
+    - 牧瀬 壮四郎
+    - 篠田 裕之
   title: 筋電分布を計測するリストバンド型インタフェース
   booktitle: センシングフォーラム講演論文集
 
 - type: domestic
   year: 2005
   authors:
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   title: 超音波触覚ディスプレイによる触覚特性の解明
   booktitle: センシングフォーラム講演論文集
 
 - type: domestic
   year: 2005
   authors:
-    - 星貴之
-    - 篠田裕之
+    - 星 貴之
+    - 篠田 裕之
   title: 非線形触覚素子による人工皮膚
   booktitle: センシングフォーラム講演論文集
 
@@ -10210,85 +10220,85 @@
 - type: domestic
   year: 2005
   authors:
-    - 星貴之
-    - 篠田裕之
+    - 星 貴之
+    - 篠田 裕之
   title: 非線形弾性を利用する触覚センシング
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2005
   authors:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: 受容器の時間的応答特性を利用する吸引圧触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2005
   authors:
-    - 岩本貴之
-    - 池田佳路
-    - 篠田裕之
+    - 岩本 貴之
+    - 池田 佳路
+    - 篠田 裕之
   title: 2次元走査型超音波触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2004
   authors:
-    - 星貴之
-    - 篠田裕之
+    - 星 貴之
+    - 篠田 裕之
   title: 材料の非線形特性を利用する触覚センシング
   booktitle: 日本ロボット学会学術講演会論文集
 
 - type: domestic
   year: 2004
   authors:
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   title: 放射圧走査型触覚ディスプレイ
   booktitle: 日本バーチャルリアリティ学会
 
 - type: domestic
   year: 2004
   authors:
-    - 牧野泰才
-    - 澤田清彦
-    - 篠田裕之
+    - 牧野 泰才
+    - 澤田 清彦
+    - 篠田 裕之
   title: 歪みエネルギーの選択的制御に基づく触感提示法
   booktitle: 日本バーチャルリアリティ学会
 
 - type: domestic
   year: 2004
   authors:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   title: マルチプリミティブ吸引刺激による手掌部触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2004
   authors:
-    - 岩本貴之
-    - 赤穂大輔
-    - 篠田裕之
+    - 岩本 貴之
+    - 赤穂 大輔
+    - 篠田 裕之
   title: 超音波アレイによる放射圧触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2003
   authors:
-    - 牧野泰才
-    - 浅村直也
-    - 篠田裕之
+    - 牧野 泰才
+    - 浅村 直也
+    - 篠田 裕之
   title: 吸引圧による触覚ディスプレイ
   booktitle: SICE システムインテグレーション部門（SI部門） 講演会論文集
 
 - type: domestic
   year: 2003
   authors:
-    - 牧野泰才
-    - 浅村直也
-    - 篠田裕之
+    - 牧野 泰才
+    - 浅村 直也
+    - 篠田 裕之
   title: 吸引圧を用いるマルチプリミティブ触覚ディスプレイ
   booktitle: 日本バーチャルリアリティ学会
 
@@ -10304,9 +10314,9 @@
 - type: domestic
   year: 2003
   authors:
-    - 牧野泰才
-    - 浅村直也
-    - 篠田裕之
+    - 牧野 泰才
+    - 浅村 直也
+    - 篠田 裕之
   title: 吸引圧制御による手掌部触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
@@ -10341,36 +10351,36 @@
 - type: domestic
   year: 2002
   authors:
-    - 松本圭司
-    - 箱崎光弘
-    - 篠田裕之
+    - 松本 圭司
+    - 箱崎 光弘
+    - 篠田 裕之
   title: 二次元通信層を利用する触覚センシング
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2002
   authors:
-    - 岩本貴之
-    - 前田太郎
-    - 篠田裕之
+    - 岩本 貴之
+    - 前田 太郎
+    - 篠田 裕之
   title: 集束超音波による触感の呈示
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 2001
   authors:
-    - 岩本貴之
-    - 前田太郎
-    - 篠田裕之
+    - 岩本 貴之
+    - 前田 太郎
+    - 篠田 裕之
   title: 集束超音波を用いた触覚ディスプレイ
   booktitle: 日本バーチャルリアリティ学会
 
 - type: domestic
   year: 2001
   authors:
-    - 山田康一
-    - 五嶋健治
-    - 篠田裕之
+    - 山田 康一
+    - 五嶋 健治
+    - 篠田 裕之
   title: 光を利用する無線触覚素子
   booktitle: 日本ロボット学会学術講演会講演論文集
 
@@ -10391,28 +10401,28 @@
 - type: domestic
   year: 2000
   authors:
-    - 浅村直也
-    - 篠原智幸
-    - 東條慶春
-    - 篠田裕之
+    - 浅村 直也
+    - 篠原 智幸
+    - 東條 慶春
+    - 篠田 裕之
   title: 皮膚感覚呈示のための必要解像度
   booktitle: 日本バーチャルリアリティ学会
 
 - type: domestic
   year: 2000
   authors:
-    - 篠原智幸
-    - 浅村直也
-    - 東條慶春
-    - 篠田裕之
+    - 篠原 智幸
+    - 浅村 直也
+    - 東條 慶春
+    - 篠田 裕之
   title: 皮膚感覚ディスプレイの必要解像度
   booktitle: 日本ロボット学会学術講演会予稿集
 
 - type: domestic
   year: 2000
   authors:
-    - 中村克彦
-    - 篠田裕之
+    - 中村 克彦
+    - 篠田 裕之
   title: テンソルセル触覚センサによる摩擦係数の瞬時検出法
   booktitle: 日本ロボット学会学術講演会予稿集
 
@@ -10426,38 +10436,38 @@
 - type: domestic
   year: 1999
   authors:
-    - 大麻英樹
-    - 岡本寛
-    - 篠田裕之
+    - 大麻 英樹
+    - 岡本 寛
+    - 篠田 裕之
   title: 分布共振体による触覚センシング
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1999
   authors:
-    - 箱崎光弘
-    - 中村克彦
-    - 篠田裕之
+    - 箱崎 光弘
+    - 中村 克彦
+    - 篠田 裕之
   title: テレメトリックスキンの実装
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1999
   authors:
-    - 佐々木晋哉
+    - 佐々木 晋哉
     - Wong Huey Sheong
-    - 中村克彦
-    - 篠田裕之
+    - 中村 克彦
+    - 篠田 裕之
   title: 接触瞬間に摩擦係数を検出する触覚センサ
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1999
   authors:
-    - 横山望
-    - 浅村直也
-    - 古谷幸子
-    - 篠田裕之
+    - 横山 望
+    - 浅村 直也
+    - 古谷 幸子
+    - 篠田 裕之
   title: 選択刺激法による接触瞬間の感覚の呈示
   booktitle: SICE学術講演会予稿集
 
@@ -10465,111 +10475,111 @@
   year: 1999
   authors:
     - 劉 忻
-    - 王欣雨
-    - 篠田裕之
+    - 王 欣雨
+    - 篠田 裕之
   title: 振動式小型光距離センサ
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1999
   authors:
-    - 浅村直也
-    - 横山望
-    - 古谷幸子
-    - 篠田裕之
+    - 浅村 直也
+    - 横山 望
+    - 古谷 幸子
+    - 篠田 裕之
   title: 選択刺激法による触感フィードバック
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 1999
   authors:
-    - 篠田裕之
-    - 箱崎光弘
-    - 中村克彦
+    - 篠田 裕之
+    - 箱崎 光弘
+    - 中村 克彦
   title: テレメトリックロボットスキン
   booktitle: ロボティックスシンポジア予稿集
 
 - type: domestic
   year: 1998
   authors:
-    - 浅村直也
-    - 横山望
-    - 篠田裕之
+    - 浅村 直也
+    - 横山 望
+    - 篠田 裕之
   title: 選択刺激子による触感の呈示
   booktitle: 日本バーチャルリアリティ学会大会論文集
 
 - type: domestic
   year: 1998
   authors:
-    - 中島孝
-    - 吉山大
-    - 上野広貴
-    - 越田信義
-    - 篠田裕之
+    - 中島 孝
+    - 吉山 大
+    - 上野 広貴
+    - 越田 信義
+    - 篠田 裕之
   title: シリコン微細加工に基づく熱超音波デバイス
   booktitle: 計測自動制御学会学術講演会予稿集
 
 - type: domestic
   year: 1998
   authors:
-    - 佐々木晋哉
-    - 松本賢一
-    - 吉富隆博
-    - 篠田裕之
+    - 佐々木 晋哉
+    - 松本 賢一
+    - 吉富 隆博
+    - 篠田 裕之
   title: 共鳴型テンソルセルによる滑り予知触覚センサ
   booktitle: 計測自動制御学会学術講演会予稿集
 
 - type: domestic
   year: 1998
   authors:
-    - 箱崎光弘
-    - 大麻英樹
-    - 篠田裕之
+    - 箱崎 光弘
+    - 大麻 英樹
+    - 篠田 裕之
   title: テレメトリックセンサスキン
   booktitle: 計測自動制御学会学術講演会予稿集
 
 - type: domestic
   year: 1998
   authors:
-    - 王欣雨
+    - 王 欣雨
     - 劉 忻
-    - 篠田裕之
+    - 篠田 裕之
   title: 舌運動センサとその中国語発音学習への応用
   booktitle: 計測自動制御学会学術講演会予稿集
 
 - type: domestic
   year: 1998
   authors:
-    - 浅村直也
-    - 横山望
-    - 篠田裕之
+    - 浅村 直也
+    - 横山 望
+    - 篠田 裕之
   title: 選択刺激素子による触感ディスプレイ
   booktitle: 計測自動制御学会学術講演会予稿集
 
 - type: domestic
   year: 1998
   authors:
-    - 箱崎光弘
-    - 大麻英樹
-    - 篠田裕之
+    - 箱崎 光弘
+    - 大麻 英樹
+    - 篠田 裕之
   title: テレメトリックスキンによるロボット触覚
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 1998
   authors:
-    - 王欣雨
+    - 王 欣雨
     - 劉 忻
-    - 篠田裕之
+    - 篠田 裕之
   title: 舌運動計測システムとその中国語発音学習への応用
   booktitle: 電気学会研究会資料
 
 - type: domestic
   year: 1998
   authors:
-    - 箱崎光弘
-    - 大麻英樹
-    - 篠田裕之
+    - 箱崎 光弘
+    - 大麻 英樹
+    - 篠田 裕之
   title: テレメトリックスキン
   booktitle: 電気学会研究会資料
 
@@ -10596,55 +10606,55 @@
 - type: domestic
   year: 1997
   authors:
-    - 浅村直也
-    - 五反田建義
-    - 佐々木晋哉
-    - 登守成征
-    - 篠田裕之
+    - 浅村 直也
+    - 五反田 建義
+    - 佐々木 晋哉
+    - 登守 成征
+    - 篠田 裕之
   title: 選択刺激法による触感の呈示
   booktitle: 電気学会研究会資料
 
 - type: domestic
   year: 1997
   authors:
-    - 篠田裕之
-    - 松本賢一
-    - 中島孝
-    - 箱崎光弘
-    - 杉本裕喜
+    - 篠田 裕之
+    - 松本 賢一
+    - 中島 孝
+    - 箱崎 光弘
+    - 杉本 裕喜
   title: 音響共鳴型テンソルセルによる高度触覚センシング
   booktitle: 日本ロボット学会学術講演会予稿集
 
 - type: domestic
   year: 1997
   authors:
-    - 中島孝
-    - 箱崎光弘
-    - 杉本裕喜
-    - 松本賢一
-    - 篠田裕之
+    - 中島 孝
+    - 箱崎 光弘
+    - 杉本 裕喜
+    - 松本 賢一
+    - 篠田 裕之
   title: 多モード音響共鳴を利用する触覚エレメント
   booktitle: 計測自動制御学会学術講演会予稿集
 
 - type: domestic
   year: 1997
   authors:
-    - 登守成征
-    - 浅村直也
-    - 五反田建義
-    - 佐々木晋哉
-    - 篠田裕之
+    - 登守 成征
+    - 浅村 直也
+    - 五反田 建義
+    - 佐々木 晋哉
+    - 篠田 裕之
   title: 選択刺激法による触感ディスプレイ
   booktitle: 計測自動制御学会学術講演会予稿集
 
 - type: domestic
   year: 1997
   authors:
-    - 松本賢一
-    - 杉本裕喜
-    - 中島孝
-    - 箱崎光弘
-    - 篠田裕之
+    - 松本 賢一
+    - 杉本 裕喜
+    - 中島 孝
+    - 箱崎 光弘
+    - 篠田 裕之
   title: 音響共鳴型テンソルセルによる触覚エレメント
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
@@ -10662,101 +10672,101 @@
 - type: domestic
   year: 1996
   authors:
-    - 篠田裕之
-    - 松本賢一
-    - 寺田夏樹
-    - 安藤繁
+    - 篠田 裕之
+    - 松本 賢一
+    - 寺田 夏樹
+    - 安藤 繁
   title: 音響共鳴型テンソルセルによる新しい触覚センシング
   booktitle: 電気学会研究会資料
 
 - type: domestic
   year: 1996
   authors:
-    - 王欣雨
-    - 篠田裕之
+    - 王 欣雨
+    - 篠田 裕之
   title: 歪みテンソルを検出する触覚センシング
   booktitle: 自動制御連合講演会講演論文集
 
 - type: domestic
   year: 1996
   authors:
-    - 田中康治
-    - 篠田裕之
+    - 田中 康治
+    - 篠田 裕之
   title: 弾性傾斜を利用する触覚センシング
   booktitle: 自動制御連合講演会講演論文集
 
 - type: domestic
   year: 1996
   authors:
-    - 松本賢一
-    - 篠田裕之
+    - 松本 賢一
+    - 篠田 裕之
   title: 共鳴型テンソルセル触覚センサ
   booktitle: 自動制御連合講演会講演論文集
 
 - type: domestic
   year: 1996
   authors:
-    - 篠田裕之
-    - 松本賢一
+    - 篠田 裕之
+    - 松本 賢一
   title: 共鳴型テンソルセルによる三次元構造触覚センサ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会
 
 - type: domestic
   year: 1996
   authors:
-    - 篠田裕之
-    - 松本賢一
+    - 篠田 裕之
+    - 松本 賢一
   title: 共鳴型テンソルセルによる三次元構造触覚センシング
   booktitle: ロボットセンサシンポジウム講演論文集
 
 - type: domestic
   year: 1996
   authors:
-    - 篠田裕之
-    - 松本賢一
+    - 篠田 裕之
+    - 松本 賢一
   title: 超音波触覚センシング -共鳴型テンソルセル-
   booktitle: 日本機械学会第７３期通常総会講演会論文集 IV
 
 - type: domestic
   year: 1995
   authors:
-    - 篠田
-    - 安藤
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 触覚センサと超音波
   booktitle: 日本機械学会第７３期全国大会講演会資料 VI
 
 - type: domestic
   year: 1995
   authors:
-    - 寺田
-    - 熊野
-    - 本間
-    - 篠田
-    - 安藤
+    - 寺田 # allow-surname-only
+    - 熊野 # allow-surname-only
+    - 本間 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 空洞の共鳴を用いる音響触覚センシング
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1995
   authors:
-    - 奈良
-    - 川北
-    - 宮司
-    - 安部
-    - 篠田
-    - 安藤
+    - 奈良 # allow-surname-only
+    - 川北 # allow-surname-only
+    - 宮司 # allow-surname-only
+    - 安部 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 人工蝸牛マイクロフォンの研究（第２報） -相互作用をもつ２次共振子アレイの理論-
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1995
   authors:
-    - 宮司
-    - 奈良
-    - 川北
-    - 安部
-    - 篠田
-    - 安藤
+    - 宮司 # allow-surname-only
+    - 奈良 # allow-surname-only
+    - 川北 # allow-surname-only
+    - 安部 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 人工蝸牛マイクロフォンの研究（第２報） -基底膜モデルに基づく知能化共振体アレイの提案と基礎実験-
   booktitle: SICE学術講演会予稿集
 
@@ -10774,58 +10784,58 @@
 - type: domestic
   year: 1994
   authors:
-    - 篠田
-    - 森本
-    - 安藤
+    - 篠田 # allow-surname-only
+    - 森本 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 三次元型触覚センサ – 触覚におけるスマートストラクチャ -
   booktitle: ロボットセンサシンポジウム講演論文集
 
 - type: domestic
   year: 1994
   authors:
-    - 篠田
-    - 森本
-    - 安藤
+    - 篠田 # allow-surname-only
+    - 森本 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 触覚とスマートストラクチャ – 弾性テンソル場を利用する高度触覚情報抽出 –
   booktitle: 電気学会全国大会講演論文集
 
 - type: domestic
   year: 1994
   authors:
-    - 成瀬
-    - 玉山
-    - 篠田
-    - 安藤
+    - 成瀬 # allow-surname-only
+    - 玉山 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 超音波検出型３次元構造触覚センサ
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1994
   authors:
-    - 宮司
-    - 池田
-    - 志磨
-    - 篠田
-    - 安藤
+    - 宮司 # allow-surname-only
+    - 池田 # allow-surname-only
+    - 志磨 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: シリコン微細加工による人工蝸牛マイクロホンの研究（第１報）
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1994
   authors:
-    - 安藤
-    - 篠田
-    - 来海
+    - 安藤 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 来海 # allow-surname-only
   title: 統一的な特徴抽出算法を用いた人工頭部センサの開発（第３報）
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1994
   authors:
-    - 佐藤
-    - 篠田
-    - 藍
-    - 安藤
+    - 佐藤 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 藍 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: ステレオ型時空間微分三次元計測システムの欠損部顎堤印象面形態の計測への応用
   booktitle: 日本補綴歯科学会雑誌 38 巻 92 回特別号
 
@@ -10849,9 +10859,9 @@
 - type: domestic
   year: 1993
   authors:
-    - 森本
-    - 篠田
-    - 安藤
+    - 森本 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 局所応力テンソル検出に基づく触知覚アルゴリズム -基礎的解析および接触状態分類への適用-
   booktitle: SICE学術講演会予稿集
   note: 本研究に対し1993年度計測自動制御学会学術奨励賞
@@ -10859,74 +10869,74 @@
 - type: domestic
   year: 1993
   authors:
-    - 布施
-    - 篠田
-    - 安藤
+    - 布施 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 統一的な特徴抽出算法を用いた人工頭部センサの開発（第2報）-聴覚と視覚による自律的な３次元知覚システム-
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1992
   authors:
-    - 篠田
-    - 安藤
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: ３次元構造を利用する触覚センサ – 皮膚に隠れている知能 -
   booktitle: AVIRG-SMC サマーセミナー「五感を探る」講演予稿集
 
 - type: domestic
   year: 1992
   authors:
-    - 篠田
-    - 安藤
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 三次元構造を利用する触覚センサ – その構造とアルゴリズム -
   booktitle: ロボットセンサシンポジウム講演論文集
 
 - type: domestic
   year: 1992
   authors:
-    - 上原
-    - 岡田
-    - 篠田
-    - 安藤
+    - 上原 # allow-surname-only
+    - 岡田 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 人工指先のための３次元構造触覚センサ
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1992
   authors:
-    - 木下
-    - 篠田
-    - 安藤
+    - 木下 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 強誘電ポリマーを用いる３次元構造触覚センサ
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1992
   authors:
-    - 安藤
-    - 篠田
-    - 白石
-    - 高橋
+    - 安藤 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 白石 # allow-surname-only
+    - 高橋 # allow-surname-only
   title: 統一的な特徴抽出原理に基づく感覚ロボットの開発（第１報）
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1992
   authors:
-    - 安部
-    - 篠田
-    - 安藤
+    - 安部 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 時間周波数領域における楽音・音声の特徴抽出（II) – Wigner 分布の特異値分解を利用した楽音のノイズリダクション -
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1992
   authors:
-    - 耿
-    - 篠田
-    - 山下
-    - 藍
-    - 安藤
+    - 耿 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 山下 # allow-surname-only
+    - 藍 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 時空間微分法による模型の三次元形態変化の観察
   booktitle: 日本補綴歯科学会雑誌 36 巻 88 回特別号
 
@@ -10961,80 +10971,80 @@
 - type: domestic
   year: 1991
   authors:
-    - 篠田
-    - 安藤
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: ３次元構造をもつ触覚センサ -変形パターンのヒルベルト変換の知覚とその利用-
   booktitle: 電気学会センサ技術研究会資料
 
 - type: domestic
   year: 1991
   authors:
-    - 先田
-    - 篠田
-    - 安藤
+    - 先田 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: ３次元構造を有する触覚センサ(II) -弾性体内部における変位の微分知覚-
   booktitle: 自動制御連合講演会予稿集
 
 - type: domestic
   year: 1991
   authors:
-    - 設楽
-    - 篠田
-    - 安藤
+    - 設楽 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 結像面付近の光強度場特性を利用した速度計測
   booktitle: 自動制御連合講演会予稿集
 
 - type: domestic
   year: 1991
   authors:
-    - 篠田
-    - 先田
-    - 安藤
+    - 篠田 # allow-surname-only
+    - 先田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 触知覚における内在アルゴリズム
   booktitle: 東京大学総合試験所年報
 
 - type: domestic
   year: 1991
   authors:
-    - 篠田
-    - 安藤
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: ３次元構造を有する触覚センサ
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1991
   authors:
-    - 彭
-    - 篠田
-    - 安藤
+    - 彭 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 指数性／反指数性検出演算子と偏自己相関関数
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1991
   authors:
-    - 本谷
-    - 篠田
-    - 安藤
+    - 本谷 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 超解像原理を用いた高分解能音響計測 多重反射体分離への誤差エネルギー減少法の適用
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1991
   authors:
-    - 細井
-    - 篠田
-    - 安藤
+    - 細井 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 秩序性強調原理に基づく静止網膜像の除去
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1991
   authors:
-    - 小川
-    - 光山
-    - 篠田
-    - 安藤
+    - 小川 # allow-surname-only
+    - 光山 # allow-surname-only
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
   title: 場の時空間勾配に基づく３次元音源定位システムの研究
   booktitle: SICE学術講演会予稿集
 
@@ -11049,24 +11059,24 @@
 - type: domestic
   year: 1990
   authors:
-    - 篠田
-    - 山崎
+    - 篠田 # allow-surname-only
+    - 山崎 # allow-surname-only
   title: 表面硬さの非接触センシング
   booktitle: SICE学術講演会予稿集
 
 - type: domestic
   year: 1990
   authors:
-    - 篠田
-    - 安藤
-    - 耿
+    - 篠田 # allow-surname-only
+    - 安藤 # allow-surname-only
+    - 耿 # allow-surname-only
   title: 時空間微分法による微小変形測定
   booktitle: 自動制御連合講演会前刷
 
 - type: domestic
   year: 1989
   authors:
-    - 篠田
-    - 山崎
+    - 篠田 # allow-surname-only
+    - 山崎 # allow-surname-only
   title: 表面硬さの非接触計測
   booktitle: SICE学術講演会予稿集

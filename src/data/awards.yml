@@ -56,11 +56,11 @@
   award: ROBOMECH表彰（学術研究分野）
   title: 超音波空中浮遊における高速カメラを利用した動的物体の制御
   recipients:
-    - 小野悠太
-    - 鈴木颯
-    - 牧野泰才
-    - 西海望
-    - 篠田裕之
+    - 小野 悠太
+    - 鈴木 颯
+    - 牧野 泰才
+    - 西海 望
+    - 篠田 裕之
   
 - year: 2024
   month: 5
@@ -69,7 +69,7 @@
   org: 日本機械学会
   title: 超音波空中浮遊における高速カメラを利用した動的物体の制御
   recipients:
-    - 小野悠太
+    - 小野 悠太
   
 - year: 2024
   month: 5
@@ -78,7 +78,7 @@
   org: 日本機械学会
   title: バイオロギングのための磁気共鳴無線給電システム
   recipients:
-    - 古謝勝將
+    - 古謝 勝將
   
 - year: 2023
   month: 12
@@ -87,9 +87,9 @@
   org: SICE SI2023
   title: 空中超音波フェーズドアレイを用いた薄膜の浮揚
   recipients:
-    - 荒川岳斗
-    - 牧野泰才
-    - 篠田裕之
+    - 荒川 岳斗
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2024
   month: 3
@@ -98,8 +98,8 @@
   org: 第28回日本バーチャルリアリティ学会
   title: 'BrickDisplay: 視差映像ディスプレイの分散配置による欠損を許した巨大空中像提示'
   recipients:
-    - 三河祐梨
-    - 篠田裕之
+    - 三河 祐梨
+    - 篠田 裕之
   
 - year: 2023
   month: 9
@@ -108,7 +108,7 @@
   org: 計測自動制御学会
   title: IEC TR 63344 ED1:2021 Multimediasystems-Haptics
   recipients:
-    - 篠田裕之
+    - 篠田 裕之
   
 - year: 2023
   month: 7
@@ -141,7 +141,7 @@
   day: 7
   award: 文部科学大臣表彰 若手科学者賞
   recipients:
-    - 門内靖明 (OB)
+    - 門内 靖明 (OB)
   
 - year: 2022
   month: 12
@@ -149,10 +149,10 @@
   award: 優秀講演賞
   org: SICE SI2022
   recipients:
-    - 常世田光彦
-    - 佐竹空良
-    - 阿部拓実
-    - 牧野泰才
+    - 常世田 光彦
+    - 佐竹 空良
+    - 阿部 拓実
+    - 牧野 泰才
   
 - year: 2022
   month: 12
@@ -161,7 +161,7 @@
   org: SICE SI部門
   title: 空中超音波を利用した触覚ディスプレイの開発
   recipients:
-    - 篠田裕之
+    - 篠田 裕之
   
 - year: 2022
   month: 11
@@ -210,7 +210,7 @@
   award: 学生奨励賞
   org: 映像情報メディア学会 立体映像技術研究会(3DIT)
   recipients:
-    - 三河祐梨
+    - 三河 祐梨
   
 - year: 2022
   month: 5
@@ -284,10 +284,10 @@
   award: 優秀講演賞
   org: SICE SI2021
   recipients:
-    - 稲垣州都
-    - 長野祥大
-    - 牧野泰才
-    - 篠田裕之
+    - 稲垣 州都
+    - 長野 祥大
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2021
   month: 12
@@ -295,10 +295,10 @@
   award: 優秀講演賞
   org: SICE SI2021
   recipients:
-    - 阿部拓実
-    - 松林篤
-    - 牧野泰才
-    - 篠田裕之
+    - 阿部 拓実
+    - 松林 篤
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2021
   month: 12
@@ -307,11 +307,11 @@
   org: SICE SI2021
   recipients:
     - 曽明 然
-    - 森崎汰雄
-    - 砥出悠太郎
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 森崎 汰雄
+    - 砥出 悠太郎
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2021
   month: 10
@@ -319,10 +319,10 @@
   award: 研究奨励賞
   org: SICE センシングフォーラム
   recipients:
-    - 水谷沙耶
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 水谷 沙耶
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2021
   month: 9
@@ -349,7 +349,7 @@
   award: 日本バーチャルリアリティ学会学術奨励賞
   org: 日本バーチャルリアリティ学会
   recipients:
-    - 古本拓朗
+    - 古本 拓朗
   
 - year: 2021
   month: 3
@@ -358,9 +358,9 @@
   org: IEICE 短距離無線通信研究会
   recipients:
     - 増田 祐一
-    - 平野義明
-    - 根岸毅人（帝人）
-    - 篠田裕之
+    - 平野 義明
+    - 根岸 毅人（帝人）
+    - 篠田 裕之
   
 - year: 2021
   month: 2
@@ -368,7 +368,7 @@
   award: 学術奨励賞研究奨励賞
   org: 計測自動制御学会
   recipients:
-    - 砥出悠太郎
+    - 砥出 悠太郎
   
 - year: 2020
   month: 12
@@ -377,9 +377,9 @@
   org: SICE SI2020
   recipients:
     - 有賀 健太朗
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2020
   month: 12
@@ -387,10 +387,10 @@
   award: 優秀講演賞
   org: SICE SI2020
   recipients:
-    - 阿部祐貴
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 阿部 祐貴
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2020
   month: 12
@@ -398,10 +398,10 @@
   award: 優秀講演賞
   org: SICE SI2020
   recipients:
-    - 津本海
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 津本 海
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2020
   month: 12
@@ -409,14 +409,14 @@
   award: 優秀講演賞
   org: SICE SI2020
   recipients:
-    - 小丹枝涼哉
+    - 小丹枝 涼哉
     - 森崎 汰雄
-    - 水谷沙耶
-    - 鈴木颯
-    - 神垣貴晶
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 水谷 沙耶
+    - 鈴木 颯
+    - 神垣 貴晶
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2020
   month: 12
@@ -424,8 +424,8 @@
   award: 優秀講演賞
   org: SICE SI2020
   recipients:
-    - 神垣貴晶
-    - 篠田裕之
+    - 神垣 貴晶
+    - 篠田 裕之
   
 - year: 2020
   month: 12
@@ -452,13 +452,13 @@
   award: インタラクション2020 インタラクティブ発表賞 一般投票
   org: 情報処理学会
   recipients:
-    - 森崎汰雄
-    - 森涼馬
-    - 森暸輔
-    - 牧野泰才
-    - 伊藤勇太
-    - 山川雄司
-    - 篠田裕之
+    - 森崎 汰雄
+    - 森 涼馬
+    - 森 暸輔
+    - 牧野 泰才
+    - 伊藤 勇太
+    - 山川 雄司
+    - 篠田 裕之
   
 - year: 2020
   month: 2
@@ -466,7 +466,7 @@
   award: 学術奨励賞 研究奨励賞
   org: 計測自動制御学会
   recipients:
-    - 中島允
+    - 中島 允
   
 - year: 2019
   month: 12
@@ -474,9 +474,9 @@
   award: 優秀講演賞
   org: SICE SI2019
   recipients:
-    - 松林篤
-    - 牧野泰才
-    - 篠田裕之
+    - 松林 篤
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2019
   month: 12
@@ -484,10 +484,10 @@
   award: 優秀講演賞
   org: SICE SI2019
   recipients:
-    - 染谷優
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 染谷 優
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2019
   month: 12
@@ -495,9 +495,9 @@
   award: 優秀講演賞
   org: SICE SI2019
   recipients:
-    - 倉井敬史
-    - 牧野泰才
-    - 篠田裕之
+    - 倉井 敬史
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2019
   month: 12
@@ -505,11 +505,11 @@
   award: 優秀講演賞
   org: SICE SI2019
   recipients:
-    - 神垣貴晶
-    - 鈴木颯
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 神垣 貴晶
+    - 鈴木 颯
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2019
   month: 12
@@ -517,11 +517,11 @@
   award: 優秀講演賞
   org: SICE SI2019
   recipients:
-    - 砥出悠太郎
-    - 任丞九
-    - 藤原正浩
-    - 牧野泰才
-    - 篠田裕之
+    - 砥出 悠太郎
+    - 任 丞九
+    - 藤原 正浩
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2019
   month: 9
@@ -529,9 +529,9 @@
   award: 論文賞
   org: 計測自動制御学会
   recipients:
-    - 神垣貴晶
-    - 二宮悠基
-    - 篠田裕之
+    - 神垣 貴晶
+    - 二宮 悠基
+    - 篠田 裕之
   
 - year: 2018
   month: 3
@@ -539,7 +539,7 @@
   award: 学術奨励賞
   org: 日本バーチャルリアリティ学会
   recipients:
-    - 田島優輝
+    - 田島 優輝
   
 - year: 2018
   month: 3
@@ -568,10 +568,10 @@
   award: 優秀講演賞
   org: SICE SI2017
   recipients:
-    - 吉田健太郎
-    - 一山智弘
-    - 牧野泰才
-    - 篠田裕之
+    - 吉田 健太郎
+    - 一山 智弘
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2017
   month: 12
@@ -579,9 +579,9 @@
   award: 優秀講演賞
   org: SICE SI2017
   recipients:
-    - 長谷川圭介
-    - 仇力維
-    - 篠田裕之
+    - 長谷川 圭介
+    - 仇 力維
+    - 篠田 裕之
   
 - year: 2017
   month: 12
@@ -589,8 +589,8 @@
   award: 優秀講演賞
   org: SICE SI2017
   recipients:
-    - 神垣貴晶
-    - 篠田裕之
+    - 神垣 貴晶
+    - 篠田 裕之
   
 - year: 2017
   month: 12
@@ -609,7 +609,7 @@
   org: 経済産業省
   title: 空中超音波による匂い環境制御
   recipients:
-    - 東京大学 大学院 新領域創成科学研究科　篠田・牧野研究室
+    - 東京大学 大学院 新領域創成科学研究科 篠田・牧野研究室
   
 - year: 2017
   month: 6
@@ -617,7 +617,7 @@
   award: IEICE 短距離無線通信研究会論文賞
   org: IEICE 短距離無線通信研究会
   recipients:
-    - 野田聡人
+    - 野田 聡人
   
 - year: 2017
   month: 6
@@ -625,7 +625,7 @@
   award: IEICE 短距離無線通信研究会優秀学生賞
   org: IEICE 短距離無線通信研究会
   recipients:
-    - 増田祐一
+    - 増田 祐一
   
 - year: 2016
   month: 12
@@ -633,9 +633,9 @@
   award: 優秀講演賞
   org: SICE SI2016
   recipients:
-    - 野田聡人
-    - 田島優輝
-    - 篠田裕之
+    - 野田 聡人
+    - 田島 優輝
+    - 篠田 裕之
   
 - year: 2016
   month: 12
@@ -643,7 +643,7 @@
   award: 若手奨励賞
   org: SICE SI部門
   recipients:
-    - 古山佳和
+    - 古山 佳和
   
 - year: 2016
   month: 9
@@ -651,7 +651,7 @@
   award: 貢献賞
   org: 日本バーチャルリアリティ学会
   recipients:
-    - 篠田裕之
+    - 篠田 裕之
   
 - year: 2016
   month: 4
@@ -659,7 +659,7 @@
   award: 平成27年度 船井研究奨励賞
   title: 連結型超音波フェーズドアレイによる空中触感の生成
   recipients:
-    - 長谷川圭介
+    - 長谷川 圭介
   
 - year: 2016
   month: 3
@@ -667,7 +667,7 @@
   award: 学術奨励賞
   org: 日本バーチャルリアリティ学会
   recipients:
-    - 長谷川圭介
+    - 長谷川 圭介
   
 - year: 2016
   month: 3
@@ -675,14 +675,14 @@
   award: 学術奨励賞
   org: 日本バーチャルリアリティ学会
   recipients:
-    - 古山佳和
+    - 古山 佳和
   
 - year: 2016
   month: 3
   day: 16
   award: 東京大学大学院新領域創成科学研究科長賞 (修士)
   recipients:
-    - 増田祐一
+    - 増田 祐一
   
 - year: 2015
   month: 12
@@ -690,9 +690,9 @@
   award: 優秀講演賞
   org: SICE SI2015
   recipients:
-    - 古山佳和
-    - 牧野泰才
-    - 篠田裕之
+    - 古山 佳和
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2015
   month: 12
@@ -703,9 +703,9 @@
     - 馬 少翔
     - 吉本 東天
     - 井上 碩
-    - 長谷川圭介
-    - 牧野泰才
-    - 篠田裕之
+    - 長谷川 圭介
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2015
   month: 9
@@ -713,7 +713,7 @@
   award: 研究奨励賞
   org: SICE センシングフォーラム
   recipients:
-    - 長谷川圭介
+    - 長谷川 圭介
   
 - year: 2015
   month: 9
@@ -722,19 +722,19 @@
   org: 経済産業省
   title: 視触覚クローン
   recipients:
-    - 東京大学 大学院 新領域創成科学研究科　篠田・牧野研究室
+    - 東京大学 大学院 新領域創成科学研究科 篠田・牧野研究室
   
 - year: 2015
   month: 9
   day: 10
   award: 日本バーチャルリアリティ学会論文賞
   recipients:
-    - 末石智大
-    - 長谷川圭介
-    - 奥村光平
-    - 奥寛雅
-    - 篠田裕之
-    - 石川正俊
+    - 末石 智大
+    - 長谷川 圭介
+    - 奥村 光平
+    - 奥 寛雅
+    - 篠田 裕之
+    - 石川 正俊
   
 - year: 2015
   award: Young Author's Award
@@ -759,7 +759,7 @@
   award: 平成26年度 船井研究奨励賞
   title: 構造化表面散乱に基づくテラヘルツ波ビーム制御
   recipients:
-    - 門内靖明
+    - 門内 靖明
   
 - year: 2015
   month: 3
@@ -767,7 +767,7 @@
   award: 研究科長賞
   org: 東京大学大学院情報理工学系研究科
   recipients:
-    - 藤原正浩
+    - 藤原 正浩
   
 - year: 2015
   month: 3
@@ -775,7 +775,7 @@
   award: 研究科長賞
   org: 東京大学大学院情報理工学系研究科
   recipients:
-    - 井上碩
+    - 井上 碩
   
 - year: 2015
   month: 2
@@ -783,7 +783,7 @@
   award: 学術奨励賞 研究奨励賞
   org: 計測自動制御学会
   recipients:
-    - 櫻井達馬
+    - 櫻井 達馬
   
 - year: 2014
   month: 12
@@ -791,11 +791,11 @@
   award: 優秀講演賞
   org: 第15回 SICE SI2014
   recipients:
-    - 古山佳和
-    - 長谷川圭介
-    - 門内靖明
-    - 牧野泰才
-    - 篠田裕之
+    - 古山 佳和
+    - 長谷川 圭介
+    - 門内 靖明
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2014
   month: 12
@@ -803,8 +803,8 @@
   award: 優秀講演賞
   org: 第15回 SICE SI2014
   recipients:
-    - 森下和哉
-    - 篠田裕之
+    - 森下 和哉
+    - 篠田 裕之
   
 - year: 2014
   month: 12
@@ -812,11 +812,11 @@
   award: 優秀講演賞
   org: 第15回 SICE SI2014
   recipients:
-    - 増田祐一
-    - 野田聡人
-    - 岡田明正
-    - 牧野泰才
-    - 篠田裕之
+    - 増田 祐一
+    - 野田 聡人
+    - 岡田 明正
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2014
   month: 11
@@ -847,7 +847,7 @@
   org: Innovative Technologies 2014
   title: 空中触覚タッチパネル
   recipients:
-    - 篠田・牧野研究室
+    - 篠田・牧野研究室 # allow-surname-only
   
 - year: 2014
   month: 10
@@ -856,7 +856,7 @@
   org: Innovative Technologies 2014
   title: 空中触覚タッチパネル
   recipients:
-    - 篠田・牧野研究室
+    - 篠田・牧野研究室 # allow-surname-only
   
 - year: 2014
   month: 10
@@ -872,8 +872,8 @@
   award: 計測部門論文賞
   org: 計測自動制御学会
   recipients:
-    - 藤原正浩
-    - 篠田裕之
+    - 藤原 正浩
+    - 篠田 裕之
   
 - year: 2014
   month: 9
@@ -901,7 +901,7 @@
   org: 経済産業省
   title: 空中触覚タッチパネル
   recipients:
-    - 東京大学 大学院 新領域創成科学研究科　篠田・牧野研究室
+    - 東京大学 大学院 新領域創成科学研究科 篠田・牧野研究室
   
 - year: 2014
   month: 5
@@ -909,7 +909,7 @@
   award: 若手優秀公演フェロー賞
   org: 日本機械学会
   recipients:
-    - 吉野数馬
+    - 吉野 数馬
   
 - year: 2014
   month: 5
@@ -917,8 +917,8 @@
   award: ロボティクス・メカトロニクス部門 ROBOMEC表彰
   org: 日本機械学会
   recipients:
-    - 吉野数馬
-    - 篠田裕之
+    - 吉野 数馬
+    - 篠田 裕之
   
 - year: 2014
   month: 4
@@ -926,7 +926,7 @@
   award: 平成25年度 船井研究奨励賞
   title: 二次元導波路を用いた安全なワイヤレス電力伝送法の研究開発
   recipients:
-    - 野田聡人
+    - 野田 聡人
   
 - year: 2014
   month: 3
@@ -934,7 +934,7 @@
   award: 研究科長賞
   org: 東京大学大学院情報理工学系研究科
   recipients:
-    - 吉野数馬
+    - 吉野 数馬
   
 - year: 2013
   month: 2
@@ -952,8 +952,8 @@
   award: 優秀講演賞
   org: 第14回 SICE SI2013
   recipients:
-    - 長谷川圭介
-    - 篠田裕之
+    - 長谷川 圭介
+    - 篠田 裕之
   
 - year: 2013
   month: 9
@@ -1004,7 +1004,7 @@
   award: 研究科長賞
   org: 東京大学大学院情報理工学系研究科
   recipients:
-    - 門内靖明
+    - 門内 靖明
   
 - year: 2013
   month: 2
@@ -1012,7 +1012,7 @@
   award: 学術奨励賞 研究奨励賞
   org: 計測自動制御学会
   recipients:
-    - 藤原正浩
+    - 藤原 正浩
   
 - year: 2012
   month: 12
@@ -1020,8 +1020,8 @@
   award: 優秀講演賞
   org: 第13回 SICE SI2012
   recipients:
-    - 野田聡人
-    - 篠田裕之
+    - 野田 聡人
+    - 篠田 裕之
   
 - year: 2012
   month: 11
@@ -1037,7 +1037,7 @@
   award: 研究・技術奨励賞
   org: 第28回 SICE センシングフォーラム 
   recipients:
-    - 藤原正浩
+    - 藤原 正浩
   
 - year: 2012
   month: 9
@@ -1045,7 +1045,7 @@
   award: 研究・技術奨励賞
   org: 第28回 SICE センシングフォーラム 
   recipients:
-    - 門内靖明
+    - 門内 靖明
   
 - year: 2012
   award: Innovative Technologies 採択
@@ -1066,7 +1066,7 @@
   day: 22
   award: 計測自動制御学会フェロー
   recipients:
-    - 篠田裕之
+    - 篠田 裕之
   
 - year: 2012
   month: 5
@@ -1083,7 +1083,7 @@
   award: 研究科長賞
   org: 東京大学大学院情報理工学系研究科
   recipients:
-    - 中妻啓
+    - 中妻 啓
   
 - year: 2011
   month: 12
@@ -1091,8 +1091,8 @@
   award: 優秀講演賞
   org: 第12回 SICE SI2011 
   recipients:
-    - 野田聡人
-    - 篠田裕之
+    - 野田 聡人
+    - 篠田 裕之
   
 - year: 2011
   month: 12
@@ -1136,7 +1136,7 @@
   award: 研究奨励賞
   org: 計測自動制御学会学術奨励賞
   recipients:
-    - 野田聡人
+    - 野田 聡人
   
 - year: 2010
   month: 12
@@ -1144,8 +1144,8 @@
   award: 優秀講演賞
   org: 第11回 SICE SI2010 
   recipients:
-    - 佐藤克成
-    - 篠田裕之
+    - 佐藤 克成
+    - 篠田 裕之
     - 舘 暲
   external: true
   
@@ -1155,7 +1155,7 @@
   award: 五十嵐賞：電気学会E部門
   org: 第27回「センサ・マイクロマシンと応用システム」シンポジウム
   recipients:
-    - 野田聡人
+    - 野田 聡人
   
 - year: 2010
   month: 9
@@ -1163,7 +1163,7 @@
   award: 研究・技術奨励賞
   org: 第26回 SICE センシングフォーラム
   recipients:
-    - 中妻啓
+    - 中妻 啓
   
 - year: 2010
   month: 3
@@ -1171,7 +1171,7 @@
   award: 研究科長賞
   org: 東京大学大学院情報理工学系研究科
   recipients:
-    - 門内靖明
+    - 門内 靖明
   
 - year: 2010
   month: 3
@@ -1179,10 +1179,10 @@
   award: 優秀講演賞
   org: 第10回 SICE SI2009
   recipients:
-    - 野田聡人
-    - 久保伸太郎
-    - 大野紘明
-    - 篠田裕之
+    - 野田 聡人
+    - 久保 伸太郎
+    - 大野 紘明
+    - 篠田 裕之
   
 - year: 2010
   month: 3
@@ -1190,8 +1190,8 @@
   award: 優秀講演賞
   org: 第10回 SICE SI2009
   recipients:
-    - 門内靖明
-    - 篠田裕之
+    - 門内 靖明
+    - 篠田 裕之
   
 - year: 2010
   month: 3
@@ -1199,15 +1199,15 @@
   award: 優秀講演賞
   org: 第10回 SICE SI2009
   recipients:
-    - 中妻啓
-    - 篠田裕之
+    - 中妻 啓
+    - 篠田 裕之
   
 - year: 2010
   month: 2
   day: 24
   award: 計測自動制御学会学術奨励賞
   recipients:
-    - 門内靖明
+    - 門内 靖明
   
 - year: 2010
   month: 1
@@ -1223,7 +1223,7 @@
   day: 5
   award: 計測自動制御学会・産業応用部門大会奨励賞
   recipients:
-    - 門内靖明
+    - 門内 靖明
   
 - year: 2009
   month: 9
@@ -1231,7 +1231,7 @@
   award: 研究・技術奨励賞
   org: 第25回 SICE センシングフォーラム
   recipients:
-    - 牧野泰才
+    - 牧野 泰才
   
 - year: 2009
   month: 8
@@ -1255,9 +1255,9 @@
   award: 優秀講演賞
   org: 第９回 SICE SI2008
   recipients:
-    - 中妻啓
-    - 牧野泰才
-    - 篠田裕之
+    - 中妻 啓
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2008
   month: 12
@@ -1265,8 +1265,8 @@
   award: 優秀講演賞
   org: 第９回 SICE SI2008
   recipients:
-    - 門内靖明
-    - 篠田裕之
+    - 門内 靖明
+    - 篠田 裕之
   
 - year: 2008
   month: 12
@@ -1274,7 +1274,7 @@
   award: 若手奨励賞
   org: SICE SI部門賞
   recipients:
-    - 岩本貴之
+    - 岩本 貴之
   
 - year: 2008
   month: 11
@@ -1289,7 +1289,7 @@
   award: 研究・技術奨励賞
   org: 第24回 SICE センシングフォーラム
   recipients:
-    - 清田翔平
+    - 清田 翔平
   
 - year: 2007
   month: 12
@@ -1297,8 +1297,8 @@
   award: 優秀講演賞
   org: 第８回 SICE SI2007
   recipients:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2007
   month: 12
@@ -1306,8 +1306,8 @@
   award: 優秀講演賞
   org: 第８回 SICE SI2007
   recipients:
-    - 岩本貴之
-    - 篠田裕之
+    - 岩本 貴之
+    - 篠田 裕之
   
 - year: 2007
   month: 12
@@ -1315,9 +1315,9 @@
   award: 優秀講演賞
   org: 第８回 SICE SI2007
   recipients:
-    - 中妻啓
-    - 牧野泰才
-    - 篠田裕之
+    - 中妻 啓
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2007
   month: 12
@@ -1325,7 +1325,7 @@
   award: SI部門賞 研究奨励賞
   org: SICE
   recipients:
-    - 牧野泰才
+    - 牧野 泰才
   
 - year: 2007
   month: 10
@@ -1333,7 +1333,7 @@
   award: センシングフォーラム研究・技術奨励賞
   org: 第23回 SICE
   recipients:
-    - 岩本貴之
+    - 岩本 貴之
   
 - year: 2007
   month: 9
@@ -1348,8 +1348,8 @@
   day: 20
   award: 日本バーチャルリアリティ学会論文賞
   recipients:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2006
   month: 12
@@ -1357,8 +1357,8 @@
   award: 優秀講演賞
   org: 第７回 SICE SI2006
   recipients:
-    - 牧野泰才
-    - 篠田裕之
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2006
   month: 12
@@ -1366,9 +1366,9 @@
   award: 優秀講演賞
   org: 第７回 SICE SI2006
   recipients:
-    - 千種大雅
-    - 牧野泰才
-    - 篠田裕之
+    - 千種 大雅
+    - 牧野 泰才
+    - 篠田 裕之
   
 - year: 2006
   month: 10
@@ -1399,7 +1399,7 @@
   day: 22
   award: 計測自動制御学会学術奨励賞
   recipients:
-    - 牧野泰才
+    - 牧野 泰才
   
 - year: 2005
   month: 8
@@ -1423,16 +1423,16 @@
   day: 22
   award: 計測自動制御学会学術奨励賞 技術奨励賞
   recipients:
-    - 岩本貴之
+    - 岩本 貴之
   
 - year: 2004
   month: 3
   day: 5
   award: ファナックFAロボット財団論文賞
   recipients:
-    - 王欣雨
-    - 劉忻
-    - 篠田裕之
+    - 王 欣雨
+    - 劉 忻
+    - 篠田 裕之
   
 - year: 2001
   month: 12
@@ -1449,14 +1449,14 @@
   day: 22
   award: 計測自動制御学会学術奨励賞
   recipients:
-    - 横山望
+    - 横山 望
   
 - year: 1999
   month: 6
   day: 30
   award: 先端技術学生論文賞（努力賞）
   recipients:
-    - 佐々木晋哉
+    - 佐々木 晋哉
   
 - year: 1999
   month: 5
@@ -1473,90 +1473,90 @@
   day: 24
   award: 第14回電気通信普及財団賞
   recipients:
-    - 劉忻
-    - 王欣雨
+    - 劉 忻
+    - 王 欣雨
   
 - year: 1999
   month: 3
   day: 3
   award: 日本VR学会学術奨励賞
   recipients:
-    - 浅村直也
+    - 浅村 直也
   
 - year: 1998
   month: 7
   day: 30
   award: 計測自動制御学会論文賞
   recipients:
-    - 寺田夏樹
-    - 篠田裕之
-    - 安藤繁
+    - 寺田 夏樹
+    - 篠田 裕之
+    - 安藤 繁
   
 - year: 1998
   month: 6
   day: 26
   award: 日本機械学会ロボティックスメカトロニクス部門賞
   recipients:
-    - 松本賢一
-    - 杉本裕喜
-    - 中島孝
-    - 箱崎光弘
-    - 篠田裕之
+    - 松本 賢一
+    - 杉本 裕喜
+    - 中島 孝
+    - 箱崎 光弘
+    - 篠田 裕之
   
 - year: 1998
   award: 電気学会センサシンポジウム若手優秀論文賞次点
   recipients:
-    - 中島孝
+    - 中島 孝
   
 - year: 1998
   month: 6
   day: 23
   award: 先端技術学生論文賞
   recipients:
-    - 王欣雨
-    - 劉忻
+    - 王 欣雨
+    - 劉 忻
   
 - year: 1998
   month: 2
   day: 27
   award: 計測自動制御学会学術奨励賞
   recipients:
-    - 中島孝
+    - 中島 孝
   
 - year: 1997
   month: 6
   day: 18
   award: 先端技術学生論文賞
   recipients:
-    - 浅村直也
+    - 浅村 直也
   
 - year: 1994
   award: 佐藤記念知能ロボット研究奨励賞
   recipients:
-    - 篠田裕之
+    - 篠田 裕之
   
 - year: 1994
   award: 計測自動制御学会論文賞友田賞
   recipients:
-    - 安藤繁
-    - 篠田裕之
-    - 小川勝也
+    - 安藤 繁
+    - 篠田 裕之
+    - 小川 勝也
     - 光山 訓
   
 - year: 1994
   award: 計測自動制御学会学術奨励賞
   recipients:
-    - 森本直樹
+    - 森本 直樹
   
 - year: 1993
   month: 8
   day: 5
   award: 計測自動制御学会論文賞
   recipients:
-    - 篠田裕之
-    - 山﨑弘郎
+    - 篠田 裕之
+    - 山﨑 弘郎
   
 - year: 1990
   award: 計測自動制御学会学術奨励賞
   recipients:
-    - 篠田裕之
+    - 篠田 裕之
