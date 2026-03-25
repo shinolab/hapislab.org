@@ -50,21 +50,13 @@ const englishVenueParts = (
 	rel={publication.href ? "noopener noreferrer" : undefined}
 	class:list={[className, publication.href && linkClassName]}
 >
-	{
-		citation.authorsText && (
-			<span class="citation-authors">{citation.authorsText}</span>
-		)
-	}
-	<span class="citation-title">{citation.titleText}</span>
+	{citation.authorsText && <span>{citation.authorsText}</span>}
+	<span class="citation-title"> {citation.titleText}</span>
 	<span class="citation-venue">
 		{
 			citation.japaneseStyle ? (
 				<>
-					{citation.venueName && (
-						<span class="venue-name--plain">
-							{citation.venueName}
-						</span>
-					)}
+					{citation.venueName && <span>{citation.venueName}</span>}
 					{japaneseVenueParts.length > 0 &&
 						`${citation.venueName ? ". " : ""}${japaneseVenueParts.join(". ")}`}
 				</>
@@ -82,7 +74,7 @@ const englishVenueParts = (
 					{citation.doiText && ` (${citation.doiText})`}
 				</>
 			)
-		}
+		}.
 		{
 			publication.note && (
 				<span class="citation-note"> [{publication.note}]</span>
@@ -120,13 +112,8 @@ const englishVenueParts = (
 		text-decoration: underline;
 	}
 
-	.citation-authors {
-		margin-right: 0.35rem;
-	}
-
 	.citation-title {
 		font-weight: 500;
-		margin-right: 0.35rem;
 	}
 
 	.citation-authors,
@@ -137,10 +124,6 @@ const englishVenueParts = (
 
 	.venue-name {
 		font-style: italic;
-	}
-
-	.venue-name--plain {
-		font-style: normal;
 	}
 
 	.citation-note {
