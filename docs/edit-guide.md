@@ -19,17 +19,17 @@
   ## 目次
 
 - [一般的な注意](#一般的な注意)
-- [発表論文の追加 (publications.yml)](#発表論文の追加-publicationsyml)
-    - [PublicationRef コンポーネントでの参照](#publicationref-コンポーネントでの参照)
+- [発表論文の追加](#発表論文の追加-publicationsyml)
 - [Newsの更新](#newsの更新)
 - [関連プロジェクトの更新](#関連プロジェクトの更新)
 - [研究テーマの追加](#研究テーマの追加)
-- [受賞リストの更新 (awards.yml)](#受賞リストの更新-awardsyml)
+- [受賞リストの更新](#受賞リストの更新-awardsyml)
 - [メンバーの更新](#メンバーの更新)
-    - [学生 (students.yml)](#学生-studentsyml)
-    - [スタッフ (staff.yml)](#スタッフ-staffyml)
+    - [学生](#学生-studentsyml)
+    - [スタッフ](#スタッフ-staffyml)
     - [メンバー個別ページ](#メンバー個別ページ)
 - [特殊ページの追加](#特殊ページの追加)
+- [MDXで使用できるコンポーネント](#mdxで使用できるコンポーネント)
 
 ---
 
@@ -41,22 +41,6 @@
 
 Markdown/MDX 内で画像を表示する場合は, `src/assets/` 以下の画像を相対パスで指定します.
 > 例: `src/content/members/example.mdx` から参照する場合: `![alt text](../../assets/path/to/image.png)`
-
-### MDX とコンポーネント
-`.mdx` ファイルでは, Astroコンポーネントをインポートして使用できます. 
-例えば, クリックで拡大表示できる `MdxLightboxImage` コンポーネントが用意されています.
-
-```mdx
-import photo from "../../assets/members/example/image.png";
-import MdxLightboxImage from "../../components/MdxLightboxImage.astro";
-
-<MdxLightboxImage
-  src={photo}
-  alt="Example image"
-  width={320}
-  caption="クリックで拡大"
-/>
-```
 
 ### PDF ファイル
 PDFファイルは研究室の共有Google Driveの `homepage-public` フォルダに配置し, その共有リンクを使用してください.
@@ -166,17 +150,6 @@ uv run python doi2pub.py <DOI>
   location: 東京大学
 ```
 
-### PublicationRef コンポーネントでの参照
-`publications.yml` で `refId` を設定した論文は, MDXファイル内で以下のように引用形式で表示できます.
-
-```mdx
-import PublicationRef from "../../components/PublicationRef.astro";
-
-<PublicationRef refId="your-ref-id" />
-```
-
----
-
 ## Newsの更新
 
 `src/content/top/news/` 内に新しい Markdown (`.md` / `.en.md`) ファイルを作成します.
@@ -273,3 +246,59 @@ thumbnailAlt: サムネイルの説明
 
 ルート直下に独自のURLを持つページを作成したい場合は, `src/content/special-pages/` にファイルを作成します.
 例: `src/content/special-pages/my-page.mdx` -> `https://hapislab.org/my-page/`
+
+---
+
+# MDXで使用できるコンポーネント 
+
+## MdxLightboxImage (クリックで拡大できる画像)
+
+```mdx
+import photo from "../../assets/members/example/image.png";
+import MdxLightboxImage from "../../components/MdxLightboxImage.astro";
+
+<MdxLightboxImage
+  src={photo}
+  alt="Example image"
+  width={320}
+  height={240}
+  caption="クリックで拡大"
+/>
+```
+
+## SideBySide (左右にコンテンツを並べる)
+
+```mdx
+import SideBySide from "../../components/SideBySide.astro";
+
+<SideBySide>
+  <Image slot="media" src={image} alt="image" />
+  <div>
+    ここにテキストや他のコンポーネントを配置できます.
+  </div>
+</SideBySide>
+```
+
+## PublicationRef (publications.yml の論文を参照)
+
+```mdx
+import PublicationRef from "../../components/PublicationRef.astro";
+
+<PublicationRef refId="your-ref-id" />
+```
+
+## PublicationList (publications.yml の論文リストを表示)
+
+```mdx
+import PublicationList from "../../components/PublicationList.astro";
+
+<PublicationList type="article" author="Taro Tanaka|田中 太郎" />
+```
+
+## AwardList (awards.yml の受賞リストを表示)
+
+```mdx
+import AwardList from "../../components/AwardList.astro";
+
+<AwardList author="Taro Tanaka|田中 太郎" />
+```

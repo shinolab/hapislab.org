@@ -1,132 +1,129 @@
 ---
-import { awards, type Award } from "../lib/awards";
+import { awards as allAwards, type Award } from "../lib/awards";
 
 interface Props {
+	awards?: Award[];
 	locale?: "ja" | "en";
+	author?: string;
+	className?: string;
 }
 
-const { locale = "ja" } = Astro.props;
+const inferredLocale = Astro.url.pathname.startsWith("/en/") ? "en" : "ja";
+const {
+	awards: propsAwards,
+	locale = inferredLocale,
+	author,
+	className,
+} = Astro.props;
 
-const sortAwardsByDate = (a: Award, b: Award) => {
-	if (b.year !== a.year) return b.year - a.year;
-	const monthDiff = (b.month ?? 0) - (a.month ?? 0);
-	if (monthDiff !== 0) return monthDiff;
-	return (b.day ?? 0) - (a.day ?? 0);
-};
+let filtered = propsAwards || allAwards;
+
+if (author) {
+	const searchNames = author
+		.split("|")
+		.map((n) => n.trim().toLowerCase())
+		.filter(Boolean);
+	filtered = filtered.filter((a) =>
+		a.recipients.some((recipient) => {
+			const normalizedRecipient = recipient
+				.replace(/\s+/g, "")
+				.toLowerCase();
+			return searchNames.some((name) => {
+				const normalizedName = name.replace(/\s+/g, "").toLowerCase();
+				return normalizedRecipient.includes(normalizedName);
+			});
+		}),
+	);
+}
 
 const formatMonthDay = (award: Award) =>
 	award.month != null && award.day != null
 		? `${award.month}/${award.day}`
 		: null;
 
-const groupedAwards = [...awards].sort(sortAwardsByDate).reduce(
-	(acc, award) => {
-		const year = award.year;
-		if (!acc[year]) {
-			acc[year] = [];
-		}
-		acc[year].push(award);
-		return acc;
-	},
-	{} as Record<number, Award[]>,
-);
-
-const years = Object.keys(groupedAwards)
-	.map(Number)
-	.sort((a, b) => b - a);
-
 const labels =
 	locale === "en"
 		? {
-				year: "Year",
-				award: "Award",
-				recipients: "Recipients",
 				title: "Title",
-				notice: "* We have also included the coauthor’s awards that especially had a close connection with our laboratory.",
 			}
 		: {
-				year: "年",
-				award: "賞",
-				recipients: "受賞者",
 				title: "題目",
-				notice: "＊研究室所属の学生ではないが特に関係の深い共著者の受賞も一部に含まれています",
 			};
 ---
 
-<div class="awards-list">
+<ul class:list={["award-list", className]}>
 	{
-		years.map((year) => (
-			<section class="legacy-block">
-				<h3 class="legacy-block__title">{year}</h3>
-				<div class="surface surface--table table-wrapper">
-					<table class="legacy-data-table">
-						<tbody>
-							{groupedAwards[year].map((award) => (
-								<tr>
-									<td style="width: 25%;">
-										{formatMonthDay(award) && (
-											<div class="award-date">
-												{formatMonthDay(award)}
-											</div>
-										)}
-										<div class="award-name">
-											{award.href ? (
-												<a
-													href={award.href}
-													target="_blank"
-													rel="noopener noreferrer"
-												>
-													{award.award}
-												</a>
-											) : (
-												award.award
-											)}
-										</div>
-										{award.org && (
-											<div class="award-org">
-												<small>{award.org}</small>
-											</div>
-										)}
-									</td>
-									<td>
-										<div class="award-recipients">
-											<strong>
-												{award.recipients.join(", ")}
-											</strong>
-											{award.external && (
-												<span class="external-mark">
-													*
-												</span>
-											)}
-										</div>
-										{award.title && (
-											<div class="award-title">
-												<span class="label">
-													{labels.title}:
-												</span>{" "}
-												{award.title}
-											</div>
-										)}
-									</td>
-								</tr>
-							))}
-						</tbody>
-					</table>
-				</div>
-			</section>
+		filtered.map((award) => (
+			<li class="award-list__item surface surface--table table-wrapper">
+				<table class="legacy-data-table">
+					<tbody>
+						<tr>
+							<td style="width: 25%;">
+								{formatMonthDay(award) && (
+									<div class="award-date">
+										{award.year}/{formatMonthDay(award)}
+									</div>
+								)}
+								{!formatMonthDay(award) && (
+									<div class="award-date">{award.year}</div>
+								)}
+								<div class="award-name">
+									{award.href ? (
+										<a
+											href={award.href}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											{award.award}
+										</a>
+									) : (
+										award.award
+									)}
+								</div>
+								{award.org && (
+									<div class="award-org">
+										<small>{award.org}</small>
+									</div>
+								)}
+							</td>
+							<td>
+								<div class="award-recipients">
+									<strong>
+										{award.recipients.join(", ")}
+									</strong>
+									{award.external && (
+										<span class="external-mark">*</span>
+									)}
+								</div>
+								{award.title && (
+									<div class="award-title">
+										<span class="label">
+											{labels.title}:
+										</span>{" "}
+										{award.title}
+									</div>
+								)}
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</li>
 		))
 	}
-
-	<aside class="awards-notice">
-		<p>{labels.notice}</p>
-	</aside>
-</div>
+</ul>
 
 <style>
-	.awards-list {
+	.award-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
 		display: flex;
 		flex-direction: column;
-		gap: 2rem;
+		gap: 1rem;
+	}
+	.award-list__item {
+		padding: 0;
+		margin: 0;
 	}
 	.award-org {
 		color: var(--color-text-muted, #666);
@@ -154,17 +151,11 @@ const labels =
 	.legacy-data-table td {
 		padding: 1rem 0.75rem;
 		vertical-align: top;
+		border-bottom: 0 !important;
 	}
 	.external-mark {
 		color: var(--color-primary, #0056b3);
 		font-weight: bold;
 		margin-left: 0.25rem;
-	}
-	.awards-notice {
-		margin-top: 2rem;
-		padding: 1rem;
-		border-top: 1px solid var(--color-border, #eee);
-		font-size: 0.9rem;
-		color: var(--color-text-muted, #666);
 	}
 </style>

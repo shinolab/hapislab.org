@@ -1,0 +1,70 @@
+---
+import { publications as allPublications, type Publication } from "../lib/site-data";
+import PublicationCitation from "./PublicationCitation.astro";
+
+interface Props {
+	publications?: Publication[];
+	locale?: "ja" | "en";
+	type?: string;
+	author?: string;
+	className?: string;
+}
+
+const inferredLocale = Astro.url.pathname.startsWith("/en/") ? "en" : "ja";
+const {
+	publications: propsPublications,
+	locale = inferredLocale,
+	type,
+	author,
+	className,
+} = Astro.props;
+
+let filtered = propsPublications || allPublications;
+
+if (author) {
+	const searchNames = author.split('|').map(n => n.trim().toLowerCase()).filter(Boolean);
+	filtered = filtered.filter(p =>
+		p.authors.some(a => {
+			const normalizedAuthor = a.replace(/\*/g, '').trim().toLowerCase();
+			return searchNames.some(name => normalizedAuthor.includes(name));
+		})
+	);
+}
+
+if (type) {
+	filtered = filtered.filter(p => p.type === type);
+}
+
+const visiblePublications = (locale === "en" && type !== "domestic")
+	? filtered.filter((p) => p.type !== "domestic")
+	: filtered;
+---
+
+<ul class:list={["publication-list", className]}>
+	{visiblePublications.map((p) => (
+		<li class="publication-list__item">
+			<PublicationCitation
+				publication={p}
+				locale={locale}
+				className="publication-citation"
+				linkClassName="publication-citation--link"
+				fallbackTag="div"
+			/>
+		</li>
+	))}
+</ul>
+
+<style>
+	.publication-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+	}
+	.publication-list__item {
+		padding: 0;
+		margin: 0;
+	}
+</style>
