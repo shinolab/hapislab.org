@@ -37,7 +37,7 @@ export const publications: Publication[] = (yaml.load(publicationsYaml) as Publi
 		booktitle: row.booktitle?.trim(),
 		volume: row.volume?.toString(),
 		number: row.number?.toString(),
-		pages: row.pages?.trim(),
+		pages: row.pages?.toString().trim().replace('--', '–'),
 		eventDate: row.eventDate?.trim(),
 		location: row.location?.trim(),
 		doi: row.doi?.trim(),

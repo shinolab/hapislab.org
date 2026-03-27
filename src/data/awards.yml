@@ -598,9 +598,9 @@
   award: I-DEMO Award
   org: IDW '17
   recipients:
-    - Y. Makino
-    - Y. Horiuchi
-    - H. Shinoda
+    - Yasutoshi Makino
+    - Yuuki Horiuchi
+    - Hiroyuki Shinoda
   
 - year: 2017
   month: 10
@@ -881,10 +881,10 @@
   award: The winner of the BCI Award 2014
   title: Airborne Ultrasonic Tactile Display BCI
   recipients:
-    - K. Hamada
-    - H. Mori
-    - H. Shinoda
-    - T.M. Rutkowski
+    - K. Hamada # allow-abbr
+    - H. Mori # allow-abbr
+    - H. Shinoda # allow-abbr
+    - T.M. Rutkowski # allow-abbr
   
 - year: 2014
   month: 9
@@ -1392,7 +1392,7 @@
   award: Best Student Paper Award nominee
   org: IEEE Haptics symposium 2006 (14th Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems)
   recipients:
-    - T. Iwamoto
+    - Takayuki Iwamoto
   
 - year: 2006
   month: 2
@@ -1415,8 +1415,8 @@
   award: The Best Student Paper Award
   org: World Haptics (First Joint Eurohaptics Conference and Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems)
   recipients:
-    - T. Iwamoto
-    - H. Shinoda
+    - Takayuki Iwamoto
+    - Hiroyuki Shinoda
   
 - year: 2005
   month: 2
@@ -1440,9 +1440,9 @@
   award: Best Paper Award
   org: International Conference on Artificial reality and Telexistence (ICAT 2001)
   recipients:
-    - T. Iwamoto
-    - T. Maeda
-    - H. Shinoda
+    - Takayuki Iwamoto
+    - Taro Maeda
+    - Hiroyuki Shinoda
   
 - year: 2000
   month: 2
@@ -1464,9 +1464,9 @@
   award: The Best Conference Paper Award
   org: IEEE International Conference on Robotics and Automation
   recipients:
-    - M. Hakozaki
-    - H. Oasa
-    - H. Shinoda
+    - M. Hakozaki # allow-abbr
+    - H. Oasa # allow-abbr
+    - H. Shinoda # allow-abbr
   
 - year: 1999
   month: 3

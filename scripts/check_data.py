@@ -3,7 +3,7 @@ import re
 import sys
 from pathlib import Path
 
-PAGES_FIELD = "pages:"
+from validator import validate_name, validate_pages_line
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PUBLICATIONS_PATH = REPO_ROOT / "src" / "data" / "publications.yml"
@@ -21,15 +21,9 @@ def check_pages(file_path):
         return errors
     with open(file_path, "r", encoding="utf-8") as f:
         for i, line in enumerate(f, 1):
-            if PAGES_FIELD in line:
-                if re.search(r'pages:\s*["\']?\d+-\d+["\']?', line):
-                    errors.append(
-                        f"{file_path}:{i}: Numeric range must use en dash (–) without spaces: {line.strip()}"
-                    )
-                elif re.search(r"\s\u2013\s", line):
-                    errors.append(
-                        f"{file_path}:{i}: No spaces around en dash: {line.strip()}"
-                    )
+            err = validate_pages_line(line)
+            if err:
+                errors.append(f"{file_path}:{i}: {err}: {line.strip()}")
     return errors
 
 
@@ -70,18 +64,9 @@ def check_names(file_path, list_keys):
                     )
                     name = name_part.strip().strip("'").strip('"')
 
-                    if re.search(r"[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]", name):
-                        clean_name = re.sub(
-                            r"\s*(\(OB\)|\*|（.+）|\(.+\))$", "", name
-                        ).strip()
-                        has_space = re.search(r"\s", clean_name) is not None
-                        allow_surname_only = "allow-surname-only" in comment
-
-                        if not has_space and not allow_surname_only:
-                            errors.append(
-                                f"{file_path}:{i}: Japanese names must have a space between surname and given name unless "
-                                f"'# allow-surname-only' is set: {line.strip()}"
-                            )
+                    err = validate_name(name, comment)
+                    if err:
+                        errors.append(f"{file_path}:{i}: {err}: {line.strip()}")
     return errors
 
 

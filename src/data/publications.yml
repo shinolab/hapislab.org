@@ -945,9 +945,9 @@
 - type: article
   year: 2011
   authors:
-    - Y. Monnai
-    - H. Shinoda
-    - H. Hillmer
+    - Yasuaki Monnai
+    - Hiroyuki Shinoda
+    - Hartmut Hillmer
   title: Focused Terahertz Radiation Formed by Coherently Scattered Surface Plasmon Polaritons from Partially Uncorrugated Metal Surfaces
   href: https://doi.org/10.1007/s00340-011-4583-3
   journal: Applied Physics B
@@ -1154,12 +1154,12 @@
 - type: article
   year: 2001
   authors:
-    - Y. Amemori
-    - S. Yamashita
-    - M. Ai
-    - H. Shinoda
-    - M. Sato
-    - J. Takahashi
+    - Y. Amemori # allow-abbr
+    - S. Yamashita # allow-abbr
+    - M. Ai # allow-abbr
+    - H. Shinoda # allow-abbr
+    - M. Sato # allow-abbr
+    - J. Takahashi # allow-abbr
   title: 'Influence of Nocturnal Bruxism on the Stomatognathic System. Part I: a New Device for Measuring Mandibular Movements during Sleep'
   href: https://doi.org/10.1046/j.1365-2842.2001.00757.x
   journal: Journal of Oral Rehabilitation
@@ -1187,10 +1187,10 @@
 - type: article
   year: 2001
   authors:
-    - S. Ando
-    - H. Shinoda
-    - A. Yonenaga
-    - J. Terao
+    - S. Ando # allow-abbr
+    - H. Shinoda # allow-abbr
+    - A. Yonenaga # allow-abbr
+    - J. Terao # allow-abbr
   title: Ultrasonic six-axis deformation sensing
   href: https://doi.org/10.1109/58.935720
   journal: IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control
@@ -1203,8 +1203,8 @@
 - type: article
   year: 2000
   authors:
-    - H. Shinoda
-    - H. Oasa
+    - H. Shinoda # allow-abbr
+    - H. Oasa # allow-abbr
   title: Wireless Tactile Sensing Element Using Stress-Sensitive Resonator
   href: https://drive.google.com/file/d/1CsUAvUmJhRJ6e8zOfJrTC5GPOniuJVN-/view?usp=sharing
   journal: IEEE/ASME Transactions on Mechatronics
@@ -1217,10 +1217,10 @@
 - type: article
   year: 1999
   authors:
-    - H. Shinoda
-    - T. Nakajima
-    - K. Ueno
-    - N. Koshida
+    - H. Shinoda # allow-abbr
+    - T. Nakajima # allow-abbr
+    - K. Ueno # allow-abbr
+    - N. Koshida # allow-abbr
   title: Thermally Induced Ultrasonic Emission from Porous Silicon
   href: https://drive.google.com/file/d/1uLCblxcmZGvVz0dLHspCLU41f5nY2w_P/view?usp=sharing
   journal: Nature
@@ -1248,9 +1248,9 @@
 - type: article
   year: 1998
   authors:
-    - N. Asamura
-    - N. Yokoyama
-    - H. Shinoda
+    - N. Asamura # allow-abbr
+    - N. Yokoyama # allow-abbr
+    - H. Shinoda # allow-abbr
   title: Selectively Stimulating Skin Receptors for Tactile Display
   href: https://drive.google.com/file/d/1HwERh4Ko6bYhxV_rGlf7LkHabjLHl7ba/view?usp=sharing
   journal: IEEE Computer Graphics and Applications
@@ -1278,12 +1278,12 @@
 - type: article
   year: 1996
   authors:
-    - S. YAMASHITA
-    - M. AI
-    - Q. GENG
-    - M. SATO
-    - H. SHINODA
-    - S. ANDO
+    - S. YAMASHITA # allow-abbr
+    - M. AI # allow-abbr
+    - Q. GENG # allow-abbr
+    - M. SATO # allow-abbr
+    - H. SHINODA # allow-abbr
+    - S. ANDO # allow-abbr
   title: Application of a newly developed 3-D deformation measurement system to prosthetic dentistry
   href: https://doi.org/10.1046/j.1365-2842.1996.d01-198.x
   journal: Journal of Oral Rehabilitation
@@ -1296,8 +1296,8 @@
 - type: article
   year: 1995
   authors:
-    - S. Ando
-    - H. Shinoda
+    - Shigeru Ando # allow-abbr
+    - Hiroyuki Shinoda # allow-abbr
   title: Ultrasonic Emission Tactile Sensing
   href: https://doi.org/10.1109/37.341866
   journal: IEEE Control Systems
@@ -1310,8 +1310,8 @@
 - type: article
   year: 1995
   authors:
-    - H. Shinoda
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: Intelligent Architecture for Tactile Sensor
   journal: Sensors and Materials, Sensors and Materials
   volume: 7
@@ -2835,7 +2835,7 @@
   refId: suzuki-2018-haptic
   href: https://drive.google.com/file/d/1OhUhxabTFMwGMvhhxzKJLt23y-_UnHjg/view?usp=sharing
   booktitle: 'Haptics: Science, Technology, and Applications'
-  pages: 209--220
+  pages: 209–220
   eventDate: June 13-16
   location: Pisa, Italy
 
@@ -4500,7 +4500,7 @@
   booktitle: 'Haptics: Perception, Devices and Scenarios'
   publisher: Springer Berlin Heidelberg
   address: Berlin, Heidelberg
-  pages: 504--513
+  pages: 504–513
 
 - type: inproceedings
   year: 2007
@@ -4956,9 +4956,9 @@
 - type: inproceedings
   year: 2001
   authors:
-    - T. Iwamoto
-    - T. Maeda
-    - H. Shinoda
+    - Takayuki Iwamoto
+    - Taro Maeda
+    - Hiroyuki Shinoda
   title: Focused Ultrasound for Tactile Feeling Display
   booktitle: International Conference on Artificial Reality and Telexistence
   pages: 121–126
@@ -4966,11 +4966,11 @@
 - type: inproceedings
   year: 2001
   authors:
-    - N. Asamura
-    - T. Shinohara
-    - Y. Tojo
-    - N. Koshida
-    - H. Shinoda
+    - Naoya Asamura
+    - Tomoyuki Shinohara
+    - Yoshiharu Tojo
+    - Nobuyoshi Koshida
+    - Hiroyuki Shinoda
   title: Necessary Spatial Resolution for Realistic Tactile Feeling Display
   booktitle: IEEE International Conference on Robotics and Automation
   pages: 1851–1856
@@ -4987,8 +4987,8 @@
 - type: inproceedings
   year: 2000
   authors:
-    - H. Shinoda
-    - H. Oasa
+    - H. Shinoda # allow-abbr
+    - H. Oasa # allow-abbr
   title: Passive Wireless Sensing Element for Sensitive Skin
   booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
   pages: 1516–1521
@@ -4996,10 +4996,10 @@
 - type: inproceedings
   year: 2000
   authors:
-    - N. Koshida
-    - T. Migita
-    - Y. Kishimoto
-    - H. Shinoda
+    - N. Koshida # allow-abbr
+    - T. Migita # allow-abbr
+    - Y. Kishimoto # allow-abbr
+    - H. Shinoda # allow-abbr
   title: Novel Ultrasonic Technology by Nanocrystalline Porous Silicon
   booktitle: International Electrochemistry Society Symposium
   pages: 326–332
@@ -5008,9 +5008,9 @@
 - type: inproceedings
   year: 2000
   authors:
-    - H. Shinoda
-    - S. Sasaki
-    - K. Nakamura
+    - H. Shinoda # allow-abbr
+    - S. Sasaki # allow-abbr
+    - K. Nakamura # allow-abbr
   title: Instantaneous Evaluation of Friction Based on ARTC Tactile Sensor
   booktitle: IEEE International Conference on Robotics and Automation
   pages: 2173–2178
@@ -5018,12 +5018,12 @@
 - type: inproceedings
   year: 1999
   authors:
-    - N. Koshida
-    - T. Nakajima
-    - M. Yoshiyama
-    - K. Ueno
-    - T. Nakagawa
-    - H. Shinoda
+    - N. Koshida # allow-abbr
+    - T. Nakajima # allow-abbr
+    - M. Yoshiyama # allow-abbr
+    - K. Ueno # allow-abbr
+    - T. Nakagawa # allow-abbr
+    - H. Shinoda # allow-abbr
   title: 'Ultrasound Emission from Porous Silicon: Efficient Thermo-acoustic Function as a Depleted Nanocrystalline System'
   booktitle: Materials Research Society symposium
   pages: 105–110
@@ -5031,9 +5031,9 @@
 - type: inproceedings
   year: 1999
   authors:
-    - M. Hakozaki
-    - H. Oasa
-    - H. Shinoda
+    - M. Hakozaki # allow-abbr
+    - H. Oasa # allow-abbr
+    - H. Shinoda # allow-abbr
   title: Telemetric Robot Skin
   booktitle: IEEE International Conference on Robotics and Automation
   pages: 957–961
@@ -5041,9 +5041,9 @@
 - type: inproceedings
   year: 1999
   authors:
-    - X. Wang
-    - S. Liu
-    - H. Shinoda
+    - X. Wang # allow-abbr
+    - S. Liu # allow-abbr
+    - H. Shinoda # allow-abbr
   title: Coaxial Bibeam Position Sensor and Its Application to a Pronunciation Leaning System
   booktitle: TRANSDUCERS
   pages: 844–847
@@ -5051,9 +5051,9 @@
 - type: inproceedings
   year: 1999
   authors:
-    - M. Hakozaki
-    - K. Nakamura
-    - H. Shinoda
+    - M. Hakozaki # allow-abbr
+    - K. Nakamura # allow-abbr
+    - H. Shinoda # allow-abbr
   title: Telemetric Artificial Skin for Soft Robot
   booktitle: TRANSDUCERS
   pages: 1042–1045
@@ -5061,9 +5061,9 @@
 - type: inproceedings
   year: 1999
   authors:
-    - N. Asamura
-    - N. Yokoyama
-    - H. Shinoda
+    - N. Asamura # allow-abbr
+    - N. Yokoyama # allow-abbr
+    - H. Shinoda # allow-abbr
   title: A Method of Selective Stimulation to Epidermal Skin Receptors for Realistic Touch Feedback
   booktitle: IEEE Virtual Reality
   pages: 274–281
@@ -5071,9 +5071,9 @@
 - type: inproceedings
   year: 1998
   authors:
-    - H. Shinoda
-    - N. Asamura
-    - T. Tomori
+    - H. Shinoda # allow-abbr
+    - N. Asamura # allow-abbr
+    - T. Tomori # allow-abbr
   title: Tactile Feeling Display Based on Selective Stimulation to Skin Mechanoreceptors
   booktitle: IEEE International Conference on Robotics and Automation
   pages: 680–686
@@ -5081,9 +5081,9 @@
 - type: inproceedings
   year: 1998
   authors:
-    - N. Asamura
-    - N. Tomori
-    - H. Shinoda
+    - N. Asamura # allow-abbr
+    - N. Tomori # allow-abbr
+    - H. Shinoda # allow-abbr
   title: A Tactile Feeling Display Based on Selective Stimulation to Skin Receptors
   booktitle: IEEE Virtual Reality Annual International Symposium
   pages: 36–42
@@ -5091,9 +5091,9 @@
 - type: inproceedings
   year: 1997
   authors:
-    - H. Shinoda
-    - K. Matsumoto
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - K. Matsumoto # allow-abbr
+    - S. Ando # allow-abbr
   title: Tactile Sensing Based on Acoustic Resonance Tensor Cell
   booktitle: TRANSDUCERS
   pages: 129–132
@@ -5101,9 +5101,9 @@
 - type: inproceedings
   year: 1997
   authors:
-    - H. Shinoda
-    - K. Matsumoto
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - K. Matsumoto # allow-abbr
+    - S. Ando # allow-abbr
   title: Acoustic Resonant Tensor Cell for Tactile Sensing
   booktitle: IEEE International Conference on Robotics & Automation
   pages: 3087–3092
@@ -5111,10 +5111,10 @@
 - type: inproceedings
   year: 1996
   authors:
-    - H. Shinoda
-    - K. Matsumoto
-    - N. Terada
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - K. Matsumoto # allow-abbr
+    - N. Terada # allow-abbr
+    - S. Ando # allow-abbr
   title: Tactile Sensing Using Acoustic Resonant Tensor Cell
   booktitle: Sensor Symposium
   pages: 105–108
@@ -5122,8 +5122,8 @@
 - type: inproceedings
   year: 1996
   authors:
-    - H. Shinoda
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: A Tactile Sensor with 5-D Deformation Sensing Element
   booktitle: IEEE International Conference on Robotics and Automation
   pages: 7–12
@@ -5131,8 +5131,8 @@
 - type: inproceedings
   year: 1995
   authors:
-    - S. Ando
-    - H. Shinoda
+    - S. Ando # allow-abbr
+    - H. Shinoda # allow-abbr
   title: An Acoustic Tactile Sensing Element with Five Dimensional Sensitivity
   booktitle: TRANSDUCERS
   pages: 644–647
@@ -5140,9 +5140,9 @@
 - type: inproceedings
   year: 1995
   authors:
-    - H. Shinoda
-    - N. Morimoto
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - N. Morimoto # allow-abbr
+    - S. Ando # allow-abbr
   title: Tactile Sensing Using Tensor Cell
   booktitle: IEEE International Conference on Robotics and Automation
   href: https://drive.google.com/file/d/1E_uyJ5JnxK3RUY4REY4-6WYB6RbCaoKQ/view?usp=drive_link
@@ -5151,8 +5151,8 @@
 - type: inproceedings
   year: 1994
   authors:
-    - H. Shinoda
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: Ultrasonic Emission Tactile Sensor for Contact Localization and Characterization
   booktitle: IEEE International Conference on Robotics and Automation
   pages: 2536–2543
@@ -5161,9 +5161,9 @@
 - type: inproceedings
   year: 1993
   authors:
-    - H. Shinoda
-    - M. Uehara
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - M. Uehara # allow-abbr
+    - S. Ando # allow-abbr
   title: A Tactile Sensor Using Three-Dimensional Structure
   booktitle: IEEE International Conference on Robotics and Automation
   pages: 435–441
@@ -5172,10 +5172,10 @@
 - type: inproceedings
   year: 1993
   authors:
-    - H. Shinoda
-    - M. Uehara
-    - M. Okada
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - M. Uehara # allow-abbr
+    - M. Okada # allow-abbr
+    - S. Ando # allow-abbr
   title: A Fingertip Tactile Sensor with Three Dimensional Structure
   booktitle: TRANSDUCERS
   pages: 614–617
@@ -5184,9 +5184,9 @@
 - type: inproceedings
   year: 1993
   authors:
-    - M. Shitara
-    - H. Shinoda
-    - S. Ando
+    - M. Shitara # allow-abbr
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: A Vertical Sampling Image Motion Sensor
   booktitle: TRANSDUCERS
   pages: 1062–1065
@@ -5195,10 +5195,10 @@
 - type: inproceedings
   year: 1993
   authors:
-    - M. Komatsubara
-    - M. Yasui
-    - H. Shinoda
-    - S. Ando
+    - M. Komatsubara # allow-abbr
+    - M. Yasui # allow-abbr
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: A Study on Ultrasonic Emission Tactile Sensor
   booktitle: SICE Annual Conference
   pages: 1313–1316
@@ -5207,8 +5207,8 @@
 - type: inproceedings
   year: 1992
   authors:
-    - H. Shinoda
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: A Tactile Sensing Algorithm Based on Elastic Transfer Function of Surface Deformation
   booktitle: IEEE ICASSP
   href: https://drive.google.com/file/d/1GlMZoTDuUPp5JuNHwbOjm6m-yx9sTsbg/view?usp=drive_link
@@ -5218,9 +5218,9 @@
 - type: inproceedings
   year: 1992
   authors:
-    - I. Ishii
-    - H. Shinoda
-    - S. Ando
+    - I. Ishii # allow-abbr
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: Image Processing through Layered Differential Fields
   booktitle: SICE Annual Conference
   pages: 1043–1046
@@ -5229,9 +5229,9 @@
 - type: inproceedings
   year: 1992
   authors:
-    - S. Ando
-    - H. Shinoda
-    - M. Shitara
+    - S. Ando # allow-abbr
+    - H. Shinoda # allow-abbr
+    - M. Shitara # allow-abbr
   title: Vertical Sampling for Image Motion Measurement
   booktitle: Optical Society of America Annual Meeting, Technical Digest
   pages: 132–132
@@ -5239,8 +5239,8 @@
 - type: inproceedings
   year: 1990
   authors:
-    - H. Yamasaki
-    - H. Shinoda
+    - H. Yamasaki # allow-abbr
+    - H. Shinoda # allow-abbr
   title: Noncontact Tactile Sensor for Surface Hardness Evaluation
   booktitle: International Symposium on Measurement and Control in Robotics
   location: Houston
@@ -5383,9 +5383,9 @@
 - type: demos
   year: 2017
   authors:
-    - K. Hasegawa
-    - L. Qiu
-    - H. Shinoda
+    - Keisuke Hasegawa
+    - Liwei Qiu
+    - Hiroyuki Shinoda
   doi: 10.1145/3132818.3132833
   title: Interactive midair odor control via ultrasound-driven air flow
   booktitle: SIGGRAPH Asia Emerging Technologies
@@ -9370,7 +9370,8 @@
   title: 表面センサネットワークの高速同期を目的とした超広帯域無線通信システム
   booktitle: 第30回センシングフォーラム資料
   location: 信州大学
-  pages: 85–88, 2013/8/29-30.
+  pages: 85–88
+  eventDate: 8/29-30
 
 - type: domestic
   year: 2013
@@ -9380,7 +9381,8 @@
   title: 音響放射圧を用いた表面硬さ計測に基づく非接触筋収縮センシング
   booktitle: 第30回センシングフォーラム資料
   location: 信州大学
-  pages: 110–113, 2013/8/29-30.
+  pages: 110–113
+  eventDate: 8/29-30
 
 - type: domestic
   year: 2013
@@ -9482,7 +9484,7 @@
   title: センサ・マイクロマシンと応用システム
   booktitle: 電気学会センサ・マイクロマシン部門大会 第29回「センサ・マイクロマシンと応用システム」シンポジウム論文集
   location: 2012/10/22-24.
-  pages: 208～212
+  pages: 208–212
 
 - type: domestic
   year: 2012
@@ -9493,7 +9495,8 @@
   title: 20GHzフェーズドアレイを用いた外部アンテナを持たない微小チップへの電力伝送
   booktitle: 第29回センシングフォーラム資料
   location: 茨城大学
-  pages: 327–331, 2012/9/27-28.
+  pages: 327–331
+  eventDate: 9/27-28
 
 - type: domestic
   year: 2012
@@ -9503,7 +9506,8 @@
   title: 1次元変位センサによる遠隔表面硬さ分布計測の高速化
   booktitle: 第29回センシングフォーラム資料
   location: 茨城大学
-  pages: 139–142, 2012/9/27-28.
+  pages: 139–142
+  eventDate: 9/27-28
 
 - type: domestic
   year: 2012
@@ -9643,7 +9647,8 @@
   title: 触覚放送のための表面硬さ分布の遠隔計測と物体モデルの提示に関する研究
   booktitle: 第28回センシングフォーラム資料
   location: 慶応大学
-  pages: 149–152, 2011/10/13-14.
+  pages: 149–152
+  eventDate: 10/13-14
 
 - type: domestic
   year: 2011
@@ -9656,7 +9661,8 @@
   title: テラヘルツ帯フェーズドアレイを実現するMEMS 構造の提案
   booktitle: 第28回センシングフォーラム資料
   location: 慶応大学
-  pages: 261–264, 2011/10/13-14.
+  pages: 261–264
+  eventDate: 10/13-14
 
 - type: domestic
   year: 2011
@@ -9667,7 +9673,8 @@
   title: 単一RFIDリーダとフェーズドアレイカプラを用いた二次元導波シート上のRFIDタグの位置推定
   booktitle: 第28回センシングフォーラム資料
   location: 慶応大学
-  pages: 265–268, 2011/10/13-14.
+  pages: 265–268
+  eventDate: 10/13-14
 
 - type: domestic
   year: 2011
@@ -9678,7 +9685,7 @@
   title: 多人数への同時触力覚情報伝送のための表面硬さ分布の遠隔計測と提示
   booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
   location: 2011/9/26-27.
-  pages: 206～209
+  pages: 206–209
 
 - type: domestic
   year: 2011
@@ -9788,7 +9795,8 @@
   title: 分布RFスイッチを用いた導波路散乱型フェーズドアレイシステム
   booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
   location: 島根
-  pages: 716～720, 2010/10/14-15. (PDF)
+  pages: 716–720
+  eventDate: 10/14-15
 
 - type: domestic
   year: 2010
@@ -9799,7 +9807,8 @@
   title: 触力覚情報伝送のための遠隔硬さ計測
   booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
   location: 島根
-  pages: 136～140, 2010/10/14-15. (PDF)
+  pages: 136–140
+  eventDate: 10/14-15
 
 - type: domestic
   year: 2010
@@ -9809,7 +9818,8 @@
   title: 表面センサネットワークのための低漏出ワイヤレス電力伝送
   booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
   location: 島根
-  pages: 120～125, 2010/10/14-15. (PDF)
+  pages: 120–125
+  eventDate: 10/14-15
 
 - type: domestic
   year: 2010
@@ -9819,7 +9829,8 @@
     - 舘 暲
   title: 触感センサにおける示温塗料とカメラを用いた温度計測
   booktitle: 第15回日本バーチャルリアリティ学会大会論文集
-  pages: 72–73, 2010/9/15-17.
+  pages: 72–73
+  eventDate: 9/15-17
 
 - type: domestic
   year: 2010
@@ -9838,7 +9849,8 @@
     - 篠田 裕之
   title: 触力覚情報提示のための硬さ分布イメージャの基礎的検討
   booktitle: 第２７回センシングフォーラム資料
-  pages: 161–164, 2010/9/27-28.
+  pages: 161–164
+  eventDate: 9/27-28
 
 - type: domestic
   year: 2010
@@ -9847,7 +9859,8 @@
     - 篠田 裕之
   title: 二次元通信による低漏出ワイヤレス電力伝送
   booktitle: 第２７回センシングフォーラム資料
-  pages: 116–121, 2010/9/27-28.
+  pages: 116–121
+  eventDate: 9/27-28
 
 - type: domestic
   year: 2010
@@ -9857,7 +9870,8 @@
     - 篠田 裕之
   title: 二次元通信シート上の自己位置推定とその応用
   booktitle: 第２７回センシングフォーラム資料
-  pages: 180–184, 2010/9/27-28.
+  pages: 180–184
+  eventDate: 9/27-28
 
 - type: domestic
   year: 2010
@@ -9866,7 +9880,8 @@
     - 篠田 裕之
   title: 導波路散乱型フェーズドアレイシステムによるマイクロ波計測
   booktitle: 第２７回センシングフォーラム資料
-  pages: 309–313, 2010/9/27-28.
+  pages: 309–313
+  eventDate: 9/27-28
 
 - type: domestic
   year: 2010
@@ -10048,7 +10063,7 @@
     - 篠田 裕之
   title: 二次元通信における位置計測法 (第2報)
   booktitle: 第9回SICE SI部門 講演会論文集
-  pages: 545–546, 2008. (PDF)
+  pages: 545–546
 
 - type: domestic
   year: 2008
@@ -10057,7 +10072,7 @@
     - 篠田 裕之
   title: 二次元通信における高効率電力伝送用カプラ
   booktitle: 第9回SICE SI部門 講演会論文集
-  pages: 549–550, 2008. (PDF)
+  pages: 549–550
 
 - type: domestic
   year: 2008
@@ -10066,7 +10081,7 @@
     - 篠田 裕之
   title: 誘電体周期構造による二次元通信シートと外部空間の指向性電磁結合
   booktitle: 第9回SICE SI部門 講演会論文集
-  pages: 553–554, 2008. (PDF)
+  pages: 553–554
 
 - type: domestic
   year: 2008
@@ -10075,7 +10090,7 @@
     - 篠田 裕之
   title: 筋電分布計測によるハプティックインタフェース －第３報－
   booktitle: 第9回SICE SI部門 講演会論文集
-  pages: 955–956, 2008. (PDF)
+  pages: 955–956
 
 - type: domestic
   year: 2008
@@ -10086,7 +10101,7 @@
     - 篠田 裕之
   title: 324 チャンネル超音波振動子アレイによる触覚提示
   booktitle: 第9回SICE SI部門 講演会論文集
-  pages: 959–960, 2008. (PDF)
+  pages: 959–960
 
 - type: domestic
   year: 2008
@@ -10096,7 +10111,7 @@
     - 篠田 裕之
   title: 無線触覚素子による応力計測法
   booktitle: 第9回SICE SI部門 講演会論文集
-  pages: 993–994, 2008. (PDF)
+  pages: 993–994
 
 - type: domestic
   year: 2008
@@ -10146,7 +10161,7 @@
     - 篠田 裕之
   title: 二次元通信における位置マーカ取得のための電界パターン計測
   booktitle: 第25回センシングフォーラム資料
-  pages: 95–99, 2008.
+  pages: 95–99
 
 - type: domestic
   year: 2008
@@ -10155,7 +10170,7 @@
     - 篠田 裕之
   title: 表面センサネットワークにおける高効率カプラ
   booktitle: 第25回センシングフォーラム資料
-  pages: 58–63, 2008.
+  pages: 58–63
 
 - type: domestic
   year: 2008
@@ -10165,7 +10180,7 @@
     - 篠田 裕之
   title: 二次元信号伝送技術に基づく筋電位の多点計測 ―磁界結合型カプラの検討―
   booktitle: 第25回センシングフォーラム資料
-  pages: 105–109, 2008.
+  pages: 105–109
 
 - type: domestic
   year: 2008
@@ -10274,7 +10289,7 @@
     - 篠田 裕之
   title: 二次元通信による生活支援空間
   booktitle: 第２回横幹連合コンファレンス
-  pages: 109–110, 2007. (PDF)
+  pages: 109–110
 
 - type: domestic
   year: 2007
@@ -10322,7 +10337,7 @@
     - 篠田 裕之
   title: 二次元通信シート上の位置計測
   booktitle: 第24 回センシングフォーラム資料
-  pages: 25–30, 2007.
+  pages: 25–30
 
 - type: domestic
   year: 2007
@@ -10331,7 +10346,7 @@
     - 篠田 裕之
   title: 重力・地磁気計測メッシュによる三次元形状復元
   booktitle: 第24 回センシングフォーラム資料
-  pages: 119–123, 2007.
+  pages: 119–123
 
 - type: domestic
   year: 2007
@@ -10340,7 +10355,7 @@
     - 篠田 裕之
   title: 弾性体中で応力を計測するセンサ素子
   booktitle: 第24 回センシングフォーラム資料
-  pages: 178–182, 2007.
+  pages: 178–182
 
 - type: domestic
   year: 2007
@@ -10350,7 +10365,7 @@
     - 篠田 裕之
   title: 電気刺激を用いる指先触覚信号の非侵襲計測法
   booktitle: 第24 回センシングフォーラム資料
-  pages: 213–217, 2007.
+  pages: 213–217
 
 - type: domestic
   year: 2007
@@ -10359,7 +10374,7 @@
     - 篠田 裕之
   title: 静脈画像を利用する指先変形の観察
   booktitle: 第24 回センシングフォーラム資料
-  pages: 218–221, 2007.
+  pages: 218–221
 
 - type: domestic
   year: 2007
@@ -10368,7 +10383,7 @@
     - 篠田 裕之
   title: 二次元通信による筋電計測マン・マシンインタフェース
   booktitle: 第24 回センシングフォーラム資料
-  pages: 235–240, 2007.
+  pages: 235–240
 
 - type: domestic
   year: 2007
@@ -10411,8 +10426,8 @@
     - 張 兵
     - 篠田 裕之
   title: 表面マイクロ波を用いた信号と電力の同時伝送法
-  booktitle: 2007. (PDF)
-  pages: 信学技報 USN2007-21, 115-118
+  booktitle: 信学技報 USN2007-21
+  pages: 115–118
 
 - type: domestic
   year: 2006
@@ -10515,8 +10530,8 @@
     - 長谷川 拓也
     - 篠田 裕之
   title: 指中節部における触覚神経信号の計測
-  booktitle: センシングフォーラム資料
-  pages: 第23 回センシングフォーラム資料  289-292
+  booktitle: 第23 回センシングフォーラム資料
+  pages: 289–292
 
 - type: domestic
   year: 2006
@@ -10546,7 +10561,7 @@
     - 篠田 裕之
   title: 二次元筋電パターンを計測する柔軟体インタフェース
   booktitle: 電気学会センサ・マイクロマシン準部門総合研究会
-  pages: 電気学会センサ・マイクロマシン準部門総合研究会 17-22
+  pages: 17–22
 
 - type: domestic
   year: 2006
@@ -10840,9 +10855,9 @@
 - type: domestic
   year: 2001
   authors:
-    - M. Hakozaki
-    - A. Hatori
-    - Hiroyuki Shinoda 
+    - M. Hakozaki # allow-abbr
+    - A. Hatori # allow-abbr
+    - H. Shinoda  # allow-abbr
   title: A Sensitive Skin Using Wireless Tactile Sensing Elements
   booktitle: 18th Sensor Symposium
   pages: 147–150
@@ -10850,8 +10865,9 @@
 - type: domestic
   year: 2001
   authors:
-    - K
-  title: Nakamura, Hiroyuki Shinoda Tactile Sensing Device Instantaneously Evaluating Friction Coefficients
+    - K. Nakamura # allow-abbr
+    - H. Shinoda # allow-abbr
+  title: Tactile Sensing Device Instantaneously Evaluating Friction Coefficients
   booktitle: 18th Sensor Symposium
   pages: 151–154
 
@@ -10889,9 +10905,9 @@
 - type: domestic
   year: 2000
   authors:
-    - X. Wang
-    - S. Liu
-    - H. Shinoda
+    - X. Wang # allow-abbr
+    - S. Liu # allow-abbr
+    - H. Shinoda # allow-abbr
   title: Micro Optical Position Sensor with Vibrating Light Source
   booktitle: IEEJ 17th Sensor Symposium
   pages: 137–140
@@ -11063,11 +11079,11 @@
 - type: domestic
   year: 1998
   authors:
-    - T. Nakajima
-    - M. Yoshiyama
-    - K. Ueno
-    - N. Koshida
-    - H. Shinoda
+    - T. Nakajima # allow-abbr
+    - M. Yoshiyama # allow-abbr
+    - K. Ueno # allow-abbr
+    - N. Koshida # allow-abbr
+    - H. Shinoda # allow-abbr
   title: Thermal Ultrasonic Device Based on Micro Fabricated Porous Silicon
   booktitle: IEEJ 16th Sensor Symposium
   pages: 185–188
@@ -11075,9 +11091,9 @@
 - type: domestic
   year: 1998
   authors:
-    - M. Hakozaki
-    - H. Oasa
-    - H. Shinoda
+    - M. Hakozaki # allow-abbr
+    - H. Oasa # allow-abbr
+    - H. Shinoda # allow-abbr
   title: Telemetric Skin
   booktitle: IEEJ 16th Sensor Symposium
   pages: 223–226
@@ -11145,11 +11161,11 @@
 - type: domestic
   year: 1997
   authors:
-    - K. Matsumoto
-    - H. Sugimoto
-    - M. Hakozaki
-    - T. Nakajima
-    - H. Shinoda
+    - K. Matsumoto # allow-abbr
+    - H. Sugimoto # allow-abbr
+    - M. Hakozaki # allow-abbr
+    - T. Nakajima # allow-abbr
+    - H. Shinoda # allow-abbr
   title: Tactile Sensing Element Using Multimode Acoustic Resonance
   booktitle: Proc. IEEJ 15th Sensor Symposium
   pages: 95–98
@@ -11269,11 +11285,11 @@
 - type: domestic
   year: 1995
   authors:
-    - N. Terada
-    - Y. Kumano
-    - H. Honma
-    - H. Shinoda
-    - S. Ando
+    - N. Terada # allow-abbr
+    - Y. Kumano # allow-abbr
+    - H. Honma # allow-abbr
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: Acoustic Resonant Tactile Sensing
   booktitle: Proc. IEEJ 13th Sensor Symposium
   pages: 221–224
@@ -11344,8 +11360,8 @@
 - type: domestic
   year: 1994
   authors:
-    - H. Shinoda
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: 'Tensor Cell: A Complete Stress Sensing Element for Tactile Sensor'
   booktitle: Proc. IEEJ 12th Sensor Symposium
   pages: 179–182
@@ -11353,8 +11369,8 @@
 - type: domestic
   year: 1994
   authors:
-    - H. Shinoda
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: Ultrasonic Emission Tactile Sensor
   booktitle: Proc. IEEJ 12th Sensor Symposium
   pages: 87–90
@@ -11455,9 +11471,9 @@
 - type: domestic
   year: 1992
   authors:
-    - H. Shinoda
-    - T. Kinoshita
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - T. Kinoshita # allow-abbr
+    - S. Ando # allow-abbr
   title: A 3-D Structure Tactile Sensor using Piezo-Electric Polymer
   booktitle: Annual Report of the Engineering Research Institute
   pages: 191–194
@@ -11465,19 +11481,19 @@
 - type: domestic
   year: 1992
   authors:
-    - H. Shinoda
-    - M. Uehara
-    - M. Okada
-    - S. Ando
+    - H. Shinoda # allow-abbr
+    - M. Uehara # allow-abbr
+    - M. Okada # allow-abbr
+    - S. Ando # allow-abbr
   title: A Tactile Sensor with Three-Dimensional Structure – Sensation of 2-D Motion, Spectra and Deepness of Contact
   pages: 217–220
 
 - type: domestic
   year: 1992
   authors:
-    - M. Shitara
-    - H. Shinoda
-    - S. Ando
+    - M. Shitara # allow-abbr
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
   title: A Vertical Sampling Method for Image Motion Measurement
   booktitle: Proc. IEEJ 11th Sensor Symposium
   pages: 63–66
@@ -11574,8 +11590,8 @@
 - type: domestic
   year: 1991
   authors:
-    - H. Shinoda
-    - S. Ando
+    - Hiroyuki Shinoda
+    - Shigeru Ando
   title: A Tactile Sensor with Three Dimensional Structure
   booktitle: Proc. IEEJ 10th Sensor Symposium
   pages: 187–190
