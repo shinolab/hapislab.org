@@ -4,14 +4,16 @@ import mdx from '@astrojs/mdx';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
+import sitemap from '@astrojs/sitemap';
+
 // https://astro.build/config
 export default defineConfig({
-	integrations: [mdx()],
-	site: 'https://shinolab.github.io',
-	base: '/',
-	trailingSlash: 'always',
-	markdown: {
-		remarkPlugins: [remarkMath],
-		rehypePlugins: [rehypeKatex],
-	},
+    integrations: [mdx(), sitemap()],
+    site: 'https://hapislab.org',
+    base: '/',
+    trailingSlash: 'always',
+    markdown: {
+        remarkPlugins: [remarkMath],
+        rehypePlugins: [rehypeKatex],
+    },
 });
