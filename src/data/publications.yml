@@ -104,7 +104,6 @@
   volume: 126
   number: 5
   pages: '052204'
-
 - type: article
   year: 2024
   authors:
@@ -1382,22 +1381,114 @@
 - type: inproceedings
   year: 2025
   authors:
-    - Sota Iwabuchi
-    - Ryoya Onishi
+    - Tao Morisaki
+    - Aoba Sekiguchi
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Ultrasound-Driven Wearable Haptic Display for Rendering Edges and Curved Surfaces
+  href: 
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
+- type: inproceedings
+  year: 2025
+  authors:
+    - Daisuke Sasaki
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Improvement of Subjective Impact Perception in Airborne Ultrasound Tactile Display
+  href: 
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
+- type: inproceedings
+  year: 2025
+  authors:
+    - Ryoya Onishi*
+    - Sota Iwabuchi*
     - Shun Suzuki
     - Takaaki Kamigaki
     - Yasutoshi Makino
     - Hiroyuki Shinoda
-  title: Rendering 2D Distribution of Non-Contact Thermal Stimulus Using High-Intensity Ultrasound
-  refId: iwabuchi-2025-rendering
-  doi: 10.1145/3706599.3721160
-  href: https://doi.org/10.1145/3706599.3721160
-  booktitle: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems
-  series: CHI EA ’25
-  publisher: ACM
-  pages: 1–4
-  address: New York, NY, USA
-  location: Yokohama Japan
+  title: Measurement of Airborne Ultrasound Focus on Skin Surface Using Thermal Imaging 
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  note: 'ToH Paper, *Equal contribution '
+  eventDate: July 08-11
+
+- type: inproceedings
+  year: 2025
+  authors:
+    - Mingxin Zhang
+    - Shun Terui
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "TexSenseGAN: A User-Guided System for Optimizing Texture-Related Vibrotactile Feedback Using Generative Adversarial Network"
+  booktitle: IEEE World Haptics
+  note: ToH Paper
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
+- type: inproceedings
+  year: 2025
+  authors:
+    - Taiga Bando
+    - Sota Iwabuchi
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Evaluation of Tactile Hardness Presentation Using an Airborne Ultrasound Haptic Display
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
+- type: inproceedings
+  year: 2025
+  authors:
+    - Yamato Tokunaga
+    - Sota Iwabuchi
+    - Zen Somei
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Investigation of the Effect of Auditory Stimulation on the Perceived Intensity of Short-Duration Airborne Ultrasonic Tactile Stimulation
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
+- type: inproceedings
+  year: 2025
+  authors:
+    - Rei Takeuchi
+    - Zen Somei
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Non-Contact Saliva Secretion Enhancement: Acoustic Radiation Pressure at the Submandibular Region"
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
+- type: inproceedings
+  year: 2025
+  authors:
+    - Kei Yokota
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Investigation of Perceived Intensity Enhancement and Pain-Related Side Effects in Airborne Ultrasound Tactile Stimulation with Superimposed High-Frequency Components
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
 
 - type: inproceedings
   year: 2024
@@ -5248,15 +5339,77 @@
 - type: demos
   year: 2025
   authors:
+    - Yamato Tokunaga
+    - Sota Iwabuchi
+    - Zen Somei
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Creating Pleasant and Unpleasant Experiences on the Face through Mid-air Visuo-Haptic Presentation
+  refId: tokunaga-2025-creating
+  doi: 10.1145/3746058.3759009
+  href: https://doi.org/10.1145/3746058.3759009
+  booktitle: Adjunct Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology
+  series: UIST Adjunct '25
+  publisher: ACM
+  pages: 1–3
+  address: New York, NY, USA
+  location: Busan, Republic of Korea
+  
+- type: demos
+  year: 2025
+  authors:
     - Gakuto Arakawa
     - Yasutoshi Makino
     - Hiroyuki Shinoda
-  title: TelekineticDealer Card Actuation Platform Using Airborne Ultrasound. 
-  refId: arakawa-2025-telekineticdealer-card
-  booktitle: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA ’25)
+  title: 'TelekineticDealer: Card Actuation Platform Using Airborne Ultrasound'
+  refId: arakawa-2025-telekineticdealer-2
   doi: 10.1145/3706599.3721111
-  location: New York, NY, USA
-  eventDate: Apr. 26-May. 1
+  href: https://doi.org/10.1145/3706599.3721111
+  booktitle: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems
+  series: CHI EA '25
+  publisher: ACM
+  pages: 1–5
+  address: New York, NY, USA
+  location: Yokohama Japan
+
+- type: demos
+  year: 2025
+  authors:
+    - Ryunosuke Hirai
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'LeviBowl: Acoustic Levitation System for Interactive Handling of Large Lightweight Objects'
+  refId: hirai-2025-levibowl
+  doi: 10.1145/3706599.3721162
+  href: https://doi.org/10.1145/3706599.3721162
+  booktitle: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems
+  series: CHI EA '25
+  publisher: ACM
+  pages: 1–4
+  address: New York, NY, USA
+  location: Yokohama Japan
+
+- type: demos
+  year: 2025
+  authors:
+    - Sota Iwabuchi
+    - Ryoya Onishi
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Rendering 2D Distribution of Non-Contact Thermal Stimulus Using High-Intensity Ultrasound
+  refId: iwabuchi-2025-rendering
+  doi: 10.1145/3706599.3721160
+  href: https://doi.org/10.1145/3706599.3721160
+  booktitle: Extended Abstracts of the CHI Conference on Human Factors in Computing Systems
+  series: CHI EA '25
+  publisher: ACM
+  pages: 1–4
+  address: New York, NY, USA
+  location: Yokohama, Japan
 
 - type: demos
   year: 2021
@@ -5637,6 +5790,35 @@
   eventDate: Dec.10-12
   pages: 3E5-21
   location: 広島
+
+- type: domestic
+  year: 2025
+  authors:
+    - 黄 抒謡
+    - 王 安晟
+    - 牧野泰才
+    - 篠田 裕之
+  title: Visual Feedback and Evaluation System for Analyzing Guide Dog Attention Based on 3D Pose Features
+  booktitle: 第 30 回日本バーチャルリアリティ学会大会
+  eventDate: Sep.17-19
+  pages: 1B1-10
+  location: 大阪
+
+- type: domestic
+  year: 2025
+  authors:
+    - 張 宇龍
+    - 岩渕 颯太
+    - 荒川 岳斗
+    - 神垣 貴晶
+    - 鈴木 颯
+    - 牧野 泰才
+    - 篠田 裕之
+  title: Contactless Stimulation for Sleep Enhancement via Mid-Air Ultrasound
+  booktitle: 第 30 回日本バーチャルリアリティ学会大会
+  eventDate: Sep.17-19
+  pages: 1D1-03
+  location: 大阪
 
 - type: domestic
   year: 2025
