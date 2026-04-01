@@ -9266,8 +9266,6 @@
   location: 新潟
   pages: S-36-S-37
 
-# TODO: Check the following entries
-
 - type: domestic
   year: 2013
   authors:
@@ -9275,7 +9273,8 @@
     - 篠田 裕之
   title: 集束超音波と変位測定の同軸化による非接触表面硬さ分布計測の高精度化
   booktitle: 第14回SICE SI部門講演会論文集
-  location: 2013/12/18-20.
+  location: 神戸
+  eventDate: 12/18-20
   pages: 654–655
 
 - type: domestic
@@ -9285,7 +9284,8 @@
     - 篠田 裕之
   title: エッジ刺激法による剛体平面上での精細触覚パターン提示
   booktitle: 第14回SICE SI部門講演会論文集
-  location: 2013/12/18-20.
+  location: 神戸
+  eventDate: 12/18-20
   pages: 690–691
 
 - type: domestic
@@ -9295,7 +9295,8 @@
     - 篠田 裕之
   title: ブラインドタッチ可能な非接触タッチスクリーン
   booktitle: 第14回SICE SI部門講演会論文集
-  location: 2013/12/18-20.
+  location: 神戸
+  eventDate: 12/18-20
   pages: 692–695
 
 - type: domestic
@@ -9305,7 +9306,8 @@
     - 篠田 裕之
   title: フェーズドアレイによる二次元導波路上での高効率ワイヤレス給電
   booktitle: 第14回SICE SI部門講演会論文集
-  location: 2013/12/18-20.
+  location: 神戸
+  eventDate: 12/18-20
   pages: 1797–1800
 
 - type: domestic
@@ -9316,7 +9318,8 @@
     - 篠田 裕之
   title: 二層式平面導波路による広帯域無線通信
   booktitle: 第14回SICE SI部門講演会論文集
-  location: 2013/12/18-20.
+  location: 神戸
+  eventDate: 12/18-20
   pages: 1801–1802
 
 - type: domestic
@@ -9327,7 +9330,8 @@
     - 篠田 裕之
   title: 空中超音波触覚提示における駆動電圧パルス幅制御による可聴音の抑制
   booktitle: 第14回SICE SI部門講演会論文集
-  location: 2013/12/18-20.
+  location: 神戸
+  eventDate: 12/18-20
   pages: 2427–2431
 
 - type: domestic
@@ -9337,7 +9341,8 @@
     - 篠田 裕之
   title: 空中超音波焦点形成による非接触触覚提示における反射壁を用いた気流の抑制
   booktitle: 第14回SICE SI部門講演会論文集
-  location: 2013/12/18-20.
+  location: 神戸
+  eventDate: 12/18-20
   pages: 2432–2434
 
 - type: domestic
@@ -9351,7 +9356,7 @@
     - 篠田 裕之
   title: 運動する人体上へ高速追従する映像投影への空中超音波触覚の重畳
   booktitle: 第 18 回日本バーチャルリアリティ学会大会論文集
-  location: 2013/9/18-20.
+  eventDate: 9/18-20
   pages: 307–310
 
 - type: domestic
@@ -9360,8 +9365,8 @@
     - 井上 碩
     - 篠田 裕之
   title: 空中超音波の定在波を利用した触覚ディスプレイ
-  booktitle: 第18 回日本バーチャルリアリティ学会大会論文集
-  location: 2013/9/18-20.
+  booktitle: 第 18 回日本バーチャルリアリティ学会大会論文集
+  eventDate: 9/18-20
   pages: 468–469
 
 - type: domestic
@@ -9370,8 +9375,8 @@
     - 櫻井 達馬
     - 篠田 裕之
   title: エッジ刺激法による剛体平面上での精細触覚パターン提示
-  booktitle: 第18 回日本バーチャルリアリティ学会大会論文集
-  location: 2013/9/18-20.
+  booktitle: 第 18 回日本バーチャルリアリティ学会大会論文集
+  eventDate: 9/18-20
   pages: 470–471
 
 - type: domestic
@@ -9380,8 +9385,8 @@
     - 吉野 数馬
     - 篠田 裕之
   title: Visuo-Acoustic Screenを用いた非接触タッチインタフェース
-  booktitle: 第18 回日本バーチャルリアリティ学会大会論文集
-  location: 2013/9/18-20.
+  booktitle: 第 18 回日本バーチャルリアリティ学会大会論文集
+  eventDate: 9/18-20
   pages: 472–475
 
 - type: domestic
@@ -9393,8 +9398,9 @@
     - 奥 寛雅
     - 篠田 裕之
     - 石川 正俊
-  title: 駆動鏡面式高速視線制御を用いたステレオトラッキングによる動的対象への視触覚提示システム第18 回日本バーチャルリアリティ学会大会論文集
-  booktitle: 日本バーチャルリアリティ学会大会論文集
+  title: 駆動鏡面式高速視線制御を用いたステレオトラッキングによる動的対象への視触覚提示システム
+  booktitle: 第 18 回日本バーチャルリアリティ学会大会論文集
+  eventDate: 9/18-20
   pages: 594–597
 
 - type: domestic
@@ -9406,8 +9412,8 @@
   title: 表面センサネットワークの高速同期を目的とした超広帯域無線通信システム
   booktitle: 第30回センシングフォーラム資料
   location: 信州大学
-  pages: 85–88
   eventDate: 8/29-30
+  pages: 85–88
 
 - type: domestic
   year: 2013
@@ -9417,8 +9423,8 @@
   title: 音響放射圧を用いた表面硬さ計測に基づく非接触筋収縮センシング
   booktitle: 第30回センシングフォーラム資料
   location: 信州大学
-  pages: 110–113
   eventDate: 8/29-30
+  pages: 110–113
 
 - type: domestic
   year: 2013
@@ -9427,7 +9433,8 @@
     - 篠田 裕之
   title: 触覚フィードバックのある非接触タッチスクリーン
   booktitle: 日本機械学会 ロボティックス・メカトロニクス講演会 (Robomec 2013)
-  location: 2013/5/22-25.
+  location: 筑波
+  eventDate: 5/22-25
   pages: 1A1-E06
 
 - type: domestic
@@ -9437,7 +9444,8 @@
     - 篠田 裕之
   title: 二次元導波路電力伝送におけるフェーズドアレイ給電
   booktitle: 2013年電子情報通信学会総合大会 通信講演論文集1
-  location: 2013/3.
+  location: 岐阜
+  eventDate: 3月
   pages: S-32-S-33
 
 - type: domestic
@@ -9448,7 +9456,9 @@
     - 篠田 裕之
   title: 2次元導波路上UWB通信用広帯域カプラの設計
   booktitle: 2013年電子情報通信学会総合大会 基礎・境界講演論文集
-  location: 2013/3.
+  location: 岐阜
+  eventDate: 3月
+  pages: 122
 
 - type: domestic
   year: 2013
@@ -9457,8 +9467,13 @@
     - 篠田 裕之
   title: 高Q値の導波路リング共振器カプラを用いた選択的な二次元導波路電力伝送
   booktitle: 電子情報通信学会技術研究報告 MW マイクロ波
-  location: 2013/3.
+  location: 広島
+  eventDate: 3月
+  voulme: 112,
+  number: 459
   pages: 103–108
+
+  # TODO: Check the following entries
 
 - type: domestic
   year: 2012
