@@ -9048,8 +9048,6 @@
   location: 滋賀
   pages: 116
 
-# TODO: Check the following entries
-
 - type: domestic
   year: 2014
   authors:
@@ -9060,7 +9058,8 @@
     - 篠田 裕之
   title: ２次元通信タイル間接続のための近接コネクタ
   booktitle: 第15回SICE SI部門講演会論文集
-  location: 2014/12/14-17.
+  location: 東京ビッグサイト, 東京都江東区
+  eventDate: 12/14-17
   pages: 503–504
 
 - type: domestic
@@ -9072,7 +9071,8 @@
     - 篠田 裕之
   title: タイル状二次元通信におけるタイル間信号伝送
   booktitle: 第15回SICE SI部門講演会論文集
-  location: 2014/12/14-17.
+  location: 東京ビッグサイト, 東京都江東区
+  eventDate: 12/14-17
   pages: 505–507
 
 - type: domestic
@@ -9088,7 +9088,8 @@
     - 篠田 裕之
   title: 空中超音波による浮遊物体への無線給電
   booktitle: 第15回SICE SI部門講演会論文集
-  location: 2014/12/14-17.
+  location: 東京ビッグサイト, 東京都江東区
+  eventDate: 12/14-17
   pages: 511–513
 
 - type: domestic
@@ -9099,7 +9100,8 @@
     - 篠田 裕之
   title: 胸部圧迫刺激による呼吸制御にもとづいた緊張状態緩和
   booktitle: 第15回SICE SI部門講演会論文集
-  location: 2014/12/14-17.
+  location: 東京ビッグサイト, 東京都江東区
+  eventDate: 12/14-17
   pages: 806–808
 
 - type: domestic
@@ -9109,7 +9111,8 @@
     - 篠田 裕之
   title: 空中音響放射圧による物体浮遊制御
   booktitle: 第15回SICE SI部門講演会論文集
-  location: 2014/12/14-17.
+  location: 東京ビッグサイト, 東京都江東区
+  eventDate: 12/14-17
   pages: 1164–1166
 
 - type: domestic
@@ -9120,7 +9123,8 @@
     - 篠田 裕之
   title: 空中音響放射圧を用いた振動励起に基づく弾性体構造計測
   booktitle: 第15回SICE SI部門講演会論文集
-  location: 2014/12/14-17.
+  location: 東京ビッグサイト, 東京都江東区
+  eventDate: 12/14-17
   pages: 1804–1807
 
 - type: domestic
@@ -9131,7 +9135,8 @@
     - 篠田 裕之
   title: 皮膚のせん断変形による肘関節の屈曲の反射制御
   booktitle: 第15回SICE SI部門講演会論文集
-  location: 2014/12/14-17.
+  location: 東京ビッグサイト, 東京都江東区
+  eventDate: 12/14-17
   pages: 2535–2537
 
 - type: domestic
@@ -9144,7 +9149,8 @@
     - 篠田 裕之
   title: 超音波給電を用いたワイヤレス・ウェアラブル触覚ディスプレイ
   booktitle: 第15回SICE SI部門講演会論文集
-  location: 2014/12/14-17.
+  location: 東京ビッグサイト, 東京都江東区
+  eventDate: 12/14-17
   pages: 2540–2543
 
 - type: domestic
@@ -9157,7 +9163,8 @@
     - 篠田 裕之
   title: RFID信号を伝送する床面タイルの構成方法の検討
   booktitle: 第 31 回センシングフォーラム資料
-  location: 2014/9/25-26.
+  location: 佐賀大学, 佐賀県佐賀市本庄町
+  eventDate: 9/25-26
   pages: 72–77
 
 - type: domestic
@@ -9168,7 +9175,8 @@
     - 篠田 裕之
   title: ヒト指型センサを用いたヒト指内部の非線形ひずみ挙動の計測
   booktitle: 第 31 回センシングフォーラム資料
-  location: 2014/9/25-26.
+  location: 佐賀大学, 佐賀県佐賀市本庄町
+  eventDate: 9/25-26
   pages: 212–217
 
 - type: domestic
@@ -9179,8 +9187,9 @@
     - 牧野 泰才
     - 篠田 裕之
   title: 空中収束超音波による振動触覚提示のための触感記録装置
-  booktitle: 第31 回センシングフォーラム資料
-  location: 2014/9/25-26.
+  booktitle: 第 31 回センシングフォーラム資料
+  location: 佐賀大学, 佐賀県佐賀市本庄町
+  eventDate: 9/25-26
   pages: 218–222
 
 - type: domestic
@@ -9194,7 +9203,8 @@
     - 斎藤 謙二郎
   title: 皮膚のせん断変形による前腕の回転反射制御
   booktitle: 第19回日本バーチャルリアリティ学会大会論文集
-  location: 2014/9/17-19.
+  eventDate: 9/17-19
+  location: 名古屋大学, 愛知県名古屋市千種区
   pages: 84–85
 
 - type: domestic
@@ -9205,7 +9215,8 @@
     - 篠田 裕之
   title: 空気圧を利用した胸部圧迫刺激による呼吸同期
   booktitle: 第19回日本バーチャルリアリティ学会大会論文集
-  location: 2014/9/17-19.
+  eventDate: 9/17-19
+  location: 名古屋大学, 愛知県名古屋市千種区
   pages: 124–125
 
 - type: domestic
@@ -9217,7 +9228,8 @@
     - 篠田 裕之
   title: 動荷重計測に基づいた空中超音波振動触感提示
   booktitle: 第19回日本バーチャルリアリティ学会大会論文集
-  location: 2014/9/17-19.
+  eventDate: 9/17-19
+  location: 名古屋大学, 愛知県名古屋市千種区
   pages: 365–368
 
 - type: domestic
@@ -9227,7 +9239,8 @@
     - 篠田 裕之
   title: 触覚フィードバックのある2.5次元タッチスクリーン
   booktitle: ロボティクス・メカトロニクス講演会2014講演論文集
-  location: 2014/5/26-28.
+  location: 富山市総合体育館, 富山市湊入船町
+  eventDate: 5/26-28
   pages: 3P2-E07
 
 - type: domestic
@@ -9238,7 +9251,9 @@
     - 篠田 裕之
   title: 二次元導波路上UWB通信用広帯域カプラの設計（第2報)
   booktitle: 電子情報通信学会総合大会 基礎・境界講演論文集
-  location: 2014/3/20.
+  eventDate: 3/20
+  location: 新潟
+  pages: 96
 
 - type: domestic
   year: 2014
@@ -9247,8 +9262,11 @@
     - 篠田 裕之
   title: フェーズドアレイを用いた二次元導波路電力伝送の選択性向上とヌル点削減
   booktitle: 電子情報通信学会総合大会 通信講演論文集1
-  location: 2014/3/18.
+  eventDate: 3/18
+  location: 新潟
   pages: S-36-S-37
+
+# TODO: Check the following entries
 
 - type: domestic
   year: 2013
