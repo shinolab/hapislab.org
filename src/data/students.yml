@@ -151,6 +151,86 @@
     M:
       start: 2025-04-01
       grad: ""
+- name: 徐 偲笑
+  nameEn: Caixiao Xu
+  email: c.xu@hapis.k.u-tokyo.ac.jp
+  campus: Kashiwa
+  degrees:
+    M:
+      start: 2026-04-01
+      grad: ""
+- name: 田崎 朔哉
+  nameEn: Sakuya Tasaki
+  email: tasaki@hapis.k.u-tokyo.ac.jp
+  campus: Kashiwa
+  degrees:
+    M:
+      start: 2026-04-01
+      grad: ""
+- name: 田邉 翼
+  nameEn: Tsubasa Tanabe
+  email: tanabe@hapis.k.u-tokyo.ac.jp
+  campus: Kashiwa
+  degrees:
+    M:
+      start: 2026-04-01
+      grad: ""
+- name: 杜 若衡
+  nameEn: Ruoheng Du
+  email: du@hapis.k.u-tokyo.ac.jp
+  campus: Kashiwa
+  degrees:
+    M:
+      start: 2026-04-01
+      grad: ""
+- name: 三上 貴也
+  nameEn: Takaya Mikami
+  email: mikami@hapis.k.u-tokyo.ac.jp
+  campus: Kashiwa
+  degrees:
+    M:
+      start: 2026-04-01
+      grad: ""
+- name: 潘 芸寛
+  nameEn: Yikuan Pan
+  email: pan@hapis.k.u-tokyo.ac.jp
+  campus: Kashiwa
+  degrees:
+    M:
+      start: 2026-04-01
+      grad: ""
+- name: 高久 和也
+  nameEn: Kazuya Takaku
+  email: takaku@hapis.k.u-tokyo.ac.jp
+  campus: Hongo
+  degrees:
+    M:
+      start: 2026-04-01
+      grad: ""
+- name: 唐 瑋
+  nameEn: Wei Tang
+  email: tang@hapis.k.u-tokyo.ac.jp
+  campus: Hongo
+  degrees:
+    M:
+      start: 2026-04-01
+      grad: ""
+- name: 西川 剛
+  nameEn: Go Nishikawa
+  email: nishikawa@hapis.k.u-tokyo.ac.jp
+  campus: Hongo
+  degrees:
+    M:
+      start: 2026-04-01
+      grad: ""
+- name: 春山 優太
+  nameEn: Yuta Haruyama
+  email: haruyama@hapis.k.u-tokyo.ac.jp
+  campus: Hongo
+  degrees:
+    M:
+      start: 2026-04-01
+      grad: ""
 
 # 2025年度
 - name: 荒川 岳斗
