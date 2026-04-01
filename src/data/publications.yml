@@ -1,3 +1,34 @@
+- type: inproceedings
+  year: 2025
+  authors:
+    - Daisuke Sasaki
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Improvement of Subjective Impact Perception in Airborne Ultrasound Tactile Display
+  refId: sasaki-2025-improvement
+  doi: 10.1109/whc64065.2025.11123238
+  href: https://doi.org/10.1109/whc64065.2025.11123238
+  booktitle: 2025 IEEE World Haptics Conference (WHC)
+  publisher: IEEE
+  pages: 432–438
+
+- type: inproceedings
+  year: 2025
+  authors:
+    - Tao Morisaki
+    - Aoba Sekiguchi
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Ultrasound-Driven Wearable Haptic Display for Rendering Edges and Curved Surfaces
+  refId: morisaki-2025-ultrasound-driven
+  doi: 10.1109/whc64065.2025.11123261
+  href: https://doi.org/10.1109/whc64065.2025.11123261
+  booktitle: 2025 IEEE World Haptics Conference (WHC)
+  publisher: IEEE
+  pages: 513–519
+
 - type: article
   year: 2025
   authors:
@@ -104,6 +135,7 @@
   volume: 126
   number: 5
   pages: '052204'
+
 - type: article
   year: 2024
   authors:
@@ -1295,8 +1327,8 @@
 - type: article
   year: 1995
   authors:
-    - Shigeru Ando # allow-abbr
-    - Hiroyuki Shinoda # allow-abbr
+    - Shigeru Ando
+    - Hiroyuki Shinoda
   title: Ultrasonic Emission Tactile Sensing
   href: https://doi.org/10.1109/37.341866
   journal: IEEE Control Systems
@@ -1378,60 +1410,6 @@
   pages: 749–754
   doi: 10.9746/sicetr1965.27.749
 
-- type: inproceedings
-  year: 2025
-  authors:
-    - Tao Morisaki
-    - Aoba Sekiguchi
-    - Takaaki Kamigaki
-    - Yasutoshi Makino
-    - Hiroyuki Shinoda
-  title: Ultrasound-Driven Wearable Haptic Display for Rendering Edges and Curved Surfaces
-  href: 
-  booktitle: IEEE World Haptics
-  location: Suwon, Republic of Korea
-  eventDate: July 08-11
-
-- type: inproceedings
-  year: 2025
-  authors:
-    - Daisuke Sasaki
-    - Atsushi Matsubayashi
-    - Yasutoshi Makino
-    - Hiroyuki Shinoda
-  title: Improvement of Subjective Impact Perception in Airborne Ultrasound Tactile Display
-  href: 
-  booktitle: IEEE World Haptics
-  location: Suwon, Republic of Korea
-  eventDate: July 08-11
-
-- type: inproceedings
-  year: 2025
-  authors:
-    - Ryoya Onishi*
-    - Sota Iwabuchi*
-    - Shun Suzuki
-    - Takaaki Kamigaki
-    - Yasutoshi Makino
-    - Hiroyuki Shinoda
-  title: Measurement of Airborne Ultrasound Focus on Skin Surface Using Thermal Imaging 
-  booktitle: IEEE World Haptics
-  location: Suwon, Republic of Korea
-  note: 'ToH Paper, *Equal contribution '
-  eventDate: July 08-11
-
-- type: inproceedings
-  year: 2025
-  authors:
-    - Mingxin Zhang
-    - Shun Terui
-    - Yasutoshi Makino
-    - Hiroyuki Shinoda
-  title: "TexSenseGAN: A User-Guided System for Optimizing Texture-Related Vibrotactile Feedback Using Generative Adversarial Network"
-  booktitle: IEEE World Haptics
-  note: ToH Paper
-  location: Suwon, Republic of Korea
-  eventDate: July 08-11
 
 - type: inproceedings
   year: 2025
@@ -1488,7 +1466,6 @@
   booktitle: IEEE World Haptics
   location: Suwon, Republic of Korea
   eventDate: July 08-11
-
 
 - type: inproceedings
   year: 2024
