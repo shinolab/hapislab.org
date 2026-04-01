@@ -75,3 +75,10 @@ def validate_name(name, comment=""):
                 return "Abbreviated name is not allowed unless '# allow-abbr' comment is set"
 
     return None
+
+
+def normalize_title(title):
+    # Case-insensitive, ignore punctuation, ignore spaces and underscores.
+    # \W matches any character which is NOT a word character (in any language).
+    # We also explicitly remove underscores since \w includes them.
+    return re.sub(r"[\W_]", "", title.lower())

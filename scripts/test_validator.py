@@ -1,4 +1,17 @@
-from validator import validate_name, validate_pages_line
+from validator import normalize_title, validate_name, validate_pages_line
+
+
+def test_normalize_title():
+    assert normalize_title("Title") == "title"
+    assert normalize_title("Title: Subtitle") == "titlesubtitle"
+    assert normalize_title("Title Subtitle") == "titlesubtitle"
+    assert normalize_title("Title-Subtitle") == "titlesubtitle"
+    assert normalize_title("Title_Subtitle") == "titlesubtitle"
+    assert normalize_title("タイトル: これ") == "タイトルこれ"
+    assert normalize_title("タイトル　これ") == "タイトルこれ"
+    assert normalize_title("A & B") == "ab"
+    assert normalize_title("A.B.") == "ab"
+    assert normalize_title("Quoted 'Title'") == "quotedtitle"
 
 
 def test_validate_pages_line():

@@ -5544,7 +5544,7 @@
     - Yudai Fukui
     - Yuichi Masuda
     - Hiroyuki Shinoda
-  title: Massive Multiple Access Wireless LAN Using Ultra-Wideband Waveguide Floor Tiles
+  title: Massive Multiple Access Wireless LAN Using Ultra-Wideband Waveguide Floor Tiles # allow-duplicate
   booktitle: IEEE booth of the International Consumer Electronics Show (CES)
   location: Las Vegas, USA
   eventDate: January 6
@@ -5555,7 +5555,7 @@
     - Yoshikazu Furuyama
     - Yasutoshi Makino
     - Hiroyuki Shinoda
-  title: 'X-Dimensional Display: Superimposing 2D Cross Sectional Image inside 3D Wireframe Aerial Image'
+  title: 'X-Dimensional Display: Superimposing 2D Cross Sectional Image inside 3D Wireframe Aerial Image' # allow-duplicate
   booktitle: SIGGRAPH Asia Emerging Technologies
   location: Kobe, Japan
   eventDate: November 02-06
@@ -5581,7 +5581,7 @@
     - tatsuma sakurai
     - Yasutoshi Makino
     - Hiroyuki Shinoda
-  title: Alphabet Letter Display via Imitated Writing Motion
+  title: Alphabet Letter Display via Imitated Writing Motion # allow-duplicate
   booktitle: IEEE World Haptics Conference (WHC)
   location: Northwestern University, Evanston, Il, USA
   eventDate: June 22–26
@@ -9533,7 +9533,7 @@
   authors:
     - 櫻井 達馬
     - 篠田 裕之
-  title: エッジ刺激法による剛体平面上での精細触覚パターン提示
+  title: エッジ刺激法による剛体平面上での精細触覚パターン提示 # allow-duplicate
   booktitle: 第 18 回日本バーチャルリアリティ学会大会論文集
   eventDate: 9/18-20
   pages: 470–471
