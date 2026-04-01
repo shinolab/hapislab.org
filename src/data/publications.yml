@@ -1470,11 +1470,53 @@
 - type: inproceedings
   year: 2024
   authors:
+    - Haruka Tsuchiya
+    - Zen Somei
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Tap tactile presentation by airborne ultrasound
+  href: https://arxiv.org/abs/2411.06653
+  booktitle: Asia Haptics
+  location: Sunway, Malaysia
+  eventDate: Oct. 28-30
+
+- type: inproceedings
+  year: 2024
+  authors:
+    - koichi Kato
+    - Tao Morisaki
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Edge shape sensation presented in a noncontact manner using airborne ultrasound
+  href: https://arxiv.org/abs/2411.05128
+  booktitle: Asia Haptics
+  location: Sunway, Malaysia
+  eventDate: Oct. 28-30
+
+- type: inproceedings
+  year: 2024
+  authors:
+    - Chonghoon Park
+    - Qirong Zhu
+    - Shinji Tanaka
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Haptic Information Feedback Given to Handles in Guide Dog Training
+  href: https://arxiv.org/abs/2411.05109
+  booktitle: Asia Haptics
+  location: Sunway, Malaysia
+  eventDate: Oct. 28-30
+
+- type: inproceedings
+  year: 2024
+  authors:
     - Manato Yo
     - Atsushi Matsubayashi
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Passive Touch Experience with Virtual Doctor Fish Using Ultrasound Haptics
+  href: https://arxiv.org/abs/2411.05152
   booktitle: Asia Haptics
   location: Sunway, Malaysia
   eventDate: Oct. 28-30
