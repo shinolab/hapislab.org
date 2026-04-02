@@ -248,8 +248,8 @@
     D:
       start: 2023-04-01
       grad: 2026-03-31
-      thesis: アクセシビリティのための触覚フィードバックの拡張：力覚に基づく訓練支援と空中触覚による方向ガイダンス
-      thesisEn: Expanding Haptic Feedback for Accessibility: Force-Based Training Support and Tactile Mid-Air Directional Guidance
+      thesis: 'アクセシビリティのための触覚フィードバックの拡張：力覚に基づく訓練支援と空中触覚による方向ガイダンス'
+      thesisEn: 'Expanding Haptic Feedback for Accessibility: Force-Based Training Support and Tactile Mid-Air Directional Guidance'
 - name: 菅原 広晶
   nameEn: Hiroaki Sugawara
   email: sugawara@hapis.k.u-tokyo.ac.jp
