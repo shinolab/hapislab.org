@@ -25,3 +25,5 @@ pnpm-debug.log*
 
 *.xml
 *.txt
+!public/robots.txt
+.vscode/
