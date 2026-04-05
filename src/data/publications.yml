@@ -10008,8 +10008,6 @@
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 11 講演論文集
   pages: 2P1-Q14(1-4)
 
-  # TODO: Check the following entries
-
 - type: domestic
   year: 2010
   authors:
@@ -10018,7 +10016,8 @@
     - 篠田 裕之
   title: 二次元通信における位置計測法 (第4報) －柔軟通信シート上の位置計測とウェアラブルインターフェースへの応用
   booktitle: 第11回SICE SI部門講演会
-  location: 2010/12/23-25．(PDF)
+  location: 仙台
+  eventDate: 12/23-25
   pages: 1079–1082
 
 - type: domestic
@@ -10028,7 +10027,8 @@
     - 篠田 裕之
   title: 二次元導波路を用いた選択的給電のための低放射損失型カプラ
   booktitle: 第11回SICE SI部門講演会
-  location: 2010/12/23-25．(PDF)
+  location: 仙台
+  eventDate: 12/23-25
   pages: 614–617
 
 - type: domestic
@@ -10038,7 +10038,8 @@
     - 篠田 裕之
   title: 分散型大口径超音波触覚ディスプレイの開発と評価
   booktitle: 第11回SICE SI部門講演会
-  location: 2010/12/23-25．(PDF)
+  location: 仙台
+  eventDate: 12/23-25
   pages: 184–187
 
 - type: domestic
@@ -10050,7 +10051,8 @@
     - 篠田 裕之
   title: 超音波音響放射圧を用いた非接触表面硬さ分布計測法
   booktitle: 第11回SICE SI部門講演会
-  location: 2010/12/23-25．(PDF)
+  location: 仙台
+  eventDate: 12/23-25
   pages: 145–148
 
 - type: domestic
@@ -10061,7 +10063,8 @@
     - 舘 暲
   title: 示温塗料とカメラを用いた指型温度センサの評価
   booktitle: 第11回SICE SI部門講演会
-  location: 2010/12/23-25．(PDF)
+  location: 仙台
+  eventDate: 12/23-25
   pages: 141–144
 
 - type: domestic
@@ -10070,10 +10073,10 @@
     - 門内 靖明
     - 篠田 裕之
   title: 分布RFスイッチを用いた導波路散乱型フェーズドアレイシステム
-  booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
+  booktitle: 第27回「センサ・マイクロマシンと応用システム」シンポジウム論文集
   location: 島根
-  pages: 716–720
   eventDate: 10/14-15
+  pages: 716–720
 
 - type: domestic
   year: 2010
@@ -10082,7 +10085,7 @@
     - 藤原 正浩
     - 篠田 裕之
   title: 触力覚情報伝送のための遠隔硬さ計測
-  booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
+  booktitle: 第27回「センサ・マイクロマシンと応用システム」シンポジウム論文集
   location: 島根
   pages: 136–140
   eventDate: 10/14-15
@@ -10093,7 +10096,7 @@
     - 野田 聡人
     - 篠田 裕之
   title: 表面センサネットワークのための低漏出ワイヤレス電力伝送
-  booktitle: 「センサ・マイクロマシンと応用システム」シンポジウム論文集
+  booktitle: 第27回「センサ・マイクロマシンと応用システム」シンポジウム論文集
   location: 島根
   pages: 120–125
   eventDate: 10/14-15
@@ -10117,7 +10120,9 @@
     - 篠田 裕之
   title: 触覚放送のための遠隔硬さ計測法の基礎的検討
   booktitle: 日本バーチャルリアリティ学会大会論文集
-  pages: 第15回日本バーチャルリアリティ学会大会論文集、82-85
+  pages: 第15回日本バーチャルリアリティ学会大会論文集
+  pages: 82-85
+  eventDate: 9/15-17
 
 - type: domestic
   year: 2010
@@ -10166,7 +10171,10 @@
     - 高橋 将文
     - 篠田 裕之
   title: 分散型アレイによる大開口超音波触覚ディスプレイの実現（Airborne Ultrasound Tactile Display with Large Synthesized Aperture Using Distributed Array Units）
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2010 講演論文集, 1A1-D06(1-2), 旭川
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2010 講演論文集
+  location: 旭川
+  evenetDate: 6/13-16
+  pages: 1A1-D06(1-2)
 
 - type: domestic
   year: 2010
@@ -10174,7 +10182,10 @@
     - 中妻 啓
     - 篠田 裕之
   title: 静電容量分布計測に基づく 二次元通信シート状のデバイス位置計測 第2報（Position Estimation based on Capacitance Pattern Sensing on Two-Dimensional Communication Sheet -Second Report-）
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2010 講演論文集, 1A1-D22(1-3), 旭川
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2010 講演論文集
+  location: 旭川
+  evenetDate: 6/13-16
+  pages: 1A1-D22(1-3)
 
 - type: domestic
   year: 2010
@@ -10182,7 +10193,10 @@
     - 小川 修平
     - 篠田 裕之
   title: 一点支持回転体並進移動ロボット
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2010 講演論文集, 2A1-F11 (1-2), 旭川
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2010 講演論文集
+  location: 旭川
+  evenetDate: 6/13-16
+  pages: 2A1-F11 (1-2)
 
 - type: domestic
   year: 2010
@@ -10192,8 +10206,11 @@
     - 篠田 裕之
   title: ユビキタス触覚ディスプレイ
   booktitle: インタラクション2010 論文集
-  location: 東京.
+  location: 東京
   eventDate: Mar.
+  pages: 225-226
+
+# TODO: Check the following entries
 
 - type: domestic
   year: 2009
