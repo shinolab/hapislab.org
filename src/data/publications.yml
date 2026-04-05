@@ -10209,8 +10209,6 @@
   eventDate: Mar.
   pages: 225–226
 
-# TODO: Check the following entries
-
 - type: domestic
   year: 2009
   authors:
@@ -10219,7 +10217,8 @@
     - 篠田 裕之
   title: 空中映像との触覚インタラクション
   booktitle: 第10回SICE SI部門 講演会論文集
-  location: 東京 2009/12/24-26.
+  location: 東京
+  eventDate: 12/24-26
   pages: 155–156
 
 - type: domestic
@@ -10229,7 +10228,8 @@
     - 篠田 裕之
   title: マクスウェル独楽に基づく一点支持移動体の制御
   booktitle: 第10回SICE SI部門 講演会論文集
-  location: 東京 2009/12/24-26.
+  location: 東京
+  eventDate: 12/24-26
   pages: 697–698
 
 - type: domestic
@@ -10239,7 +10239,8 @@
     - 篠田 裕之
   title: 二次元通信における位置計測法（第3報）
   booktitle: 第10回SICE SI部門 講演会論文集
-  location: 東京 2009/12/24-26.
+  location: 東京
+  eventDate: 12/24-26
   pages: 939–942
 
 - type: domestic
@@ -10251,7 +10252,8 @@
     - 篠田 裕之
   title: 屋内ネットワークのためのワイヤレス表面電力伝送
   booktitle: 第10回SICE SI部門 講演会論文集
-  location: 東京 2009/12/24-26.
+  location: 東京
+  eventDate: 12/24-26
   pages: 1730–1733
 
 - type: domestic
@@ -10261,7 +10263,8 @@
     - 篠田 裕之
   title: 屋内環境センシングのためのシート状フェーズドアレイシステム
   booktitle: 第10回SICE SI部門 講演会論文集
-  location: 東京 2009/12/24-26.
+  location: 東京
+  eventDate: 12/24-26
   pages: 1759–1762
 
 - type: domestic
@@ -10271,7 +10274,9 @@
     - 舘 暲
   title: 生きがいを支援する都市 SICE City
   booktitle: 第３回横幹連合コンファレンス
-  location: 2009/12/3-5.
+  location: 仙台
+  eventDate: 12/3-5
+  pages: 2C4-3
 
 - type: domestic
   year: 2009
@@ -10280,7 +10285,8 @@
     - 篠田 裕之
   title: ２次元伝送路を用いたフェーズドアレイシステム
   booktitle: 第２６回センシングフォーラム資料
-  location: 9/28-29, 2009. (PDF)
+  location: 東京
+  eventDate: 9/28-29
   pages: 215–220
 
 - type: domestic
@@ -10292,7 +10298,8 @@
     - 篠田 裕之
   title: 表面センサネットワークにおける高効率カプラ（第二報） 共鳴周波数制御による選択的給電方法
   booktitle: 第２６回センシングフォーラム資料
-  location: 9/28-29, 2009. (PDF)
+  location: 東京
+  eventDate: 9/28-29
   pages: 221–225
 
 - type: domestic
@@ -10303,7 +10310,8 @@
     - 篠田 裕之
   title: 静電容量センサアレイによる二次元通信におけるセンサノード位置計測
   booktitle: 第２６回センシングフォーラム資料
-  location: 9/28-29, 2009. (PDF)
+  location: 東京
+  eventDate: 9/28-29
   pages: 283–288
 
 - type: domestic
@@ -10313,7 +10321,10 @@
     - 岩本 貴之
     - 篠田 裕之
   title: 空中超音波振動子アレイによる触覚提示
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2009 講演論文集, 1A1-A14(1-4), 福岡 (PDF)
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2009 講演論文集
+  location: 福岡
+  eventDate: 5/25-26
+  pages: 1A1-A14(1-4)
 
 - type: domestic
   year: 2009
@@ -10322,7 +10333,10 @@
     - 牧野 泰才
     - 篠田 裕之
   title: 静電容量分布計測に基づく二次元通信シート上のデバイス位置計測
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2009 講演論文集, 1A1-G04(1-4), 福岡 (PDF)
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2009 講演論文集
+  location: 福岡
+  eventDate: 5/25-26
+  pages: 1A1-G04(1-4)
 
 - type: domestic
   year: 2009
@@ -10330,7 +10344,10 @@
     - 野田 聡人
     - 篠田 裕之
   title: 二次元通信による安全な電力の伝送法
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2009 講演論文集, 2A1-H07(1-4), 福岡 (PDF)
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2009 講演論文集
+  location: 福岡
+  eventDate: 5/25-26
+  pages: 2A1-H07(1-4)
 
 - type: domestic
   year: 2009
@@ -10338,7 +10355,10 @@
     - 門内 靖明
     - 篠田 裕之
   title: グレーティングアンテナによる二次元通信空間と三次元空間の結合
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2009 講演論文集, 2A1-H08(1-3), 福岡 (PDF)
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2009 講演論文集
+  location: 福岡
+  eventDate: 5/25-26
+  pages: 2A1-H08(1-3)
 
 - type: domestic
   year: 2009
@@ -10346,7 +10366,12 @@
     - 牧野 泰才
     - 篠田 裕之
   title: 受容器の非線形受容特性を利用した触感提示法
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2009 講演論文集, 2A2-J14(1-3), 福岡 (PDF)
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2009 講演論文集
+  location: 福岡
+  eventDate: 5/25-26
+  pages: 2A2-J14(1-3)
+
+  # TODO: Check the following entries
 
 - type: domestic
   year: 2008
