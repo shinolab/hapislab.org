@@ -10371,8 +10371,6 @@
   eventDate: 5/25-26
   pages: 2A2-J14(1-3)
 
-  # TODO: Check the following entries
-
 - type: domestic
   year: 2008
   authors:
@@ -10438,7 +10436,7 @@
     - Shuhei Ogawa
     - Hiroyuki Shinoda
   title: EMG Sensor Array Integrated on a Flexible 2D Signal Transmission Sheet
-  booktitle: IEEJ 25th Sensor Symposium (PDF)
+  booktitle: Proc. IEEJ 25th Sensor Symposium
   pages: 671–674
 
 - type: domestic
@@ -10448,7 +10446,7 @@
     - Tadahiro Nakano
     - Hiroyuki Shinoda
   title: Small Proximity Connector in Two-Dimensional Signal Transmission
-  booktitle: IEEJ 25th Sensor Symposium (PDF)
+  booktitle: Proc. IEEJ 25th Sensor Symposium
   pages: 675–678
 
 - type: domestic
@@ -10458,7 +10456,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Electric Field Sensor Array for Node Localization on Two-Dimensional Signal Transmission Sheet
-  booktitle: IEEJ 25th Sensor Symposium (PDF)
+  booktitle: Proc. IEEJ 25th Sensor Symposium
   pages: 708–713
 
 - type: domestic
@@ -10468,7 +10466,9 @@
     - 岩本 貴之
     - 篠田 裕之
   title: 空中超音波フェーズドアレイによる触覚ディスプレイ
-  booktitle: 第 13 回日本バーチャルリアリティ学会大会論文集 (PDF)
+  booktitle: 第 13 回日本バーチャルリアリティ学会大会論文集
+  location: 奈良
+  eventDate: 9月
   pages: 3A2-2
 
 - type: domestic
@@ -10508,7 +10508,8 @@
     - 張 兵
     - 篠田 裕之
   title: シート状媒体を用いたワイヤレス電力伝送の一手法
-  booktitle: 電子情報通信学会2008年通信ソサイエティ大会通信講演論文集2 (PDF)
+  booktitle: 電子情報通信学会2008年通信ソサイエティ大会通信講演論文集2
+  location: BS-14-9
   pages: S-220-221
 
 - type: domestic
@@ -10518,7 +10519,8 @@
     - 岩本 貴之
     - 篠田 裕之
   title: 空中超音波振動子アニュラアレイによる触覚提示
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2008 講演論文集 (PDF)
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2008 講演論文集
+  pages: 1P1-I06(1-4)
 
 - type: domestic
   year: 2008
@@ -10526,7 +10528,8 @@
     - 清田 翔平
     - 篠田 裕之
   title: 対称構造を利用した応力テンソルセンサ素子 (第二報)
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2008 講演論文集 (PDF)
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2008 講演論文集
+  pages: 1A1-H13(1-4)
 
 - type: domestic
   year: 2008
@@ -10535,7 +10538,8 @@
     - 小川 修平
     - 篠田 裕之
   title: 筋電位分布を計測する柔軟デバイス
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2008 講演論文集 (PDF)
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2008 講演論文集
+  pages: 1P1-H11(1-4)
 
 - type: domestic
   year: 2008
@@ -10544,7 +10548,10 @@
     - 牧野 泰才
     - 篠田 裕之
   title: 電場計測に基づく二次元通信シート上のデバイス位置推定
-  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2008 講演論文集 (PDF)
+  booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2008 講演論文集
+  pages: 2P1-H15(1-4)
+
+# TODO: check the following entries
 
 - type: domestic
   year: 2007
