@@ -10949,8 +10949,6 @@
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 2006 講演論文集
   pages: 2P2-B23(1-2)
 
-# TODO: check the following entries
-
 - type: domestic
   year: 2005
   authors:
@@ -10959,7 +10957,7 @@
     - 篠田 裕之
   title: 筋電分布を計測するリストバンド型インタフェース
   booktitle: 第２２回センシングフォーラム講演論文集
-  pages: 81–84, 2005．
+  pages: 81–84
 
 - type: domestic
   year: 2005
@@ -10976,7 +10974,7 @@
     - 星 貴之
     - 篠田 裕之
   title: 非線形触覚素子による人工皮膚
-  booktitle: 第22 回センシングフォーラム講演論文集（PDF)
+  booktitle: 第２２回センシングフォーラム講演論文集
   pages: 337–342
 
 - type: domestic
@@ -10985,7 +10983,7 @@
     - Takayuki Hoshi
     - Hiroyuki Shinoda
   title: A Tactile Element Based on Nonlinear Elasticity to Sense Contact Area
-  booktitle: IEEJ 22nd Sensor Symposium
+  booktitle: Proc. IEEJ 22nd Sensor Symposium
   pages: 375–379
 
 - type: domestic
@@ -10995,7 +10993,7 @@
     - Kouta Minamizawa
     - Hiroyuki Shinoda
   title: Sensor Networking Using Two-Dimensional Electromagnetic Wave
-  booktitle: IEEJ 22nd Sensor Symposium
+  booktitle: Proc. IEEJ 22nd Sensor Symposium
   pages: 83–88
 
 - type: domestic
@@ -11005,7 +11003,7 @@
     - Yasutoshi Makino
     - Hiroyuki Shinoda
   title: Cell-Bridge-Based Connection of High Density Sensor Elements 
-  booktitle: IEEJ 22nd Sensor Symposium
+  booktitle: Proc. IEEJ 22nd Sensor Symposium
   pages: 425–428
 
 - type: domestic
@@ -11015,7 +11013,7 @@
     - 篠田 裕之
   title: 非線形弾性を利用する触覚センシング
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会’05 講演論文集
-  location: 2P1-N-104(1-4), 2005．
+  pages: 2P1-N-104(1-4)
 
 - type: domestic
   year: 2005
@@ -11024,6 +11022,7 @@
     - 篠田 裕之
   title: 受容器の時間的応答特性を利用する吸引圧触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会’05 講演論文集
+  pages: 1P2-N-037(1-4)
 
 - type: domestic
   year: 2005
@@ -11033,6 +11032,7 @@
     - 篠田 裕之
   title: 2次元走査型超音波触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会’05 講演論文集
+  pages: 1P1-N-042(1-2)
 
 - type: domestic
   year: 2004
@@ -11068,6 +11068,7 @@
     - 篠田 裕之
   title: マルチプリミティブ吸引刺激による手掌部触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会’04 講演論文集
+  pages: 1P1-H-2(1-4)
 
 - type: domestic
   year: 2004
@@ -11077,6 +11078,7 @@
     - 篠田 裕之
   title: 超音波アレイによる放射圧触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会’04 講演論文集
+  pages: 1P1-H-1(1-4)
 
 - type: domestic
   year: 2003
@@ -11096,7 +11098,7 @@
     - 篠田 裕之
   title: 吸引圧を用いるマルチプリミティブ触覚ディスプレイ
   booktitle: 日本バーチャルリアリティ学会第８回大会論文集
-  pages: 243–246, 2003.
+  pages: 243–246
 
 - type: domestic
   year: 2003
@@ -11105,7 +11107,7 @@
     - Naoya Asamura
     - Hiroyuki Shinoda
   title: A Cutaneous Feeling Display Using Suction Pressure
-  booktitle: SICE
+  booktitle: Proc. SICE 2003
   pages: 2096–2099
 
 - type: domestic
@@ -11116,7 +11118,9 @@
     - 篠田 裕之
   title: 吸引圧制御による手掌部触覚ディスプレイ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会’03 講演論文集
-  location: 1A1-2F-E7 (1-2), 2003.
+  pages: 1A1-2F-E7 (1-2)
+
+# TODO: check the following entries
 
 - type: domestic
   year: 2002
