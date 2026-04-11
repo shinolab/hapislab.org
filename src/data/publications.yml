@@ -11120,8 +11120,6 @@
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会’03 講演論文集
   pages: 1A1-2F-E7 (1-2)
 
-# TODO: check the following entries
-
 - type: domestic
   year: 2002
   authors:
@@ -11129,16 +11127,19 @@
     - Keiji Matsumoto
     - Hiroyuki Shinoda
   title: A Sensitive Skin with Conductive Communication Layers
-  booktitle: IEEJ 19th Sensor Symposium
+  booktitle: Proc. IEEJ 19th Sensor Symposium
   pages: 437–440
 
 - type: domestic
   year: 2002
   authors:
     - Naoya Asamura
-    - U
-  title: K. Saman Keerthi, Tatsuo Migita, Nobuyoshi Koshida, Hiroyuki Shinoda Intensifying Thermally Induced Ultrasound Emission
-  booktitle: IEEJ 19th Sensor Symposium
+    - U. K. Saman Keerthi # allow-abbr
+    - Tatsuo Migita
+    - Nobuyoshi Koshida
+    - Hiroyuki Shinoda
+  title: Intensifying Thermally Induced Ultrasound Emission
+  booktitle: Proc. IEEJ 19th Sensor Symposium
   pages: 477–482
 
 - type: domestic
@@ -11150,7 +11151,7 @@
     - Nobuyoshi Koshida
     - Hiroyuki Shinoda
   title: Wire-Free Tactile Sensing Element Based on Optical Connection
-  booktitle: IEEJ 19th Sensor Symposium
+  booktitle: Proc. IEEJ 19th Sensor Symposium
   pages: 433–436
 
 - type: domestic
@@ -11161,6 +11162,7 @@
     - 篠田 裕之
   title: 二次元通信層を利用する触覚センシング
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会’02 講演論文集
+  pages: 2P2-I03 (1-2)
 
 - type: domestic
   year: 2002
@@ -11170,6 +11172,7 @@
     - 篠田 裕之
   title: 集束超音波による触感の呈示
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会’02 講演論文集
+  pages: 2P2-E10 (1-2)
 
 - type: domestic
   year: 2001
@@ -11198,7 +11201,7 @@
     - A. Hatori # allow-abbr
     - H. Shinoda  # allow-abbr
   title: A Sensitive Skin Using Wireless Tactile Sensing Elements
-  booktitle: 18th Sensor Symposium
+  booktitle: Proc. 18th Sensor Symposium
   pages: 147–150
 
 - type: domestic
@@ -11207,7 +11210,7 @@
     - K. Nakamura # allow-abbr
     - H. Shinoda # allow-abbr
   title: Tactile Sensing Device Instantaneously Evaluating Friction Coefficients
-  booktitle: 18th Sensor Symposium
+  booktitle: Proc. 18th Sensor Symposium
   pages: 151–154
 
 - type: domestic
@@ -11218,7 +11221,7 @@
     - 東條 慶春
     - 篠田 裕之
   title: 皮膚感覚呈示のための必要解像度
-  booktitle: 日本バーチャルリアリティ学会
+  booktitle: 日本バーチャルリアリティ学会第５回大会論文集
   pages: 257–260
 
 - type: domestic
@@ -11230,6 +11233,7 @@
     - 篠田 裕之
   title: 皮膚感覚ディスプレイの必要解像度
   booktitle: 第18回日本ロボット学会学術講演会予稿集
+  volume: 3
   pages: 961–962
 
 - type: domestic
@@ -11239,6 +11243,7 @@
     - 篠田 裕之
   title: テンソルセル触覚センサによる摩擦係数の瞬時検出法
   booktitle: 第18回日本ロボット学会学術講演会予稿集
+  volume: 3
   pages: 1007–1008
 
 - type: domestic
@@ -11248,7 +11253,7 @@
     - S. Liu # allow-abbr
     - H. Shinoda # allow-abbr
   title: Micro Optical Position Sensor with Vibrating Light Source
-  booktitle: IEEJ 17th Sensor Symposium
+  booktitle: Proc. IEEJ 17th Sensor Symposium
   pages: 137–140
 
 - type: domestic
@@ -11312,6 +11317,7 @@
     - 篠田 裕之
   title: 選択刺激法による触感フィードバック
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 ’99 講演論文集
+  pages: 1P1-67-099(1-2)
 
 - type: domestic
   year: 1999
@@ -11322,6 +11328,8 @@
   title: テレメトリックロボットスキン
   booktitle: 第４回ロボティックスシンポジア予稿集
   pages: 62–67
+
+  # TODO: check the following entries
 
 - type: domestic
   year: 1998
