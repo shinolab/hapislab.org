@@ -11329,8 +11329,6 @@
   booktitle: 第４回ロボティックスシンポジア予稿集
   pages: 62–67
 
-  # TODO: check the following entries
-
 - type: domestic
   year: 1998
   authors:
@@ -11339,6 +11337,7 @@
     - 篠田 裕之
   title: 選択刺激子による触感の呈示
   booktitle: 日本バーチャルリアリティ学会大会論文集
+  volume: 3
   pages: 15–18
 
 - type: domestic
@@ -11351,6 +11350,7 @@
     - 篠田 裕之
   title: シリコン微細加工に基づく熱超音波デバイス
   booktitle: 第37回計測自動制御学会学術講演会予稿集
+  volume: 1
   pages: 165–166
 
 - type: domestic
@@ -11362,6 +11362,7 @@
     - 篠田 裕之
   title: 共鳴型テンソルセルによる滑り予知触覚センサ
   booktitle: 第37回計測自動制御学会学術講演会予稿集
+  volume: 2
   pages: 411–412
 
 - type: domestic
@@ -11372,6 +11373,7 @@
     - 篠田 裕之
   title: テレメトリックセンサスキン
   booktitle: 第37回計測自動制御学会学術講演会予稿集
+  volume: 2
   pages: 413–414
 
 - type: domestic
@@ -11382,6 +11384,7 @@
     - 篠田 裕之
   title: 舌運動センサとその中国語発音学習への応用
   booktitle: 第37回計測自動制御学会学術講演会予稿集
+  volume: 2
   pages: 641–642
 
 - type: domestic
@@ -11392,6 +11395,7 @@
     - 篠田 裕之
   title: 選択刺激素子による触感ディスプレイ
   booktitle: 第37回計測自動制御学会学術講演会予稿集
+  volume: 2
   pages: 687–688
 
 - type: domestic
@@ -11402,6 +11406,7 @@
     - 篠田 裕之
   title: テレメトリックスキンによるロボット触覚
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 ’98 講演論文集
+  pages: 2BIII1 – 6(1) – (2)
 
 - type: domestic
   year: 1998
@@ -11432,7 +11437,7 @@
     - N. Koshida # allow-abbr
     - H. Shinoda # allow-abbr
   title: Thermal Ultrasonic Device Based on Micro Fabricated Porous Silicon
-  booktitle: IEEJ 16th Sensor Symposium
+  booktitle: Proc. IEEJ 16th Sensor Symposium
   pages: 185–188
 
 - type: domestic
@@ -11442,7 +11447,7 @@
     - H. Oasa # allow-abbr
     - H. Shinoda # allow-abbr
   title: Telemetric Skin
-  booktitle: IEEJ 16th Sensor Symposium
+  booktitle: Proc. IEEJ 16th Sensor Symposium
   pages: 223–226
 
 - type: domestic
@@ -11467,6 +11472,7 @@
     - 杉本 裕喜
   title: 音響共鳴型テンソルセルによる高度触覚センシング
   booktitle: 第15回日本ロボット学会学術講演会予稿集
+  volume: 3
   pages: 937–938
 
 - type: domestic
@@ -11479,6 +11485,7 @@
     - 篠田 裕之
   title: 多モード音響共鳴を利用する触覚エレメント
   booktitle: 第36回計測自動制御学会学術講演会予稿集
+  volume: 1
   pages: 293–294
 
 - type: domestic
@@ -11491,6 +11498,7 @@
     - 篠田 裕之
   title: 選択刺激法による触感ディスプレイ
   booktitle: 第36回計測自動制御学会学術講演会予稿集
+  volume: 2
   pages: 667–668
 
 - type: domestic
@@ -11503,6 +11511,7 @@
     - 篠田 裕之
   title: 音響共鳴型テンソルセルによる触覚エレメント
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 ’97 講演論文集
+  volume: B
   pages: 765–768
 
 - type: domestic
@@ -11562,6 +11571,7 @@
     - 松本 賢一
   title: 共鳴型テンソルセルによる三次元構造触覚センサ
   booktitle: 日本機械学会ロボティクス・メカトロニクス講演会 ’96 講演論文集
+  volume: B
   pages: 785–788
 
 - type: domestic
@@ -11659,6 +11669,8 @@
     - 安藤 # allow-surname-only
   title: 触覚とスマートストラクチャ – 弾性テンソル場を利用する高度触覚情報抽出 –
   booktitle: 平成6年電気学会全国大会講演論文集
+  volume: 13
+  pages: S.17-25-28
 
 - type: domestic
   year: 1994
@@ -11721,6 +11733,7 @@
   title: Ultrasonic Emission Tactile Sensor
   booktitle: Proc. IEEJ 12th Sensor Symposium
   pages: 87–90
+  location: Osaka
 
 - type: domestic
   year: 1993
@@ -11749,7 +11762,7 @@
     - 篠田 # allow-surname-only
     - 安藤 # allow-surname-only
   title: ３次元構造を利用する触覚センサ – 皮膚に隠れている知能 -
-  booktitle: AVIRG-SMC サマーセミナー「五感を探る」講演予稿集
+  booktitle: 平成４年度 AVIRG-SMC サマーセミナー「五感を探る」講演予稿集
   pages: 46–54
 
 - type: domestic
@@ -11822,7 +11835,8 @@
     - T. Kinoshita # allow-abbr
     - S. Ando # allow-abbr
   title: A 3-D Structure Tactile Sensor using Piezo-Electric Polymer
-  booktitle: Annual Report of the Engineering Research Institute
+  booktitle: Annual Report of the Engineering Research Institute, Faculty of Engineering, University of Tokyo
+  volume: 51
   pages: 191–194
 
 - type: domestic
@@ -11833,7 +11847,9 @@
     - M. Okada # allow-abbr
     - S. Ando # allow-abbr
   title: A Tactile Sensor with Three-Dimensional Structure – Sensation of 2-D Motion, Spectra and Deepness of Contact
+  booktitle: Proc. IEEJ 11th Sensor Symposium
   pages: 217–220
+  location: Tokyo
 
 - type: domestic
   year: 1992
@@ -11844,6 +11860,7 @@
   title: A Vertical Sampling Method for Image Motion Measurement
   booktitle: Proc. IEEJ 11th Sensor Symposium
   pages: 63–66
+  location: Tokyo
 
 - type: domestic
   year: 1991
@@ -11882,6 +11899,7 @@
     - 安藤 # allow-surname-only
   title: 触知覚における内在アルゴリズム
   booktitle: 東京大学総合試験所年報
+  volume: ５０
   pages: 175–180
 
 - type: domestic
@@ -11942,6 +11960,7 @@
   title: A Tactile Sensor with Three Dimensional Structure
   booktitle: Proc. IEEJ 10th Sensor Symposium
   pages: 187–190
+  location: Tokyo
 
 - type: domestic
   year: 1990
