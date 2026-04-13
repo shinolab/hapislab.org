@@ -54,7 +54,7 @@ a:hover {
 }
 
 .container {
-	width: min(1080px, calc(100% - 2rem));
+	width: min(1080px, calc(100% - 0rem));
 	margin: 0 auto;
 }
 
@@ -386,4 +386,13 @@ a:hover {
 
 a {
 	transition: all 0.3s ease;
+}
+
+header .container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.site-topbar__inner {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
