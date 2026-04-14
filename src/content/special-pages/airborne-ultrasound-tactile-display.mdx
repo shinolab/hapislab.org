@@ -7,6 +7,7 @@ import PublicationRef from "../../components/PublicationRef.astro";
 
 import { Image } from "astro:assets";
 import SXSW24 from "../../assets/special-pages/airborne-ultrasound-tactile-display/SXSW24.jpg";
+import texture from "../../assets/special-pages/airborne-ultrasound-tactile-display/texture.svg";
 import autd3x3 from "../../assets/special-pages/airborne-ultrasound-tactile-display/AUTD_960_600.jpg";
 import autd_iwamoto from "../../assets/special-pages/airborne-ultrasound-tactile-display/AUTD_iwamoto.jpg";
 import touchable_holo from "../../assets/special-pages/airborne-ultrasound-tactile-display/Touchable_holography.jpg";
@@ -45,12 +46,12 @@ import guidance from "../../assets/special-pages/airborne-ultrasound-tactile-dis
   <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
     <li style={{ marginBottom: '0.3rem' }}>
       <a href="#second-generation" style={{ fontWeight: 'bold', color: '#0056b3' }}>
-        第２世代の空中ハプティクス  
+        第２世代の空中ハプティクス (2024～)  
       </a>
     </li>
     <li>
       <a href="#recent-results" style={{ fontWeight: 'bold', color: '#0056b3' }}>
-        2020年代の重要な成果  
+        圧覚・温度の提示と計測の技術  
       </a>
     </li>
         <li>  <a href="#main-results-2016-2020" style={{ fontWeight: 'bold', color: '#0056b3' }}>
@@ -58,7 +59,7 @@ import guidance from "../../assets/special-pages/airborne-ultrasound-tactile-dis
       </a>
     </li>
     <li>  <a href="#early-research" style={{ fontWeight: 'bold', color: '#0056b3' }}>
-        空中ハプティクスの黎明期（2008～2015）  
+        黎明期 (2008～2015)  
       </a>
     </li>
   </ul>
@@ -91,10 +92,10 @@ import guidance from "../../assets/special-pages/airborne-ultrasound-tactile-dis
 <span id="second-generation" style={{ display: 'block', paddingTop: '60px', marginTop: '-60px' }}></span>
 ## 第２世代の空中ハプティクス
 最初の提案からの10年あまりで「空中ハプティクスによって生成される触覚は弱く特殊な振動感覚」という常識が定着していました。
-その前提が2020年代に入って大きく変わり始め、現在ではしっかりした圧覚や温覚・冷覚も再現されるようになっています。
-それによってモノの実体感や表面のテクスチャなどもリアルに伝えることができます。
-その触感はまだ完全なものではありませんが、具体的なアプリケーションも始まりつつあります。
-特に「ウエルビーイング」「学習体験」「エンターテインメント」の３領域から社会実装する活動を進めています。
+その前提が2020年代に入って大きく変わり始め、現在ではしっかりした圧覚や温覚・冷覚も再現できるようになりました。
+このことによって、モノの実体感や表面のテクスチャなどもリアルに伝えられるようになっています。
+生成される触感はまだ完全なものではありませんが「ウエルビーイング」「学習体験」「エンターテインメント」を３本柱として
+社会実装の試みも始まっています。
 
 ### 3次元キャラクターをリアルに再現
 
@@ -105,19 +106,38 @@ import guidance from "../../assets/special-pages/airborne-ultrasound-tactile-dis
   <div style={{ textAlign: 'left' }}>
   柔らかい３次元キャラクターの実体感をしっかりと伝える技術が 
   [米国 SXSW 2024 で体験展示](https://www.fnn.jp/articles/-/669194?display=full)されました。
-  触覚と映像のインタラクションは松林によってデザインされ、キャラクター映像は博報堂の篠田氏のグループがデザインしました。
-  キャラクターとのインタラクションだけでなく、雨のリアルな感覚や、雷を連想させる感覚なども提示されました。
+  触覚と映像のインタラクションは松林によって開発され、キャラクター映像は博報堂の篠田氏のグループがデザインしました。
+  キャラクターとのインタラクションだけでなく、雨のリアルな感覚や、雷を連想させる感覚なども再現されています。
   同様な触覚インタラクションは、大阪・関西万博 未来の都市パビリオン 日本特殊陶業プレイスで「空中感覚装置」としても展示されました。
   </div>
 </SideBySide>
 
+### 多様な触感の再現
+
+<SideBySide reverse="true">
+  <Image slot="media" src={texture} width={600} alt="texture" />
+  <div style={{ textAlign: 'left' }}>
+  圧覚が再現できればVR物体の表面に触れた感覚を再現することができます。圧覚成分のみが緩やかに変化するとき、
+  皮膚は摩擦のない滑らかな表面を感じます。
+  それに加えて振動や、皮膚表面に沿った力の分布を再現してやれば、物体表面の多様なテクスチャが再現されます。
+  </div>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>
+      <li>
+        [Tao Morisaki, Atsushi Matsubayashi, Yasutoshi Makino, Hiroyuki Shinoda, 
+        Tactile Rendering Using Three Basic Stimulus Components in Ultrasound Midair Haptics, arxiv, 2026](https://arxiv.org/abs/2601.16767)
+      </li>
+    </ul>
+</SideBySide>
 
 <span id="recent-results" style={{ display: 'block', paddingTop: '60px', marginTop: '-60px' }}></span>
-## 2020年代の重要な成果 
+## 圧覚・温度の提示と計測の技術 
 
 ### 圧覚の再現
 
-現実的に生成できる超音波放射圧はそれほど高くはありません。皮膚の上で時間的に変化しない圧力（静圧）を生成した場合、その刺激は触覚の閾値を超えることはなく、人間はそれを感じることができません。そのため従来の空中触覚提示では、時間的に変動する振動触覚刺激が用いられてきました。同じ圧力であっても振動する刺激は明瞭に感じることができます。しかしそれは「振動」として感じられ、普通にモノに触れたときの感覚とは大きく異なるものになってしまいます。
+現実的に生成できる超音波放射圧はそれほど高くはありません。皮膚の上で時間的に変化しない圧力（静圧）を生成した場合、
+その刺激は触覚の閾値を超えることはなく、人間はそれを感じることができません。そのため従来の空中触覚提示では、
+時間的に変動する振動触覚刺激が用いられてきました。同じ圧力であっても振動する刺激は明瞭に感じることができます。
+しかしそれは「振動」として感じられ、普通にモノに触れたときの感覚とは大きく異なるものになってしまいます。
 ところが近年の森崎らの研究で、ある条件を満たす動的な圧力分布を与えると、圧覚に近い感覚が生成されることが明らかになりました。
 これにより、空間分解能と提示圧力の上限は前提とした上で、一種の万能性をもつ触覚提示が可能であることが示されました。
 <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>
