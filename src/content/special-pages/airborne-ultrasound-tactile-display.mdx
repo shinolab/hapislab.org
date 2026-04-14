@@ -6,6 +6,7 @@ import SideBySide from "../../components/SideBySide.astro";
 import PublicationRef from "../../components/PublicationRef.astro";
 
 import { Image } from "astro:assets";
+import SXSW24 from "../../assets/special-pages/airborne-ultrasound-tactile-display/SXSW24.jpg";
 import autd3x3 from "../../assets/special-pages/airborne-ultrasound-tactile-display/AUTD_960_600.jpg";
 import autd_iwamoto from "../../assets/special-pages/airborne-ultrasound-tactile-display/AUTD_iwamoto.jpg";
 import touchable_holo from "../../assets/special-pages/airborne-ultrasound-tactile-display/Touchable_holography.jpg";
@@ -92,11 +93,24 @@ import guidance from "../../assets/special-pages/airborne-ultrasound-tactile-dis
 2020年ごろには「空中ハプティクスによって生成される触覚は弱く特殊な振動感覚」という常識が定着していました。
 その前提が2020年代に入って大きく変わり始め、現在ではしっかりした圧覚や温覚・冷覚も再現されるようになりました。
 それによってモノの実体感や表面のテクスチャなどもリアルに感じられるようになっています。
-これらの
 その触感はまだ完全なものではありませんが、リアリティのある触覚再現を前提としたアプリケーションが始まりつつあります。
-これらのプロトタイプは [Haptocloud というプロジェクト名で米国 SXSW 2024 で体験展示](https://www.fnn.jp/articles/-/669194?display=full)される
-とともに 大阪万博 未来の都市パビリオン 日本特殊陶業プレイスで「空中感覚装置」としても展示されました。
-現在はこれらの技術を「ウエルビーイング」「学習体験」「エンターテインメント」の３領域から社会実装する活動を進めています。<br/>
+「ウエルビーイング」「学習体験」「エンターテインメント」の３領域から社会実装する活動を進めています。
+
+### 3次元キャラクターをリアルに再現
+
+<SideBySide reverse="true">
+  <Image slot="media" src={SXSW24} width={600} alt="SXSW24" 
+    style={{ height: "200px", width: "100%", objectFit: "cover", objectPosition: "center" }}
+  />
+  <div style={{ textAlign: 'left' }}>
+  柔らかい３次元キャラクターの実体感をしっかりと伝える技術が 
+  [米国 SXSW 2024 で体験展示](https://www.fnn.jp/articles/-/669194?display=full)されました。
+  触覚と映像のインタラクションは松林によってデザインされ、キャラクター映像は博報堂の篠田氏のグループがデザインしました。
+  キャラクターとのインタラクションだけでなく、雨のリアルな感覚や、雷を連想させる感覚なども提示されました。
+  同様な触覚インタラクションは、大阪・関西万博 未来の都市パビリオン 日本特殊陶業プレイスで「空中感覚装置」としても展示されました。
+  </div>
+</SideBySide>
+
 
 <span id="recent-results" style={{ display: 'block', paddingTop: '60px', marginTop: '-60px' }}></span>
 ## 2020年代の重要な成果 
@@ -104,7 +118,8 @@ import guidance from "../../assets/special-pages/airborne-ultrasound-tactile-dis
 ### 圧覚の再現
 
 現実的に生成できる超音波放射圧はそれほど高くはありません。皮膚の上で時間的に変化しない圧力（静圧）を生成した場合、その刺激は触覚の閾値を超えることはなく、人間はそれを感じることができません。そのため従来の空中触覚提示では、時間的に変動する振動触覚刺激が用いられてきました。同じ圧力であっても振動する刺激は明瞭に感じることができます。しかしそれは「振動」として感じられ、普通にモノに触れたときの感覚とは大きく異なるものになってしまいます。
-ところが近年の森崎らの研究で、ある条件を満たす動的な圧力分布を与えると、圧覚に近い感覚が生成されることが明らかになりました。これにより、空間分解能と提示圧力の上限は前提とした上で、一種の万能性をもつ触覚提示が可能であることが示されました。
+ところが近年の森崎らの研究で、ある条件を満たす動的な圧力分布を与えると、圧覚に近い感覚が生成されることが明らかになりました。
+これにより、空間分解能と提示圧力の上限は前提とした上で、一種の万能性をもつ触覚提示が可能であることが示されました。
 <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>
       <li>
         <PublicationRef refId="morisaki-2021-non" />
@@ -120,7 +135,11 @@ import guidance from "../../assets/special-pages/airborne-ultrasound-tactile-dis
 <SideBySide reverse="true">
   <Image slot="media" src={cooling} width={600} alt="cooling" />
   <div style={{ textAlign: 'left' }}>
-    温度は質感の知覚に重要な役割を果たしています。しかし非接触での温度提示、特に冷覚の提示はこれまで困難と考えられていました。しかし近年中島らは、水の常温ミストが漂う中で皮膚に超音波を集束させると、皮膚表面付近の気化熱によって皮膚温度が急速に低下することを確認しました。超音波照射の直後から 0.5 s の間に 3 Kの温度低下がみられ，これは一般的なペルチェ素子などによる冷却と比べても遜色ありません。また、冷却スポットを移動し、その移動を知覚可能であることも確認されています。
+    温度は質感の知覚に重要な役割を果たしていますが、非接触での温度提示、
+    特に冷覚の提示はこれまで困難と考えられていました。しかし2021年に中島らは、水の常温ミストが漂う中で皮膚に超音波を集束させると、
+    皮膚表面付近の気化熱によって皮膚温度が急速に低下することを確認しました。
+    超音波照射の直後から 0.5 s の間に 3 Kの温度低下がみられ，これは一般的なペルチェ素子などによる冷却と比べても遜色ありません。
+    また、冷却スポットを移動し、その移動を知覚可能であることも確認されています。
   </div>
   <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>
       <li>
