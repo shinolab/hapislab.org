@@ -139,7 +139,7 @@ it becomes possible to render a diverse range of textures.
 <span id="recent-results" style={{ display: 'block', paddingTop: '60px', marginTop: '-60px' }}></span>
 ## Rendering Static Pressure and Temperature
 
-### Reproducing Static Pressure Sensation
+### Reproduction of Static Pressure Sensation
 The generated ultrasonic radiation pressure is not very high. 
 If a time-invariant (static) pressure is applied to the skin,
 the stimulus remains below the tactile threshold and is imperceptible to humans. 
@@ -221,7 +221,15 @@ to be clearly felt on hairy skin, such as the arm, as well as on glabrous skin.
 ### Suppression of Unwanted Noise
 
 <SideBySide reverse="true">
-  <Image slot="media" src={noise} width={600} alt="noise" />
+  <Image slot="media" src={noise} width={600} alt="noise" 
+  style={{ 
+    width: '60%', 
+    height: 'auto', // アスペクト比を維持して歪みを防ぎます 
+    display: 'block', 
+    marginLeft: 'auto', // 中央寄せにする場合
+    marginRight: 'auto'
+  }}
+  />
   <div style={{ textAlign: 'left' }}>
     In methods like LM, rapid changes in ultrasound phase occur when moving the focal point quickly. Such phase changes often cause fluctuations in ultrasound amplitude, leading to changes in tactile feel or the generation of unwanted audible noise. (The occurrence of noise and amplitude fluctuations due to phase changes was first pointed out by Hoshi.) The following paper demonstrates a practical method to suppress these fluctuations.
     <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>

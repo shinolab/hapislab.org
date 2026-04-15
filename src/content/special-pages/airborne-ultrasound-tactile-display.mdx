@@ -197,7 +197,15 @@ import guidance from "../../assets/special-pages/airborne-ultrasound-tactile-dis
 ### 不要音の抑制
 
 <SideBySide reverse="true">
-  <Image slot="media" src={noise} width={600} alt="noise" />
+  <Image slot="media" src={noise} width={600} alt="noise" 
+  style={{ 
+    width: '60%', 
+    height: 'auto', // アスペクト比を維持して歪みを防ぎます 
+    display: 'block', 
+    marginLeft: 'auto', // 中央寄せにする場合
+    marginRight: 'auto' 
+  }}
+  />
   <div　style={{ textAlign: 'left' }}>
     例えば上記 LM では、焦点位置を素早く動かす際に超音波位相の急速な変化が伴います。そのような位相変化は、しばしば超音波振幅の変動を引き起こし、触感の変化や不要音の発生につながります。以下の論文は、その超音波振幅変動を抑制する実用的方法を示しています。（[位相変化による振幅変動および不要音の発生は、星 によって最初に指摘されました。](https://www.jstage.jst.go.jp/article/tvrsj/22/3/22_293/_article/-char/ja)）
     <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>
