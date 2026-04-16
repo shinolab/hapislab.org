@@ -22,6 +22,7 @@ jobs:
       - run: npm run build
       - uses: astral-sh/setup-uv@v7
       - run: cd scripts && uv run python check_data.py
+      - run: cd scripts && uv run python check_orphans.py
       - run: |
           npm run preview -- --port 4321 &
           npx wait-on http://localhost:4321/

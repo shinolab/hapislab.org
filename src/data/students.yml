@@ -73,7 +73,7 @@
   campus: Kashiwa
   degrees:
     D:
-      start: 2025-09-31
+      start: 2025-09-30
       grad: ""
 - name: 李 秋儀
   nameEn: Quiyi Li
@@ -210,7 +210,7 @@
   href: /members/arakawa
   degrees:
     D:
-      grad: 2025-09-31
+      grad: 2025-09-30
       thesis: 外部駆動物体とのインタラクションに向けた空中超音波による物体操作の研究
       thesisEn: Study on Acoustic Manipulation for Interaction with Externally Driven Objects
 - name: 孙 清钰
@@ -264,7 +264,7 @@
   campus: Kashiwa
   degrees:
     M:
-      grad: 2025-09-31
+      grad: 2025-09-30
       thesis: 三次元骨格解析を用いた盲導犬の実訓練評価システム
 - name: 孫 啓寧
   nameEn: Qining Sun
@@ -636,13 +636,13 @@
   nameEn: Chihiro Goto
   degrees:
     M:
-      grad: 2022-09-31
+      grad: 2022-09-30
       thesis: 超音波触覚場における指の高さ制御の研究
 - name: 和田 莉奈
   nameEn: Rina Wada
   degrees:
     M:
-      grad: 2022-09-31
+      grad: 2022-09-30
       thesis: 遮蔽された仮想物体への触覚付与による操作性向上
 
 # 2021年度
