@@ -60,7 +60,7 @@ import guidance from "../../assets/special-pages/airborne-ultrasound-tactile-dis
     </li>
     <li>
       <a href="#early-research" style={{color: '#0056b3' }}>
-        The Early Era: World-First Research at the University of Tokyo (2008–2015)
+        The Early Era: World-First Achievements at the University of Tokyo (2008–2015)
       </a>
     </li>
   </ul>
@@ -245,7 +245,7 @@ to be clearly felt on hairy skin, such as the arm, as well as on glabrous skin.
 <SideBySide reverse="true">
   <Image slot="media" src={mat} alt="mat" />
   <div style={{ textAlign: 'left' }}>
-    Reproducing the sensation of grasping and manipulating 3D images as if they were real objects is a core challenge in midair haptics. What kind of tactile presentation creates a sense of "physical reality"? When touching a real object, the depth and angle of contact on the skin change moment by moment, which is crucial for stable grasping. We have realized a system that presents the expansion of the contact area according to contact depth in real-time using a high-speed rotating focal point. Even with 40 kHz ultrasound (8.5 mm wavelength), surrounding the area with a phased array allows the focal region to be narrowed to approximately 5 mm. By scanning such a point, the contact area on the fingertip can be significantly varied according to the contact depth. Currently, tasks such as picking up an object and moving it to a designated location without visual aid have been achieved.
+  Reproducing the sensation of grasping and manipulating 3D images as if they were physical objects is a primary challenge in midair haptics. When touching a real object, the depth and angle of contact on the skin change dynamically; this sensory feedback is crucial for stable grasping. Matsubayashi et al. developed a system that presents the expansion of the contact area in response to contact depth in real-time, utilizing a high-speed rotating focal point. Even with 40 kHz ultrasound (8.5 mm wavelength), surrounding the target with a phased array allows the focal region to be localized to approximately 5 mm. By scanning this focal point, the contact area on the fingertip can be significantly varied according to the contact depth. This research demonstrates the successful execution of tasks such as picking up an object and moving it to a designated location without visual cues. 
   </div>
 </SideBySide>
 
@@ -256,33 +256,33 @@ to be clearly felt on hairy skin, such as the arm, as well as on glabrous skin.
 
 ### Motion Guidance via Haptics
 
-#### Haptic Pursuit
-
-Just as the eyes can naturally track a moving object (Pursuit), a similar ability has been discovered in the sense of touch. When a point-like tactile stimulus on the palm moves laterally, the hand can easily follow that movement, even without shear force. This can be used to guide a hand to a destination.
-
-- <PublicationRef refId="yoshimoto-2019-midair" />
-
-#### Virtual Handrail
-
 <SideBySide reverse="true">
   <Image slot="media" src={guidance} width={600} alt="guidance" />
   <div style={{ textAlign: 'left' }}>
-    A strategy where the human actively moves their hand to find the correct direction. By presenting a point stimulus scanning along a line, the user can easily perceive the direction and follow a trajectory without visual input.
-    ##### Guidance along the palm
-    <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>
+    #### Haptic Pursuit <br/>
+    In vision, when a target object moves, we naturally track it while keeping it at the center of our visual field. This ability is known as "pursuit." A similar capability, termed "Haptic Pursuit," has been discovered in the sense of touch.
+
+    Consider a scenario in which a point-like tactile stimulus is presented to the palm and moves laterally. With midair haptics, even though no shear force occurs along the skin surface and only the pressure distribution moves, the hand can easily follow this lateral motion. By leveraging this innate human ability, it is possible to guide the hand to any desired location by moving the stimulus point toward the target destination.
+      <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>
       <li>
-        <PublicationRef refId="suzuki-2019-midair" />
+        <PublicationRef refId="yoshimoto-2019-midair" />
       </li>
     </ul>  
   </div>
 </SideBySide>
 
-##### Guidance perpendicular to the palm
+#### Virtual Handrail (Guidance along the palm)
+
+By presenting a point stimulus that scans along a line, the system allows the user to easily perceive the direction and follow a trajectory without visual input.
+
+- <PublicationRef refId="suzuki-2019-midair" />
+
+#### Guidance perpendicular to the palm
 
 - <PublicationRef refId="suzuki-2018-haptic" />
 
 <span id="early-research" style={{ display: 'block', paddingTop: '60px', marginTop: '-60px' }}></span>
-## The Early Era: World-First Research at the University of Tokyo (2008–2015)
+## The Early Era: World-First Achievements at the University of Tokyo (2008–2015)
 It was demonstrated that even though the force from acoustic radiation pressure is very weak, tactile sensations can be perceived by modulating it. Although different from the sensation of touching a solid object, it was proven that various tactile experiences could be created by overlaying this with visual information.
 
 ### Airborne Ultrasound Tactile Display (AUTD)
@@ -318,8 +318,9 @@ It was demonstrated that even though the force from acoustic radiation pressure 
 <SideBySide reverse="true">
   <Image slot="media" src={fireworks_hand} width={600} alt="fireworks_hand" />
   <div style={{ textAlign: 'left' }}>
-    A study demonstrating a large-area ultrasound phased array and tactile projector.
+    This research pioneered the use of synchronized multi-unit phased arrays. By aligning midair haptics with visual projections on the skin, it achieved a seamless integration of visual and passive tactile sensations in a live demonstration.
     (Demonstrated at World Haptics Conference 2013)
+
     [youtube Video](http://www.youtube.com/watch?v=Bb0hNMxxewg)
   </div>
 
@@ -341,7 +342,8 @@ It was demonstrated that even though the force from acoustic radiation pressure 
 <SideBySide reverse="true">
   <Image slot="media" src={haptomime} width={600} alt="haptomime" />
   <div style={{ textAlign: 'left' }}>
-    A study demonstrating the effect of synchronizing midair visuals and haptics, which sparked significant global interest in the field.
+    World’s first demonstration of a midair virtual touch panel.
+    It enables users to manipulate icons in midair with the same intuitive feel as operating a physical touch panel.
     [youtube Video](https://www.youtube.com/watch?v=uARGRlpCWg8)
     <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>
       <li>
@@ -378,7 +380,7 @@ It was demonstrated that even though the force from acoustic radiation pressure 
   <Image slot="media" src={inoue_lev} width={600} alt="inoue_lev" />
   <div style={{ textAlign: 'left' }}>
     #### Acoustical Boundary Hologram
-    An evolution of the above. It succeeded in the world's first midair levitation of free-form objects significantly larger than the wavelength, with restoring forces acting against small fluctuations in all 6 degrees of freedom.
+    The practical formalization of acoustic boundary holograms was achieved, leading to the world's first midair levitation of free-form objects significantly larger than the wavelength. This system provides restoring forces in all six degrees of freedom, ensuring stability against external fluctuations.
     <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>
       <li>
         <PublicationRef refId="inoue-2019-acoustical" />
@@ -391,8 +393,8 @@ It was demonstrated that even though the force from acoustic radiation pressure 
 <SideBySide reverse="true">
   <Image slot="media" src={haptoclone} width={600} alt="haptoclone" />
   <div style={{ textAlign: 'left' }}>
-    The world's first symmetric telexistence system that allows users to interact with high-fidelity 3D images of each other while experiencing tactile feedback.
-    [Explanation Page](/research-topics/haptoclone/)
+    The world’s first symmetric telexistence system that allows users to interact with high-fidelity 3D images of each other while sharing tactile feedback.
+    [Technical Details](/research-topics/haptoclone/)
     [youtube Video](https://www.youtube.com/watch?v=0nlnRpFoBLo)
     <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem', marginTop: '1rem' }}>
       <li>
