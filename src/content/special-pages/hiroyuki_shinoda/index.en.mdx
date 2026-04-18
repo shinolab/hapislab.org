@@ -8,7 +8,13 @@ import { Image } from "astro:assets";
 
 import profile from "../../../assets/special-pages/hiroyuki_shinoda/profile.jpg";
 
-# HIROYUKI SHINODA
+<style>
+  {`
+    h1 { 
+      font-size: 1.5rem !important; 
+    }
+  `}
+</style>
 
 <div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
   <Image src={profile} alt="photo of shinoda" width={200} />
