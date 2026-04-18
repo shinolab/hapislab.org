@@ -2,7 +2,7 @@
 title: 回路学第一
 ---
 
-# 2026 年度 回路学第一
+## 2026 年度 回路学第一
 
 今年度の講義の情報は [UTOL](https://utol.ecc.u-tokyo.ac.jp/lms/course?idnumber=2026_0354_FEN-MP3c00L1_01) で確認して下さい。
 
