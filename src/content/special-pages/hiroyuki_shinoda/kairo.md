@@ -2,17 +2,11 @@
 title: 回路学第一
 ---
 
-２０２２年度 回路学第一 の情報は全て [ITC-LMS](https://itc-lms.ecc.u-tokyo.ac.jp/lms/course?idnumber=2022FEN-MP3c00L10F01) にあります。
-
 以下は参考のための情報ですのでお気をつけ下さい。
 
 ---
 
 ２０２１年度 回路学第一
-
-オンライン講義のアドレスは ITC-LMS で確認して下さい。
-* LMS に自分で登録すれば内容を確認できます。履修登録は必ず UTAS で行って下さい。
-* 授業に関する問い合わせを行う場合、メールタイトルに「回路学第一」という言葉を含めて下さい。
 
 授業資料<br/>
 [第１章（4/5)](https://drive.google.com/file/d/1tpq4T5dwpg2FZ--mq3yPRrciejs7UmwM/view?usp=drive_link)　[補足資料（電子工作のすすめ）](https://drive.google.com/file/d/1dCUEfHzk5khbRYnC7dPlUhKKG6qOjO-g/view?usp=drive_link)<br/>
