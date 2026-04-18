@@ -82,7 +82,8 @@ a:hover {
 
 .page-hero h1 {
 	margin: 0 0 1rem;
-	font-size: clamp(1rem, 1.7vw, 1.5rem);
+/*	font-size: clamp(1rem, 1.7vw, 1.5rem);*/
+	font-size: 1.3rem;
 	line-height: 1.15;
 	position: relative;
 	display: inline-block;
