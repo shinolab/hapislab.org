@@ -16,9 +16,11 @@ import profile from "../../../assets/special-pages/hiroyuki_shinoda/profile.jpg"
   `}
 </style>
 
-<div style={{ display: 'flex', gap: '20px', alignItems: 'flex-start' }}>
-  <Image src={profile} alt="photo of shinoda" width={200} />
-  <div>
+<div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', alignItems: 'flex-start' }}>
+  <div style={{ flex: '0 0 25%', minWidth: '200px' }}>
+    <Image src={profile} alt="photo of shinoda" style={{ width: '100%', height: 'auto' }} />
+  </div>
+  <div style={{ flex: '1', minWidth: '300px' }}>
   Professor, The University of Tokyo<br/>
 (1) Department of Complexity Science and Engineering Graduate School of Frontier Sciences<br/>
 (2) Department of Information Physics and Computing Graduate School of Information Science and Technology<br/>
