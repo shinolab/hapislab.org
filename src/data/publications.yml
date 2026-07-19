@@ -1,4 +1,59 @@
 - type: inproceedings
+  year: 2026
+  authors:
+    - Yamato Tokunaga
+    - Sota Iwabuchi
+    - Zen Somei
+    - Tao Morisaki
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Towards Peripersonal Space Interaction with Virtual Object: Investigating Haptic–Visual Correspondence in Movement Direction through Mirror-Based Spatial Overlay'
+  refId: tokunaga-2026-eurohaptics
+  doi: 
+  href: 
+  booktitle: Proc. Eurohaptics conference 2026
+  publisher: 
+  pages: 
+
+- type: inproceedings
+  year: 2026
+  authors:
+    - Yulong Zhang
+    - Sota Iwabuchi
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Contactless Stimulation for Sleep Induction via Mid-Air Ultrasound
+  refId: yzhang-2026-eurohaptics
+  doi: 
+  href: 
+  booktitle: Proc. Eurohaptics conference 2026
+  publisher: 
+  pages:
+
+- type: inproceedings
+  year: 2026
+  authors:
+    - Zen Somei
+    - Zhouyang Shen
+    - Kai Kumano
+    - Hiroyuki Shinoda
+    - Ryuji Hirayama
+    - Tatsuki Fushimi
+    - Diego Martinez Plasencia
+  title: 'Impact-based Ultrasound Haptics: High-Speed Levitated Particles for Tactile Sensations'
+  refId: somei-2026-eurohaptics
+  doi: 
+  href: 
+  booktitle: Proc. Eurohaptics conference 2026
+  publisher: 
+  pages:
+
+- type: inproceedings
   year: 2025
   authors:
     - Daisuke Sasaki
