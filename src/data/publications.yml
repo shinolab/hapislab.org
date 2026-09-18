@@ -1,6 +1,22 @@
 - type: inproceedings
   year: 2026
   authors:
+    - Hiroto Yoshida
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Stabilization of Sphere Levitation Using Feedback Control with an Ultrasonic Phased Array"
+  note: Regular paper
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 714-719
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi: 
+
+- type: inproceedings
+  year: 2026
+  authors:
     - Yamato Tokunaga
     - Sota Iwabuchi
     - Zen Somei
