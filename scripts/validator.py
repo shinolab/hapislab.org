@@ -45,6 +45,29 @@ def validate_pages_line(line):
     return None
 
 
+_SIMPLE_RANGE_RE = re.compile(
+    r"^(?P<q>['\"]?)[\s\u3000]*(?P<a>\d+)[\s\u3000]*"
+    r"(?:[-\u2010-\u2015\u2212\uFF0D]+|[~\u301C\uFF5E])"
+    r"[\s\u3000]*(?P<b>\d+)[\s\u3000]*(?P=q)(?P<rest>\s*(?:#.*)?)$"
+)
+
+
+def fix_pages_line(line):
+    if validate_pages_line(line) is None:
+        return line
+    head, value = line.split(PAGES_FIELD, 1)
+    newline = "\n" if value.endswith("\n") else ""
+    m = _SIMPLE_RANGE_RE.match(value.strip())
+    if not m:
+        return line
+    q = m.group("q")
+    return f"{head}{PAGES_FIELD} {q}{m.group('a')}--{m.group('b')}{q}{m.group('rest')}{newline}"
+
+
+def fix_name_line(line):
+    return line.replace("\u3000", " ")
+
+
 def validate_name(name, comment=""):
     # Extract comment from name string if present (e.g. "Name # comment")
     if "#" in name:

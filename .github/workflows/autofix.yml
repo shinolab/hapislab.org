@@ -1,0 +1,46 @@
+name: Auto Fix
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths: [ 'src/data/**' ]
+
+permissions:
+  contents: write   
+  actions: write   
+  pull-requests: write 
+
+concurrency:
+  group: autofix-${{ github.head_ref }}
+  cancel-in-progress: true
+
+jobs:
+  autofix:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: astral-sh/setup-uv@v7
+      - id: fix
+        run: |
+          cd scripts
+          {
+            echo 'log<<EOF'
+            uv run python fix_data.py
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+          cd ..
+          git diff --quiet || echo "changed=true" >> "$GITHUB_OUTPUT"
+      - if: steps.fix.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LOG: ${{ steps.fix.outputs.log }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "style: auto-fix data format"
+          git push
+          gh workflow run ci.yml --ref "$GITHUB_HEAD_REF"
+          gh pr comment "${{ github.event.pull_request.number }}" --body "$(printf '書式を自動修正してコミットしました. ローカルで作業を続ける場合は `git pull` してください.\n\n```\n%s\n```' "$LOG")"

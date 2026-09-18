@@ -69,18 +69,16 @@ def check_duplicates(file_path):
     if not os.path.exists(file_path):
         return errors
 
-    seen_titles = {}  # normalized -> (line_num, original_title)
+    seen_titles = {} 
 
     with open(file_path, "r", encoding="utf-8") as f:
         for i, line in enumerate(f, 1):
-            # Capture titles. Indented by exactly two spaces as seen in publications.yml.
             match = re.match(r"^  title:\s*(.*)$", line)
             if match:
                 raw_val = match.group(1).strip()
                 title_part, comment = (
                     raw_val.split("#", 1) if "#" in raw_val else (raw_val, "")
                 )
-                # Remove quotes if present
                 title = title_part.strip().strip("'").strip('"')
 
                 if not title:
@@ -103,46 +101,43 @@ def check_duplicates(file_path):
     return errors
 
 
+def iter_name_items(lines, list_keys):
+    in_list = False
+    parent_indent = -1
+    for idx, line in enumerate(lines):
+        stripped = line.strip()
+
+        if any(stripped.startswith(key) for key in list_keys):
+            in_list = True
+            parent_indent = len(line) - len(line.lstrip())
+            continue
+
+        if in_list:
+            current_indent = len(line) - len(line.lstrip())
+            if stripped and current_indent <= parent_indent:
+                in_list = False
+                continue
+
+            match = re.match(r"^(\s*-\s*)(.+)$", line)
+            if match:
+                raw_val = match.group(2).strip()
+                name_part, comment = (
+                    raw_val.split("#", 1) if "#" in raw_val else (raw_val, "")
+                )
+                name = name_part.strip().strip("'").strip('"')
+                yield idx, name, comment
+
+
 def check_names(file_path, list_keys):
     errors = []
     if not os.path.exists(file_path):
         return errors
-    in_list = False
-    parent_indent = -1
     with open(file_path, "r", encoding="utf-8") as f:
-        for i, line in enumerate(f, 1):
-            stripped = line.strip()
-
-            # Find the start of the list
-            found_key = False
-            for key in list_keys:
-                if stripped.startswith(key):
-                    in_list = True
-                    parent_indent = len(line) - len(line.lstrip())
-                    found_key = True
-                    break
-            if found_key:
-                continue
-
-            if in_list:
-                current_indent = len(line) - len(line.lstrip())
-                # If we have content and indentation is same or less than parent, we are out
-                if stripped and current_indent <= parent_indent:
-                    in_list = False
-                    continue
-
-                # Check for list item '-'
-                match = re.match(r"^(\s*-\s*)(.+)$", line)
-                if match:
-                    raw_val = match.group(2).strip()
-                    name_part, comment = (
-                        raw_val.split("#", 1) if "#" in raw_val else (raw_val, "")
-                    )
-                    name = name_part.strip().strip("'").strip('"')
-
-                    err = validate_name(name, comment)
-                    if err:
-                        errors.append(f"{file_path}:{i}: {err}: {line.strip()}")
+        lines = f.readlines()
+    for idx, name, comment in iter_name_items(lines, list_keys):
+        err = validate_name(name, comment)
+        if err:
+            errors.append(f"{file_path}:{idx + 1}: {err}: {lines[idx].strip()}")
     return errors
 
 
@@ -156,7 +151,6 @@ def check_keys(file_path):
             stripped = line.strip()
             if not stripped or stripped.startswith("#"):
                 continue
-            # match keys like "- type: ..." or "  year: ..."
             match = re.match(r"^(- |  )([a-zA-Z]+):", line)
             if match:
                 key = match.group(2)

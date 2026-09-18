@@ -1,4 +1,10 @@
-from validator import normalize_title, validate_name, validate_pages_line
+from validator import (
+    fix_name_line,
+    fix_pages_line,
+    normalize_title,
+    validate_name,
+    validate_pages_line,
+)
 
 
 def test_normalize_title():
@@ -62,7 +68,28 @@ def test_validate_name_english_abbreviation():
         "Abbreviated name is not allowed unless '# allow-abbr' comment is set"
     )
 
-    # Full names
     assert validate_name("Taro Tanaka") is None
     assert validate_name("T. Tanaka") == abbr_err_msg
     assert validate_name("T. Tanaka", "# allow-abbr") is None
+
+
+def test_fix_pages_line():
+    assert fix_pages_line("  pages: 10-20\n") == "  pages: 10--20\n"
+    assert fix_pages_line("  pages: 10 - 20\n") == "  pages: 10--20\n"
+    assert fix_pages_line("  pages: 10 – 20\n") == "  pages: 10--20\n"
+    assert fix_pages_line("  pages: 10　–　20\n") == "  pages: 10--20\n"
+    assert fix_pages_line("  pages: 10---20\n") == "  pages: 10--20\n"
+    assert fix_pages_line("  pages: 10〜20\n") == "  pages: 10--20\n"
+    assert fix_pages_line("  pages: '10-20'\n") == "  pages: '10--20'\n"
+
+    for line in ["  pages: 10--20\n", "  pages: 10–20\n", "  pages: 1-1-1\n", "  pages: 1C3-6\n"]:
+        assert fix_pages_line(line) == line
+
+    for line in ["  pages: 1+13\n", "  pages: 1, 2, 3\n", "  pages: 2013/8/29\n"]:
+        assert fix_pages_line(line) == line
+        assert validate_pages_line(line) is not None
+
+
+def test_fix_name_line():
+    assert fix_name_line("    - 田中　太郎\n") == "    - 田中 太郎\n"
+    assert validate_name(fix_name_line("田中　太郎")) is None

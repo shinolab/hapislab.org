@@ -36,3 +36,17 @@ uv run python doi2pub.py <DOI> --crossref
 
 - `doi2bib3` と Crossref では取れるフィールドが少し異なることがあります
 - DOI は `10.xxxx/...` でも `https://doi.org/10.xxxx/...` でも受け付けます
+
+## `fix_data.py`
+
+`check_data.py` で検出される違反のうち, 機械的に直せるものを自動修正します.
+
+- `pages` の単純な数値範囲 (`10-20`, `10 - 20`, `10 – 20`, `10〜20` など) → `10--20`
+- 著者名・受賞者名中の全角スペース → 半角スペース
+
+```sh
+cd scripts
+uv run python fix_data.py
+```
+
+PR で `src/data/` が変更されると, `.github/workflows/autofix.yml` が同じ修正を行い PR ブランチにコミットします.
