@@ -1,4 +1,4 @@
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 import staffYaml from '../data/staff.yml?raw';
 import studentsYaml from '../data/students.yml?raw';
 

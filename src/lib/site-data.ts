@@ -1,4 +1,4 @@
-import yaml from 'js-yaml';
+import * as yaml from 'js-yaml';
 import publicationsYaml from '../data/publications.yml?raw';
 
 export interface Publication {
