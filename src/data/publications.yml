@@ -1,6 +1,22 @@
 - type: inproceedings
   year: 2026
   authors:
+    - Sota Iwabuchi
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Evaluation of Haptic Communication for Mechanical Stimulation with High Spatial Resolution
+  note: Late-breaking paper
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi: 
+
+- type: inproceedings
+  year: 2026
+  authors:
     - Kaito Oota
     - Yasutoshi Makino
     - Hiroyuki Shinoda
