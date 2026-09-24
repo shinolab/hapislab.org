@@ -1,6 +1,20 @@
 - type: inproceedings
   year: 2026
   authors:
+    - Kaito Oota
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Flow Field Design through Acoustic Streaming by Airborne Ultrasound Phased Arrays"
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  note: Regular paper
+  pages: 1190-1195
+  eventDate: September 14-17
+  location: Yokohama, Japan
+  doi:
+
+- type: inproceedings
+  year: 2026
+  authors:
     - Hiroto Yoshida
     - Gakuto Arakawa
     - Shun Suzuki
