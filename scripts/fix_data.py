@@ -1,7 +1,11 @@
 import sys
 
 from check_data import DEFAULT_PUBLICATIONS_PATH, TARGETS, iter_name_items
-from validator import fix_name_line, fix_pages_line
+from validator import (
+    find_blank_lines_in_entries,
+    fix_name_line,
+    fix_pages_line,
+)
 
 
 def fix_file(file_path, list_keys):
@@ -21,6 +25,10 @@ def fix_file(file_path, list_keys):
         for i, (old, new) in enumerate(zip(original, lines))
         if old != new
     ]
+    blank = set(find_blank_lines_in_entries(lines))
+    changes.extend((idx + 1, "(blank line)", "(removed)") for idx in blank)
+    changes.sort()
+    lines = [line for idx, line in enumerate(lines) if idx not in blank]
     if changes:
         with open(file_path, "w", encoding="utf-8", newline="") as f:
             f.writelines(lines)

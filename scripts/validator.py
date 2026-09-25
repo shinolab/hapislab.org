@@ -64,6 +64,27 @@ def fix_pages_line(line):
     return f"{head}{PAGES_FIELD} {q}{m.group('a')}--{m.group('b')}{q}{m.group('rest')}{newline}"
 
 
+def find_blank_lines_in_entries(lines):
+    """Return indices of blank lines that sit between keys of the same entry.
+
+    A blank line is considered inside an entry when a non-blank line precedes it
+    and the next non-blank line is indented (i.e. not the start of a new entry).
+    """
+    result = []
+    seen_content = False
+    pending = []
+    for idx, line in enumerate(lines):
+        if not line.strip():
+            if seen_content:
+                pending.append(idx)
+            continue
+        if pending and line[0] in " \t":
+            result.extend(pending)
+        pending = []
+        seen_content = True
+    return result
+
+
 def fix_name_line(line):
     return line.replace("\u3000", " ")
 
