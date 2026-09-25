@@ -3,7 +3,12 @@ import re
 import sys
 from pathlib import Path
 
-from validator import normalize_title, validate_name, validate_pages_line
+from validator import (
+    find_blank_lines_in_entries,
+    normalize_title,
+    validate_name,
+    validate_pages_line,
+)
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_PUBLICATIONS_PATH = REPO_ROOT / "src" / "data" / "publications.yml"
@@ -159,11 +164,23 @@ def check_keys(file_path):
     return errors
 
 
+def check_blank_lines(file_path):
+    if not os.path.exists(file_path):
+        return []
+    with open(file_path, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+    return [
+        f"{file_path}:{idx + 1}: Blank line inside an entry is not allowed"
+        for idx in find_blank_lines_in_entries(lines)
+    ]
+
+
 def main():
     all_errors = []
     for file_path, keys in TARGETS.items():
         all_errors.extend(check_names(file_path, keys))
         all_errors.extend(check_keys(file_path))
+        all_errors.extend(check_blank_lines(file_path))
     all_errors.extend(check_pages(DEFAULT_PUBLICATIONS_PATH))
     all_errors.extend(check_duplicates(DEFAULT_PUBLICATIONS_PATH))
     if all_errors:

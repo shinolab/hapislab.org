@@ -1,4 +1,5 @@
 from validator import (
+    find_blank_lines_in_entries,
     fix_name_line,
     fix_pages_line,
     normalize_title,
@@ -93,3 +94,24 @@ def test_fix_pages_line():
 def test_fix_name_line():
     assert fix_name_line("    - 田中　太郎\n") == "    - 田中 太郎\n"
     assert validate_name(fix_name_line("田中　太郎")) is None
+
+
+def test_find_blank_lines_in_entries():
+    lines = [
+        "- type: article\n",
+        "  pages: \n",
+        "\n",
+        "  doi:\n",
+        "\n",
+        "- type: article\n",
+        "  title: A\n",
+        "  \n",
+        "  \n",
+        "  doi:\n",
+        "  \n",
+        "\n",
+        "- type: article\n",
+        "\n",
+    ]
+    assert find_blank_lines_in_entries(lines) == [2, 7, 8]
+    assert find_blank_lines_in_entries(["\n", "  a: 1\n"]) == []
