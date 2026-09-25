@@ -82,7 +82,8 @@
   degrees:
     M:
       start: 2024-09-01
-      grad: ""
+      grad: 2026-09-30
+      thesis: 空中触覚提示を用いた視覚・触覚統合および身体所有感の評価
 - name: 黄 抒谣
   nameEn: Shuyao Huang
   email: s.huang@hapis.k.u-tokyo.ac.jp
