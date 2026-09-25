@@ -1,3 +1,21 @@
+type: inproceedings
+  year: 2026
+  authors:
+    - Takaya Mikami
+    - Sota Iwabuchi
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "How Tactile Sensation Attracts Children's Interest: An Empirical Verification"
+  note: Late-breaking poster
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi:
+
 - type: inproceedings
   year: 2026
   authors:
@@ -5883,6 +5901,22 @@
   booktitle: IEEE World Haptics Conference
   location: Daejeon, Korea
   eventDate: April 14-18
+
+- type: domestic
+  year: 2026
+  authors:
+    - 三上 貴也
+    - 岩渕 颯太
+    - 荒川 岳斗
+    - 鈴木 颯
+    - 神垣 貴晶
+    - 牧野 泰才
+    - 篠田 裕之
+  title: 触覚刺激が子どもの好奇心に与える影響を評価するための視触覚システム
+  booktitle: 第 31 回日本バーチャルリアリティ学会大会
+  eventDate: Sep.6-9
+  pages: 2A2-01
+  location: 富山
 
 - type: domestic
   year: 2026
