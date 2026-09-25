@@ -88,7 +88,7 @@
   title: "Development of a Real-Time Occlusion Integration Pipeline for Mixed Environments of Dynamic Measured Point Clouds and Virtual Objects"
   note: Regular paper
   booktitle: "SICE Festival 2026 with Annual Conference"
-  pages: 568-573
+  pages: 568--573
   eventDate: Sep. 14-17
   location: Yokohama, Japan
   doi: 
@@ -5924,7 +5924,7 @@
     - 篠田 裕之
   title: "疎な実測点群と仮想オブジェクトの混在環境におけるリアルタイム・オクルージョン判定"
   booktitle: "第43回センシングフォーラム計測部門大会"
-  pages: 279-284
+  pages: 279--284
   eventDate: Sep. 24-25
   location: 大分
 
