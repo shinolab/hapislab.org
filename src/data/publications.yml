@@ -1,6 +1,21 @@
 - type: inproceedings
   year: 2026
   authors:
+    - Ruofei Li
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Synchronization Technique of Airborne Ultrasound Phased Arrays for Mid-Air Tactile Displays"
+  note: Late-Breaking Poster
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi:
+
+- type: inproceedings
+  year: 2026
+  authors:
     - Shuyao Huang
     - Ansheng Wang 
     - Yasutoshi Makino
