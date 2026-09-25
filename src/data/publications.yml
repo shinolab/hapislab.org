@@ -1,6 +1,23 @@
 - type: inproceedings
   year: 2026
   authors:
+    - Yikuan Pan
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Generation of a Midair Click Sensation through Spatial Pressure Distribution Control on the Fingertip" # allow-duplicate
+  note: Late-breaking poster
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 
+
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi:
+
+- type: inproceedings
+  year: 2026
+  authors:
     - Ruofei Li
     - Shun Suzuki
     - Yasutoshi Makino
@@ -9,6 +26,7 @@
   note: Late-Breaking Poster
   booktitle: "SICE Festival 2026 with Annual Conference"
   pages: 
+
   eventDate: Sep. 14-17
   location: Yokohama, Japan
   doi:
@@ -27,6 +45,7 @@
   eventDate: Sep. 14-17
   location: Yokohama, Japan
   doi: 
+
 
 - type: inproceedings
   year: 2026
@@ -5866,6 +5885,20 @@
   booktitle: IEEE World Haptics Conference
   location: Daejeon, Korea
   eventDate: April 14-18
+
+- type: domestic
+  year: 2026
+  authors:
+    - 潘 芸寛
+    - 荒川 岳斗
+    - 鈴木 颯
+    - 牧野 泰才
+    - 篠田 裕之
+  title: Generation of a Midair Click Sensation through Spatial Pressure Distribution Control on the Fingertip
+  booktitle: 第 31 回日本バーチャルリアリティ学会大会
+  eventDate: Sep.6-9
+  pages: 3B1-02
+  location: 富山
 
 - type: domestic
   year: 2025
