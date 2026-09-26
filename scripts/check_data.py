@@ -11,39 +11,42 @@ from validator import (
 )
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_PUBLICATIONS_PATH = REPO_ROOT / "src" / "data" / "publications.yml"
+PUBLICATIONS_DIR = REPO_ROOT / "src" / "data" / "publications"
+PUBLICATION_TYPES = ("article", "inproceedings", "demos", "domestic")
+PUBLICATIONS_PATHS = [PUBLICATIONS_DIR / f"{t}.yml" for t in PUBLICATION_TYPES]
 DEFAULT_AWARDS_PATH = REPO_ROOT / "src" / "data" / "awards.yml"
 
 TARGETS = {
     DEFAULT_AWARDS_PATH: ["recipients:"],
-    DEFAULT_PUBLICATIONS_PATH: ["authors:"],
+    **{path: ["authors:"] for path in PUBLICATIONS_PATHS},
+}
+
+PUBLICATION_ALLOWED_KEYS = {
+    "address",
+    "articleno",
+    "authors",
+    "booktitle",
+    "doi",
+    "eventDate",
+    "href",
+    "issue",
+    "journal",
+    "lang",
+    "location",
+    "note",
+    "number",
+    "numpages",
+    "pages",
+    "publisher",
+    "refId",
+    "series",
+    "title",
+    "volume",
+    "year",
 }
 
 ALLOWED_KEYS = {
-    DEFAULT_PUBLICATIONS_PATH: {
-        "address",
-        "articleno",
-        "authors",
-        "booktitle",
-        "doi",
-        "eventDate",
-        "href",
-        "issue",
-        "journal",
-        "lang",
-        "location",
-        "note",
-        "number",
-        "numpages",
-        "pages",
-        "publisher",
-        "refId",
-        "series",
-        "title",
-        "type",
-        "volume",
-        "year",
-    },
+    **{path: PUBLICATION_ALLOWED_KEYS for path in PUBLICATIONS_PATHS},
     DEFAULT_AWARDS_PATH: {
         "award",
         "day",
@@ -69,40 +72,56 @@ def check_pages(file_path):
     return errors
 
 
-def check_duplicates(file_path):
+def check_publication_files():
+    errors = [
+        f"{path}: Publication file not found"
+        for path in PUBLICATIONS_PATHS
+        if not path.exists()
+    ]
+    errors.extend(
+        f"{path}: Unknown publication file (type must be one of: {', '.join(PUBLICATION_TYPES)})"
+        for path in sorted(PUBLICATIONS_DIR.iterdir())
+        if path not in PUBLICATIONS_PATHS
+    )
+    return errors
+
+
+def check_duplicates(file_paths):
     errors = []
-    if not os.path.exists(file_path):
-        return errors
+    seen_titles = {}
 
-    seen_titles = {} 
+    for file_path in file_paths:
+        if not os.path.exists(file_path):
+            continue
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+        for i, line in enumerate(lines, 1):
+            match = re.match(r"^(?:- |  )title:\s*(.*)$", line)
+            if not match:
+                continue
+            raw_val = match.group(1).strip()
+            title_part, comment = (
+                raw_val.split("#", 1) if "#" in raw_val else (raw_val, "")
+            )
+            title = title_part.strip().strip("'").strip('"')
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        for i, line in enumerate(f, 1):
-            match = re.match(r"^  title:\s*(.*)$", line)
-            if match:
-                raw_val = match.group(1).strip()
-                title_part, comment = (
-                    raw_val.split("#", 1) if "#" in raw_val else (raw_val, "")
+            if not title:
+                continue
+
+            if "allow-duplicate" in comment:
+                continue
+
+            norm = normalize_title(title)
+            if not norm:
+                continue
+
+            if norm in seen_titles:
+                prev_path, prev_line = seen_titles[norm]
+                errors.append(
+                    f"{file_path}:{i}: Duplicate title found: \"{title}\" (already appears at {prev_path.name}:{prev_line})"
                 )
-                title = title_part.strip().strip("'").strip('"')
-
-                if not title:
-                    continue
-
-                if "allow-duplicate" in comment:
-                    continue
-
-                norm = normalize_title(title)
-                if not norm:
-                    continue
-
-                if norm in seen_titles:
-                    prev_line, _ = seen_titles[norm]
-                    errors.append(
-                        f"{file_path}:{i}: Duplicate title found: \"{title}\" (already appears at line {prev_line})"
-                    )
-                else:
-                    seen_titles[norm] = (i, title)
+            else:
+                seen_titles[norm] = (file_path, i)
     return errors
 
 
@@ -181,8 +200,10 @@ def main():
         all_errors.extend(check_names(file_path, keys))
         all_errors.extend(check_keys(file_path))
         all_errors.extend(check_blank_lines(file_path))
-    all_errors.extend(check_pages(DEFAULT_PUBLICATIONS_PATH))
-    all_errors.extend(check_duplicates(DEFAULT_PUBLICATIONS_PATH))
+    all_errors.extend(check_publication_files())
+    for file_path in PUBLICATIONS_PATHS:
+        all_errors.extend(check_pages(file_path))
+    all_errors.extend(check_duplicates(PUBLICATIONS_PATHS))
     if all_errors:
         print("\nValidation Failed:")
         for error in all_errors:

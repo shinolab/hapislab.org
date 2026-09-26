@@ -4,7 +4,7 @@
 
 ## `doi2pub.py`
 
-1 件の DOI メタデータを取得し, `src/data/publications.yml` を直接更新します.
+1 件の DOI メタデータを取得し, `src/data/publications/<type>.yml` を直接更新します.
 
 ### 使い方
 
@@ -19,17 +19,24 @@ uv run python doi2pub.py <DOI>
 uv run python doi2pub.py <DOI> --crossref
 ```
 
+新規エントリの種類 (= 追加先のファイル) はメタデータから推定します. 推定が合わない場合は `--type` で指定してください.
+
+```sh
+uv run python doi2pub.py <DOI> --type demos
+```
+
 ### 挙動
 
-- 既存エントリに同じ DOI があれば, 不足しているフィールドを埋めます
-- 同じ DOI がなければ, 先頭に新しいエントリを追加します
-- `refId` は新規追加時に既存の `src/data/publications.yml` を参照しつつ自動生成します
+- `src/data/publications/` 以下のいずれかのファイルに同じ DOI があれば, 不足しているフィールドを埋めます
+- 同じ DOI がなければ, 種類に対応するファイル (`article.yml`, `inproceedings.yml`, `demos.yml`, `domestic.yml`) の先頭に新しいエントリを追加します
+    - 種類を推定できず `--type` も指定されていない場合はエラーになります
+- `refId` は新規追加時に既存の全ファイルの `refId` と重複しないよう自動生成します
 - 既存値と取得値が衝突するフィールドがある場合, そのエントリはスキップして標準エラー出力に警告を出します
 
 ### 反映手順
 
 1. コマンドを実行する
-2. `git diff src/data/publications.yml` などで変更内容を確認する
+2. `git diff src/data/publications/` などで変更内容を確認する
 3. `volume`, `number`, `pages`, `eventDate`, `location`, `note` など不足があれば手で補う
 
 ### 注意

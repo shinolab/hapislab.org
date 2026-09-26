@@ -1,6 +1,6 @@
 import sys
 
-from check_data import DEFAULT_PUBLICATIONS_PATH, TARGETS, iter_name_items
+from check_data import PUBLICATIONS_PATHS, TARGETS, iter_name_items
 from validator import (
     find_blank_lines_in_entries,
     fix_name_line,
@@ -17,7 +17,7 @@ def fix_file(file_path, list_keys):
 
     for idx, _, _ in list(iter_name_items(lines, list_keys)):
         lines[idx] = fix_name_line(lines[idx])
-    if file_path == DEFAULT_PUBLICATIONS_PATH:
+    if file_path in PUBLICATIONS_PATHS:
         lines = [fix_pages_line(line) for line in lines]
 
     changes = [

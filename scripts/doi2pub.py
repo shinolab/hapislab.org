@@ -20,11 +20,9 @@ from doi2bib3.backend import DOIError
 from ruamel.yaml import YAML
 from ruamel.yaml.comments import CommentedMap, CommentedSeq
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_PUBLICATIONS_PATH = REPO_ROOT / "src" / "data" / "publications.yml"
+from check_data import PUBLICATION_TYPES, PUBLICATIONS_DIR, PUBLICATIONS_PATHS
 
 FIELD_ORDER = [
-    "type",
     "year",
     "authors",
     "title",
@@ -55,7 +53,6 @@ TYPE_MAP = {
     "journal-article": "article",
     "proceedings-article": "inproceedings",
     "proceedings": "inproceedings",
-    "misc": "misc",
 }
 
 COMPARISON_KEYS = {
@@ -81,10 +78,18 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
             "Fetch publication metadata for one DOI and update "
-            "src/data/publications.yml directly."
+            "src/data/publications/<type>.yml directly."
         )
     )
     parser.add_argument("doi", help="DOI to fetch.")
+    parser.add_argument(
+        "--type",
+        choices=PUBLICATION_TYPES,
+        help=(
+            "Publication type (= file) for a new entry. "
+            "Inferred from the metadata when omitted."
+        ),
+    )
     parser.add_argument(
         "--crossref",
         action="store_true",
@@ -534,7 +539,7 @@ def detect_conflicts(
 def validate_entry_fields(fields: dict[str, Any]) -> None:
     missing_keys = [
         key
-        for key in ("type", "year", "authors", "title")
+        for key in ("year", "authors", "title")
         if key not in fields or not fields[key]
     ]
     if missing_keys:
@@ -686,24 +691,29 @@ def write_updated_text(
     temp_path.replace(yaml_path)
 
 
-def update_publications_file(yaml_path: Path, doi: str, use_crossref: bool) -> int:
-    original_lines = yaml_path.read_text(encoding="utf-8").splitlines()
-    _, publications = load_publications(yaml_path)
-    stats = {
+def new_stats() -> dict[str, int]:
+    return {
         "updated": 0,
         "prepended": 0,
         "unchanged": 0,
         "conflicts": 0,
         "errors": 0,
     }
+
+
+def fill_existing_entries(
+    yaml_path: Path, doi: str, use_crossref: bool, stats: dict[str, int]
+) -> bool:
+    """yaml_path 内の同じ DOI を持つエントリの不足フィールドを埋める. DOI が見つかれば True."""
+    original_lines = yaml_path.read_text(encoding="utf-8").splitlines()
+    _, publications = load_publications(yaml_path)
     changed = False
     operations: list[tuple[int, int, int, list[str]]] = []
-    top_entry_insert_index = find_top_entry_insert_index(publications, original_lines)
     entry_start_lines = [
         entry.lc.line + 1 for entry in publications if isinstance(entry, CommentedMap)
     ]
     entry_start_lines.append(len(original_lines) + 1)
-    doi_exists_anywhere = False
+    doi_exists = False
 
     entry_index = 0
     for entry in publications:
@@ -716,7 +726,7 @@ def update_publications_file(yaml_path: Path, doi: str, use_crossref: bool) -> i
         if entry_doi != doi:
             continue
 
-        doi_exists_anywhere = True
+        doi_exists = True
 
         try:
             fetched_fields = fetch_metadata(doi, use_crossref=use_crossref)
@@ -726,6 +736,7 @@ def update_publications_file(yaml_path: Path, doi: str, use_crossref: bool) -> i
             print(f"[ERROR] doi={doi}: failed to fetch/parse metadata: {exc}", file=sys.stderr)
             stats["errors"] += 1
             continue
+        fetched_fields.pop("type", None)
 
         conflicts = detect_conflicts(entry, fetched_fields)
         if conflicts:
@@ -757,46 +768,80 @@ def update_publications_file(yaml_path: Path, doi: str, use_crossref: bool) -> i
         if filled_keys:
             changed = True
             stats["updated"] += 1
-            print(f"[UPDATE] doi={doi}: filled {', '.join(filled_keys)}.", file=sys.stderr)
+            print(
+                f"[UPDATE] doi={doi}: filled {', '.join(filled_keys)} in {yaml_path.name}.",
+                file=sys.stderr,
+            )
         else:
             stats["unchanged"] += 1
 
-    if not doi_exists_anywhere:
-        try:
-            fetched_fields = fetch_metadata(doi, use_crossref=use_crossref)
-            if "doi" not in fetched_fields:
-                fetched_fields["doi"] = doi
-            validate_entry_fields(fetched_fields)
-            if "refId" not in fetched_fields or not normalize_whitespace(fetched_fields["refId"]):
-                fetched_fields["refId"] = generate_ref_id(
-                    fetched_fields,
-                    existing_ref_ids(publications),
-                )
-        except (DOIError, ValueError, TypeError, requests.RequestException) as exc:
-            print(f"[ERROR] doi={doi}: failed to insert a new entry: {exc}", file=sys.stderr)
-            stats["errors"] += 1
-        else:
-            block_lines = render_entry(fetched_fields).splitlines()
-            if (
-                original_lines
-                and top_entry_insert_index < len(original_lines)
-                and original_lines[top_entry_insert_index].strip()
-            ):
-                block_lines = [*block_lines, ""]
-            operations.append((top_entry_insert_index, top_entry_insert_index, -1, block_lines))
-            changed = True
-            stats["updated"] += 1
-            stats["prepended"] += 1
-            print(
-                (
-                    f"[PREPEND] doi={doi}: inserted a new entry at the top "
-                    f"(refId={fetched_fields['refId']})."
-                ),
-                file=sys.stderr,
-            )
-
     if changed:
         write_updated_text(yaml_path, original_lines, operations)
+
+    return doi_exists
+
+
+def prepend_new_entry(
+    doi: str, use_crossref: bool, publication_type: str | None, stats: dict[str, int]
+) -> None:
+    try:
+        fetched_fields = fetch_metadata(doi, use_crossref=use_crossref)
+        if "doi" not in fetched_fields:
+            fetched_fields["doi"] = doi
+        validate_entry_fields(fetched_fields)
+        inferred_type = fetched_fields.pop("type", None)
+        publication_type = publication_type or inferred_type
+        if publication_type not in PUBLICATION_TYPES:
+            raise ValueError(
+                f"Could not determine publication type (inferred: {inferred_type!r}). "
+                f"Specify --type {{{','.join(PUBLICATION_TYPES)}}}."
+            )
+        if "refId" not in fetched_fields or not normalize_whitespace(fetched_fields["refId"]):
+            ref_ids: set[str] = set()
+            for path in PUBLICATIONS_PATHS:
+                ref_ids |= existing_ref_ids(load_publications(path)[1])
+            fetched_fields["refId"] = generate_ref_id(fetched_fields, ref_ids)
+    except (DOIError, ValueError, TypeError, requests.RequestException) as exc:
+        print(f"[ERROR] doi={doi}: failed to insert a new entry: {exc}", file=sys.stderr)
+        stats["errors"] += 1
+        return
+
+    yaml_path = PUBLICATIONS_DIR / f"{publication_type}.yml"
+    original_lines = yaml_path.read_text(encoding="utf-8").splitlines()
+    _, publications = load_publications(yaml_path)
+    top_entry_insert_index = find_top_entry_insert_index(publications, original_lines)
+    block_lines = render_entry(fetched_fields).splitlines()
+    if (
+        original_lines
+        and top_entry_insert_index < len(original_lines)
+        and original_lines[top_entry_insert_index].strip()
+    ):
+        block_lines = [*block_lines, ""]
+    write_updated_text(
+        yaml_path,
+        original_lines,
+        [(top_entry_insert_index, top_entry_insert_index, -1, block_lines)],
+    )
+    stats["updated"] += 1
+    stats["prepended"] += 1
+    print(
+        (
+            f"[PREPEND] doi={doi}: inserted a new entry at the top of {yaml_path.name} "
+            f"(refId={fetched_fields['refId']})."
+        ),
+        file=sys.stderr,
+    )
+
+
+def update_publications(doi: str, use_crossref: bool, publication_type: str | None) -> int:
+    stats = new_stats()
+    doi_exists_anywhere = False
+    for yaml_path in PUBLICATIONS_PATHS:
+        if fill_existing_entries(yaml_path, doi, use_crossref, stats):
+            doi_exists_anywhere = True
+
+    if not doi_exists_anywhere:
+        prepend_new_entry(doi, use_crossref, publication_type, stats)
 
     print(
         (
@@ -816,10 +861,10 @@ def main() -> int:
         doi = normalize_doi(args.doi)
         if not doi:
             raise ValueError("DOI must not be empty.")
-        return update_publications_file(
-            DEFAULT_PUBLICATIONS_PATH,
+        return update_publications(
             doi,
             use_crossref=args.crossref,
+            publication_type=args.type,
         )
     except (DOIError, ValueError, requests.RequestException) as exc:
         print(f"[ERROR] {exc}", file=sys.stderr)

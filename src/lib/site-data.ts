@@ -1,5 +1,8 @@
 import * as yaml from 'js-yaml';
-import publicationsYaml from '../data/publications.yml?raw';
+import articleYaml from '../data/publications/article.yml?raw';
+import inproceedingsYaml from '../data/publications/inproceedings.yml?raw';
+import demosYaml from '../data/publications/demos.yml?raw';
+import domesticYaml from '../data/publications/domestic.yml?raw';
 
 export interface Publication {
 	year: number;
@@ -20,10 +23,20 @@ export interface Publication {
 	href?: string;
 }
 
-export const publications: Publication[] = (yaml.load(publicationsYaml) as Publication[] || [])
+const publicationsYamlByType: [Publication['type'], string][] = [
+	['article', articleYaml],
+	['inproceedings', inproceedingsYaml],
+	['demos', demosYaml],
+	['domestic', domesticYaml],
+];
+
+export const publications: Publication[] = publicationsYamlByType
+	.flatMap(([type, source]) =>
+		((yaml.load(source) as Omit<Publication, 'type'>[]) || []).map((row) => ({ ...row, type })),
+	)
 	.map((row) => ({
 		year: typeof row.year === 'number' ? row.year : Number.parseInt(row.year as any, 10) || 0,
-		type: (row.type as any) || 'Others',
+		type: row.type,
 		title: row.title?.trim() || '',
 		refId: row.refId?.trim(),
 		authors: Array.isArray(row.authors) ? row.authors : [],
