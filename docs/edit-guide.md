@@ -75,9 +75,14 @@ import MyComponent from "../../components/MyComponent.astro";
 
 ---
 
-## 発表論文の追加 (publications.yml)
+## 発表論文の追加 (publications/*.yml)
 
-`src/data/publications.yml` を編集します. 
+`src/data/publications/` 以下の, 論文の種類ごとのファイルを編集します.
+
+- `article.yml`: 雑誌論文
+- `inproceedings.yml`: 国際会議論文
+- `domestic.yml`: 国内会議論文
+- `demos.yml`: デモ
 
 ### DOIからの自動生成
 
@@ -88,6 +93,13 @@ DOIがあるなら, スクリプトを使用して基本的な情報を自動生
 ```
 cd scripts
 uv run python doi2pub.py <DOI>
+```
+
+種類はメタデータから推定され, 対応するファイルの先頭に追加されます (雑誌論文なら `article.yml`, 会議論文なら `inproceedings.yml`).
+デモや国内会議論文など, 推定が合わない場合は `--type` で指定してください.
+
+```
+uv run python doi2pub.py <DOI> --type demos
 ```
 
 すべての情報を取得できるわけではないので, 取得された内容を確認し, 不足しているフィールドを補完してください.
@@ -104,10 +116,9 @@ uv run python doi2pub.py <DOI>
 
 **共通点として, `volume`, `number`, `pages`, `eventDate`, `location` などのフィールドも可能な限り追加してください.**
 
-#### 雑誌論文 (`type: article`)
+#### 雑誌論文 (`article.yml`)
 ```yaml
-- type: article
-  year: 2025
+- year: 2025
   authors:
     - First Last
     - First Last
@@ -122,11 +133,10 @@ uv run python doi2pub.py <DOI>
   refId: "unique-id" # MDXから参照する場合に指定
 ```
 
-#### 査読付き国際会議論文 (`type: inproceedings`) / デモ (`type: demos`)
+#### 査読付き国際会議論文 (`inproceedings.yml`) / デモ (`demos.yml`)
 
 ```yaml
-- type: inproceedings # または demos
-  year: 2025
+- year: 2025
   authors:
     - First Last
   title: "Conference Paper Title"
@@ -137,10 +147,9 @@ uv run python doi2pub.py <DOI>
   doi: "xxx/xxxxxx"
 ```
 
-#### 国内会議論文 (`type: domestic`)
+#### 国内会議論文 (`domestic.yml`)
 ```yaml
-- type: domestic
-  year: 2025
+- year: 2025
   authors:
     - 姓 名
   title: "タイトル"
@@ -279,7 +288,7 @@ import SideBySide from "../../components/SideBySide.astro";
 </SideBySide>
 ```
 
-## PublicationRef (publications.yml の論文を参照)
+## PublicationRef (発表論文データの論文を参照)
 
 ```mdx
 import PublicationRef from "../../components/PublicationRef.astro";
@@ -287,7 +296,7 @@ import PublicationRef from "../../components/PublicationRef.astro";
 <PublicationRef refId="your-ref-id" />
 ```
 
-## PublicationList (publications.yml の論文リストを表示)
+## PublicationList (発表論文データの論文リストを表示)
 
 ```mdx
 import PublicationList from "../../components/PublicationList.astro";

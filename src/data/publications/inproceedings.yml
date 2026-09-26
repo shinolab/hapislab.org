@@ -1,0 +1,3854 @@
+- year: 2026
+  authors:
+    - Takaya Mikami
+    - Sota Iwabuchi
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "How Tactile Sensation Attracts Children's Interest: An Empirical Verification"
+  note: Late-breaking poster
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi:
+
+- year: 2026
+  authors:
+    - Yikuan Pan
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Generation of a Midair Click Sensation through Spatial Pressure Distribution Control on the Fingertip" # allow-duplicate
+  note: Late-breaking poster
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi:
+
+- year: 2026
+  authors:
+    - Ruofei Li
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Synchronization Technique of Airborne Ultrasound Phased Arrays for Mid-Air Tactile Displays"
+  note: Late-Breaking Poster
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi:
+
+- year: 2026
+  authors:
+    - Shuyao Huang
+    - Ansheng Wang 
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Quantitative Guide Dog Attention Estimation Using Multi-Camera 3D Skeletal Reconstruction"
+  note: Late-breaking poster
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi: 
+
+- year: 2026
+  authors:
+    - Sota Iwabuchi
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Evaluation of Haptic Communication for Mechanical Stimulation with High Spatial Resolution"
+  note: Late-breaking poster
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi: 
+
+- year: 2026
+  authors:
+    - Taiga Tsutsumi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Development of a Real-Time Occlusion Integration Pipeline for Mixed Environments of Dynamic Measured Point Clouds and Virtual Objects"
+  note: Regular paper
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 568--573
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi: 
+
+- year: 2026
+  authors:
+    - Yasutoshi Makino
+    - Shintaro Watabe
+    - Hiroyuki Shinoda
+  title: " Prediction of Gait Direction from Skeletal Motion: Identification of Key Body Joints and Their Minimal Configuration"
+  note: Regular paper
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 609--615
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi: 
+
+- year: 2026
+  authors:
+    - Yasutoshi Makino
+    - Chonghoon Park
+    - Shinji Tanaka 
+    - Hiroyuki Shinoda
+  title: "Evaluation of Guide Dog Training Using a Handle-Mounted Force Sensor and a 360-Degree Camera"
+  note: Position paper
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 616--619
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi: 
+
+- year: 2026
+  authors:
+    - Kaito Oota
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Flow Field Design through Acoustic Streaming by Airborne Ultrasound Phased Arrays"
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  note: Regular paper
+  pages: 1190--1195
+  eventDate: September 14-17
+  location: Yokohama, Japan
+  doi:
+
+- year: 2026
+  authors:
+    - Hiroto Yoshida
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Stabilization of Sphere Levitation Using Feedback Control with an Ultrasonic Phased Array"
+  note: Regular paper
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages: 714--719
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi: 
+
+- year: 2026
+  authors:
+    - Yamato Tokunaga
+    - Sota Iwabuchi
+    - Zen Somei
+    - Tao Morisaki
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Towards Peripersonal Space Interaction with Virtual Object: Investigating Haptic–Visual Correspondence in Movement Direction through Mirror-Based Spatial Overlay'
+  refId: tokunaga-2026-eurohaptics
+  doi: 
+  href: 
+  booktitle: Proc. Eurohaptics conference 2026
+  publisher: 
+  pages: 
+
+- year: 2026
+  authors:
+    - Yulong Zhang
+    - Sota Iwabuchi
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Contactless Stimulation for Sleep Induction via Mid-Air Ultrasound
+  refId: yzhang-2026-eurohaptics
+  doi: 
+  href: 
+  booktitle: Proc. Eurohaptics conference 2026
+  publisher: 
+  pages:
+
+- year: 2026
+  authors:
+    - Zen Somei
+    - Zhouyang Shen
+    - Kai Kumano
+    - Hiroyuki Shinoda
+    - Ryuji Hirayama
+    - Tatsuki Fushimi
+    - Diego Martinez Plasencia
+  title: 'Impact-based Ultrasound Haptics: High-Speed Levitated Particles for Tactile Sensations'
+  refId: somei-2026-eurohaptics
+  doi: 
+  href: 
+  booktitle: Proc. Eurohaptics conference 2026
+  publisher: 
+  pages:
+
+- year: 2025
+  authors:
+    - Daisuke Sasaki
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Improvement of Subjective Impact Perception in Airborne Ultrasound Tactile Display
+  refId: sasaki-2025-improvement
+  doi: 10.1109/whc64065.2025.11123238
+  href: https://doi.org/10.1109/whc64065.2025.11123238
+  booktitle: 2025 IEEE World Haptics Conference (WHC)
+  publisher: IEEE
+  pages: 432–438
+
+- year: 2025
+  authors:
+    - Tao Morisaki
+    - Aoba Sekiguchi
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Ultrasound-Driven Wearable Haptic Display for Rendering Edges and Curved Surfaces
+  refId: morisaki-2025-ultrasound-driven
+  doi: 10.1109/whc64065.2025.11123261
+  href: https://www.researchgate.net/publication/394836005_Ultrasound-Driven_Wearable_Haptic_Display_for_Rendering_Edges_and_Curved_Surfaces
+  booktitle: 2025 IEEE World Haptics Conference (WHC)
+  publisher: IEEE
+  pages: 513–519
+
+- year: 2025
+  authors:
+    - Taiga Bando
+    - Sota Iwabuchi
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Evaluation of Tactile Hardness Presentation Using an Airborne Ultrasound Haptic Display
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
+- year: 2025
+  authors:
+    - Yamato Tokunaga
+    - Sota Iwabuchi
+    - Zen Somei
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Investigation of the Effect of Auditory Stimulation on the Perceived Intensity of Short-Duration Airborne Ultrasonic Tactile Stimulation
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
+- year: 2025
+  authors:
+    - Rei Takeuchi
+    - Zen Somei
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Non-Contact Saliva Secretion Enhancement: Acoustic Radiation Pressure at the Submandibular Region"
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
+- year: 2025
+  authors:
+    - Kei Yokota
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Investigation of Perceived Intensity Enhancement and Pain-Related Side Effects in Airborne Ultrasound Tactile Stimulation with Superimposed High-Frequency Components
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Suwon, Republic of Korea
+  eventDate: July 08-11
+
+- year: 2024
+  authors:
+    - Haruka Tsuchiya
+    - Zen Somei
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Tap tactile presentation by airborne ultrasound
+  href: https://arxiv.org/abs/2411.06653
+  doi: 10.48550/arXiv.2411.06653
+  booktitle: Asia Haptics
+  location: Sunway, Malaysia
+  eventDate: Oct. 28-30
+
+- year: 2024
+  authors:
+    - Koichi Kato
+    - Tao Morisaki
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Edge shape sensation presented in a noncontact manner using airborne ultrasound
+  href: https://arxiv.org/abs/2411.05128
+  doi: 10.48550/arXiv.2411.05128
+  booktitle: Asia Haptics
+  location: Sunway, Malaysia
+  eventDate: Oct. 28-30
+
+- year: 2024
+  authors:
+    - Chonghoon Park
+    - Qirong Zhu
+    - Shinji Tanaka
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Haptic Information Feedback Given to Handles in Guide Dog Training
+  href: https://arxiv.org/abs/2411.05109
+  doi: 10.48550/arXiv.2411.05109
+  booktitle: Asia Haptics
+  location: Sunway, Malaysia
+  eventDate: Oct. 28-30
+
+- year: 2024
+  authors:
+    - Manato Yo
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Passive Touch Experience with Virtual Doctor Fish Using Ultrasound Haptics
+  href: https://arxiv.org/abs/2411.05152
+  doi: 10.48550/arXiv.2411.05152
+  booktitle: Asia Haptics
+  location: Sunway, Malaysia
+  eventDate: Oct. 28-30
+
+- year: 2024
+  authors:
+    - Aoba Sekiguchi
+    - Tao Morisaki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Haptic Reproduction of Curved Surface and Edge by Controlling the Contact Position between the Disk and the Finger Using Airborne Ultrasound
+  href: https://drive.google.com/file/d/1iW0-NemDY-uGfQS6-RnBThjQnqT1-o5A/view?usp=sharing
+  booktitle: Asia Haptics
+  location: Sunway, Malaysia
+  eventDate: Oct. 28-30
+
+- year: 2024
+  authors:
+    - Sota Iwabuchi
+    - Ryoya Onishi
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Simultaneous Presentation of Thermal and Mechanical Stimulation Using High-Intensity Airborne Ultrasound
+  refId: iwabuchi-2024-simultaneous
+  href: https://arxiv.org/abs/2411.05108
+  booktitle: AsiaHaptics
+  location: Sunway, Malaysia
+  eventDate: Oct. 28-30
+
+- year: 2024
+  authors:
+    - Ansheng Wang
+    - Rongjin Huang
+    - Keisuke Fujii
+    - Shinji Tanaka
+    - Yoshiro Matsunami
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Dog’s 3D Skeleton Reconstruction Using a Moving Trainer for Analysis of Guide Dog Training
+  booktitle: IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+  location: Borneo Convention Centre Kuching, Sarawak, Malaysia
+  eventDate: Oct. 6-10
+
+- year: 2024
+  authors:
+    - Ansheng Wang
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Real-Time Person-Following Robot: Front-Following Using Human Motion Prediction'
+  booktitle: IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+  location: Borneo Convention Centre Kuching, Sarawak, Malaysia
+  eventDate: Oct. 6-10
+
+- year: 2024
+  authors:
+    - Koichi Kato
+    - Tao Morisaki
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Perceivable Minimum Shift of Ultrasound Tactile Stimulus Position on a Fingerpad
+  booktitle: SICE Annual Conference
+  pages: 1051–1053
+  location: Kochi, Japan
+  eventDate: Aug. 28-30
+
+- year: 2024
+  authors:
+    - Yasutoshi Makino
+    - Shun Terui
+    - Mingxin Zhang
+    - Hiroyuki Shinoda
+  title: Perceptual Differences in Compression of Tactile Vibrations and Their Restoration Using Autoencoders
+  booktitle: SICE Annual Conference
+  pages: 1045–1050
+  location: Kochi, Japan
+  eventDate: Aug. 28-30
+
+- year: 2024
+  authors:
+    - Chaoshun Xu
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Change in Arm Movement Due to Weight Addition and Its Effect on Motion Prediction
+  booktitle: SICE Annual Conference
+  pages: 1022–1028
+  location: Kochi, Japan
+  eventDate: Aug. 28-30
+
+- year: 2024
+  authors:
+    - Kohei Asai
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Estimation of Position, Orientation, and Phase Offset for Ultrasonic Phased Array
+  booktitle: SICE Annual Conference
+  pages: 282–287
+  location: Kochi, Japan
+  eventDate: Aug. 28-30
+
+- year: 2024
+  authors:
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Latency Compensation in Ultrasound Tactile Presentation by Linear Prediction of Hand Posture
+  href: https://drive.google.com/file/d/1wAPc_AOjK9-RfLGLpaZCLrH3jVOknJtX/view?usp=sharing
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
+  pages: 365–377
+  location: Lille, France
+  eventDate: June 30-July 3
+
+- year: 2024
+  authors:
+    - Qingyu Sun
+    - Mingxin Zhang
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Exploring the Range of Softness Perception Presented by Spatiotemporal Modulation in Mid-Air Ultrasound Haptic Displays
+  booktitle: 14th International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (EuroHaptics)
+  pages: 90–102
+  location: Lille, France
+  eventDate: June 30-July 3
+
+- year: 2024
+  authors:
+    - Ansheng Wang
+    - Taisei Uchida
+    - Rongjin Huang
+    - Keisuke Fujii
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Dog’s Keypoints Generation for Guide Dog Training using Multi-Cameras
+  booktitle: International Workshop on Computer Vision for Animal Behavior Tracking and Modeling (CV4Animals) at Conference on Computer Vision and Pattern Recognition (CVPR’ 24)
+
+- year: 2023
+  authors:
+    - Qirong ZHU
+    - Ansheng Wang
+    - Shinji Tanaka
+    - Yoshiro Matsunami
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Design of Haptic Experience Recording for Guide-Dog Training
+  booktitle: IEEE International Conference on Systems, Man, and Cybernetics (SMC)
+  pages: 4914–4919
+  location: Honolulu, Oahu, HI, USA
+
+- year: 2023
+  authors:
+    - Tao Morisaki
+    - Takaaki Kamigaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Airborne Ultrasound-Driven Passive Haptic Device Presenting Low-Frequency Vibration and Static Force
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Delft, Netherlands
+  eventDate: July 10-13
+
+- year: 2023
+  authors:
+    - Sota Iwabuchi
+    - Ryoya Onishi
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Performance Evaluation of Airborne Ultrasound Focus Measurement Using Thermal Imaging on the Surface of a Finger
+  refId: iwabuchi-2023-performance
+  href: https://drive.google.com/file/d/1Fn2JTQ6kpUuQCaHaleFxw-gjlKKPsw01/view?usp=drive_link
+  booktitle: IEEE World Haptics
+  pages: 210–215
+  location: Delft, Netherlands
+  eventDate: July 10-13
+
+- year: 2023
+  authors:
+    - Hanaho Motoyama
+    - Tao Morisaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Evaluation of Perceived Coldness of Non-Contact Cooling by Focused Ultrasound
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Delft, Netherlands
+  eventDate: July 10-13
+
+- year: 2023
+  authors:
+    - Qirong ZHU
+    - Ansheng Wang
+    - Shinji Tanaka
+    - Yoshiro Matsunami
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Haptic Recording and Display System for Guide Dog Training
+  note: Work-in-Progress
+  booktitle: IEEE World Haptics
+  location: Delft, Netherlands
+  eventDate: July 10-13
+
+- year: 2022
+  authors:
+    - Tao Morisaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Ultrasound-Driven Passive Haptic Actuator Based on Amplifying Radiation Force Using Simple Lever Mechanism
+  doi: 10.1145/3550471.3558401
+  booktitle: SIGGRAPH Asia  Emerging Technologies
+  pages: 1–2
+  href: https://doi.org/10.1145/3550471.3558401
+  number: 11
+
+- year: 2022
+  authors:
+    - Hanaho Motoyama
+    - Masahiro Fujiwara
+    - Tao Morisaki
+    - Hiroyuki Shinoda
+    - Yasutoshi Makino
+  title: 'Touchable Cooled Graphics: Midair 3D Image with Noncontact Cooling Feedback using Ultrasound-Driven Mist Vaporization'
+  doi: 10.1145/3550471.3558402
+  booktitle: SIGGRAPH Asia  Emerging Technologies
+  pages: 1–2
+  href: https://doi.org/10.1145/3550471.3558402
+  number: 10
+
+- year: 2023
+  authors:
+    - Yuri Mikawa
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: High-speed and Low-Latency Ocular Parallax Rendering Improves Binocular Fusion in Stereoscopic Vision
+  booktitle: IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)
+
+- year: 2022
+  authors:
+    - Tao Morisaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Ultrasound-Driven Fingertip-Mounted Passive Haptic Device Using a Simple Lever Mechanism
+  booktitle: AsiaHaptics Tokyo Satellite
+  pages: 1–2
+  location: Tokyo, Japan
+  eventDate: Nov. 12
+
+- year: 2022
+  authors:
+    - Naoki Kishi
+    - Atsushi Matsubayashi
+    - Yasutomi Makino
+    - Hiroyuki Shinoda
+  title: Tactile interaction system via 3D images of a hand skeleton
+  booktitle: AsiaHaptics Tokyo Satellite
+  pages: 1–2
+  location: Tokyo, Japan
+  eventDate: Nov. 12
+
+- year: 2022
+  authors:
+    - Hanaho Motoyama
+    - Tao Morisaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Noncontact Cooling Sensation by Ultrasound-Driven Mist Vaporization with 3D Visual Feedback
+  booktitle: AsiaHaptics Tokyo Satellite
+  pages: 1–2
+  location: Tokyo, Japan
+  eventDate: Nov. 12
+
+- year: 2022
+  authors:
+    - Hiroyuki Shinoda
+  title: Creation of Realistic Haptic Experiences for Materialized Graphics
+  href: https://drive.google.com/file/d/19sedwvh-sm_QXy6PfLu9_OxF7Pjj0EG4/view?usp=share_link
+  booktitle: AsiaHaptics
+  location: Beijing
+  eventDate: Nov. 12-14
+
+- year: 2022
+  authors:
+    - Toshiki Itai
+    - Takahumi Kurai
+    - Yutaro Toide
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Evaluation of Maximum Error in Jump Motion Prediction
+  booktitle: SICE Annual Conference
+  pages: 772–777
+  location: Kumamoto, Japan
+  eventDate: Sep. 6-9
+
+- year: 2022
+  authors:
+    - Yasutoshi Makino
+    - Tatsuya Takei
+    - Yoshimi Niida
+    - Satoru Tawada
+    - Yoshiro Matsunami
+    - Hiroyuki Shinoda
+  title: Analysis of Concentration of Guide Dogs from Training Behaviors
+  booktitle: SICE Annual Conference
+  pages: 1363–1368
+  location: Kumamoto, Japan
+  eventDate: Sep. 6-9
+
+- year: 2022
+  authors:
+    - Chaoshun Xu
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Intention Estimation in Kicking from a Seated Position
+  booktitle: SICE Annual Conference
+  pages: 766–771
+  location: Kumamoto, Japan
+  eventDate: Sep. 6-9
+
+- year: 2022
+  authors:
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Phase Optimization on Complex Circle Manifold for Generating High Intensity Ultrasound Foci Using Phased Array
+  booktitle: SICE Annual Conference
+  note: Position Paper
+  pages: 794–796
+  location: Kumamoto, Japan
+  eventDate: Sep. 8
+
+- year: 2022
+  authors:
+    - Zen Somei
+    - Tao Morisaki
+    - Yutaro Toide
+    - Masahio Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Spatial Resolution of Mesoscopic Shapes Presented by Airborne Ultrasound
+  doi: 10.1007/978-3-031-06249-0_28
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
+  pages: 243–251
+  location: Hamburg, Germany
+  eventDate: May 22-25
+
+- year: 2022
+  authors:
+    - Mitsuhiko Shimomura
+    - Masahio Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Estimation of Frictional Force Using the Thermal Images of Target Surface During Stroking
+  doi: 10.1007/978-3-031-06249-0_27
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
+  pages: 234–242
+  location: Hamburg, Germany
+  eventDate: May 22-25
+
+- year: 2022
+  authors:
+    - Jianyu Chen
+    - Shun Suzuki
+    - Tao Morisaki
+    - Yutaro Toide
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Sound Pressure Field Reconstruction for Ultrasound Phased Array by Linear Synthesis Scheme Optimization
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
+  pages: 147–154
+  location: Hamburg, Germany
+  eventDate: May 22-25
+
+- year: 2022
+  authors:
+    - Saya Mizutani
+    - Shun Suzuki
+    - Atsushi Matsubayashi
+    - Tao Morisaki
+    - Yutaro Toide
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Use of Multiple Frequencies of Ultrasound in Midair Haptic Stimulation
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
+  note: Work-in-Progress
+  location: Hamburg, Germany
+  eventDate: May 22-25
+
+- year: 2022
+  authors:
+    - Takuro Furumoto
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Bang-bang Control with Constant Thrust of a Spherical Blimp Propelled by Ultrasound Beam
+  booktitle: IEEE International Conference on Robotics and Automation (ICRA)
+  location: Philadelphia, USA
+  eventDate: May 23-27
+
+- year: 2022
+  authors:
+    - Ryoya Onishi
+    - Tao Morisaki
+    - Shun Suzuki
+    - Saya Mizutani
+    - Takaaki Kamigaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'GazeBreath: Input Method Using Gaze Pointing and Breath Selection'
+  refId: onishi-2022-gazebreath
+  doi: 10.1145/3519391.3519405
+  booktitle: Augmented Humans
+  pages: 1–9
+
+- year: 2022
+  authors:
+    - Takumi Abe
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Transducer Preselection in ultrasonic phased array to form multiple foci on a non-planar surface
+  booktitle: IEEE Haptic Symposium 2022
+  href: https://drive.google.com/file/d/1BWgp_2ksb1DmdKb-fSMJP6sT8MdHc1s-/view?usp=sharing
+
+- year: 2022
+  authors:
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Accurate Control of Sound Field Amplitude for Ultrasound Haptic Rendering Using the Levenberg-Marquardt Method
+  booktitle: IEEE Haptic Symposium
+  href: https://drive.google.com/file/d/1XWagmK7kLu0A3TZEQMA6E616iglIy7gL/view?usp=sharing
+
+- year: 2021
+  authors:
+    - Tao Morisaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Midair Haptic-Optic Display with Multi-Tactile Texture based on Presenting Vibration and Pressure Sensation by Ultrasound
+  doi: 10.1145/3476122.3484849
+  booktitle: SIGGRAPH ASIA, Emerging Technologies
+  pages: 1–2
+  location: Japan
+  eventDate: Dec. 14-17
+
+- year: 2021
+  authors:
+    - Ansheng Wang
+    - Yasutoshi Makino
+    - Masahiro Fujiwara
+    - Hiroyuki Shinoda
+  title: Predict Human Motion of Walk with Probability Distributions by Combining Machine Learning and Particle Filter
+  booktitle: IEEE International Conference on Systems, Man and Cybernetics (SMC)
+  eventDate: Oct 17-20
+  location: Melbourne, Australia
+
+- year: 2021
+  authors:
+    - Arata Jingu
+    - Takaaki Kamigaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'LipNotif: Use of Lips as a Non-Contact Tactile Notification Interface Based on Ultrasonic Tactile Presentation'
+  doi: 10.1145/3472749.3474732
+  booktitle: 34th ACM User Interface Software and Technology Symposium (UIST2021)
+  location: USA
+  eventDate: Oct. 10-14
+
+- year: 2021
+  authors:
+    - Takuro Furumoto
+    - Takumi Kasai
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Midair Balloon Interface: A Soft and Lightweight Midair Object for Proximate Interactions'
+  refId: furumoto-2021-midair
+  doi: 10.1145/3472749.3474786
+  booktitle: 34th ACM User Interface Software and Technology Symposium (UIST2021)
+  location: USA
+  eventDate: Oct. 10-14
+
+- year: 2021
+  authors:
+    - Zen Somei
+    - Tao Morisaki
+    - Yutaro Toide
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Curved Surface Presentation in Air Using Ultrasound Tactile Stimulation
+  booktitle: SICE Annual Conference
+  note: Position Paper
+  pages: 1399–1401
+  eventDate: Sep. 10
+  location: Online
+
+- year: 2021
+  authors:
+    - Tomoya Suzuki
+    - Tao Morisaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Tablet-Type 3D Display with Midair Tactile Feedback
+  booktitle: SICE Annual Conference
+  note: Position Paper
+  pages: 1408–1410
+  eventDate: Sep. 10
+  location: Online
+
+- year: 2021
+  authors:
+    - Saya Mizutani
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Improving In-vivo Imaging Accuracy by Using Capsule Sound Source
+  booktitle: SICE Annual Conference
+  pages: 1135–1140
+  eventDate: Sep. 10
+  location: Online
+
+- year: 2021
+  authors:
+    - Yutaro Toide
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Multi-dimensional Tactile Parameters Optimization Using Sequential Line Search
+  booktitle: SICE Annual Conference
+  note: Position Papar
+  pages: 131–136
+  eventDate: Sep. 8
+  location: Online
+
+- year: 2021
+  authors:
+    - Yuri Mikawa
+    - Masahiro Fujiwara
+    - Takefumi Hiraki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Far-field Aerial Image Presentation of One Point by a Laser Source using Beam Scanning by Two-axis Galvanometer Mirror
+  booktitle: SICE Annual Conference
+  pages: 137–143
+  eventDate: Sep. 8
+  location: Online
+
+- year: 2021
+  authors:
+    - Kai Tsumoto
+    - Tao Morisaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Presentation of Tactile Pleasantness Using Airborne Ultrasound
+  booktitle: IEEE World Haptics Conference (WHC)
+  pages: 602–606
+  location: Montreal, Canada
+  eventDate: July 6-9
+
+- year: 2021
+  authors:
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Rendering Softness Using Airborne Ultrasound
+  href: https://drive.google.com/file/d/1sFnf1A2Q6GIxwVr90rMudrlpSIM4KRms/view?usp=sharing
+  booktitle: IEEE World Haptics Conference (WHC)
+  pages: 355–360
+  location: Montreal, Canada
+  eventDate: Jul. 6-9
+
+- year: 2021
+  authors:
+    - Arata Jingu
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Tactile Perception Characteristics of Lips Stimulated by Airborne Ultrasound
+  href: https://drive.google.com/file/d/1Kj6h8KDc086-F7Lk5lsOpxq4dGv9VkAN/view?usp=sharing
+  booktitle: IEEE World Haptics Conference (WHC)
+  pages: 607–612
+  location: Montreal, Canada
+  eventDate: Jul. 6-9
+
+- year: 2021
+  authors:
+    - Kentaro Ariga
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Workspace Evaluation of Long-Distance Midair Haptic Display Using Curved Reflector
+  href: https://drive.google.com/file/d/18LRkJh_oFL5ZZbCY5MfPa5UMkNIVUHh5/view?usp=sharing
+  booktitle: IEEE World Haptics Conference (WHC)
+  pages: 85–90
+  location: Montreal, Canada
+  eventDate: Jul. 6-9
+
+- year: 2021
+  authors:
+    - Masahiro Fujiwara
+    - Yu Someya
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Reflection Pattern Sensing for Valid Airborne Ultrasound Tactile Display
+  href: https://drive.google.com/file/d/1KIap61_J12XAYs3_8wv64kyXcYFzdBJR/view?usp=sharing
+  booktitle: IEEE World Haptics Conference (WHC)
+  pages: 121–126
+  location: Montreal, Canada
+  eventDate: Jul. 6-9
+
+- year: 2021
+  authors:
+    - Ansheng Wang
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Machine Learning-based Human-Following System: Following the Predicted Position of a Walking Human'
+  booktitle: IEEE International Conference on Robotics and Automation (ICRA)
+  location: Xi’an, China
+  eventDate: May 30 – June 5
+
+- year: 2021
+  authors:
+    - Task Ohmori
+    - Yuki Abe
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Remote Friction Control on 3-dimensional Object Made of Polystyrene Foam Using Airborne Ultrasound Focus
+  booktitle: Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing Systems (CHI EA ’21)
+  doi: 10.1145/3411763.3451598
+  note: Open Access
+  href: https://doi.org/10.1145/3411763.3451598
+  location: Association for Computing Machinery, New York, NY, USA
+  number: 226
+  pages: 1–5
+
+- year: 2020
+  authors:
+    - Yuichi Masuda
+    - Yoshiaki Hirano
+    - Tsuyoto Negishi
+    - Hiroyuki Shinoda
+  title: 2-D waveguide power transfer operating at 6.78 MHz with a meander surface sheet
+  refId: masuda-2020-2-d
+  href: https://drive.google.com/file/d/1JuyvGFnmCN-UCfOzz6B2xYzUjeE2tYhT/view?usp=sharing
+  booktitle: Asia Wireless Power Transfer Conference (AWPT2020)
+  location: Taipei, Taiwan
+  eventDate: Dec. 16-18
+
+- year: 2020
+  authors:
+    - Yuki Matsuzaki
+    - Yuichi Masuda
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: An Omnidirectional Coupler for 2-D Waveguide Power Transfer
+  booktitle: Asia Wireless Power Transfer Conference (AWPT2020)
+  location: Taipei, Taiwan
+  eventDate: Dec. 16-18
+
+- year: 2020
+  authors:
+    - Takuro Furumoto
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Balloon Interface for Midair Haptic Interaction
+  refId: furumoto-2020-balloon
+  doi: 10.1145/3415255.3422882
+  booktitle: SIGGRAPH Asia  Emerging Technologies (SA ’20 Emerging Technologies)
+  location: Virtual
+  eventDate: Dec 4-13
+
+- year: 2020
+  authors:
+    - Yuri Mikawa
+    - Masahiro Fujiwara
+    - Hiroyuki Shinoda
+  title: Distant Aerial Image Presentation Using Two Separate Rays of Binocular Parallax Images
+  booktitle: 27th International Display Workshops (IDW ’20)
+  location: Virtual
+  eventDate: Dec 11
+
+- year: 2020
+  authors:
+    - Ryoma Mori
+    - Toki Furukawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Measurement of Disturbance-Induced Fall Behavior and Prediction Using Neural Network
+  booktitle: IEEE International Conference on Systems, Man and Cybernetics (SMC)
+  location: Toronto, Canada
+  eventDate: Oct 11-14
+
+- year: 2020
+  authors:
+    - Masahiro Fujiwara
+    - Masatoshi Sagawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Three-dimensional Ultrasound Sensing for Aerial Tactile Display
+  booktitle: IEEE 59th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE2020)
+  pages: 706–708
+  eventDate: September 23-26
+  location: Chiang Mai, Thailand
+
+- year: 2020
+  authors:
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Rendering Ultrasound Pressure Distribution on Hand Surface in Real-Time
+  refId: matsubayashi-2020-rendering
+  doi: 10.1007/978-3-030-58147-3_45
+  note: Open Access
+  booktitle='Haptics: Science, Technology, Applications'
+  pages: 407–415
+  href: https://doi.org/10.1007/978-3-030-58147-3_45
+  eventDate: Sep. 6-9
+  location: Leiden, Netherlands
+
+- year: 2020
+  authors:
+    - Seunggoo Rim
+    - Shun Suzuki
+    - Yutaro Toide
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Sound-Image Icon with Aerial Haptic Feedback
+  doi: 10.1007/978-3-030-58147-3_54
+  note: Open Access
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
+  pages: 497–505
+  href: https://doi.org/10.1007/978-3-030-58147-3_54
+  eventDate: Sep. 6-9
+  location: Leiden, Netherlands
+
+- year: 2020
+  authors:
+    - Kentaro Ariga
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Midair Haptic Presentation Using Concave Reflector
+  doi: 10.1007/978-3-030-58147-3_34
+  note: Open Access
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
+  pages: 307–315
+  href: https://doi.org/10.1007/978-3-030-58147-3_34
+  eventDate: Sep. 6-9
+  location: Leiden, Netherlands
+
+- year: 2020
+  authors:
+    - Tao Morisaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Comparing Lateral Modulation and Amplitude Modulation in Phantom Sensation
+  doi: 10.1007/978-3-030-58147-3_14
+  note: Open Access
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
+  pages: 122–130
+  href: https://doi.org/10.1007/978-3-030-58147-3_14
+  eventDate: Sep. 6-9
+  location: Leiden, Netherlands
+
+- year: 2020
+  authors:
+    - Takaaki Kamigaki
+    - Shun Suzuki
+    - Hiroyuki Shinoda
+  title: Noncontact Thermal and Vibrotactile Display Using Focused Airborne Ultrasound
+  refId: kamigaki-2020-noncontact
+  doi: 10.1007/978-3-030-58147-3_30
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
+  pages: 271–278
+  eventDate: Sep. 6-9
+  location: Leiden, Netherlands
+
+- year: 2020
+  authors:
+    - Emiri Sakiyama
+    - Atsushi Matsubayashi
+    - Daichi Matsumoto
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Midair Tactile Reproduction of Real Objects
+  doi: 10.1007/978-3-030-58147-3_47
+  note: Open Access
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
+  pages: 425–433
+  href: https://doi.org/10.1007/978-3-030-58147-3_47
+  eventDate: Sep. 6-9
+  location: Leiden, Netherlands
+
+- year: 2020
+  authors:
+    - Takumi Kasai
+    - Takuro Furumoto
+    - Hiroyuki Shinoda
+  title: Rotation and Position Control of a Cubic Object Using Airborne Ultrasound
+  doi: 10.1109/IUS46767.2020.9251409
+  booktitle: IEEE International Ultrasonics Symposium (IUS)
+  eventDate: Sep. 6-11
+  location: Virtual
+
+- year: 2020
+  authors:
+    - Yuki Ninomiya
+    - Takaaki Kamigaki
+    - Hiroyuki Shinoda
+  title: Airborne Ultrasonic Emission Based on Asymmetric Vibration
+  booktitle: IEEE International Ultrasonics Symposium (IUS)
+  eventDate: Sep. 6-11
+  location: Virtual
+
+- year: 2020
+  authors:
+    - Tao Morisaki
+    - Ryoma Mori
+    - Ryosuke Mori
+    - Kohki Serizawa
+    - Yasutoshi Makino
+    - Yuta Itoh
+    - Yuji Yamakawa
+    - Hiroyuki Shinoda
+  title: 'Hopping-Pong: Computational Curveball in Table Tennis by Noncontact Ultrasound Force'
+  href: https://drive.google.com/file/d/1z1reJg5jVx1DmyBvxddDh5PZrNFvZKDh/view?usp=sharing
+  booktitle: SIGGRAPH ’20, Emerging Technologies
+  note: ACM DL Link
+  eventDate: July 19-23
+  location: Washington, D.C, USA
+
+- year: 2020
+  authors:
+    - Kohki Serizawa
+    - Tao Morisaki
+    - Charlotte Delfosse
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Super Haptoclone: Upper-Body Mutual Telexistence System with Haptic Feedback'
+  href: https://drive.google.com/file/d/176R24nEVe9abUE9Hwq_EIMDGZP19UGhg/view?usp=sharing
+  booktitle: SIGGRAPH ’20, Emerging Technologies
+  note: ACM DL Link
+  eventDate: July 19-23
+  location: Washington, D.C, USA
+
+- year: 2020
+  authors:
+    - Mitsuru Nakajima
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Remote Cooling Sensation Presentation Controlling Mist in Midair
+  refId: nakajima-2020-remote
+  href: https://drive.google.com/file/d/1sLFhKsheq31fS1URgVcTlGkk6M-hlUNb/view?usp=sharing
+  booktitle: IEEE/SICE International Symposium on System Integration
+  pages: 1238–1241
+  location: Hawaii Convention Center, Honolulu, Hawaii, USA
+  eventDate: Jan. 12-15
+
+- year: 2019
+  authors:
+    - Tao Morisaki
+    - Ryoma Mori
+    - Ryosuke Mori
+    - Yasutoshi Makino
+    - Yuta Itoh
+    - Yuji Yamakawa
+    - Hiroyuki Shinoda
+  title: 'Hopping-Pong: Changing Trajectory of Moving Object Using Computational Ultrasound Force'
+  refId: morisaki-2019-hopping-pong
+  note: Open Access
+  booktitle: ACM International Conference on Interactive Surfaces and Spaces (ISS’19)
+  doi: 10.1145/3343055.3359701
+  pages: 123–133
+  href: http://dx.doi.org/10.1145/3343055.3359701
+  eventDate: November 10-13
+  location: Daejeon, South Korea
+
+- year: 2019
+  authors:
+    - Yasutoshi Makino
+    - Yutaro Shioi
+    - Yuuki Horiuchi
+    - Hiroyuki Shinoda
+  title: Interference of Projected Future Self
+  booktitle: IEEE International Conference on Systems, Man and Cybernetics (SMC)
+  eventDate: October 6-9
+  location: Bari, Italy
+
+- year: 2019
+  authors:
+    - Takafumi Kurai
+    - Yutaro Shioi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Temporal Conditions Suitable for Predicting Human Motion in Walking
+  doi: 10.1109/SMC.2019.8913941
+  booktitle: IEEE International Conference on Systems, Man and Cybernetics (SMC)
+  eventDate: October 6-9
+  location: Bari, Italy
+
+- year: 2019
+  authors:
+    - Takaaki Kamigaki
+    - Hiroyuki Shinoda
+  title: Driving Circuit Design for Electrostatic Ultrasonic Transmitter
+  refId: kamigaki-2019-driving
+  booktitle: IEEE International Ultrasonics Symposium (IUS)
+  eventDate: Oct. 6-9
+  location: Glasgow, Scotland
+
+- year: 2019
+  authors:
+    - Emiri Sakiyama
+    - Daichi Matsumoto
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Evaluation of Multi-Point Dynamic Pressure Reproduction Using Microphone-Based Tactile Sensor Array
+  href: https://drive.google.com/file/d/19sMHWIgE3t_0Vm5Oq9oAJvbKHQchvR40/view?usp=sharing
+  booktitle: IEEE International Symposium on Haptic Audio-Visual Environments and Games (HAVE2019)
+  location: Sunway, Malaysia
+  eventDate: October 3-4
+
+- year: 2019
+  authors:
+    - Mitsuru Nakajima
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Displaying Pain Sensation in Midair by Thermal Grill Illusion
+  refId: nakajima-2019-displaying
+  href: https://drive.google.com/file/d/1kpyiKwx6ZgsjJ0l_M1O-8j52AjAX16ER/view?usp=sharing
+  booktitle: IEEE International Symposium on Haptic Audio-Visual Environments and Games (HAVE2019)
+  location: Sunway, Malaysia
+  eventDate: October 3-4
+
+- year: 2019
+  authors:
+    - Saya Mizutani
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Thresholds of Haptic and Auditory Perception in Midair Facial Stimulation
+  href: https://drive.google.com/file/d/1n3wZA5P9QnLHcQsUZRnX-u26OX0XOlMU/view?usp=sharing
+  booktitle: IEEE International Symposium on Haptic Audio-Visual Environments and Games (HAVE2019)
+  location: Sunway, Malaysia
+  eventDate: October 3-4
+
+- year: 2019
+  authors:
+    - Takaaki Kamigaki
+    - Yuki Ninomiya
+    - Hiroyuki Shinoda
+  title: Electrostatically Driven Airborne Ultrasound Transducer with Perforated Backplate for Nonlinear Acoustic Applications
+  refId: kamigaki-2026-electrostatically
+  booktitle: 23rd International Congress on Acoustics (ICA2019)
+  pages: 6363–6369
+  eventDate: Sep. 9-13
+  location: Aachen, Germany
+
+- year: 2019
+  authors:
+    - Atsushi Matsubayashi
+    - Hiroki Oikawa
+    - Saya Mizutani
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Display of Haptic Shape Using Ultrasound Pressure Distribution Forming Cross-Sectional Shape
+  refId: matsubayashi-2019-display
+  href: https://drive.google.com/file/d/1ooqgEeddn-88JLjmXRmqiTqTpZROIfCP/view?usp=sharing
+  booktitle: 2019 IEEE World Haptics Conference (WHC)
+  pages: 419–424
+  location: Tokyo, Japan
+  eventDate: July 9-12
+
+- year: 2019
+  authors:
+    - Emiri Sakiyama
+    - Daichi Matsumoto
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Midair Tactile Reproduction of Real Objects Using Microphone-Based Tactile Sensor Array
+  href: https://drive.google.com/open?id=1lgYpj1mcmzGA6AvDjbwjcgIWWPSk85jN
+  booktitle: 2019 IEEE World Haptics Conference (WHC)
+  note: Work-in-Progress
+  location: Tokyo, Japan
+  eventDate: July 9-12
+
+- year: 2019
+  authors:
+    - Kohki Serizawa
+    - Yuichi Masuda
+    - Akihito Noda
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Spatial recognition through upper-body proximity sensing and displaying wearable device
+  href: https://drive.google.com/file/d/1qKDIjB_YrxBq8lLsVKvo1PKpodgQsi78/view?usp=sharing
+  booktitle: 2019 IEEE World Haptics Conference (WHC)
+  note: Work-in-Progress
+  location: Tokyo, Japan
+  eventDate: July 9-12
+
+- year: 2019
+  authors:
+    - Tao Morisaki
+    - Masahiro fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Tactile Perception Similarity Between Physically Continuous Stimulation and Discrete Point Stimulation
+  href: https://drive.google.com/file/d/1V3xV1qVpRVzrJ7ejx9ld_qDCKvL_8VhL/view?usp=sharing
+  booktitle: 2019 IEEE World Haptics Conference (WHC)
+  note: Work-in-Progress
+  location: Tokyo, Japan
+  eventDate: July 9-12
+
+- year: 2019
+  authors:
+    - Mitsuru Ito
+    - Yuji Kokumai
+    - Hiroyuki Shinoda
+  title: Midair Click of Dual-Layer Haptic Button
+  href: https://drive.google.com/open?id=11GbW4-ox7jA9AnFo1ls5acsxWWODn5he
+  booktitle: 2019 IEEE World Haptics Conference (WHC)
+  pages: 349–352
+  location: Tokyo, Japan
+  eventDate: July 9-12
+
+- year: 2019
+  authors:
+    - Mitsuru Nakajima
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Noncontact Pain Display by Temperature Control
+  refId: nakajima-2019-noncontact
+  booktitle: 2019 IEEE World Haptics Conference (WHC)
+  href: https://drive.google.com/file/d/1RDJh56ndxD53aEkiyc7hO_i_IOwGtN_f/view?usp=sharing
+  note: Work-in-Progress
+  location: Tokyo, Japan
+  eventDate: July 9-12
+
+- year: 2019
+  authors:
+    - Saya Mizutani
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Thresholds of Haptic Perception and Bone Conduction in Midair Facial Stimulation
+  booktitle: 2019 IEEE World Haptics Conference (WHC)
+  href: https://drive.google.com/file/d/1LWbyTdGafseVnoPf6SmCSG99ieAW92LR/view?usp=sharing
+  note: Work-in-Progress
+  location: Tokyo, Japan
+  eventDate: July 9-12
+
+- year: 2019
+  authors:
+    - Shun Suzuki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Midair Hand Guidance by an Ultrasound Virtual Handrail
+  refId: suzuki-2019-midair
+  href: https://drive.google.com/file/d/11P_0jPkIcL0T8Bqxh6nE1ZUiIoVutknc/view?usp=sharing
+  booktitle: 2019 IEEE World Haptics Conference (WHC)
+  pages: 271–276
+  location: Tokyo, Japan
+  eventDate: July 9-12
+
+- year: 2019
+  authors:
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Direct Finger Manipulation of 3D Object Image with Ultrasound Haptic Feedback
+  refId: matsubayashi-2019-direct
+  note: Open Access
+  href: https://dl.acm.org/citation.cfm?id=3300317
+  address: New York, NY, USA
+  booktitle: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems
+  number: 87
+  pages: 1–11
+  location: Glasgow, Scotland Uk
+  series: CHI '19
+  eventDate: May 04–09
+
+- year: 2019
+  authors:
+    - Takuro Furumoto
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'BaLuna: Floating Balloon Screen Manipulated Using Ultrasound'
+  href: https://drive.google.com/file/d/1cy8kqjgmRDjliDmqaE60GPGV-dnX2qP8/view?usp=sharing
+  booktitle: 26th IEEE Conference on Virtual Reality and 3D User Interfaces
+  note: Poster
+  location: Osaka, Japan
+  eventDate: Mar. 22-27
+
+- year: 2019
+  authors:
+    - Shuya Suda
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Prediction of Volleyball Trajectory Using Skeletal Motions of Setter Player
+  refId: suda-2019-prediction
+  href: https://dl.acm.org/citation.cfm?id=3311844
+  booktitle: 10th Augmented Human International Conference
+
+- year: 2018
+  authors:
+    - Mitsuru Ito
+    - Yoshijiro Ushio
+    - Yuji Kokumai
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Large Autostereoscopic Display Using Subpixel Parallax Barrier
+  booktitle: 25th International Display Workshop (IDW)
+  pages: 892–893
+  location: Nagoya Congress Center, Japan
+  eventDate: Dec 12-14
+
+- year: 2018
+  authors:
+    - Mitsuru Ito
+    - Masao Nakajima
+    - Toru Iwane
+    - Yuji Kokumai
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Light Field Video Camera and Display Using Similar Microlens Array
+  booktitle: 25th International Display Workshop (IDW)
+  pages: 894–895
+  location: Nagoya Congress Center, Japan
+  eventDate: Dec 12-14
+
+- year: 2018
+  authors:
+    - Kohki Serizawa
+    - Yuichi Masuda
+    - Shun Suzuki
+    - Masahiro Fujiwara
+    - Akihito Noda
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Whole body haptic experience using 2D communication wear
+  href: https://drive.google.com/file/d/1QIu8bd6Ilx7nG0k0zK60L2Hq-Dk_psha/view?usp=sharing
+  booktitle: Asia Haptics
+  location: Incheon, Korea
+  eventDate: Nov. 14-16
+
+- year: 2018
+  authors:
+    - Ryoko Takahashi
+    - Saya Mizutani
+    - Keisuke Hasegawa
+    - Masahiro Fujiwara
+    - Hiroyuki Shinoda
+  title: Circular Lateral Modulation in Airborne Ultrasound Tactile Display
+  href: https://drive.google.com/file/d/1A-XrZ1iMYJmtmos1AikAp_Qww5GOykUr/view?usp=sharing
+  booktitle: Asia Haptics
+  location: Incheon, Korea
+  eventDate: Nov. 14-16
+
+- year: 2018
+  authors:
+    - Tao Morisaki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Controlling Robot Vehicle Using Hand-Gesture with Mid-Air Haptic Feedback
+  href: https://drive.google.com/open?id=1s9VDmmmDQHsH_rIME3Lk05l6LzP4BNU1
+  booktitle: Asia Haptics
+  location: Incheon, Korea
+  eventDate: Nov. 14-16
+
+- year: 2018
+  authors:
+    - Takuro Furumoto
+    - Yutaro Toide
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Encounter-type Haptic Feedback System Using an Acoustically Manipulated Floating Object
+  href: https://drive.google.com/file/d/1Wq1lDla9wo0CF4wYo2R-0arCGPMyooFt/view?usp=sharing
+  booktitle: Asia Haptics
+  location: Incheon, Korea
+  eventDate: Nov. 14-16
+
+- year: 2018
+  authors:
+    - Shun Suzuki
+    - Masahiro Fujiwara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Midair ultrasound haptic display with large workspace
+  href: https://drive.google.com/file/d/1QseajJz2MsXdg96ezZDR1BuBOPJ7tEVC/view?usp=sharing
+  booktitle: Asia Haptics
+  location: Incheon, Korea
+  eventDate: Nov. 14-16
+
+- year: 2018
+  authors:
+    - Mitsuru Nakajima
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Remotely Displaying Cooling Sensation Using Ultrasound Mist Beam
+  refId: nakajima-2018-remotely
+  booktitle: Asia Haptics
+  href: https://drive.google.com/file/d/1LdfVnr9JLlGT19Gi-kQQob06wwWo0tKx/view?usp=sharing
+  location: Incheon, Korea
+  eventDate: Nov. 14-16
+
+- year: 2018
+  authors:
+    - Shun Suzuki
+    - Ryoko Takahashi
+    - Mitsuru Nakajima
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Midair Haptic Display to Human Upper Body
+  refId: suzuki-2018-midair
+  href: https://drive.google.com/file/d/1137_7DWr8oW9HWUgCdRR6IEp4gUoYSRf/view?usp=sharing
+  booktitle: SICE Annual Conference
+  pages: 848–853
+  eventDate: Sep. 11-14
+  location: Nara, Japan
+
+- year: 2018
+  authors:
+    - Takaaki Kamigaki
+    - Yuki Ninomiya
+    - Hiroyuki Shinoda
+  title: Electrostatically Driven Airborne Ultrasound Transmitter with Fine Mesh Electrode
+  refId: kamigaki-2018-electrostatically
+  booktitle: International Flexible Electronics Technology Conference (IFETC)
+  pages: 1–3
+  eventDate: Aug. 7-9
+  location: Ottawa, Canada
+
+- year: 2018
+  authors:
+    - Yuichi Masuda
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Body Sensor Networks by an NFC-coupled Smartphone in the Pocket
+  refId: masuda-2018-body
+  href: https://drive.google.com/file/d/1i9dQbD_N-_TUUUU2dp3kkCn5l8bBqxNp/view?usp=sharing
+  booktitle: 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)
+  location: Honolulu, USA
+  eventDate: June 17-21
+
+- year: 2018
+  authors:
+    - Tomoki Oji
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Weight Estimation of Lifted Object from Body Motions Using Neural Network
+  href: https://link.springer.com/chapter/10.1007/978-3-319-93399-3_1
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
+  pages: 3–13
+  eventDate: June 13-16
+  location: Pisa, Italy
+
+- year: 2018
+  authors:
+    - Yoshinori Inoue
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Estimation of the pressing force from finger image by using neural network
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Euro Haptics)
+  href: https://link.springer.com/chapter/10.1007/978-3-319-93399-3_5
+  pages: 46–57
+  eventDate: June 13-16
+  location: Pisa, Italy
+
+- year: 2018
+  authors:
+    - Ryoko Takahashi
+    - Keisuke Hasegawa
+    - Hiroyuki Shinoda
+  title: Lateral Modulation of Midair Ultrasound Focus for Intensified Vibrotactile Stimuli
+  refId: takahashi-2018-lateral
+  href: https://drive.google.com/file/d/1ENdHs_uyE5BNPSIgZpjepV5238cfjPfS/view?usp=sharing
+  booktitle: 'Haptics: Science, Technology, and Applications'
+  pages: 276–288
+  eventDate: June 13-16
+  location: Pisa, Italy
+
+- year: 2018
+  authors:
+    - Shun Suzuki
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Haptic Tracing of Midair Linear Trajectories Presented by Ultrasound Bessel Beams
+  refId: suzuki-2018-haptic
+  href: https://drive.google.com/file/d/1OhUhxabTFMwGMvhhxzKJLt23y-_UnHjg/view?usp=sharing
+  booktitle: 'Haptics: Science, Technology, and Applications'
+  pages: 209–220
+  eventDate: June 13-16
+  location: Pisa, Italy
+
+- year: 2018
+  authors:
+    - Mitsuru Nakajima
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Remotely Displaying Cooling Sensation via Ultrasound-Driven Air Flow
+  refId: nakajima-2018-remotely-displaying
+  booktitle: IEEE Haptics Symposium
+  href: https://ieeexplore.ieee.org/document/8357198
+  pages: 340–343
+  location: San Francisco, California, USA
+  eventDate: 25-28 March
+
+- year: 2018
+  authors:
+    - Kentaro Yoshida
+    - Yuuki Horiuchi
+    - Tomohiro Ichiyama
+    - Seki Inoue
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Estimation of Racket Grip Vibration from Tennis Video Using Neural Network
+  booktitle: IEEE Haptics Symposium
+  note: Work-in-Progress
+  location: San Francisco, California, USA
+  eventDate: 25-28 March
+
+- year: 2018
+  authors:
+    - Tomohiro Ichiyama
+    - Atsushi Matsubayashi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Real-time control operation support of unstable system by visual feedback
+  booktitle: IEEE VR
+  location: Reutlingen, Germany
+  eventDate: March 18-22
+
+- year: 2018
+  authors:
+    - Yuichi Masuda
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Whole Body Human Power-Based Energy Harvesting using a Conductive Embroidered Cloth and a Power Aggregation Circuit
+  refId: masuda-2018-whole
+  href: https://drive.google.com/file/d/1kcbctM_tvjQnEXZQer4gUlPqhkE3xInb/view?usp=sharing
+  booktitle: IEEE 15th International Conference on Wearable and Implantable Body Sensor Networks (BSN)
+  pages: 214–217
+  location: Las Vegas, USA
+  eventDate: March 4-7
+
+- year: 2018
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: I2C-Enabled Batteryless Sensors on Double-Layered Conductive Fabric
+  href: https://drive.google.com/file/d/14mNMcUz4uha9_e-i_3Wzp-yyPbjwDW6o/view?usp=sharing
+  booktitle: IEEE 15th International Conference on Wearable and Implantable Body Sensor Networks
+  location: Las Vegas, NV, USA
+  eventDate: March 4-7
+
+- year: 2017
+  authors:
+    - Yuichi Masuda
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Power Aggregation from Multiple Energy Harvesting Devices Via a Conductive Embroidered Cloth
+  refId: masuda-2017-power
+  href: https://drive.google.com/file/d/1kMBK0nf5K9Tnx0yBBmqdQIQQ-N5jkBe0/view?usp=sharing
+  booktitle: IEEE/SICE International Symposium on System Integration
+  pages: 553–558
+  eventDate: Dec. 11-14
+  location: Taipei, Taiwan
+
+- year: 2017
+  authors:
+    - Yasutoshi Makino
+    - Yuuki Horiuchi
+    - Hiroyuki Shinoda
+  title: Body Motion Estimation by Machine Learning
+  booktitle: IDW ’17
+  note: invited
+  eventDate: Dec. 6-8
+  location: Sendai, Japan
+
+- year: 2017
+  authors:
+    - Yuuki Horiuchi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Computational foresight: realtime forecast of human body motion'
+  booktitle: SIGGRAPH Asia, Emerging Technologies (SA ’17)
+  doi: 10.1145/3132818.3132830
+  href: https://doi.org/10.1145/3132818.3132830
+  location: New York, NY, USA
+  number: 2
+
+- year: 2017
+  authors:
+    - Kentaro Yoshida
+    - Seki Inoue
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'VibVid: VIBration Estimation from VIDeo by using Neural Network'
+  refId: yoshida-2017-vibvid
+  href: https://drive.google.com/file/d/1UATgBIhlCQ0WbyhowOf6rf3Dyh0Hvesw/view?usp=sharing
+  booktitle: ICAT-EGVE International Conference on Artificial Reality and Telexistence and Eurographics Symposium on Virtual Environments
+  eventDate: Nov. 22-24
+  location: Adelaide, Australia
+
+- year: 2017
+  authors:
+    - Yuuki Horiuchi
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Computational Foresight: Forecasting Human Body Motion in Real-time for Reducing Delays in Interactive System'
+  refId: horiuchi-2017-computational
+  booktitle: ACM International Conference on Interactive Surfaces and Spaces (ISS ’17)
+
+- year: 2017
+  authors:
+    - Yuichi Masuda
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Physical Layer Design of Energy-Efficient Data Transmission in 2D Communication Environments
+  booktitle: IEEE VTC
+  pages: 1–5
+  eventDate: Sep. 24-27
+  location: Toronto, Canada
+
+- year: 2017
+  authors:
+    - Ya Zhu
+    - Akihito Noda
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Myoelectric Pattern Measurement on a Forearm via Conductive Fabric
+  href: https://drive.google.com/file/d/1hXleOUTOoAi1PSCm5FTGt22iWVkD4WMG/view?usp=sharing
+  booktitle: SICE Annual Conference
+  pages: 966–969
+  eventDate: Sep. 19-22
+  location: Kanazawa, Japan
+
+- year: 2017
+  authors:
+    - Takaaki Kamigaki
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Thin and Flexible Airborne Ultrasound Phased Array for Tactile Display
+  refId: kamigaki-2017-thin
+  booktitle: SICE Annual Conference
+  pages: 736–739
+  eventDate: Sep. 19-22
+  location: Kanazawa, Japan
+
+- year: 2017
+  authors:
+    - Kentaro Yoshida
+    - Yuuki Horiuchi
+    - Seki Inoue
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'HaptoCloneAR: mutual haptic-optic interactive system with 2D image superimpose'
+  refId: yoshida-2017-haptoclonear
+  booktitle: SIGGRAPH 2017 Emerging Technologies
+  href: https://drive.google.com/file/d/17Bab3VBSP9rVDd6zVuSS715J7QUFu3dh/view?usp=sharing
+  location: Los Angeles, California, USA
+  eventDate: Jul. 30-Aug. 3
+
+- year: 2017
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Frequency-Division-Multiplexed Signal and Power Transfer for Wearable Devices Networked via Conductive Embroideries on a Cloth
+  booktitle: IEEE MTT-S International Microwave Symposium
+  location: Honolulu, HI, USA
+  eventDate: June
+
+- year: 2017
+  authors:
+    - Yuuki Horiuchi
+    - Kentaro Yoshida
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Rubber hand illusion using invisible tactile stimulus
+  booktitle: IEEE World Haptics Conference (WHC)
+  pages: 490–494
+
+- year: 2017
+  authors:
+    - Daichi Matsumoto
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Displaying Variable Stiffness by Passive Nonlinear Spring Using Visuo-Haptic Interaction
+  booktitle: IEEE World Haptics Conference (WHC)
+  href: https://drive.google.com/file/d/1BWavNE97uF2uGvFX63vEk4WiOyAwyxf_/view?usp=sharing
+  pages: 587–592
+  location: Fürstenfeldbruck, Munich, Germany
+  eventDate: 6–9 June
+
+- year: 2016
+  authors:
+    - Ryota Arai
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Magnification-Changeable Haptic-Optical Clone
+  booktitle: Asia Haptics
+
+- year: 2016
+  authors:
+    - Kentaro Yoshida
+    - Koji Tanaka
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Character Recognition by Flick Movements Presented on Fingers, Asia Haptics
+  href: https://drive.google.com/file/d/1LbrVYyj4bq2cx5L_scFUnKeTAAXM2Rcc/view?usp=sharing
+  booktitle: Asia Haptics
+  location: Kashiwanoha, Japan
+  eventDate: Nov. 29-Dec. 1
+
+- year: 2016
+  authors:
+    - Kentaro Yoshida
+    - Takaaki Kamigaki
+    - Seki Inoue
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: HaptoCloneAR (Haptic-Optical Clone with Augmented Reality) for Mutual Interactions with Midair 3D Floating Image and Superimposed 2D Display
+  booktitle: Asia Haptics
+  href: https://drive.google.com/file/d/1rfxp2k9MMzi6ldNuxSGAiLYqVKeM89KM/view?usp=sharing
+  location: Kashiwanoha, Japan
+  eventDate: Nov. 29-Dec. 1
+
+- year: 2016
+  authors:
+    - Mitsuru Ito
+    - Daisuke Wakuda
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Hybrid Focus Using 70 kHz and 40 kHz Ultrasound in Mid-air Tactile Display
+  booktitle: Asia Haptics
+  href: https://drive.google.com/open?id=1tE8lyfvgLKX5-beh_5WyCHg3AR87T77z
+  location: Kashiwanoha, Japan
+  eventDate: Nov. 29-Dec. 1
+
+- year: 2016
+  authors:
+    - Hirokazu Miyahara
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Inducing Wrist Twist during Arm Swing by using Gyro Effect
+  booktitle: Asia Haptics
+  location: Kashiwanoha, Japan
+  eventDate: Nov. 29-Dec. 1
+
+- year: 2016
+  authors:
+    - Yuta Kimura
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Computer-created interactive 3D image with midair haptic feedback
+  booktitle: Asia Haptics
+  location: Kashiwanoha, Japan
+  eventDate: Nov. 29-Dec. 1
+
+- year: 2016
+  authors:
+    - Daichi Matsumoto
+    - Ya Zhu
+    - Yuya Tanaka
+    - Kyosuke Yamazaki
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: An Immersive Visuo-Haptic VR Environment with Pseudo-Haptic Effects on Perceived Stiffness
+  booktitle: Asia Haptics
+  href: https://drive.google.com/file/d/1vfHUAj00fL5Q_KSF8P4h2UnO0scIMmRD/view?usp=sharing
+  location: Kashiwanoha, Japan
+  eventDate: Nov. 29-Dec. 1
+
+- year: 2016
+  authors:
+    - Yuki Tajima
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Signal and Power Transfer to Actuators Distributed on Conductive Fabric Sheet for Wearable Tactile Display
+  booktitle: Asia Haptics
+  location: Kashiwanoha, Japan
+  eventDate: Nov. 29-Dec. 1
+
+- year: 2016
+  authors:
+    - Kyosuke Yamazaki
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Visuo-tactile Interaction with Virtual Objects that Yields Kinetic Effects on Real Objects
+  booktitle: Asia Haptics
+  location: Kashiwanoha, Japan
+  eventDate: Nov. 29-Dec. 1
+
+- year: 2016
+  authors:
+    - Seki Inoue
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Scalable Architecture for Airborne Ultrasound Tactile Display
+  booktitle: Asia Haptics
+  location: Kashiwanoha, Japan
+  eventDate: Nov. 29-Dec. 1
+
+- year: 2016
+  authors:
+    - Yuuki Horiuchi
+    - Kazunori Odani
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Rubber hand illusion using tactile projector
+  booktitle: Asia Haptics
+  location: Kashiwanoha, Japan
+  eventDate: Nov. 29-Dec. 1
+
+- year: 2016
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: On-Body Sensor Node Localization Using Reference RFID Tags Embedded in Wearable Waveguide
+  booktitle: IEEE SENSORS Proceedings
+  pages: 1003–1005
+  location: Caribe Royale All-Suite Hotel and Convention Center, Orlando, FL, USA
+  eventDate: October 30-November 2
+
+- year: 2016
+  authors:
+    - Qiu Liwei
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Simulation of Acoustic Streaming for Odorant Display Controlled by Airborne Ultrasound
+  booktitle: SICE Annual Conference
+  pages: 1228–1233
+  location: Tsukuba International Congress Center, Tsukuba, Japan
+  eventDate: September 20-23
+
+- year: 2016
+  authors:
+    - Azuma Yoshimoto
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Motion Guidance to Target Surface Using Airborne Ultrasound
+  booktitle: SICE Annual Conference
+  pages: 1234–1237
+  location: Tsukuba International Congress Center, Tsukuba, Japan
+  eventDate: September 20-23
+
+- year: 2016
+  authors:
+    - Seki Inoue
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Mid-Air Ultrasonic Pressure Control on Skin by Adaptive Focusing
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
+  href: http://link.springer.com/chapter/10.1007%2F978-3-319-42321-0_7
+  pages: 68–77
+  location: London, UK
+  eventDate: July 4-8
+
+- year: 2016
+  authors:
+    - Koji Tanaka
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: A Pocket-Size Alphabet Display with Letter Trajectories Presented to Fingers
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
+  pages: 472–482
+  location: London, UK
+  eventDate: July 4-8
+
+- year: 2016
+  authors:
+    - Ryota Arai
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Acceptable Mismatch Between Scaled 3D Images and Tactile Stimulation
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
+  href: http://link.springer.com/chapter/10.1007/978-3-319-42324-1_49
+  pages: 501–509
+  location: London, UK
+  eventDate: July 4-8
+
+- year: 2016
+  authors:
+    - Mitsuru Ito
+    - Daisuke Wakuda
+    - Seki Inoue
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: High Spatial Resolution Midair Tactile Display Using 70 kHz Ultrasound
+  booktitle: International Conference on Human Haptic Sensing and Touch Enabled Computer Applications (Eurohaptics)
+  href: https://drive.google.com/file/d/1WI_NtuMsufhCmTKU0RSBWsQV4iJDwAbj/view?usp=sharing
+  pages: 57–67
+  location: London, UK
+  eventDate: July 4-8
+
+- year: 2016
+  authors:
+    - Yasutoshi Makino
+    - Yoshikazu Furuyama
+    - Seki Inoue
+    - Hiroyuki Shinoda
+  title: HaptoClone (Haptic-Optical Clone) for Mutual Tele-Environment by Real-time 3D Image Transfer with Midair Force Feedback
+  refId: makino-2016-haptoclone
+  doi: 10.1145/2858036.2858481
+  booktitle: Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems
+  href: https://drive.google.com/open?id=1YzvpnkSgJ6GOutqeWQuOyKbgMrS19LiV
+  address: New York, NY, USA
+  pages: 1980–1990
+  location: San Jose Convention Center, San Jose, CA, USA
+  series: CHI '16
+  eventDate: May 7–12
+
+- year: 2016
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Focus Steering in Open-Ended Waveguide Sheet for Efficient and Secure Two-Dimensional Waveguide Power Transfer
+  booktitle: IEEE Wireless Power Transfer Conference
+  href: https://drive.google.com/file/d/162olzUjnGjf5K1dUDm6hu7sq83rfO_1i/view?usp=sharing
+  pages: 1–4
+  eventDate: May 5-6
+  location: Aveiro, Portugal
+
+- year: 2015
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Active Tile for Room-Size UWB 2-D Communication
+  booktitle: IEEE/SICE International Symposium on System Integration
+  href: https://drive.google.com/file/d/1-nh-KJS-4s6KozoB6OI9YAR2_Tn0_o6r/view?usp=sharing
+  pages: 668–671
+  location: Meijo University, Shiogamaguchi, Tempaku-ku, Nagoya, Japan
+  eventDate: December 13
+
+- year: 2015
+  authors:
+    - Akimasa Okada
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Time Domain Characteristics of Multiple UWB 2D Communication Tiles
+  booktitle: IEEE/SICE International Symposium on System Integration
+  href: https://drive.google.com/file/d/1XHoPxe8VungC5WzLxpkMcrVfO9npuJgK/view?usp=sharing
+  pages: 817–822
+  location: Nagoya, Japan
+  eventDate: Dec. 11-13
+
+- year: 2015
+  authors:
+    - Yudai Fukui
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: UWB Wireless LAN by 2D-Communication Tile system Based on Direction-Dependent Frequency Shift
+  booktitle: IEEE/SICE International Symposium on System Integration
+  href: https://drive.google.com/file/d/18vcrVF9mVQJjc0RUre9zLyc6DWDc-YbO/view?usp=sharing
+  pages: 801–806
+  location: Nagoya, Japan
+  eventDate: Dec. 11-13
+
+- year: 2015
+  authors:
+    - Akimasa Okada
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Evaluation of Isolation Property of UWB 2DC Tile for Coexistence with Radio Signals
+  booktitle: IECON – 41st Annual Conference on IEEE Industrial Electronics Society
+  href: https://drive.google.com/file/d/13sGiaAnA9Kd4M592sdfKZisdxG7-XkE5/view?usp=sharing
+  pages: 2868–2873
+  location: Yokohama, Japan
+  eventDate: November 9-12
+
+- year: 2015
+  authors:
+    - Yoshikazu Furuyama
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'X-Dimensional Display: Superimposing 2D Cross Sectional Image inside 3D Wireframe Aerial Image'
+  booktitle: International Conference on Artificial Reality and Telexistence (ICAT)
+  location: Kyoto, Japan
+  eventDate: Octorber 28-30
+
+- year: 2015
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Wireless LAN on 2-D Communication Tiles Using Ultra-Wideband as an Alternative Spectrum Resource
+  booktitle: IEEE International Conference on Ubiquitous Wireless Broadband
+  href: https://drive.google.com/file/d/1nFmX52f7jQReXckn1cqk4mi6R1ZLgxXi/view?usp=sharing
+  pages: 1–6
+  eventDate: October 5
+  location: Montreal, Canada
+
+- year: 2015
+  authors:
+    - Keisuke Hasegawa
+    - Yasuaki Monnai
+    - Seki Inoue
+    - Yoshikazu Furuyama
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Midair Touch Display
+  booktitle: SIGGRAPH 2015 Emerging Technologies
+  location: Los Angeles, California, USA
+  eventDate: August 09-13
+
+- year: 2015
+  authors:
+    - Yasutoshi Makino
+    - Yoshikazu Furuyama
+    - Hiroyuki Shinoda
+  title: 'HaptoClone (Haptic-Optical Clone): Mid-air Haptic-Optical Human-Human Interaction with Perfect Shynchronization'
+  booktitle: SUI 2015
+  location: Los Angeles, California, USA
+  eventDate: August 08-09
+
+- year: 2015
+  authors:
+    - Yudai Fukui
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Signal Connection among Two-Dimensional Communication Tiles by Direction-Dependent Frequency Shift
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/13wegIYWfOwuJyOwGvGpHMsF0AACXpioD/view?usp=sharing
+  pages: 513–518
+  location: Hangzhou, China
+  eventDate: July 28-30
+
+- year: 2015
+  authors:
+    - Yuichi Masuda
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Contactless Coupler for 2D Communication Tile Connection
+  refId: masuda-2015-contactless
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1ITOBvQLI5M9swsTEtZ7Wo-nKjSHSjvYM/view?usp=sharing
+  pages: 522–527
+  location: Hangzhou, China
+  eventDate: July 28-30
+
+- year: 2015
+  authors:
+    - Seki Inoue
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Active Touch Perception Produced by Airborne Ultrasonic Haptic Hologram
+  refId: inoue-2015-active
+  href: https://drive.google.com/file/d/1bvZg-uldmHakDNDBW4rOjlQ_G15p1tQF/view?usp=sharing
+  booktitle: 2015 IEEE World Haptics Conference (WHC)
+  pages: 362–367
+  location: Northwestern University, Evanston, Il, USA
+  eventDate: June 22–26
+
+- year: 2015
+  authors:
+    - Keisuke Hasegawa
+    - Tatsuma Sakurai
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Alphabet Letter Display via Imitated Writing Motion
+  booktitle: IEEE World Haptics Conference (WHC)
+  note: Work-in-Progress Papers
+  href: https://drive.google.com/file/d/1hQKFEfZ1jOpsyESHYm-fE7ZGv9f8Xcyt/view?usp=sharing
+  location: Northwestern University, Evanston, Il, USA
+  eventDate: June 22–26
+
+- year: 2015
+  authors:
+    - Kotaro Shikata
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Inducing Elbow Joint Flexion by Shear Deformation of Arm Skin
+  booktitle: IEEE World Haptics Conference (WHC)
+  note: Work-in-Progress Papers
+  href: https://drive.google.com/file/d/1SQaA7fL6ZAwAoNQ0tp605Ep7M5N7MpqE/view?usp=sharing
+  location: Northwestern University, Evanston, Il, USA
+  eventDate: June 22–26
+
+- year: 2014
+  authors:
+    - Seki Inoue
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Designing Stationary Airborne Ultrasonic 3D Tactile Object
+  doi: 10.1109/SII.2014.7028030
+  booktitle: IEEE/SICE International Symposium on System Integration
+  pages: 159–162
+  location: Tokyo, Japan
+  eventDate: Dec. 13-15
+
+- year: 2014
+  authors:
+    - Akimasa Okada
+    - Akihito Noda
+    - Hiroyuki Shinod
+  title: Feasibility study on OFDM signal transmission with UWB 2D communication tile
+  doi: 10.1109/SII.2014.7028067
+  booktitle: IEEE/SICE International Symposium on System Integration
+  href: https://drive.google.com/file/d/1DnFkj4iji-4QndNfYaH_nASRndkvkvZe/view?usp=sharing
+  pages: 376–380
+  location: Tokyo, Japan
+  eventDate: Dec. 13-15
+
+- year: 2014
+  authors:
+    - Yasuaki Monnai
+    - Keisuke Hasegawa
+    - Masahiro Fujiwara
+    - Kazuma Yoshino
+    - Seki Inoue
+    - Hiroyuki Shinoda
+  title: Adding Texture to Aerial Images Using Ultrasounds
+  booktitle: Asia Haptics
+  eventDate: Nov. 18-20
+  location: Tsukuba, Japan
+
+- year: 2014
+  authors:
+    - Keisuke Hasegawa
+    - Hiroyuki Shinoda
+  title: Generating Vibrotactile Images on the Human Palms
+  booktitle: Asia Haptics
+  eventDate: Nov. 18-20
+  location: Tsukuba, Japan
+
+- year: 2014
+  authors:
+    - Seki Inoue
+    - Koseki Kobayashi
+    - Yoshikazu Furuyama
+    - Soichiro Kumagai
+    - Keisuke Hasegawa
+    - Hiroyuki Shinoda
+  title: 'HORN: Stationary Airborne Ultrasound 3D Haptic Image'
+  booktitle: Asia Haptics
+  eventDate: Nov. 18-20
+  location: Tsukuba, Japan
+
+- year: 2014
+  authors:
+    - Yasuaki Monnai
+    - Keisuke Hasegawa
+    - Masahiro Fujiwara
+    - Kazuma Yoshino
+    - Seki Inoue
+    - Hiroyuki Shinoda
+  title: 'HaptoMime: Mid-Air Haptic Interaction with a Floating Virtual Screen'
+  refId: monnai-2014-haptomime
+  doi: 10.1145/2642918.2647407
+  href: https://drive.google.com/file/d/1Rji2rqTZD31IB6h896gkDi-K__yZ9QSu/view?usp=sharing
+  address: New York, NY, USA
+  booktitle: Proceedings of the 27th Annual ACM Symposium on User Interface Software and Technology
+  pages: 663–667
+  location: Honolulu, Hawaii, USA
+  series: UIST '14
+  eventDate: Oct. 5-8
+
+- year: 2014
+  authors:
+    - Hiroyuki Shinoda
+    - Akimasa Okada
+    - Akihito Noda
+  title: UWB 2D Communication Tiles
+  doi: 10.1109/ICUWB.2014.6959006
+  booktitle: IEEE International conference on ultra-wideband
+  href: https://drive.google.com/file/d/1yF5cbWBk_FqeRNunzADtuWmeV3Q2IBVE/view?usp=sharing
+  pages: 1–5
+  location: Paris, France
+  eventDate: September 1-3
+
+- year: 2014
+  authors:
+    - Akihito Noda
+    - Yuta Kudo
+    - Hiroyuki Shinoda
+  title: Circular Planar Coupler for UWB 2-D Communication
+  booktitle: IEEE International conference on ultra-wideband
+  pages: 1–6
+  location: Paris, France
+  eventDate: September 1-3
+
+- year: 2014
+  authors:
+    - Yasuaki Monnai
+    - Withawat Withayachumnankul
+    - David Jahn
+    - Martin Koch
+    - Hiroyuki Shinoda
+  title: THz Vector Bessel Beams Generated By Plasmonic Waveguide Scattering
+  booktitle: 39th International Conference on Infrared, Terahertz and Millimeter Waves (IRMMW)
+  location: Tucson, USA
+  eventDate: Sep.
+
+- year: 2014
+  authors:
+    - Seki Inoue
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Producing Airborne Ultrasonic 3D Tactile Image by Time Reversal Field Rendering
+  doi: 10.1109/SICE.2014.6935269
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/15OTINx4wTRxwUJEQZgixxsSFrk1cNsEx/view?usp=sharing
+  pages: 1360–1365
+  eventDate: September 9-12
+  location: Sapporo, Japan
+
+- year: 2014
+  authors:
+    - Masahiro Fujiwara
+    - Hiroyuki Shinoda
+  title: Preliminary Study on Noncontact Internal Structure Sensing by Resonant Mode Excitation Using Airborne Ultrasound Radiation Pressure
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1QWI-KuhZ9bkmbMhjpz-X8-o1mizS1PoC/view?usp=sharing
+  pages: 1614–1617
+  eventDate: September 9-12
+  location: Sapporo, Japan
+
+- year: 2014
+  authors:
+    - Tatsuma Sakurai
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Measurement of the Strain Behavior Inside the Skin under Edge Stimulation Condition
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1hBBdfrWKGcYP0MulFZJJCxvzWJv9Gbs0/view?usp=sharing
+  pages: 1631–1634
+  eventDate: September 9-12
+  location: Sapporo, Japan
+
+- year: 2014
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Edge-Mount 1-Watt RF Amplifier for 2-D Waveguide Power Transmission
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1ZU6Lyy3vMqsVsE15QGk3kg-7BQUpSuBR/view?usp=sharing
+  pages: 1941–1945
+  eventDate: September 9-12
+  location: Sapporo, Japan
+
+- year: 2014
+  authors:
+    - Akimasa Okada
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Effect of the Surface Insulator on UWB 2D-Communication Sheet
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1mL3fiovbVe3jUO7pQFSIw4PGI1FoWhTO/view?usp=sharing
+  pages: 1966–1969
+  eventDate: September 9-12
+  location: Sapporo, Japan
+
+- year: 2014
+  authors:
+    - Seki Inoue
+    - Koseki Kobayashi Kirschvinkand
+    - Yasuaki Monnai
+    - Keisuke Hasegawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: HORN The Hapt-Optic Reconstruction
+  refId: inoue-2014-horn
+  booktitle: ACM SIGGRAPH Emerging Technologies
+  eventDate: August
+  location: Vancouver, Canada
+
+- year: 2014
+  authors:
+    - Robert McKinney
+    - Yasuaki Monnai
+    - Rajind Mendis
+    - Daniel Mittleman
+  title: A Terahertz Leaky-Wave Antenna using a Parallel-Plate Waveguide
+  booktitle: Conference on Lasers and Electro-Optics (CLEO2014)
+  location: San Jose, CA, USA
+  eventDate: Jun.
+
+- year: 2014
+  authors:
+    - Yasuaki Monnai
+    - Withawat Withayachumnankul
+    - Hiroyuki Shinoda
+  title: A Plasmonic Lens for THz Bessel Beamforming
+  booktitle: International Conference on Metamaterials Photonic Crystals and Plasmonics (META2014)
+  eventDate: May 20
+  location: Singapore
+
+- year: 2014
+  authors:
+    - Yuta Kudo
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: UWB Sensor Network on 2-D Waveguide Sheet
+  booktitle: IEEE Sensors Applications Symposium Proceedings
+  href: https://drive.google.com/file/d/1zh9P_IoMT_DWxHcxatDZqrEMkowQ1spq/view?usp=sharing
+  pages: 339–342
+  eventDate: February 18-20
+  location: Queenstown, New Zealand
+
+- year: 2014
+  authors:
+    - Seki Inoue
+    - Hiroyuki Shinoda
+  title: A Pinchable Aerial Virtual Sphere by Acoustic Ultrasound Stationary Wave
+  refId: inoue-2014-a
+  booktitle: IEEE Haptics Symposium Proceedings
+  href: https://drive.google.com/file/d/1pOuxKTO2K6-Gemw5zVxDaGO7Hx2ydouG/view?usp=sharing
+  eventDate: February
+  location: Houston, Texas
+
+- year: 2014
+  authors:
+    - Tatsuma Sakurai
+    - Hiroyuki Shinoda
+  title: Sharp Tactile Line Presentation Array using Edge Stimulation Method
+  booktitle: IEEE Haptics Symposium
+  href: https://drive.google.com/file/d/1neMjJMOjaxmlZoXPjP-Okj5H2H0EvCF8/view?usp=sharing
+  pages: 271–275
+  location: February, Houston, Tx, USA
+  eventDate: 23-26 February
+
+- year: 2014
+  authors:
+    - Kazuma Yoshino
+    - Hiroyuki Shinoda
+  title: Contactless Touch Interface Supporting Blind Touch Interaction by Aerial Tactile Stimulation
+  booktitle: IEEE Haptics Symposium
+  href: https://drive.google.com/file/d/1oEhXq256aRxTF38aeb0qAM7_YTO9aXyj/view?usp=sharing
+  pages: 347–350
+  location: Houston, Tx, USA
+  eventDate: 23-26 February
+
+- year: 2014
+  authors:
+    - Masahiro Fujiwara
+    - Hiroyuki Shinoda
+  title: Coaxial Noncontact Surface Compliance Distribution Measurement for Muscle Contraction Sensing
+  booktitle: IEEE Haptics Symposium
+  href: https://drive.google.com/file/d/1qB_3skCd2vw5VnFFp698DUmyAhZMkpkR/view?usp=sharing
+  pages: 385–389
+  location: Houston, Tx, USA
+  eventDate: 23-26 February
+
+- year: 2013
+  authors:
+    - Keisuke Hasegawa
+    - Hiroyuki Shinoda
+  title: A Method for Distribution Control of Aerial Ultrasound Radiation Pressure for Remote Vibrotactile Display
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1LBmLfqtTG_Fu_CMlMpdfpkpBptklMb5e/view?usp=sharing
+  pages: 223–228
+  eventDate: September 14-17
+  location: Nagoya, Japan
+
+- year: 2013
+  authors:
+    - Masahiro Fujiwara
+    - Hiroyuki Shinoda
+  title: Continuous Scanning Measurement of Surface Compliance Distribution from Remote Position Using Rotated Mirror
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1NkzCAuHwpGUgWxhR8vf41VQ4AiSR2kh6/view?usp=sharing
+  pages: 818–821
+  eventDate: September 14-17
+  location: Nagoya, Japan
+
+- year: 2013
+  authors:
+    - Tatsuma Sakurai
+    - Hiroyuki Shinoda
+  title: Sharp Tactile Line Display Using Superposition of Vibtotactile Stimuli
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/17qtZa9MiMXMESOMj9vzohbj6iSCTyDDw/view?usp=sharing
+  pages: 2035–2040
+  eventDate: September 14-17
+  location: Nagoya, Japan
+
+- year: 2013
+  authors:
+    - Keisuke Hasegawa
+    - Hiroyuki Shinoda
+  title: Aerial Display of Vibrotactile Sensation with High Spatial-Temporal Resolution using Large-Aperture Airborne Ultrasound Phased Array
+  refId: hasegawa-2013-aerial
+  href: https://drive.google.com/file/d/1nQiCNBSM0VfciotvpWnJACoUjwt4x-m_/view?usp=sharing
+  booktitle: 2013 World Haptics Conference (WHC)
+  pages: 31–36
+  location: Daejeon, Korea
+  eventDate: April 14-18
+
+- year: 2013
+  authors:
+    - Masahiro Fujiwara
+    - Hiroyuki Shinoda
+  title: Noncontact Human Force Capturing based on Surface Hardness Measurement
+  booktitle: 2013 World Haptics Conference (WHC)
+  href: https://drive.google.com/file/d/1WzTHxoOsVSxuRqqr-Gu2DS82YXZOcTKX/view?usp=sharing
+  pages: 85–90
+  location: Daejeon, Korea
+  eventDate: April 14-18
+
+- year: 2013
+  authors:
+    - Tatsuma Sakurai
+    - Hiroyuki Shinoda
+    - Masashi Konyo
+  title: Sharp Tactile Sensation using Superposition of Vibrotactile Stimuli in Different Phases
+  booktitle: 2013 World Haptics Conference (WHC)
+  href: https://drive.google.com/file/d/1gKt5wgWg1a3PeEpt4UyiNmezvLt56UFk/view?usp=sharing
+  pages: 235–240
+  location: Daejeon, Korea
+  eventDate: April 14-18
+
+- year: 2013
+  authors:
+    - Kazuma Yoshino
+    - Hiroyuki Shinoda
+  title: Visio-Acoustic Screen for Contactless Touch Interface with Tactile Sensation
+  booktitle: 2013 World Haptics Conference (WHC)
+  href: https://drive.google.com/file/d/1LddKpfaM5HXtLeEcRPTFBXsNjz07LN86/view?usp=sharing
+  pages: 419–423
+  location: Daejeon, Korea
+  eventDate: April 14-18
+
+- year: 2013
+  authors:
+    - Yasuaki Monnai
+    - Kristian Altmann
+    - Martin Koch
+    - Hartmut Hillmer
+    - Hiroyuki Shinoda
+  title: Steering and Focusing of THz Beams Using Programmable Diffraction Gratings
+  booktitle: International Workshop on Optical Terahertz Science and Technology (OTST)
+  location: Kyoto, Japan
+  eventDate: Apr.
+
+- year: 2012
+  authors:
+    - Yasuaki Monnai
+    - Kristian Altmann
+    - Martin Koch
+    - Hartmut Hillmer
+    - Hiroyuki Shinoda
+  title: THz Beam Steering Based on Plasmonic Waveguide Scattering with Tunable Gratings
+  booktitle: 37th International Conference on Infrared, Terahertz and Millimeter Waves (IRMMW)
+  eventDate: Sep.
+  location: Wollongong, Australia
+
+- year: 2012
+  authors:
+    - Kazuma Yoshino
+    - Keisuke Hasegawa
+    - Hiroyuki Shinoda
+  title: Measuring Visio-Tactile threshold for Visio-Tactile Projector
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/19U9zcA0uHbR1WfXWrXXnkW5tF2ty1OdB/view?usp=sharing
+  pages: 1996–2000
+  eventDate: August
+
+- year: 2012
+  authors:
+    - Keisuke Hasegawa
+    - Hiroyuki Shinoda
+  title: Dynamic Range Enhancement of Airborne Ultrasound Tactile Display
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1cvv-o48yU7Gsc3VyP4qTUGRnONdkAtmH/view?usp=sharing
+  pages: 280–283
+  eventDate: August
+
+- year: 2012
+  authors:
+    - Masahiro Fujiwara
+    - Hiroyuki Shinoda
+  title: Remote Measurement Method of Surface Compliance Distribution for a Curved Surface Object
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1BMFaCPXYPAtNC7-COqw6V5ic0heSdru4/view?usp=sharing
+  pages: 1–5
+  eventDate: August
+
+- year: 2012
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Coupler Combination for Blind Spot Elimination in Two-Dimensional Waveguide Power Transmission
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1twm-cWZLdw3VYlcCsvv9v3PACj97yaqG/view?usp=sharing
+  pages: 1448–1450
+  eventDate: August
+
+- year: 2012
+  authors:
+    - Takuya Okuyama
+    - Yasuaki Monnai
+    - Hiroyuki Shinoda
+  title: Possibility of Wireless Sensor Chip without External Antenna Using 30GHz Phased Array Reader
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1fjjIaIAYg7Woqdbm2uTTXNRS-ZYenhta/view?usp=sharing
+  pages: 1939–1943
+  eventDate: August
+
+- year: 2012
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Compact Class-F RF-DC Converter with Antisymmetric Dual-Diode Configuration
+  booktitle: IEEE MTT-S International Microwave Symposium Digest
+  href: https://drive.google.com/file/d/1p9DaOZJ2M2t-5PulhgkxMQVVnMNAUMfa/view?usp=sharing
+  pages: 1–3
+  eventDate: June 17-22
+  location: Montreal, Canada
+
+- year: 2012
+  authors:
+    - Yasuaki Monnai
+    - Volker Viereck
+    - Hartmut Hillmer
+    - Krisitian Altmann
+    - Christian Jansen
+    - Martin Koch
+    - Hiroyuki Shinoda
+  title: Terahertz Beam Steering Using Structured MEMS Surfaces for Networked Wireless Sensing
+  booktitle: International Conference on Networked Sensing Systems
+  pages: 1–4
+  eventDate: June 11-14
+  location: Antwerp, Belgium
+
+- year: 2012
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: A Wireless and Batteryless Sensor Node Powered via 2-D Waveguide Sheet
+  booktitle: International Conference on Networked Sensing Systems
+  pages: 1–7
+  eventDate: June 11-14
+  location: Antwerp, Belgium
+
+- year: 2012
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Passive UHF RFID Tag Localization on 2D Waveguide Sheet Using Single Reader and Phased Array Coupler
+  booktitle: International Conference on Networked Sensing Systems
+  pages: 1–4
+  eventDate: June 11-14
+  location: Antwerp, Belgium
+
+- year: 2012
+  authors:
+    - Takuya Okuyama
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: 30W wireless power transmission to networked robots through 2D waveguide
+  booktitle: International Conference on Networked Sensing Systems
+  pages: 1–4
+  eventDate: June 11-14
+  location: Antwerp, Belgium
+
+- year: 2012
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Waveguide-Ring Resonator Coupler with Class-F Rectifier for 2-D Waveguide Power Transmission
+  booktitle: IEEE MTT-S International Microwave Workshop Series on Innovative Wireless Power Transmission
+  href: https://drive.google.com/file/d/18pdh_MO9j0rBJBXAkVIlaxORmirqqWwQ/view?usp=sharing
+  pages: 259–262
+  eventDate: May 11
+  location: Kyoto, Japan
+
+- year: 2011
+  authors:
+    - Katsunari Sato
+    - Hiroyuki Shinoda
+    - Susumu Tachi
+  title: Design and Implementation of Transmission System of Initial Haptic Impression
+  booktitle: SICE Annual Conference
+  pages: 616–621
+  eventDate: September 13-18
+
+- year: 2011
+  authors:
+    - Kei Nakatsuma
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Passive RFID Tag Positioning Using 1D Stripline-shaped Antenna
+  booktitle: SICE Annual Conference
+  pages: 827–830
+  eventDate: September 13-18
+
+- year: 2011
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Selective Proximity Power Transmission Using Low Leakage Ribbon Waveguide and High-Q Resonant Coupler
+  booktitle: SICE Annual Conference
+  pages: 836–841
+  eventDate: September 13-18
+
+- year: 2011
+  authors:
+    - Masahiro Fujiwara
+    - Kei Nakatsuma
+    - Hiroyuki Shinoda
+  title: Remote Measurement of Surface Compliance Distribution for Haptic Broadcasting
+  booktitle: SICE Annual Conference
+  pages: 1960–1965
+  eventDate: September 13-18
+
+- year: 2011
+  authors:
+    - Keiko Yokoyama
+    - Kei Nakatsuma
+    - Masahiro Fujiwara
+    - Masafumi Takahashi
+    - Hiroyuki Shinoda
+  title: Remote Compliance Measurement Method Using Ultrasound Phased Array
+  booktitle: SICE Annual Conference
+  pages: 2397–2401
+  eventDate: September 13-18
+
+- year: 2011
+  authors:
+    - Masahiro Fujiwara
+    - Kei Nakatsuma
+    - Masafumi Takahashi
+    - Hiroyuki Shinoda
+  title: Remote Measurement of Surface Compliance Distribution Using Ultrasound Radiation Pressure
+  booktitle: IEEE World Haptics Conference
+  href: https://drive.google.com/file/d/1TkWPdJGy6VMcdjErtwsMDw0NLo27zmQ6/view?usp=sharing
+  pages: 43–47
+  eventDate: 21-24 June
+  location: Istanbul, Turkey
+
+- year: 2011
+  authors:
+    - Yasutoshi Makino
+    - Takashi Maeno
+    - Hiroyuki Shinoda
+  title: Perceptual Characteristic of Multi-Spectral Vibrations Beyond the Human Perceivable Frequency Range
+  booktitle: IEEE World Haptics Conference
+  pages: 439–443
+  eventDate: 21-24 June
+  location: Istanbul, Turkey
+
+- year: 2011
+  authors:
+    - Takuya Handa
+    - Tadahiro Sakai
+    - Hiroyuki Shinoda
+  title: Evaluation of Size and Shape Perception in Multi-Finger Haptic System, Poster
+  booktitle: IEEE World Haptics Conference
+  pages: 523–528
+  eventDate: 21-24 June
+  location: Istanbul, Turkey
+
+- year: 2011
+  authors:
+    - Kei Nakatsuma
+    - Hiroyuki Shinoda
+  title: A Demonstration of Wearable Interface Based on Position on Fabric
+  booktitle: IEEE World Haptics Conference
+  eventDate: 21-24 June
+  location: Istanbul, Turkey
+
+- year: 2011
+  authors:
+    - Yasutoshi Makino
+    - Kei Nakatsuma
+    - Takashi Maeno
+    - Hiroyuki Shinoda
+  title: Wristband-shaped Input Interface Using User’s Back of Hand
+  booktitle: IEEE World Haptics Conference
+  eventDate: 21-24 June
+  location: Istanbul, Turkey
+
+- year: 2011
+  authors:
+    - Katsunari Sato
+    - Hiroyuki Shinoda
+    - Susumu Tachi
+  title: Vision-based Thermal Measurement Method using Thermo Sensitive Ink for Cutaneous Sensor
+  booktitle: IEEE World Haptics Conference
+  eventDate: 21-24 June
+  location: Istanbul, Turkey
+
+- year: 2011
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Selective Proximity Power Transmission through High-Q Resonant Coupler on Ribbon-Like Waveguide
+  booktitle: International Conference on Networked Sensing Systems
+  location: Penghu, Taiwan
+  eventDate: June 12-15
+
+- year: 2011
+  authors:
+    - Yasuaki Monnai
+    - Hiroyuki Shinoda
+    - Andreas Jaekel
+    - Volker Viereck
+    - Hartmut Hillmer
+  title: Terahertz Focus Steering Technique for Quasi-Optical Networked Sensing Applications
+  booktitle: International Conference on Networked Sensing Systems
+  location: Penghu, Taiwan
+  eventDate: June 12-15
+
+- year: 2011
+  authors:
+    - Kei Nakatsuma
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Localization Scheme for Passive RFID Tags Using 1D Stripline-shaped Antenna
+  booktitle: International Conference on Networked Sensing Systems
+  location: Penghu, Taiwan
+  eventDate: June 12-15
+
+- year: 2011
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Simultaneous Power Transmission to Multiple Receivers on 2D Waveguide Sheet
+  booktitle: International Conference on Networked Sensing Systems
+  location: Penghu, Taiwan
+  eventDate: June 12-15
+
+- year: 2011
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: One-Dimensional Proximity Power Transmission Using Ribbon-Like Waveguide and Bar-Type High-Q Resonant Receiver Coupler
+  booktitle: IEEE MTT-S International Microwave Workshop Series on Innovative Wireless Power Transmission
+  pages: 203–206
+  location: Kyoto, Japan
+  eventDate: 12-13 May
+
+- year: 2011
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Selective Wireless Power Transmission through 2D Waveguide Sheet using Strong Electromagnetic Confinement by Choke-Enclosed Resonant Coupler
+  booktitle: IEEE Radio and Wireless Symposium
+  pages: 178–181
+  location: Phoenix, USA
+  eventDate: 15–19 January
+
+- year: 2010
+  authors:
+    - Kei Nakatsuma
+    - Yuichi Tanno
+    - Hiroyuki Shinoda
+  title: A Demonstration of Position and Orientation Sensor for Two-Dimensional Communication Networks
+  booktitle: Ubicomp (ACM International Conference on Ubiquitous Computing)
+  pages: 371–372
+  eventDate: Sep.
+  location: Copenhagen, Denmark
+
+- year: 2010
+  authors:
+    - Kei Nakatsuma
+    - Hiroyuki Shinoda
+  title: Position and Orientation Sensor for Two-Dimensional Communication Network
+  booktitle: SICE Annual Conference
+  pages: 3150–3154
+  location: Taipei, Taiwan
+  eventDate: Aug.
+
+- year: 2010
+  authors:
+    - Masafumi Takahashi
+    - Hiroyuki Shinoda
+  title: Large Aperture Airborne Ultrasound Tactile Display Using Distributed Array Units
+  booktitle: SICE Annual Conference
+  pages: 359–362
+  location: Taipei, Taiwan
+  eventDate: Aug.
+
+- year: 2010
+  authors:
+    - Yasuaki Monnai
+    - Hiroyuki Shinoda
+  title: Microwave Phased Array Sheet for Wireless Sensor Network
+  booktitle: International Conference on Networked Sensing Systems
+  pages: 123–129
+  location: Kassel, Germany
+  eventDate: June 15-18
+
+- year: 2010
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: The Lower-Bound of Electromagnetic Leakage of 2D Wireless Power Transmission
+  booktitle: International Conference on Networked Sensing Systems
+  pages: 138–144
+  location: Kassel, Germany
+  eventDate: June 15-18
+
+- year: 2010
+  authors:
+    - Kei Nakatsuma
+    - Hiroyuki Shinoda
+  title: High Accuracy Position and Orientation Detection in Two-Dimensional Communication Network
+  booktitle: CHI (ACM Conference on Human Factors in Computing Systems)
+  pages: 2297–2306
+  location: Atlanta, USA
+  eventDate: April 10–15
+
+- year: 2009
+  authors:
+    - Takayuki Hoshi
+    - Daisu Abe
+    - Hiroyuki Shinoda
+  title: Adding Tactile Reaction to Hologram
+  booktitle: IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN)
+  href: https://drive.google.com/file/d/1MWt-Of3uwxpEejJMVxc8GdoyRLaSSETo/view?usp=sharing
+  pages: 7–11
+
+- year: 2009
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Safe Wireless Power Transmission Using Low Leakage 2D-Communication Sheet
+  booktitle: ICROS-SICE International Joint Conference
+  pages: 1105–1109
+  location: Fukuoka, Japan
+  eventDate: August 18-21
+
+- year: 2009
+  authors:
+    - Yasuaki Monnai
+    - Hiroyuki Shinoda
+  title: Dielectric Grating Antenna for 2D Waveguides Interconnection
+  booktitle: ICROS-SICE International Joint Conference
+  pages: 1110–1114
+  location: Fukuoka, Japan
+  eventDate: August 18-21
+
+- year: 2009
+  authors:
+    - Takayuki Hoshi
+    - Masafumi Takahashi
+    - Kei Nakatsuma
+    - Hiroyuki Shinoda
+  title: Touchable Holography
+  refId: hoshi-2009-touchable
+  href: https://drive.google.com/file/d/1HUxICzf01gzKAhd97YLivBCH8TS_6652/view?usp=sharing
+  address: New York, NY, USA
+  booktitle: ACM SIGGRAPH 2009 Emerging Technologies
+  articleno: 23
+  numpages: 1
+  location: New Orleans, Louisiana
+  series: SIGGRAPH '09
+  eventDate: 3-7 Aug.
+
+- year: 2009
+  authors:
+    - Akihito Noda
+    - Hiroyuki Shinoda
+  title: Power Transmission Coupler for Low Leakage 2D-Communication Sheet
+  booktitle: INSS
+  pages: 24–30
+  eventDate: June 17-19
+  location: Pittsburgh
+
+- year: 2009
+  authors:
+    - Yasuaki Monnai
+    - Hiroyuki Shinoda
+  title: Converting 2D Microwave into 3D Beam Using Dielectric Grating Antenna
+  booktitle: INSS
+  pages: 183–187
+  eventDate: June 17-19
+  location: Pittsburgh
+
+- year: 2009
+  authors:
+    - Kei Nakatsuma
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Estimating Sensor Node Position on Two-Dimensional Communication Sheet
+  booktitle: INSS
+  eventDate: June 17-19
+  location: Pittsburgh
+
+- year: 2009
+  authors:
+    - Hiroto Itai
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Interactive Window Based on 2D Communication Technology: Integrating Ubiquitous Devices on Transparent Medium'
+  booktitle: Pervasive
+  pages: 193–196
+  eventDate: May 11-14
+
+- year: 2009
+  authors:
+    - Takayuki Hoshi
+    - Takayuki Iwamoto
+    - Hiroyuki Shinoda
+  title: Non-Contact Tactile Sensation Synthesized by Ultrasound Transducers
+  booktitle: World Haptics
+  href: https://drive.google.com/file/d/1lkQmQYM5PD2C0phv8pWwbzC_2ebieHSP/view?usp=sharing
+  pages: 256–260
+  eventDate: March 18-20
+  location: Salt Lake City, UT
+
+- year: 2008
+  authors:
+    - Takayuki Iwamoto
+    - Mari Tatezono
+    - Takayuki Hoshi
+    - Hiroyuki Shinoda
+  title: Airborne Ultrasound Tactile Display
+  booktitle: SIGGRAPH New Tech Demos
+  href: https://drive.google.com/file/d/1ppa5p-kHtoetjcsZjYoHWtagilZeBY5D/view?usp=sharing
+  eventDate: 11-15 Aug.
+  location: Los Angeles
+
+- year: 2008
+  authors:
+    - Kei Nakatsuma
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+    - Hiroto Itai
+  title: Two-Dimensional Communication
+  refId: nakatsuma-2008-two-dimensional
+  booktitle: SIGGRAPH New Tech Demos
+  href: https://drive.google.com/file/d/1VSMb_rrUcrst_7jAAKMiRDwHlRHO0Who/view?usp=sharing
+  location: Los Angeles
+
+- year: 2008
+  authors:
+    - Kei Nakatsuma
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Node Self-Localization in the "Two-Dimensional Communication" Networks
+  booktitle: SIGGRAPH
+  href: https://drive.google.com/file/d/13Kyi4A0duD7wFpRhQU5_z7giHpUwZNbZ/view?usp=sharing
+  location: Los Angeles
+  eventDate: 11-15 Aug.
+
+- year: 2008
+  authors:
+    - Shohei Kiyota
+    - Hiroyuki Shinoda
+  title: Cubic Stress Tensor Sensor for Robot Skins
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1teahHj2v2HbZnnrO0CMLtWlg4FUaN6DQ/view?usp=sharing
+  pages: 910–914
+
+- year: 2008
+  authors:
+    - Takayuki Hoshi
+    - Hiroyuki Shinoda
+  title: 3D Shape Measuring Sheet Utilizing Gravitational and Geomagnetic Fields
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1cGXedUX771bkNoKLHZJaSEInZdz0pPfe/view?usp=sharing
+  pages: 915–920
+
+- year: 2008
+  authors:
+    - Yasutoshi Makino
+    - Shuhei Ogawa
+    - Hiroyuki Shinoda
+  title: Flexible EMG Sensor Array for Haptic Interface
+  booktitle: SICE Annual Conference
+  href: https://drive.google.com/file/d/1hcl7FLok5Ex4nvj-zpc5j-Eq4kUOygUE/view?usp=sharing
+  pages: 1468–1473
+
+- year: 2008
+  authors:
+    - Kei Nakatsuma
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Node Localization in the "Two-Dimensional Communication" Networks Based on Electric Field Pattern Measurement
+  booktitle: SICE Annual Conference
+  pages: 3380–3385
+
+- year: 2008
+  authors:
+    - Takayuki Hoshi
+    - Hiroyuki Shinoda
+  title: Three-dimensional Shape Capture Sheet Using Distributed Six-Axis Sensors
+  booktitle: INSS
+  pages: 156–161
+
+- year: 2008
+  authors:
+    - Yasutoshi Makino
+    - Shuhei Ogawa
+    - Hiroyuki Shinoda
+  title: EMG Sensor Integration Based on Two-Dimensional Communication
+  booktitle: International Conference on Networked Sensing Systems (INSS)
+  pages: 140–147
+
+- year: 2008
+  authors:
+    - Kei Nakatsuma
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Position Sensing based on Electric Field Measurement on Two-Dimensional Signal Transmission Sheet
+  booktitle: International Conference on Networked Sensing Systems (INSS)
+  pages: 189–194
+
+- year: 2008
+  authors:
+    - Takayuki Iwamoto
+    - Mari Tatezono
+    - Hiroyuki Shinoda
+  title: Non-contact Method for Producing Tactile Sensation Using Airborne Ultrasound
+  refId: iwamoto-2008-non
+  href: https://drive.google.com/file/d/1AlQjG74_lt_pdf6wPuvF8Ewe3eB158AM/view?usp=sharing
+  booktitle: 'Haptics: Perception, Devices and Scenarios'
+  publisher: Springer Berlin Heidelberg
+  address: Berlin, Heidelberg
+  pages: 504–513
+
+- year: 2007
+  authors:
+    - Takayuki Hoshi
+    - Hiroyuki Shinoda
+  title: Gravity-Based 3D Shape Measuring Sheet
+  booktitle: SICE Annual Conference
+  pages: 2126–2131
+
+- year: 2007
+  authors:
+    - Shohei Kiyota
+    - Hiroyuki Shinoda
+  title: Tactile Sensing Cube Measuring Stress Tensor
+  booktitle: SICE Annual Conference
+  pages: 2137–2140
+
+- year: 2007
+  authors:
+    - Takuya Hasegawa
+    - Takayuki Iwamoto
+    - Hiroyuki Shinoda
+  title: Measuring Finger Peripheral Signal Based on Electrical Synchronization
+  booktitle: SICE Annual Conference
+  pages: 2141–2144
+
+- year: 2007
+  authors:
+    - Takayuki Iwamoto
+    - Hiroyuki Shinoda
+  title: Finger Ring Device for Tactile Sensing and Human Machine Interface
+  booktitle: SICE Annual Conference
+  pages: 2132–2136
+
+- year: 2007
+  authors:
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Myoelectric Pattern Measurement Based on Two-Dimensional Communication Technology
+  booktitle: SICE Annual Conference
+  pages: 2145–2149
+
+- year: 2007
+  authors:
+    - Takayuki Hoshi
+    - Sayo Ozaki
+    - Hiroyuki Shinoda
+  title: Three-Dimensional Shape Capture Sheet Using Distributed Triaxial Accelerometers
+  booktitle: International Conference on Networked Sensing Systems (INSS)
+  pages: 207–212
+  location: Braunschweig, Germany
+  eventDate: June 6-8
+
+- year: 2007
+  authors:
+    - Hiroyuki Shinoda
+    - Yasutoshi Makino
+    - Naoshi Yamahira
+    - Hiroto Itai
+  title: Surface Sensor Network Using Inductive Signal Transmission Layer
+  refId: shinoda-2007-surface
+  booktitle: International Conference on Networked Sensing Systems (INSS)
+  href: https://drive.google.com/file/d/1WXjk5jKbZBtRQxDunTtcA6GxRaJe9ZYx/view?usp=sharing
+  pages: 201–206
+  location: Braunschweig, Germany
+  eventDate: June 6-8
+
+- year: 2007
+  authors:
+    - Takayuki Iwamoto
+    - Hiroyuki Shinoda
+  title: Finger Ring Tactile Interface Based on Propagating Elastic Waves on Human Fingers
+  booktitle: World Haptics
+  pages: 145–150
+  location: Tsukuba, Japan
+  eventDate: Mar.
+
+- year: 2007
+  authors:
+    - Hiromasa Chigusa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Large Area Sensor Skin Based on Two-Dimensional Signal Transmission Technology
+  booktitle: World Haptics
+  pages: 151–156
+  location: Tsukuba, Japan
+  eventDate: Mar.
+
+- year: 2007
+  authors:
+    - Takayuki Hoshi
+    - Hiroyuki Shinoda
+  title: Free-Form Tactile Sensor Using 3-Dimensional Shape Capture Sheet
+  booktitle: World Haptics
+  pages: 403–408
+  location: Tsukuba, Japan
+  eventDate: Mar.
+
+- year: 2007
+  authors:
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Comfortable Wristband Interface Measuring Myoelectric Pattern
+  booktitle: World Haptics
+  pages: 433–438
+  location: Tsukuba, Japan
+  eventDate: Mar.
+
+- year: 2006
+  authors:
+    - Takayuki Hoshi
+    - Hiroyuki Shinoda
+  title: A Large Area Robot Skin Based on Cell-Bridge System
+  booktitle: IEEE Conference on Sensors (IEEE SENSORS)
+  eventDate: Oct.
+  location: Daegu, Korea
+
+- year: 2006
+  authors:
+    - Hiromasa Chigusa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Resonant Proximity Connector for Two-Dimensional Sensor Implantation
+  booktitle: SICE-ICASE International Joint Conference
+  pages: 2247–2251
+  location: Busan, Korea
+  eventDate: Oct.
+
+- year: 2006
+  authors:
+    - Yasutoshi Makino
+    - Akimasa Okada
+    - Hiroyuki Shinoda
+  title: Measuring Myoelectric Potential Patterns Based on Two-Dimensional Signal Transmission Technology
+  booktitle: SICE-ICASE International Joint Conference
+  pages: 2005–2009
+  location: Busan, Korea
+  eventDate: Oct.
+
+- year: 2006
+  authors:
+    - Naoshi Yamahira
+    - Yasutoshi Makino
+    - Hiroto Itai
+    - Hiroyuki Shinoda
+  title: Proximity Connection in Two-Dimensional Signal Transmission
+  booktitle: SICE-ICASE International Joint Conference
+  pages: 2735–2740
+  location: Busan, Korea
+  eventDate: Oct.
+
+- year: 2006
+  authors:
+    - Takayuki Iwamoto
+    - Hiroyuki Shinoda
+  title: Two Dimensional Stress Reproduction Using Ultrasound Tactile Display
+  booktitle: SICE-ICASE International Joint Conference
+  pages: 4818–4821
+  location: Busan, Korea
+  eventDate: Oct.
+
+- year: 2006
+  authors:
+    - Hiroyuki Shinoda
+  title: Sensor Networking based on Two-Dimensional Signal Transmission Technology
+  booktitle: SICE-ICASE International Joint Conference
+  pages: 4867–4869
+  location: Busan, Korea
+  eventDate: Oct.
+
+- year: 2006
+  authors:
+    - Yasutoshi Makino
+    - Hiromasa Chigusa
+    - Hiroyuki Shinoda
+  title: Two-Dimensional Sensor Integration Using Resonant Proximity Connector -Basic Technology and Application to Elastic Interface Device-
+  booktitle: International Conference on Networked Sensing Systems (INSS)
+  pages: 196–202
+
+- year: 2006
+  authors:
+    - Takayuki Hoshi
+    - Akimasa Okada
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: A Whole Body Artificial Skin Based on Cell-Bridge Networking System
+  booktitle: International Conference on Networked Sensing Systems (INSS)
+  pages: 55–60
+
+- year: 2006
+  authors:
+    - Takayuki Hoshi
+    - Hiroyuki Shinoda
+  title: Robot Skin Based on Touch-Area-Sensitive Tactile Element
+  booktitle: IEEE International Conference on Robotics and Automation (ICRA)
+  pages: 3463–3468
+
+- year: 2006
+  authors:
+    - Takayuki Hoshi
+    - Hiroyuki Shinoda
+  title: A Sensitive Skin Based on Touch-Area-Evaluating Tactile Elements
+  booktitle: Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems (IEEE Haptics Symposium)
+  pages: 89–94
+
+- year: 2006
+  authors:
+    - Takayuki Iwamoto
+    - Hiroyuki Shinoda
+  title: Two-dimensional Scanning Tactile Display using Ultrasound Radiation Pressure
+  booktitle: Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems (IEEE Haptics Symposium)
+  pages: 57–61
+
+- year: 2005
+  authors:
+    - Takayuki Hoshi
+    - Hiroyuki Shinoda
+  title: A Tactile Sensing Element for a Whole Body Robot Skin
+  booktitle: International Symposium on Robotics
+
+- year: 2005
+  authors:
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Suction Pressure Tactile Display Using Dual Temporal Stimulation Modes
+  booktitle: SICE Annual Conference
+  pages: 1285–1288
+
+- year: 2005
+  authors:
+    - Takayuki Iwamoto
+    - Yoshimichi Ikeda
+    - Hiroyuki Shinoda
+  title: Two Dimensional Radiation Pressure Tactile Display
+  booktitle: SICE Annual Conference
+  pages: 1298–1301
+
+- year: 2005
+  authors:
+    - Takayuki Hoshi
+    - Hiroyuki Shinoda
+  title: Tactile Sensing Using Nonlinear Elasticity
+  booktitle: SICE Annual Conference
+  pages: 2978–2981
+
+- year: 2005
+  authors:
+    - Kouta Minamizawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Two-Dimensional Signal Transmission for Networked Sensing
+  booktitle: SICE Annual Conference
+  pages: 3816–3819
+
+- year: 2005
+  authors:
+    - Akimasa Okada
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Cell Bridge: A Signal Transmission Element for Networked Sensing'
+  booktitle: SICE Annual Conference
+  pages: 3826–3831
+
+- year: 2005
+  authors:
+    - Akimasa Okada
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Cell Bridge: A Signal Transmission Element for Constructing High Density Sensor Networks'
+  booktitle: INSS (International Workshop on Networked Sensing Systems)
+  pages: 180–185
+  location: San Diego
+  eventDate: June
+
+- year: 2005
+  authors:
+    - Yasutoshi Makino
+    - Kouta Minamizawa
+    - Hiroyuki Shinoda
+  title: Two Dimensional Communication Technology for Networked Sensing System
+  booktitle: INSS (International Workshop on Networked Sensing Systems)
+  pages: 168–173
+  location: San Diego
+  eventDate: June
+
+- year: 2005
+  authors:
+    - Takayuki Iwamoto
+    - Hiroyuki Shinoda
+  title: Ultrasound Tactile Display for Stress Field Reproduction -Examination of Non-Vibratory Tactile Apparent Movement-
+  booktitle: World Haptics
+  pages: 220–228
+  eventDate: Mar.
+  location: Italy
+
+- year: 2005
+  authors:
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Selective Stimulation to Superficial Mechanoreceptors by Temporal Control of Suction Pressure
+  booktitle: World Haptics
+  pages: 229–234
+  eventDate: Mar.
+  location: Italy
+
+- year: 2004
+  authors:
+    - Takayuki Iwamoto
+    - Hiroyuki Shinoda
+  title: A Tactile Display using Ultrasound Linear Phased Array
+  booktitle: International Conference on Artificial reality and Telexistence (ICAT)
+  pages: 383–388
+  eventDate: Nov.
+
+- year: 2004
+  authors:
+    - Hiroyuki Shinoda
+    - Takayuki Iwamoto
+  title: A Cutaneous Perception Model and Its Examination by Ultrasound Tactile Display
+  booktitle: International Workshop on Man-Machine Symbiotic Systems
+  pages: 261–270
+
+- year: 2004
+  authors:
+    - Hiroyuki Shinoda
+    - Naoya Asamura
+    - Tachio Yuasa
+    - Mitsuhiro Hakozaki
+    - Xinyu Wang
+    - Hiroto Itai
+    - Yasutoshi Makino
+    - Akimasa Okada
+  title: Two-Dimensional Communication Technology Inspired by Robot Skin
+  booktitle: IEEE TExCRA (Technical Exhibition Based Conference on Robotics and Automation)
+  pages: 99–100
+
+- year: 2004
+  authors:
+    - Takayuki Iwamoto
+    - Daisuke Akaho
+    - Hiroyuki Shinoda
+  title: High Resolution Tactile Display Using Acoustic Radiation Pressure
+  booktitle: SICE
+  pages: 1239–1244
+
+- year: 2004
+  authors:
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: Selective Stimulation to Skin Receptors by Suction Pressure Control
+  booktitle: SICE
+  pages: 2103–2108
+
+- year: 2004
+  authors:
+    - Yasutoshi Makino
+    - Naoya Asamura
+    - Hiroyuki Shinoda
+  title: A Whole Palm Tactile Display Using Suction Pressure
+  booktitle: IEEE International Conference on Robotics & Automation
+  pages: 1524–1529
+
+- year: 2004
+  authors:
+    - Yasutoshi Makino
+    - Naoya Asamura
+    - Hiroyuki Shinoda
+  title: Multi Primitive Tactile Display Based on Suction Pressure Control
+  booktitle: IEEE Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems, (Haptic Symposium)
+  pages: 90–96
+
+- year: 2003
+  authors:
+    - Hiroyuki Shinoda
+    - Naoya Asamura
+    - Mitsuhiro Hakozaki
+    - Xinyu Wang
+  title: Two-Dimensional Signal Transmission Technology for Robotics
+  booktitle: IEEE International Conference on Robotics & Automation
+  pages: 3207–3212
+
+- year: 2002
+  authors:
+    - Mitsuhiro Hakozaki
+    - Hiroyuki Shinoda
+  title: Digital Tactile Sensing Elements Communicating through Conductive Skin Layers
+  booktitle: IEEE International Conference on Robotics & Automation
+  pages: 3813–3817
+
+- year: 2002
+  authors:
+    - Kouichi Yamada
+    - Kenji Goto
+    - Yoshiki Nakajima
+    - Nobuyoshi Koshida
+    - Hiroyuki Shinoda
+  title: A Sensor Skin using Wire-Free Tactile Sensing Elements Based on Optical Connection
+  booktitle: SICE
+  pages: 319–322
+
+- year: 2002
+  authors:
+    - Yoshiharu Tojo
+    - Naoya Asamura
+    - Hiroyuki Shinoda
+  title: A Study on Tactile Resolution of Human Skin
+  booktitle: SICE
+  pages: 3137–3139
+
+- year: 2001
+  authors:
+    - Takayuki Iwamoto
+    - Taro Maeda
+    - Hiroyuki Shinoda
+  title: Focused Ultrasound for Tactile Feeling Display
+  booktitle: International Conference on Artificial Reality and Telexistence
+  pages: 121–126
+
+- year: 2001
+  authors:
+    - Naoya Asamura
+    - Tomoyuki Shinohara
+    - Yoshiharu Tojo
+    - Nobuyoshi Koshida
+    - Hiroyuki Shinoda
+  title: Necessary Spatial Resolution for Realistic Tactile Feeling Display
+  booktitle: IEEE International Conference on Robotics and Automation
+  pages: 1851–1856
+
+- year: 2001
+  authors:
+    - Katsuhiko Nakamura
+    - Hiroyuki Shinoda
+  title: A Tactile Sensor Instantaneously Evaluating Friction Coefficients
+  booktitle: TRANSDUCERS
+  pages: 1430–1433
+
+- year: 2000
+  authors:
+    - H. Shinoda # allow-abbr
+    - H. Oasa # allow-abbr
+  title: Passive Wireless Sensing Element for Sensitive Skin
+  booktitle: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  pages: 1516–1521
+
+- year: 2000
+  authors:
+    - N. Koshida # allow-abbr
+    - T. Migita # allow-abbr
+    - Y. Kishimoto # allow-abbr
+    - H. Shinoda # allow-abbr
+  title: Novel Ultrasonic Technology by Nanocrystalline Porous Silicon
+  booktitle: International Electrochemistry Society Symposium
+  pages: 326–332
+  location: Phoenix
+
+- year: 2000
+  authors:
+    - H. Shinoda # allow-abbr
+    - S. Sasaki # allow-abbr
+    - K. Nakamura # allow-abbr
+  title: Instantaneous Evaluation of Friction Based on ARTC Tactile Sensor
+  booktitle: IEEE International Conference on Robotics and Automation
+  pages: 2173–2178
+
+- year: 1999
+  authors:
+    - N. Koshida # allow-abbr
+    - T. Nakajima # allow-abbr
+    - M. Yoshiyama # allow-abbr
+    - K. Ueno # allow-abbr
+    - T. Nakagawa # allow-abbr
+    - H. Shinoda # allow-abbr
+  title: 'Ultrasound Emission from Porous Silicon: Efficient Thermo-acoustic Function as a Depleted Nanocrystalline System'
+  booktitle: Materials Research Society symposium
+  pages: 105–110
+
+- year: 1999
+  authors:
+    - M. Hakozaki # allow-abbr
+    - H. Oasa # allow-abbr
+    - H. Shinoda # allow-abbr
+  title: Telemetric Robot Skin
+  booktitle: IEEE International Conference on Robotics and Automation
+  pages: 957–961
+
+- year: 1999
+  authors:
+    - X. Wang # allow-abbr
+    - S. Liu # allow-abbr
+    - H. Shinoda # allow-abbr
+  title: Coaxial Bibeam Position Sensor and Its Application to a Pronunciation Leaning System
+  booktitle: TRANSDUCERS
+  pages: 844–847
+
+- year: 1999
+  authors:
+    - M. Hakozaki # allow-abbr
+    - K. Nakamura # allow-abbr
+    - H. Shinoda # allow-abbr
+  title: Telemetric Artificial Skin for Soft Robot
+  booktitle: TRANSDUCERS
+  pages: 1042–1045
+
+- year: 1999
+  authors:
+    - N. Asamura # allow-abbr
+    - N. Yokoyama # allow-abbr
+    - H. Shinoda # allow-abbr
+  title: A Method of Selective Stimulation to Epidermal Skin Receptors for Realistic Touch Feedback
+  booktitle: IEEE Virtual Reality
+  pages: 274–281
+
+- year: 1998
+  authors:
+    - H. Shinoda # allow-abbr
+    - N. Asamura # allow-abbr
+    - T. Tomori # allow-abbr
+  title: Tactile Feeling Display Based on Selective Stimulation to Skin Mechanoreceptors
+  booktitle: IEEE International Conference on Robotics and Automation
+  pages: 680–686
+
+- year: 1998
+  authors:
+    - N. Asamura # allow-abbr
+    - N. Tomori # allow-abbr
+    - H. Shinoda # allow-abbr
+  title: A Tactile Feeling Display Based on Selective Stimulation to Skin Receptors
+  booktitle: IEEE Virtual Reality Annual International Symposium
+  pages: 36–42
+
+- year: 1997
+  authors:
+    - H. Shinoda # allow-abbr
+    - K. Matsumoto # allow-abbr
+    - S. Ando # allow-abbr
+  title: Tactile Sensing Based on Acoustic Resonance Tensor Cell
+  booktitle: TRANSDUCERS
+  pages: 129–132
+
+- year: 1997
+  authors:
+    - H. Shinoda # allow-abbr
+    - K. Matsumoto # allow-abbr
+    - S. Ando # allow-abbr
+  title: Acoustic Resonant Tensor Cell for Tactile Sensing
+  booktitle: IEEE International Conference on Robotics & Automation
+  pages: 3087–3092
+
+- year: 1996
+  authors:
+    - H. Shinoda # allow-abbr
+    - K. Matsumoto # allow-abbr
+    - N. Terada # allow-abbr
+    - S. Ando # allow-abbr
+  title: Tactile Sensing Using Acoustic Resonant Tensor Cell
+  booktitle: Sensor Symposium
+  pages: 105–108
+
+- year: 1996
+  authors:
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
+  title: A Tactile Sensor with 5-D Deformation Sensing Element
+  booktitle: IEEE International Conference on Robotics and Automation
+  pages: 7–12
+
+- year: 1995
+  authors:
+    - S. Ando # allow-abbr
+    - H. Shinoda # allow-abbr
+  title: An Acoustic Tactile Sensing Element with Five Dimensional Sensitivity
+  booktitle: TRANSDUCERS
+  pages: 644–647
+
+- year: 1995
+  authors:
+    - H. Shinoda # allow-abbr
+    - N. Morimoto # allow-abbr
+    - S. Ando # allow-abbr
+  title: Tactile Sensing Using Tensor Cell
+  booktitle: IEEE International Conference on Robotics and Automation
+  href: https://drive.google.com/file/d/1E_uyJ5JnxK3RUY4REY4-6WYB6RbCaoKQ/view?usp=drive_link
+  pages: 825–830
+
+- year: 1994
+  authors:
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
+  title: Ultrasonic Emission Tactile Sensor for Contact Localization and Characterization
+  booktitle: IEEE International Conference on Robotics and Automation
+  pages: 2536–2543
+  location: San Diego
+
+- year: 1993
+  authors:
+    - H. Shinoda # allow-abbr
+    - M. Uehara # allow-abbr
+    - S. Ando # allow-abbr
+  title: A Tactile Sensor Using Three-Dimensional Structure
+  booktitle: IEEE International Conference on Robotics and Automation
+  pages: 435–441
+  location: Atlanta
+
+- year: 1993
+  authors:
+    - H. Shinoda # allow-abbr
+    - M. Uehara # allow-abbr
+    - M. Okada # allow-abbr
+    - S. Ando # allow-abbr
+  title: A Fingertip Tactile Sensor with Three Dimensional Structure
+  booktitle: TRANSDUCERS
+  pages: 614–617
+  location: Yokohama
+
+- year: 1993
+  authors:
+    - M. Shitara # allow-abbr
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
+  title: A Vertical Sampling Image Motion Sensor
+  booktitle: TRANSDUCERS
+  pages: 1062–1065
+  location: Yokohama
+
+- year: 1993
+  authors:
+    - M. Komatsubara # allow-abbr
+    - M. Yasui # allow-abbr
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
+  title: A Study on Ultrasonic Emission Tactile Sensor
+  booktitle: SICE Annual Conference
+  pages: 1313–1316
+  location: Kanazawa
+
+- year: 1992
+  authors:
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
+  title: A Tactile Sensing Algorithm Based on Elastic Transfer Function of Surface Deformation
+  booktitle: IEEE ICASSP
+  href: https://drive.google.com/file/d/1GlMZoTDuUPp5JuNHwbOjm6m-yx9sTsbg/view?usp=drive_link
+  pages: 589–592
+  location: San Francisco
+
+- year: 1992
+  authors:
+    - I. Ishii # allow-abbr
+    - H. Shinoda # allow-abbr
+    - S. Ando # allow-abbr
+  title: Image Processing through Layered Differential Fields
+  booktitle: SICE Annual Conference
+  pages: 1043–1046
+  location: Kumamoto
+
+- year: 1992
+  authors:
+    - S. Ando # allow-abbr
+    - H. Shinoda # allow-abbr
+    - M. Shitara # allow-abbr
+  title: Vertical Sampling for Image Motion Measurement
+  booktitle: Optical Society of America Annual Meeting, Technical Digest
+  pages: 132–132
+
+- year: 1990
+  authors:
+    - H. Yamasaki # allow-abbr
+    - H. Shinoda # allow-abbr
+  title: Noncontact Tactile Sensor for Surface Hardness Evaluation
+  booktitle: International Symposium on Measurement and Control in Robotics
+  location: Houston
