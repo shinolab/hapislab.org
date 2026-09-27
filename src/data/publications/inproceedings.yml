@@ -1,5 +1,38 @@
 - year: 2026
   authors:
+    - Yulong Zhang
+    - Sota Iwabuchi
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Toward Whole Body Contactless Tactile Stimulation for Sleep Support Using an Arched Mid-Air Ultrasound Matrix"
+  note: Late-breaking poster
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages:
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi:
+
+- year: 2026
+  authors:
+    - Qiuyi Li
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Investigating Body Ownership by Visual-Tactile Integration Using Midair Haptics"
+  note: Late-breaking poster
+  booktitle: "SICE Festival 2026 with Annual Conference"
+  pages:
+  eventDate: Sep. 14-17
+  location: Yokohama, Japan
+  doi:
+
+- year: 2026
+  authors:
     - Takaya Mikami
     - Sota Iwabuchi
     - Gakuto Arakawa
