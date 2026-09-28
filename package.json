@@ -17,7 +17,7 @@
     "@astrojs/markdown-remark": "^7.3.1",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.4",
-    "astro": "^7.1.1",
+    "astro": "^7.3.5",
     "csv-parse": "^7.0.2",
     "js-yaml": "^5.4.2",
     "pagefind": "^1.5.2",
@@ -25,7 +25,7 @@
     "remark-math": "^6.0.0"
   },
   "devDependencies": {
-    "@astrojs/mdx": "^8.0.1",
+    "@astrojs/mdx": "^8.0.2",
     "@types/js-yaml": "^4.0.9",
     "gray-matter": "^4.0.3",
     "turndown": "^7.2.4"
