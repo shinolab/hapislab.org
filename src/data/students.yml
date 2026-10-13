@@ -196,6 +196,17 @@
     M:
       start: 2026-04-01
       grad: ""
+- name: Barbara Nogar
+  nameEn: Barbara Nogar
+  email: nogar@hapis.k.u-tokyo.ac.jp
+  campus: Kashiwa
+  degrees:
+    R:
+      start: 2024-04-01
+      grad: 2026-09-30
+    M:
+      start: 2026-10-01
+      grad: ""
 - name: 有馬 宙希
   nameEn: Hiroki Arima
   email: arima@hapis.k.u-tokyo.ac.jp 
@@ -219,14 +230,6 @@
   degrees:
     B:
       start: 2026-10-01
-      grad: ""
-- name: Barbara Nogar
-  nameEn: Barbara Nogar
-  email: nogar@hapis.k.u-tokyo.ac.jp
-  campus: Kashiwa
-  degrees:
-    R:
-      start: 2024-04-01
       grad: ""
 
 # 2025年度

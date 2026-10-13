@@ -199,7 +199,7 @@ export function processMembers(data: MemberData, now: Date = new Date()) {
 				const gradDate = d.grad ? new Date(d.grad) : null;
 				if (!gradDate || gradDate > now) {
 					isActive = true;
-				} else {
+				} else if (dk !== 'R') {
 					const fy = getFiscalYear(d.grad);
 
 					if (!alumniByYear[fy]) alumniByYear[fy] = [];
