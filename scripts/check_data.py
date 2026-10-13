@@ -208,6 +208,10 @@ def main():
         print("\nValidation Failed:")
         for error in all_errors:
             print(error)
+        print(
+            "\nSome of these can be fixed automatically: "
+            "cd scripts && uv run python fix_data.py"
+        )
         sys.exit(1)
     else:
         print("Validation Passed.")

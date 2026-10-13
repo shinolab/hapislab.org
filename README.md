@@ -27,7 +27,7 @@
 
 ## 🛠 プルリクエスト (PR) の送り方
 
-変更をサイトに反映させるには, プルリクエストを作成してください. **`main` ブランチへの直接 Push はできません.**
+変更をサイトに反映させるには, プルリクエストを作成してください. **このリポジトリへの直接 Push はできません.** 自分のアカウントに作られる fork (コピー) を経由して PR を送ります. fork は以下の手順の中で自動的に作成されます.
 
 ### 推奨: GitHub CLI (`gh`) を使う
 
@@ -42,13 +42,31 @@
     - コミットメッセージは変更内容がわかるように書いてください.
     - `git add .` は変更したファイルをすべてステージングします. 不要なファイル/機密ファイルなどが含まれないように注意してください. gitに慣れていない場合はGUIクライアントの使用を推奨します.
 5. PR作成: `gh pr create --web`
+    - ブランチの push 先を聞かれたら, `Create a fork of shinolab/hapislab.org` を選択してください. 自分のアカウントに fork が作成され, そこに push されます (2回目以降は作成済みの fork が選択肢に出ます).
     - ブラウザが開くので, タイトルと説明を入力して PR を作成してください.
     - `--web`を付けない場合は CLI 上で完結できます.
+    - "Allow edits from maintainers" のチェックは外さないでください. 管理者が PR を直接修正するために使います.
+
+PR 作成後に修正を追加する場合は, 同じブランチでコミットして `git push` してください.
 
 ### GitHub Web UI を使う
 
-1. [リポジトリページ](https://github.com/shinolab/hapislab.org.git)でファイルを直接編集.
-2. "Commit changes..." から "Create a new branch..." を選択して PR を作成.
+1. [リポジトリページ](https://github.com/shinolab/hapislab.org)で編集したいファイルを開き, 鉛筆アイコンをクリック.
+    - "Fork this repository" と表示された場合は, そのままボタンを押して fork を作成してください.
+2. 編集後, "Commit changes..." → "Propose changes" → "Create pull request" の順に進んで PR を作成.
+
+### CI が失敗したら
+
+PR を作成すると, ビルドとデータ書式のチェック (`Build Check`) が自動で走ります.
+失敗した場合は, PR ページの "Details" からログを確認して修正してください.
+書式の違反の多くは以下で自動修正できます ([uv](https://docs.astral.sh/uv/) が必要です).
+
+```sh
+cd scripts
+uv run python fix_data.py
+```
+
+初めて PR を送る場合, チェックは管理者の承認後に開始されます.
 
 ---
 
