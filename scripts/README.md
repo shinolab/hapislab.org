@@ -57,4 +57,5 @@ cd scripts
 uv run python fix_data.py
 ```
 
-PR で `src/data/` が変更されると, `.github/workflows/autofix.yml` が同じ修正を行い PR ブランチにコミットします.
+PR は自動では修正されません. CI の `Build Check` が `check_data.py` で失敗した場合は, PR 作成者が上記を実行してコミットし直してください.
+
