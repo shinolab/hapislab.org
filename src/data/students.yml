@@ -196,6 +196,30 @@
     M:
       start: 2026-04-01
       grad: ""
+- name: 有馬 宙希
+  nameEn: Hiroki Arima
+  email: arima@hapis.k.u-tokyo.ac.jp 
+  campus: Hongo
+  degrees:
+    B:
+      start: 2026-10-01
+      grad: ""
+- name: 磯田 大翔
+  nameEn: Daito Isoda
+  email: isoda@hapis.k.u-tokyo.ac.jp
+  campus: Hongo
+  degrees:
+    B:
+      start: 2026-10-01
+      grad: ""
+- name: 何 櫟
+  nameEn: Li He
+  email: he@hapis.k.u-tokyo.ac.jp
+  campus: Hongo
+  degrees:
+    B:
+      start: 2026-10-01
+      grad: ""
 - name: Barbara Nogar
   nameEn: Barbara Nogar
   email: nogar@hapis.k.u-tokyo.ac.jp
