@@ -14,8 +14,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
-      - uses: withastro/action@v6
+      - uses: actions/checkout@v7.0.1
+      - uses: withastro/action@v6.1.4
 
   deploy:
     needs: build
@@ -26,4 +26,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v5.0.1
