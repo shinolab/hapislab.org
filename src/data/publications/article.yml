@@ -1,3 +1,17 @@
+- year: 2026
+  authors:
+    - Tomoharu Takaki
+    - Gakuto Arakawa
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: 'Generation of ring-shaped acoustic pressure fields based on the bottle beam concept using airborne ultrasonic phased arrays'
+  refId: takaki-2026-generation
+  doi: 10.1121/10.0046800
+  href: https://doi.org/10.1121/10.0046800
+  journal: The Journal of the Acoustical Society of America
+  publisher: Acoustical Society of America
+  pages: 3249–3258
+
 - year: 2025
   authors:
     - Rika Oya*
