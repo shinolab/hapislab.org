@@ -20,7 +20,7 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run build
-      - uses: astral-sh/setup-uv@v7.6.0
+      - uses: astral-sh/setup-uv@v10.3.3
       - run: cd scripts && uv run python check_data.py
       - run: cd scripts && uv run python check_orphans.py
       - run: |
