@@ -1,5 +1,31 @@
 - year: 2026
   authors:
+    - Gakuto Arakawa
+    - Shun Suzuki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Step-Like Tactile Sensation through a Pinched Object Using Airborne Ultrasound"
+  booktitle: AsiaHaptics 2026
+  pages:
+  eventDate: Nov. 17-20
+  location: Incheon, Korea
+
+- year: 2026
+  authors:
+    - Gakuto Arakawa*
+    - Atsushi Matsubayashi*
+    - Shun Suzuki
+    - Takaaki Kamigaki
+    - Yasutoshi Makino
+    - Hiroyuki Shinoda
+  title: "Bare-Hand Contact with a 3D Virtual Character Using Mid-Air Haptics"
+  booktitle: AsiaHaptics 2026
+  pages:
+  eventDate: Nov. 17-20
+  location: Incheon, Korea
+  
+- year: 2026
+  authors:
     - Caixiao Xu
     - Shun Suzuki
     - Yasutoshi Makino
